@@ -1,25 +1,29 @@
 {
     "welcome": "Web & AI Studio",
+    "mainheading":"AI & Web dla Biznesu",
     "description": "Web | AI | Marketing | Automatyzacje",
     "subscribe": "Subskrybuj",
+    "we": "Jesteśmy",
+    "herocontact": "Kontakt",
+    "leaveemail": "Zostaw swój email",
     "features": {
         "header": {
-          "title": "Jak mogę ci pomóc?",
-          "subtitle": "Moje usługi i specjalizacje",
+          "title": "Jak możemy Ci pomóc?",
+          "subtitle": "Nasze usługi i specjalizacje",
           "description": "Dostosowane Do Twoich Potrzeb - Rozwiązujące Twoich Problemy"
         },
             "websitesTitle": "Landing Page i Strony internetowe",
             "websitesDescription": "Nowoczesne i dopasowane strony internetowe, tworzone w dowolnej technologii lub przy użyciu wybranych szablonów - ale zawsze tworzone w celu osiągnięcia Twoich celów",
             "marketingTitle": "Marketing i generowanie leadów",
-            "marketingDescription": "Podstawą każdej działalności jest dotarcie i pozyskiwanie nowych klientów, jak i zatrzymywanie tych obecnych. Pomogę Ci w tym we wszystkim.",
+            "marketingDescription": "Podstawą każdej działalności jest dotarcie i pozyskiwanie nowych klientów, jak i zatrzymywanie tych obecnych.",
             "aiTitle": "Asystenci i Chatboty AI",
-            "aiDescription": "Z pomocą sztucznej inteligencji stworzę asystentów i agentów AI dostosowanych do Twoich potrzeb, którzy pomogą Ci w najważniejszych aspektach Twojego biznesu.",
+            "aiDescription": "Z pomocą sztucznej inteligencji stworzymy asystentów i agentów AI dostosowanych do Twoich potrzeb, którzy pomogą Ci w najważniejszych aspektach Twojego biznesu.",
             "designTitle": "Design & UX/UI",
             "designDescription": "Wspólnie możemy stworzyć wszelakie materiały wizualne dla Twojego biznesu - jak sesje produktowe, branding, loga, lub nawet influencerów AI. Szkolę również generatywne modele AI według indywidualnych potrzeb.",
             "ecommerceTitle": "Ecommerce i platformy internetowe",
             "ecommerceDescription": "Dopasowane do Twojego biznesu e-commerce i platformy internetowe, które zwiększają sprzedaż, poprawiają doświadczenia użytkowników i rozwijają Twój biznes.",
             "automationsTitle": "Automatyzacje & CRM",
-            "automationsDescription": "Wdrożę systemy zarządzania dostosowane do Twoich potrzeb z automatyzacją najbardziej powtarzalnych i czasochłonnych zadań, co da Ci dużo czasu na to, co robisz."
+            "automationsDescription": "Wdrożymy systemy zarządzania dostosowane do Twoich potrzeb z automatyzacją najbardziej powtarzalnych i czasochłonnych zadań, co da Ci dużo czasu na to, co robisz."
        
       },
       "featuresTab": {
@@ -38,7 +42,7 @@
         "tab1Description2": "Onboarding, czyli wprowadzenie klienta do projektu, pozwala na dokładne poznanie szczegółów procesu i współpracy. Zapewnia pełny wgląd w kluczowe etapy, harmonogram działań oraz narzędzia dla śledzenia i współpracy przy każdym etapie projektu.",
         "tab2Title": "Projekt i Wdrożenie",
         "tab2Description1": "Na etapie projektowania i wdrażania tworzę konkretne rozwiązania dostosowane do Twoich potrzeb. Każdy krok jest planowany w taki sposób, aby efektywnie osiągać zamierzone cele.",
-        "tab2Description2": "Realizuję wdrożenia przy użyciu najnowszych technologii, zapewniając pełną integrację z Twoimi systemami. Proces ten jest monitorowany, aby zapewnić skuteczne funkcjonowanie i ciągłe udoskonalenia.",
+        "tab2Description2": "Realizujemy wdrożenia przy użyciu najnowszych technologii, zapewniając pełną integrację z Twoimi systemami. Proces ten jest monitorowany, aby zapewnić skuteczne funkcjonowanie i ciągłe udoskonalienia.",
         "tab3Title": "Szkolenia i Optymalizacje",
         "tab3Description1": "Podczas szkoleń uczę Cię, jak efektywnie korzystać z nowych narzędzi i procesów, aby zoptymalizować codzienną pracę w Twojej firmie, zyskując przewagę nad konkurencją.",
         "tab3Description2": "Dzięki optymalizacjom, w tym automatyzacji procesów, pomagamy Twojej firmie działać wydajniej. Nasze zaawansowane analizy wspierają podejmowanie lepszych decyzji biznesowych i długoterminowy rozwój."
@@ -79,7 +83,7 @@
         },
         "pricing": {
             "header": {
-                "header1": "Moje Usługi",
+                "header1": "Nasze Usługi",
                 "header2": "Cennik",
                 "desc1": "Aby otrzymać szczegółową wycenę, zachęcamy do rozmowy z naszym chatbotem AI lub wypełnienia formularza na stronie 'Kontakt'."
             },

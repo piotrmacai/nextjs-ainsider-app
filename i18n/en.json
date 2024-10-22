@@ -1,26 +1,30 @@
 {
     "welcome": "Web & AI Studio",
+    "mainheading":"AI & Web for Business",
     "description": "Web | AI | Marketing | Automations",
     "subscribe": "Subscribe",
+    "herocontact": "Contact",
+    "leaveemail": "Leave your email",
+    "we": "We are",
     "features": {
         "header": {
-          "title": "How can I help you?",
-          "subtitle": "My Services and Specializations",
+          "title": "How can we help you?",
+          "subtitle": "Our Services and Specializations",
           "description": "Tailored to your needs - Solving your problems"
            
         },
         "websitesTitle": "Websites and Landing Pages",
         "websitesDescription": "Modern and tailored websites, created in any technology or using selected templates - but always created to achieve your goals",
         "marketingTitle": "Marketing & Lead Generation",
-        "marketingDescription": "I understand that reaching your target audience and turning new customers into loyal customers is definitely the main priorities for your business - that I will help You with it at all.",
+        "marketingDescription": "We understand that reaching your target audience and turning new customers into loyal customers is definitely the main priorities for your business - that we will help You with it at all.",
         "aiTitle": "AI Assistant and Agents",
-        "aiDescription": "With the help of AI, I will create AI Assistants and Agents tailored to your needs, which will help you with the most important aspects of your business.",
+        "aiDescription": "With the help of AI, we will create AI Assistants and Agents tailored to your needs, which will help you with the most important aspects of your business.",
         "designTitle": "Design & Branding with AI",
-        "designDescription": "Together we can create a complete branding for your organization, including photos and videos, as product sessions and AI influencers. I also train generative AI models for individual needs.",
+        "designDescription": "Together we can create a complete branding for your organization, including photos and videos, as product sessions and AI influencers. We also train generative AI models for individual needs.",
         "ecommerceTitle": "Ecommerce and Internet Platforms",
         "ecommerceDescription": "Tailored to your e-commerce business and internet platforms that increase sales, improve user experiences, and grow your business.",
         "automationsTitle": "Automations and CRMs",
-        "automationsDescription": "I will implement Management Systems tailored to your needs with automations of the most repetitive and time-consuming tasks, which will give you a lot of time in whatever you do."
+        "automationsDescription": "We will implement Management Systems tailored to your needs with automations of the most repetitive and time-consuming tasks, which will give you a lot of time in whatever you do."
       },
       "featuresTab": {
         "title": {
@@ -34,14 +38,14 @@
           "tabThree": "Analyses and Automations" 
         },
         "tab1Title": "Audits, results analysis, and consultations",
-        "tab1Description1": "Unlock the full potential of your web and AI initiatives with audit and consultation. I delve deep into existing systems, analyzing every aspect for inefficiencies, gaps, and opportunities.",
-        "tab1Description2": "We provide comprehensive assessments that highlight areas for improvement and optimization. From technical audits to strategic consultations, I am your partner in data-driven decision-making that leads to growth and success.",
+        "tab1Description1": "Unlock the full potential of your web and AI initiatives with audit and consultation. We delve deep into existing systems, analyzing every aspect for inefficiencies, gaps, and opportunities.",
+        "tab1Description2": "We provide comprehensive assessments that highlight areas for improvement and optimization. From technical audits to strategic consultations, we are your partner in data-driven decision-making that leads to growth and success.",
         "tab2Title": "Modern Solutions For Your Business",
-        "tab2Description1": "Turn your ideas into reality with smart strategy and implementation. I don't just create plans - I bring them to life to develop personalized strategies that align with your goals.",
-        "tab2Description2": "I utilize advanced monitoring and data analysis tools to identify weaknesses and strengths. By staying one step ahead, I ensure that your results are always growing.",
+        "tab2Description1": "Turn your ideas into reality with smart strategy and implementation. We don't just create plans - we bring them to life to develop personalized strategies that align with your goals.",
+        "tab2Description2": "We utilize advanced monitoring and data analysis tools to identify weaknesses and strengths. By staying one step ahead, we ensure that your results are always growing.",
         "tab3Title": "Automations and Analyses",
         "tab3Description1": "Advanced services will allow you to automate many processes in your company, gaining a lot of time, which allows you to focus on the essence of your business.",
-        "tab3Description2": "Using advanced analytical tools, I provide you with valuable insights that help make more informed business decisions. With automation and analysis, your company can achieve better results and become significantly more competitive in the market."
+        "tab3Description2": "Using advanced analytical tools, we provide you with valuable insights that help make more informed business decisions. With automation and analysis, your company can achieve better results and become significantly more competitive in the market."
       },
       "about": {
         "header1": {
@@ -49,7 +53,7 @@
           "header2": "Strategies",
           "header3": "Complete Solutions",
           "header4": "For Business",
-          "desc1": "Based on unique needs, I deliver personalized solutions that save a lot of time and solve the most pressing problems in any business."
+          "desc1": "Based on unique needs, we deliver personalized solutions that save a lot of time and solve the most pressing problems in any business."
       },
       "header2": {
           "header1": "Elevate Your Business",
@@ -67,7 +71,7 @@
         },
         "funfact": {
             "header1": "Technologies & Frameworks",
-            "header2": "I always select technologies and tools based on the projects needs - but always using the best available on the market for those needs and requirements.",
+            "header2": "We always select technologies and tools based on the projects needs - but always using the best available on the market for those needs and requirements.",
             "item1-1": "Happy",
             "item1-2": "Clients",
             "item2-1": "Automated",
@@ -192,7 +196,7 @@
               "h1-1": "GENERATIVE AI",
               "h1-2": "BUSINESS TRANSFORMATION",
               "header": "Using Generative AI", 
-              "desc": "Discover the potential of Generative Artificial Intelligence in revolutionizing your business. Our AI agency, aiware.me, specializes in generating images, graphics, and videos, delivering innovative solutions that can revolutionize how you showcase your products and services."
+              "desc": "Discover the potential of Generative Artificial Intelligence in revolutionizing your business. Our AI agency specializes in generating images, graphics, and videos, delivering innovative solutions that can revolutionize how you showcase your products and services."
             },
             "about2": {
               "h1-1": "TAKE YOUR BUSINESS TO THE NEXT LEVEL",
