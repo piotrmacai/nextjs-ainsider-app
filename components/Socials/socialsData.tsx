@@ -4,7 +4,7 @@ const brandData: Brand[] = [
   {
     id: 0.25,
     name: "Client",
-    href: "https://www.facebook.com/profile.php?id=100093134271073",
+    href: "https://www.facebook.com/piotrmacai",
     image: "/images/brand/facebook2.svg",
     imageLight: "/images/brand/facebook2.svg",
   },
@@ -18,7 +18,7 @@ const brandData: Brand[] = [
   {
     id: 0.4,
     name: "Client",
-    href: "https://www.linkedin.com/company/aiware-me/",
+    href: "https://www.linkedin.com/in/piotrmacai/",
     image: "/images/brand/linkedin.svg",
     imageLight: "/images/brand/linkedin.svg",
   },

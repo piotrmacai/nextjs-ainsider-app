@@ -185,7 +185,8 @@
             "menu2": "Portfolio",
             "menu3": "Contact",
             "menu9": "Privacy Policy",
-            "menu4": "AInsider AI Blog"
+            "menu4": "AInsider AI Blog",
+            "menuServices":"Services"
             
         },
         "services": {

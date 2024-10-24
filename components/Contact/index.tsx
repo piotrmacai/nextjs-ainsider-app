@@ -65,12 +65,12 @@ const Contact = () => {
 
 
               <form
-                action="https://formspree.io/f/xpzgknjl"
+                action="https://formspree.io/f/xovqvrlg"
                 method="POST"
               >
                 <div className="flex flex-col lg:flex-row lg:justify-between gap-7.5 lg:gap-14 mb-7.5">
                   <input
-                    type="text" name="FullName"
+                    type="text" name="name"
                     placeholder={t('contact.form.name')}
                     required
                     className="w-full lg:w-1/2 bg-transparent border-b border-stroke dark:border-strokedark focus-visible:outline-none focus:border-waterloo dark:focus:border-manatee focus:placeholder:text-black dark:focus:placeholder:text-white pb-3.5"
@@ -83,20 +83,20 @@ const Contact = () => {
                     className="w-full lg:w-1/2 bg-transparent border-b border-stroke dark:border-strokedark focus-visible:outline-none focus:border-waterloo dark:focus:border-manatee focus:placeholder:text-black dark:focus:placeholder:text-white pb-3.5"
                   />
                 </div>
-
+{/* 
                 <div className="flex flex-col lg:flex-row lg:justify-between gap-7.5 lg:gap-14 mb-12.5">
                   <input
-                    type="text" name="Purpose"
+                    type="text" name="purpose"
                     placeholder={t('contact.form.need')}
                     required
                     className="w-full lg:w-1/2 bg-transparent border-b border-stroke dark:border-strokedark focus-visible:outline-none focus:border-waterloo dark:focus:border-manatee focus:placeholder:text-black dark:focus:placeholder:text-white pb-3.5"
                   />
-                </div>
+                </div> */}
 
                 <div className="flex mb-11.5">
                   <textarea
                     placeholder={t('contact.form.business')}
-                    name="BusinessType"
+                    name="business"
                     rows={4}
                     className="w-full bg-transparent border-b border-stroke dark:border-strokedark focus-visible:outline-none focus:border-waterloo dark:focus:border-manatee focus:placeholder:text-black dark:focus:placeholder:text-white"
                   ></textarea>
@@ -105,20 +105,20 @@ const Contact = () => {
                 <div className="flex mb-11.5">
                   <textarea
                     placeholder={t('contact.form.details')}
-                    name="Design"
+                    name="message"
                     rows={4}
                     className="w-full bg-transparent border-b border-stroke dark:border-strokedark focus-visible:outline-none focus:border-waterloo dark:focus:border-manatee focus:placeholder:text-black dark:focus:placeholder:text-white"
                   ></textarea>
                 </div>
-
+{/* 
                 <div className="flex mb-11.5">
                   <textarea
                     placeholder={t('contact.form.deadline')}
-                    name="Details"
+                    name="message"
                      rows={4}
                     className="w-full bg-transparent border-b border-stroke dark:border-strokedark focus-visible:outline-none focus:border-waterloo dark:focus:border-manatee focus:placeholder:text-black dark:focus:placeholder:text-white"
                   ></textarea>
-                </div>
+                </div> */}
 
                 <div className="flex flex-wrap xl:justify-between ">
                   <div className="flex mb-4 md:mb-0">
@@ -194,23 +194,23 @@ const Contact = () => {
                 {t('contact.email')}
                 </h4>
                 <p>
-                  <a href="mailto:piotr@aiware.me">piotr@aiware.me</a>
+                  <a href="mailto:piotr@insdr.cloud">piotr@insdr.cloud</a>
                 </p>
               </div>
-              <div className="mb-7 5">
+              {/* <div className="mb-7 5">
               <h4 className="font-medium text-black dark:text-white text-metatitle3 mb-4">
               {t('contact.number')}
                 </h4>
                 <p>
                   <a href="#">+48 795 715 052</a>
                 </p>
-              </div>
+              </div> */}
               <div>
                 <h4 className="font-medium text-black dark:text-white text-metatitle3 mb-4">
                   Messenger
                 </h4>
                 <p>
-                  <a href="https://m.me/piotr.macx.5">{t('contact.mess')}</a>
+                  <a href="https://www.facebook.com/piotrmacai/">{t('contact.mess')}</a>
                 </p>
               </div>
             </motion.div>

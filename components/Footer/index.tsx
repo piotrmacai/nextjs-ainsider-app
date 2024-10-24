@@ -60,7 +60,7 @@ const Footer = () => {
                   href="#"
                   className="text-black dark:text-white font-medium  text-sectiontitle mb-1.5"
                 >
-                  piotr@aiware.me
+                  piotr@insdr.cloud
                 </a>
               </motion.div>
 
@@ -224,7 +224,7 @@ const Footer = () => {
 
 
                 <form
-                 action="https://formspree.io/f/xyyqlvdz" method="POST">
+                 action="https://formspree.io/f/xovqvrlg" method="POST">
                     <div className="relative">
                       <input
                        type="email" name="email"
@@ -314,7 +314,7 @@ const Footer = () => {
               viewport={{ once: true }}
               className="animate_top"
             >
-              <p>&copy; 2023 Aiware.me. All rights reserved</p>
+              <p>&copy; 2024 Insdr. All rights reserved</p>
             </motion.div>
 
             <motion.div
