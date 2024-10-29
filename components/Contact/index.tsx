@@ -197,14 +197,14 @@ const Contact = () => {
                   <a href="mailto:me@piotrmacai.com">me@piotrmacai.com</a>
                 </p>
               </div>
-              {/* <div className="mb-7 5">
+              <div className="mb-7 5">
               <h4 className="font-medium text-black dark:text-white text-metatitle3 mb-4">
               {t('contact.number')}
                 </h4>
                 <p>
-                  <a href="#">+48 795 715 052</a>
+                  <a href="#">+48 576 287 032</a>
                 </p>
-              </div> */}
+              </div>
               <div>
                 <h4 className="font-medium text-black dark:text-white text-metatitle3 mb-4">
                   Messenger
