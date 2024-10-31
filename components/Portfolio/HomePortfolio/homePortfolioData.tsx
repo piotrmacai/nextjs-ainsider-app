@@ -13,7 +13,7 @@ const BlogData: Portfolio[] = [
   { 
     _id: 1,
     mainImage: "/images/portfolio/aiwareCloud.jpg",
-    title: "Ainsider.pl",
+    title: "Ainsider.cloud",
     metadata:
       "AI Platform with Ecommerce and Blog",
       urlLink:"/portfolio/aiwarecloud",
@@ -29,6 +29,15 @@ const BlogData: Portfolio[] = [
       tags: ["websites"],
   },
   { 
+    _id: 2.5,
+    mainImage: "/images/portfolio/ainsider_tools.jpg",
+    title: "Ainsider.Tools",
+    metadata:
+      "Gen AI Tools Directory and Magazine",
+      urlLink:"/portfolio/aitoolslibrary",
+      tags: ["websites", "ai"],
+  },
+  { 
     _id: 1.5,
     mainImage: "/images/portfolio/hfassistants.jpg",
     title: "Huggingface Assistants",
@@ -36,6 +45,15 @@ const BlogData: Portfolio[] = [
       "Custom various AI Assistants",
       urlLink:"/portfolio/huggingface-assistants",
       tags: ["ai"],
+  },
+  { 
+    _id: 2.5,
+    mainImage: "/images/portfolio/ainsidersoftr.jpg",
+    title: "Ainsider.pl",
+    metadata:
+      "Gen AI Tools Directory and Magazine",
+      urlLink:"/portfolio/ainsiderpl",
+      tags: ["websites", "ai"],
   },
   { 
     _id: 2,
@@ -55,15 +73,6 @@ const BlogData: Portfolio[] = [
   //     urlLink:"/portfolio/ainsiderbot",
   //     tags: ["ai"],
   // },
-  { 
-    _id: 2.5,
-    mainImage: "/images/portfolio/ainsider_tools.jpg",
-    title: "Ainsider.Tools",
-    metadata:
-      "Gen AI Tools Directory and Magazine",
-      urlLink:"/portfolio/aitoolslibrary",
-      tags: ["websites", "ai"],
-  },
   { 
     _id: 4,
     mainImage: "/images/portfolio/afterrave.jpg",

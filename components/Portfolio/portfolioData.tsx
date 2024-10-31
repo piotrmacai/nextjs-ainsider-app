@@ -4,7 +4,7 @@ const BlogData: Portfolio[] = [
   { 
     _id: 0,
     mainImage: "/images/portfolio/aiwareCloud.jpg",
-    title: "Ainsider.pl",
+    title: "Ainsider.cloud",
     metadata:
       "AI Platform with Ecommerce and Blog",
       urlLink:"/portfolio/aiwarecloud",
@@ -20,6 +20,15 @@ const BlogData: Portfolio[] = [
       tags: ["websites"],
   },
   { 
+    _id: 2.5,
+    mainImage: "/images/portfolio/ainsider_tools.jpg",
+    title: "Ainsider.Tools",
+    metadata:
+      "Gen AI Tools Directory and Magazine",
+      urlLink:"/portfolio/aitoolslibrary",
+      tags: ["websites", "ai"],
+  },
+  { 
     _id: 1,
     mainImage: "/images/portfolio/cora.jpg",
     title: "Cora-goralczyk.pl",
@@ -27,6 +36,15 @@ const BlogData: Portfolio[] = [
       "Website for automotive mechanic workshop",
       urlLink:"/portfolio/cora-goralczyk",
       tags: ["websites"],
+  },
+  { 
+    _id: 2.5,
+    mainImage: "/images/portfolio/ainsidersoftr.jpg",
+    title: "Ainsider.pl",
+    metadata:
+      "Gen AI Tools Directory and Magazine",
+      urlLink:"/portfolio/ainsiderpl",
+      tags: ["websites", "ai"],
   },
   {
     _id: 2,
@@ -45,15 +63,6 @@ const BlogData: Portfolio[] = [
       "Ai Assistant for Ainsider.tools",
       urlLink:"/portfolio/ainsiderbot",
       tags: ["ai"],
-  },
-  { 
-    _id: 2.5,
-    mainImage: "/images/portfolio/ainsider_tools.jpg",
-    title: "Ainsider.Tools",
-    metadata:
-      "Gen AI Tools Directory and Magazine",
-      urlLink:"/portfolio/aitoolslibrary",
-      tags: ["websites", "ai"],
   },
   // { 
   //   _id: 3,

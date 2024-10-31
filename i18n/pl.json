@@ -271,6 +271,20 @@
                 "desc2": "Stworzyliśmy ten projekt przy użyciu WordPressa, który jest najpopularniejszym systemem CMS na świecie. WordPress umożliwia łatwe zarządzanie treścią - tutaj z różnymi rodzajami wpisów, a także łatwe dostosowywanie wyglądu i funkcjonalności witryny, integrację z mediami społecznościowymi i innymi narzędziami.",
                 "tags": "Tagi"
               },
+              "ainsidersoftr": {
+                "details": "Szczegóły Projektu",
+                "company": "Firma",
+                "industry": "Branża",
+                "tech": "Technologie Projektu",
+                "header": "Aplikacja Biblioteki Narzędzi AI",
+                "desc1": "Biblioteka narzędzi i modeli AI stworzona w technologii no-code z Notion jako baza danych / CMS",
+                "desc2": "Projekt Ainsider Tools to zaawansowana biblioteka narzędzi AI, stworzona z myślą o dostarczeniu szerokiego zakresu zasobów i narzędzi związanych z sztuczną inteligencją. Ta innowacyjna platforma została zbudowana przy użyciu frameworka Next.js i języka programowania TypeScript, co zapewnia nie tylko wysoką wydajność i optymalizację pod kątem wyszukiwarek internetowych, ale także statyczną typizację, co zwiększa bezpieczeństwo i niezawodność kodu.",
+                "desc3": "Ainsider Tools oferuje użytkownikom łatwy dostęp do szerokiego zakresu narzędzi AI, takich jak modele uczenia maszynowego, algorytmy przetwarzania języka naturalnego (NLP), biblioteki analizy danych i wiele innych zasobów wspierających rozwój projektów AI.",
+                "desc4": "Platforma została zaprojektowana z myślą o maksymalnej użyteczności i dostępności dla użytkowników o różnym poziomie wiedzy - od studentów i hobbystów po doświadczonych inżynierów i badaczy. Dzięki intuicyjnemu interfejsowi użytkownika i użyciu nowoczesnych rozwiązań frontendowych, Ainsider Tools umożliwia szybkie wyszukiwanie i filtrowanie narzędzi AI, pomagając znaleźć odpowiednie zasoby dopasowane do konkretnych potrzeb projektowych.",
+                "tags": "Tagi",
+                "header2": "Topowa Pozycja na Stronie 1 w Google",
+                "desc5": "Strona internetowa ainsider.tools osiągnęła znaczący sukces, plasując się na czołowych pozycjach pierwszej strony wyników wyszukiwania Google dla fraz kluczowych związanych z bibliotekami narzędzi AI i automatyzacją. Ten wyjątkowy osiągnięcie jest rezultatem kompleksowej strategii SEO, która obejmowała optymalizację treści pod kątem wartościowych słów kluczowych, poprawę szybkości wczytywania strony i zapewnienie doskonałej użyteczności dla użytkowników. Dzięki skutecznym działaniom optymalizacyjnym, ainsider.tools zyskał wysoką widoczność w Internecie, co przyczyniło się do zwiększenia ruchu organicznego i umocnienia pozycji platformy jako lidera w dziedzinie narzędzi AI i technologii automatyzacji."
+              },
               "ainsidertools": {
                 "details": "Szczegóły Projektu",
                 "company": "Firma",

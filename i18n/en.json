@@ -262,6 +262,17 @@
                 "desc3": "Technologia WooCommerce wspiera również nasze wysiłki logistyczne i zarządzanie zapasami, co przekłada się na szybką i efektywną realizację zamówień. Oferujemy klientom różne opcje płatności i dostawy, sprawiając, że Bakaliowe Love staje się numerem jeden dla wszystkich poszukujących wygodnego dostępu do zdrowej żywności online.",
                 "desc4": "Platforma została zaprojektowana z myślą o maksymalnej użyteczności i dostępności dla użytkowników o różnym poziomie wiedzy - od studentów i hobbystów po doświadczonych inżynierów i badaczy. Dzięki intuicyjnemu interfejsowi użytkownika i wykorzystaniu nowoczesnych rozwiązań frontendowych, Ainsider Tools umożliwia szybkie wyszukiwanie i filtrowanie narzędzi AI, pomagając znaleźć odpowiednie zasoby dopasowane do konkretnych potrzeb projektowych."
               },
+              "ainsidersoftr": {
+                "details": "Project Details",
+                "company": "Company",
+                "industry": "Industry", 
+                "tech": "Project Technologies.",
+                "header":"Gallery of AI Tools and Models in polis language created with no-code technology",
+                "desc1":"Ainsider is a no-code AI toolkit and model library using Notion as its database and content management system.",
+                "desc2":"Ainsider Tools offers users easy access to a wide range of AI tools, such as machine learning models, natural language processing (NLP) algorithms, data analysis libraries, and many other resources to support AI project development.",
+                "desc3":"The platform is designed for maximum usability and accessibility to users of all levels, from students and hobbyists to experienced engineers and researchers. With an intuitive user interface and the use of modern frontend solutions, Ainsider Tools allows for quick searching and filtering of AI tools, helping users find the right resources for their specific project needs.",
+                "tags":"Tags"
+              },
               "ainsidercloud": {
                 "details": "Project Details",
                 "company": "Company",
