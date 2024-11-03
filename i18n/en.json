@@ -6,6 +6,11 @@
     "herocontact": "Send",
     "leaveemail": "Leave your email",
     "we": "We are",
+    "senja": {
+      "title": "Our clients",
+      "subtitle": "Testimonials",
+      "description": "See what other are talking about Us"
+    },
     "features": {
         "header": {
           "title": "How can we help you?",
@@ -26,6 +31,7 @@
         "automationsTitle": "Automations and CRMs",
         "automationsDescription": "We will implement Management Systems tailored to your needs with automations of the most repetitive and time-consuming tasks, which will give you a lot of time in whatever you do."
       },
+      
       "featuresTab": {
         "title": {
           "one": "Workflow",
@@ -128,6 +134,18 @@
                 "more": "Detailed Pricing" 
               }
         },
+        "ctatoainsider": {
+          "header1": "Ainsider.pl",
+          "header2": "AI Tools | Guides | Insights",
+          "contact": "Your Ultimate AI Platform",
+          "button": "Explore"
+      },
+        "ctatonewsletter": {
+          "header1": "Newsletter AI",
+          "header2": "AI Tools | Guides | Insights",
+          "contact": "Your Ultimate AI Newsletter",
+          "button": "Subscribe"
+      },
         "ctatoportfolio": {
           "header1": "Zobacz Nasze Projekty",
           "header2": "Portfolio",
@@ -192,9 +210,12 @@
             "menu10":"Marketing",
             "menu9": "Privacy Policy",
             "menu11":"Gen AI Magazine",
+            "menu13":"Courses and Guides",
+            "menu14":"AI Tools Library",
+            "menu15": "Web & Automations",
             "menu12":"AI Bots",
             "pricing": "Pricing",
-            "menuServices":"Services"
+            "menuServices":"Web & Automations"
         },
         "footer": {
             "contact": "Contact",
@@ -205,7 +226,8 @@
             "menu2": "Portfolio",
             "menu3": "Contact",
             "menu9": "Privacy Policy",
-            "menu4": "AInsider AI Blog",
+            "menu4": "AInsider.pl",
+            "menu12": "AI Assistants",
             "menuServices":"Services"
             
         },
@@ -690,34 +712,32 @@
   },
   "About": {
     "header1": {
-      "header1": "AI Solutions",
-      "header2": "& Automation",
-      "header3": "Custom Chatbots / Virtual Assistants",
-      "header4": "Support / Analytics / Integration / Training",
-      "desc1": "I specialize in developing sophisticated AI solutions that transform business operations through intelligent automation. From custom chatbots to advanced virtual assistants, my services are designed to enhance efficiency and deliver exceptional customer experiences."
+      "header1": "Agents and Assistants",
+      "header2": "AI",
+      "header3": "AI Chatbots and Voicebots",
+      "header4": "For Your Goals and Needs",
+      "desc1": "We implement advanced AI-powered Chatbots and Voicebots that revolutionize how your company handles customer service. My solutions are tailored to your industry’s specifics, automating interactions and improving service quality, leading to increased customer satisfaction and operational efficiency."
     },
     "header2": {
-      "header1": "Transform Your Business",
-      "header2": "With Intelligent AI",
-      "desc1": "Embrace the future of business automation with custom AI solutions that streamline operations and enhance customer engagement. My expertise in artificial intelligence and machine learning enables me to create intelligent systems that adapt to your business needs and grow with your organization.",
-      "button": "Explore AI Solutions"
+      "header1": "Digital Transformation",
+      "header2": "With AI Support",
+      "desc1": "Harness the full potential of artificial intelligence to transform your business. By combining advanced AI technologies with deep business expertise, I offer solutions that automate processes, optimize costs, and enhance customer satisfaction, helping your company gain a competitive edge.",
+      "button": "Discover AI Possibilities"
     }
   },
   "AboutTwo": {
     "header1": {
-      "header1": "AI Solutions",
+      "header1": "AI",
       "header2": "& Automation",
-      "header3": "AI Integration & Business Systems",
-      "header4": "CRM / CMS / ERP / Analytics / Automation",
-      "desc1": "I provide comprehensive integration of AI assistants and chatbots with leading business systems including Salesforce, HubSpot, Microsoft Dynamics, and other CRM platforms. My solutions enable automated lead qualification, customer data enrichment, and intelligent pipeline management while maintaining seamless synchronization across your tech stack.",
-      "desc2": "For content management, I integrate AI with WordPress, Shopify, and other CMS platforms to enable smart content recommendations, automated categorization, and personalized user experiences. My services also cover integration with ERP systems, helpdesk solutions like Zendesk, and analytics tools to create a unified, AI-powered business ecosystem."
-
+      "header3": "AI Agents and Assistants with Built-In Automations",
+      "header4": "Intelligent Automations for Efficient Customer Service",
+      "desc1": "We specialize in creating AI assistants and agents with built-in integrations with the most popular CRM, CMS, and other business tools. I offer comprehensive solutions that automate processes and provide efficient customer service by integrating advanced technologies with your existing systems."
     },
     "header2": {
-      "header1": "Smart System Integration",
-      "header2": "Enhanced by AI",
-      "desc1": "Transform your business operations with intelligent integrations that connect your core systems. I specialize in creating seamless workflows between CRM, CMS, and support platforms, enabling automated data synchronization, smart task routing, and AI-powered insights that drive efficiency and growth. My solutions ensure your business systems work together harmoniously while leveraging AI to deliver exceptional value.",
-      "button": "Explore AI Integration"
+      "header1": "Intelligent System Integration",
+      "header2": "Powered by AI",
+      "desc1": "I create advanced integration solutions that connect AI chatbots and assistants with your business systems. I ensure seamless data synchronization between CRM, CMS, ticketing systems, and e-commerce platforms, automating sales processes and customer service. My solutions support multi-channel communication, real-time analytics, and personalized customer interactions.",
+      "button": "Explore Integration Possibilities"
     }
   }
 }

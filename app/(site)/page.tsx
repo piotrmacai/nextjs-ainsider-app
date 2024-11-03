@@ -27,6 +27,11 @@ import PortfolioCta from "@/components/PortfolioCta";
 import Slider from "@/components/Slider"
 import HomePortfolio from "@/components/Portfolio/HomePortfolio";
 import Socials from "@/components/Socials";
+import SenjaWidget from "@/components/SenjaWidget";
+import CTAToNewsletter from "@/components/CTAToNewsletter";
+import CTAToAinsider from "@/components/CTAToAinsider";
+
+
 
 
 
@@ -53,37 +58,40 @@ export default function Home() {
       < Socials />
       <Feature /> 
        {/* <About />            */}
+       <HomePortfolio/> 
+       <CTAToAinsider/>
       <FeaturesTab /> 
-       <HomePortfolio/>    
-                 
+      <CTA />       
+      <SenjaWidget/>  
+      <Brands />
+      <Contact />     
     
       {/* <PortfolioCta/> */}
   
       {/* <Integration /> */}
       {/* <FAQ /> */}
       {/* <Testimonial /> */}
-      <div id="headerWeb">
+      {/* <div id="headerWeb"> */}
       {/* <HeaderWeb/> */}
-      <AboutWeb/>
-      <WebFeaturesTab/>
-      </div>
-      <div id="headerAi">
-      {/* <HeaderAi/>      */}
+      {/* <AboutWeb/>
+      <WebFeaturesTab/> */}
+      {/* </div> */}
+      {/* <div id="headerAi"> */}
+      {/* <HeaderAi/>     
       <AboutAi/>
-      <AiFeaturesTab/>
-      </div> 
-      <div id="headerMarketing">
-      <AboutMarketing/>
-      <MarketingFeaturesTab/>
-      </div> 
+      <AiFeaturesTab/> */}
+      {/* </div>  */}
+      {/* <div id="headerMarketing"> */}
+      {/* <AboutMarketing/> */}
+      {/* <MarketingFeaturesTab/> */}
+      {/* </div>  */}
       {/* <div id="headerGenAi">
       <GenAiHome/> 
       </div>   */} 
-       <Brands />   
+      
        {/* <Pricing />    */}
        {/* <FunFact />  */}
-       <CTA />
-      <Contact /> 
+     
   
       {/* <Voiceflow/> */}
       {/* <Blog /> */}

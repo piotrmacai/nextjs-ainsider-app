@@ -39,10 +39,10 @@ const AiAboutTwo = () => {
                 {t('AiAboutSection.AboutTwo.header1.header2')}
               </h4>
               <h2 className="relative font-bold text-black dark:text-white text-3xl xl:text-hero mb-6">
-             {t('heroAiSection.AboutAI.header1.header3')}
-                <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1">
+              {t('AiAboutSection.AboutTwo.header1.header3')}
+                {/* <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1">
            {t('AiAboutSection.AboutTwo.header1.header4')}
-                </span>
+                </span> */}
               </h2>
               <p>
               {t('AiAboutSection.AboutTwo.header1.desc1')}             

@@ -3,13 +3,13 @@ import GenAiPortfolio from "@/components/Portfolio/GenAiPortfolio";
 import GenAiArtworks from "@/components/Portfolio/GenAiPortfolio/GenAiArtworks";
 import GenAiAbout from "@/components/Portfolio/GenAiPortfolio/GenAiAbout";
 import Brands from "@/components/Brands";
-import CTA from "@/components/CTA";
 import Contact from "@/components/Contact";
 
 import AiHero from "@/components/Ai/AiHero";
 import AiAboutOne from "@/components/Ai/AboutOne";
 import AiAboutTwo from "@/components/Ai/AboutTwo";
 import CTAToPortfolio from "@/components/CTAToPortfolio";
+import CTA from "@/components/CTA";
 
 
 
@@ -41,6 +41,7 @@ const ServicesPage = async () => {
     <AiAboutTwo/>    
     <CTAToPortfolio/>
     <FeaturesTab /> 
+    <CTA/>
     <Brands/>
     <Contact/>
     </>

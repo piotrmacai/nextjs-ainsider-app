@@ -26,6 +26,11 @@
             "automationsDescription": "Wdrożymy systemy zarządzania dostosowane do Twoich potrzeb z automatyzacją najbardziej powtarzalnych i czasochłonnych zadań, co da Ci dużo czasu na to, co robisz."
        
       },
+      "senja": {
+        "title": "Testimonials",
+        "subtitle": "Opinie Naszych Klientów",
+        "description": "Zobacz co mówią o Nas inni"
+      },
       "featuresTab": {
         "title": {
           "one": "Workflow",
@@ -41,10 +46,10 @@
         "tab1Description1": "Podczas konsultacji zagłębiamy się w Twoje potrzeby biznesowe, analizując obecne systemy i strategie, aby zidentyfikować najefektywniejsze podejście do dalszego rozwoju.",
         "tab1Description2": "Onboarding, czyli wprowadzenie klienta do projektu, pozwala na dokładne poznanie szczegółów procesu i współpracy. Zapewnia pełny wgląd w kluczowe etapy, harmonogram działań oraz narzędzia dla śledzenia i współpracy przy każdym etapie projektu.",
         "tab2Title": "Projekt i Wdrożenie",
-        "tab2Description1": "Na etapie projektowania i wdrażania tworzę konkretne rozwiązania dostosowane do Twoich potrzeb. Każdy krok jest planowany w taki sposób, aby efektywnie osiągać zamierzone cele.",
-        "tab2Description2": "Realizujemy wdrożenia przy użyciu najnowszych technologii, zapewniając pełną integrację z Twoimi systemami. Proces ten jest monitorowany, aby zapewnić skuteczne funkcjonowanie i ciągłe udoskonalienia.",
+        "tab2Description1": "Na etapie projektowania i wdrażania tworzymy konkretne rozwiązania dostosowane do Twoich potrzeb. Każdy krok jest planowany w taki sposób, aby efektywnie osiągać zamierzone cele.",
+        "tab2Description2": "Realizujemy wdrożenia przy użyciu najnowszych technologii, zapewniając pełną integrację z Twoimi systemami. Proces ten jest monitorowany, aby zapewnić skuteczne funkcjonowanie i ciągłe udoskonalania.",
         "tab3Title": "Szkolenia i Optymalizacje",
-        "tab3Description1": "Podczas szkoleń uczę Cię, jak efektywnie korzystać z nowych narzędzi i procesów, aby zoptymalizować codzienną pracę w Twojej firmie, zyskując przewagę nad konkurencją.",
+        "tab3Description1": "Podczas szkoleń uczymy Cię, jak efektywnie korzystać z nowych narzędzi i procesów, aby zoptymalizować codzienną pracę w Twojej firmie, zyskując przewagę nad konkurencją.",
         "tab3Description2": "Dzięki optymalizacjom, w tym automatyzacji procesów, pomagamy Twojej firmie działać wydajniej. Nasze zaawansowane analizy wspierają podejmowanie lepszych decyzji biznesowych i długoterminowy rozwój."
          },
          
@@ -54,7 +59,7 @@
           "header2": "Strategie",
           "header3": "Kompletne rozwiązania",
           "header4": "Dla Biznesu",
-          "desc1": "Na podstawie unikalnych potrzeb dostarczam spersonalizowane rozwiązania, które pozwalają zaoszczędzić wiele czasu, oraz rozwiązują najbardziej palące problemy w każdej działalności."
+          "desc1": "Na podstawie unikalnych potrzeb dostarczamy spersonalizowane rozwiązania, które pozwalają zaoszczędzić wiele czasu, oraz rozwiązują najbardziej palące problemy w każdej działalności."
         },
         "header2": {
             "header1": "Wznieś swój biznes",
@@ -79,7 +84,7 @@
       },
        "funfact": {
         "header1": "Technologie & Frameworki",
-        "header2": "Zawsze dobieram technologie i narzędzia w zależności od potrzeb projektu - lecz zawsze korzystając z tych najlepszych dostępnych na rynku dla danych potrzeb oraz wymagań.",
+        "header2": "Zawsze dobieramy technologie i narzędzia w zależności od potrzeb projektu - lecz zawsze korzystając z tych najlepszych dostępnych na rynku dla danych potrzeb oraz wymagań.",
         "item1-1": "Zadowolenych",
         "item1-2": "Klientów",
         "item2-1": "Zautomatyzowanych",
@@ -123,6 +128,18 @@
                 "more": "Szczegółowa Wycena"
             }
         },
+        "ctatoainsider": {
+          "header1": "Ainsider.pl",
+          "header2": "Narzędzia AI | Tutoriale | Poradniki",
+          "contact": "Twoja Platforma #AI",
+          "button": "Zobacz"
+      },
+        "ctatonewsletter": {
+          "header1": "AI Newsletter",
+          "header2": "Narzędzia AI | Tutoriale | Poradniki",
+          "contact": "Bądź z AI na bieżąco",
+          "button": "Subskrybuj"
+      },
         "ctatoportfolio": {
           "header1": "Zobacz Nasze Projekty AI",
           "header2": "Portfolio",
@@ -138,7 +155,7 @@
         "contact": {
             "header": "Wycena Projektu",
             "button": "Wyślij",
-            "consent":"Zgadzam się na przetwarzanie moich danych osobowych",
+            "consent":"Zgadzam się na przetwarzanie naszych danych osobowych",
             "header2": "Poznajmy się",
             "header3": "Bezpłatna konsultacja",
             "calendly":"Calendly",
@@ -164,7 +181,7 @@
             "button5": "Github",
             "buttonBehance": "Behance",
             "buttonArtstation": "Artstation",
-            "moreButton": "Więcej Moich Projektów",
+            "moreButton": "Zobacz Wszystkie Projekty",
             "newsletter": "Dołącz do Newslettera",
             "items": {
                 "name": "Your Name",
@@ -188,8 +205,11 @@
             "menu9": "Polityka Prywatności",
             "menu11":"Magazyn Gen AI",
             "menu12":"Asystenci AI",
+            "menu13":"Kursy i Szkolenia",
+            "menu14":"Biblioteka Narzędzi AI",
+            "menu15": "Web & Automatyzacje",
             "pricing": "Wycena",
-            "menuServices":"Usługi"
+            "menuServices":"Web i Automatyzacje"
         },
         "footer": {
             "contact": "Kontakt",
@@ -200,7 +220,8 @@
             "menu2": "Portfolio",
             "menu3": "Kontakt",
             "menu9": "Polityka Prywatności",
-            "menu4": "AInsider AI Blog",
+            "menu4": "Ainsider.pl",
+            "menu12": "Chatboty i Agenci AI",
             "menuServices":"Usługi"
           },
           "services": {
@@ -414,33 +435,33 @@
               },
               "macaibot": {
                 "header": "Asystent AI dla Macai.Studio",
-                "desc1": "Dla obsługi i automatyzacji mojej działalności stworzyłem zaawansowanego asystenta AI opartego wykorzystując platformę Voiceflow wraz z API OpenAI.. Ten chatbot umożliwia zbieranie leadów oraz wycenę indywidualnych projektów dla klientów w sposób zautomatyzowany i intuicyjny. Wykorzystując możliwości Voiceflow, nasz asystent prowadzi naturalne rozmowy, rozumie intencje użytkowników i dostarcza odpowiednie informacje lub inicjuje procesy biznesowe.",
-                "desc2": "Mój asystent AI zintegrowany jest z naszą stroną internetową oraz innymi kanałami komunikacji, zapewniając spójne i wygodne doświadczenie dla klientów. Dzięki zaawansowanym funkcjom przetwarzania języka naturalnego i uczenia maszynowego, może on precyzyjnie identyfikować potrzeby klientów, przedstawiać odpowiednie oferty i zbierać niezbędne dane w celu wygenerowania wyceny projektu. Ta inteligentna automatyzacja pozwala nam efektywnie zarządzać leadami i zapewniać wysokiej jakości obsługę klienta."
+                "desc1": "Dla obsługi i automatyzacji naszej działalności stworzyliśmy zaawansowanego asystenta AI opartego wykorzystując platformę Voiceflow wraz z API OpenAI.. Ten chatbot umożliwia zbieranie leadów oraz wycenę indywidualnych projektów dla klientów w sposób zautomatyzowany i intuicyjny. Wykorzystując możliwości Voiceflow, nasz asystent prowadzi naturalne rozmowy, rozumie intencje użytkowników i dostarcza odpowiednie informacje lub inicjuje procesy biznesowe.",
+                "desc2": "Nasz asystent AI zintegrowany jest z naszą stroną internetową oraz innymi kanałami komunikacji, zapewniając spójne i wygodne doświadczenie dla klientów. Dzięki zaawansowanym funkcjom przetwarzania języka naturalnego i uczenia maszynowego, może on precyzyjnie identyfikować potrzeby klientów, przedstawiać odpowiednie oferty i zbierać niezbędne dane w celu wygenerowania wyceny projektu. Ta inteligentna automatyzacja pozwala nam efektywnie zarządzać leadami i zapewniać wysokiej jakości obsługę klienta."
                 },
                 "uprawabot": {
                   "header": "Asystent AI dla Sklepu Akcesoriadouprawy.pl",
-                  "desc1": "Dla wsparcia obsługi klienta i zwiększenia sprzedaży w sklepie akcesoriadouprawy.pl stworzyłem zaawansowanego asystenta AI opartego na platformie Botpress i API OpenAI. Ten inteligentny chatbot umożliwia klientom intuicyjne wyszukiwanie i odkrywanie odpowiednich produktów poprzez naturalne rozmowy. Wykorzystując możliwości Voiceflow, nasz asystent rozumie intencje użytkowników i dostarcza sugestie kategorii oraz konkretnych produktów, które mogą odpowiadać ich potrzebom.",
+                  "desc1": "Dla wsparcia obsługi klienta i zwiększenia sprzedaży w sklepie akcesoriadouprawy.pl stworzyliśmy zaawansowanego asystenta AI opartego na platformie Botpress i API OpenAI. Ten inteligentny chatbot umożliwia klientom intuicyjne wyszukiwanie i odkrywanie odpowiednich produktów poprzez naturalne rozmowy. Wykorzystując możliwości Voiceflow, nasz asystent rozumie intencje użytkowników i dostarcza sugestie kategorii oraz konkretnych produktów, które mogą odpowiadać ich potrzebom.",
                   "desc2": "Asystent AI jest w pełni zintegrowany z witryną sklepu akcesoriadouprawy.pl, zapewniając spójne i wygodne doświadczenie zakupowe. Dzięki zaawansowanym funkcjom przetwarzania języka naturalnego i uczenia maszynowego, może on precyzyjnie identyfikować preferencje i wymagania klientów, a następnie przedstawiać odpowiednie oferty produktowe. Ta inteligentna automatyzacja znacznie poprawia konwersję sprzedaży, ponieważ klienci otrzymują trafne rekomendacje i mogą łatwo znaleźć poszukiwane produkty."
                   },
                   "foodbot": {
                     "header": "Asystent AI dla Restauracji i Barów",
-                    "desc1": "Dla wsparcia obsługi klienta i optymalizacji procesu zamówień w restauracjach i barach stworzyłem zaawansowanego asystenta AI opartego na platformie Botpress i API OpenAI. Ten inteligentny chatbot umożliwia klientom intuicyjne składanie zamówień oraz odkrywanie menu poprzez naturalne rozmowy. Wykorzystując możliwości Voiceflow, nasz asystent rozumie intencje użytkowników i dostarcza sugestie dań oraz napojów, które mogą odpowiadać ich preferencjom.",
+                    "desc1": "Dla wsparcia obsługi klienta i optymalizacji procesu zamówień w restauracjach i barach stworzyliśmy zaawansowanego asystenta AI opartego na platformie Botpress i API OpenAI. Ten inteligentny chatbot umożliwia klientom intuicyjne składanie zamówień oraz odkrywanie menu poprzez naturalne rozmowy. Wykorzystując możliwości Voiceflow, nasz asystent rozumie intencje użytkowników i dostarcza sugestie dań oraz napojów, które mogą odpowiadać ich preferencjom.",
                     "desc2": "Asystent AI jest w pełni zintegrowany z systemem zamówień restauracji i barów, zapewniając spójne i wygodne doświadczenie dla klientów. Dzięki zaawansowanym funkcjom przetwarzania języka naturalnego i uczenia maszynowego, może on precyzyjnie identyfikować preferencje i wymagania gości, a następnie przedstawiać odpowiednie propozycje dań i napojów. Ta inteligentna automatyzacja znacznie poprawia efektywność obsługi, ponieważ klienci otrzymują trafne rekomendacje i mogą łatwo złożyć zamówienie, co pozytywnie wpływa na ich zadowolenie oraz konwersję zamówień."
                   },
                   "aiwarebot": {
                     "header": "Asystent AI dla Aiware.cloud",
-                    "desc1": "Dla obsługi i automatyzacji działalności platfromy i ecommerce Aiware.cloud stworzyłem zaawansowanego asystenta AI opartego wykorzystując platformę Voiceflow wraz z API OpenAI.. Ten chatbot umożliwia zbieranie leadów oraz wycenę indywidualnych projektów dla klientów w sposób zautomatyzowany i intuicyjny. Wykorzystując możliwości Voiceflow, nasz asystent prowadzi naturalne rozmowy, rozumie intencje użytkowników i dostarcza odpowiednie informacje lub inicjuje procesy biznesowe.",
+                    "desc1": "Dla obsługi i automatyzacji działalności platfromy i ecommerce Aiware.cloud stworzyliśmy zaawansowanego asystenta AI opartego wykorzystując platformę Voiceflow wraz z API OpenAI.. Ten chatbot umożliwia zbieranie leadów oraz wycenę indywidualnych projektów dla klientów w sposób zautomatyzowany i intuicyjny. Wykorzystując możliwości Voiceflow, nasz asystent prowadzi naturalne rozmowy, rozumie intencje użytkowników i dostarcza odpowiednie informacje lub inicjuje procesy biznesowe.",
                     "desc2": "Asystent AI zintegrowany jest z stroną i sklepem Aiware, oraz innymi kanałami komunikacji, zapewniając spójne i wygodne doświadczenie dla klientów. Dzięki zaawansowanym funkcjom przetwarzania języka naturalnego i uczenia maszynowego, może on precyzyjnie identyfikować potrzeby klientów, przedstawiać odpowiednie oferty i zbierać niezbędne dane w celu wygenerowania wyceny projektu. Ta inteligentna automatyzacja pozwala nam efektywnie zarządzać leadami i zapewniać wysokiej jakości obsługę klienta."
                     },
                     "ainsiderbot": {
                           "header": "Asystent AI dla Aiware.cloud",
-                          "desc1": "Stworzyłem zaawansowanego asystenta AI, wykorzystując platformę Botpress oraz OpenAI API dla Aiware.cloud. Ten chatbot pomaga użytkownikom w identyfikacji i rekomendacji najlepszych narzędzi na podstawie ich konkretnych celów i potrzeb. Wykorzystując moc przetwarzania języka naturalnego, asystent rozumie wprowadzone dane przez użytkowników, sugeruje dopasowane rozwiązania i pomaga podejmować świadome decyzje dotyczące projektów i procesów pracy.",
+                          "desc1": "Stworzyliśmy zaawansowanego asystenta AI, wykorzystując platformę Botpress oraz OpenAI API dla Aiware.cloud. Ten chatbot pomaga użytkownikom w identyfikacji i rekomendacji najlepszych narzędzi na podstawie ich konkretnych celów i potrzeb. Wykorzystując moc przetwarzania języka naturalnego, asystent rozumie wprowadzone dane przez użytkowników, sugeruje dopasowane rozwiązania i pomaga podejmować świadome decyzje dotyczące projektów i procesów pracy.",
                           "desc2": "Asystent AI jest zintegrowany z platformą Aiware.cloud i działa bezproblemowo na różnych kanałach komunikacyjnych, oferując użytkownikom spójne i intuicyjne doświadczenie. Dzięki zaawansowanym możliwościom AI, chatbot może precyzyjnie rekomendować narzędzia i zasoby, upraszczając proces podejmowania decyzji. To pozwala użytkownikom na optymalizację ich działań i bardziej efektywne osiąganie założonych celów."
                       },
                     "flowise": {
                       "header": "Chatbot AI w Flowise",
-                      "desc1": "Dla obsługi i automatyzacji mojej działalności, a także dla konkretnych celów biznesowych stworzyłem zaawansowane chatboty i agentów AI korzystając z platformy Flowise - opartej na Langchain oraz hostując je i renderując przy użyciu Hugging Face. Te chatboty umożliwiają zbieranie leadów oraz wycenę indywidualnych projektów dla klientów w sposób zautomatyzowany i intuicyjny. Dzięki zaawansowanym możliwościom Flowise, nasze asystenty prowadzą naturalne rozmowy, rozumieją intencje użytkowników i dostarczają odpowiednie informacje lub inicjują procesy biznesowe.",
-                      "desc2": "Moje chatboty AI są zintegrowane z naszą stroną internetową oraz innymi kanałami komunikacji, zapewniając spójne i wygodne doświadczenie dla klientów. Dzięki zaawansowanym funkcjom przetwarzania języka naturalnego i uczenia maszynowego, mogą one precyzyjnie identyfikować potrzeby klientów, przedstawiać odpowiednie oferty i zbierać niezbędne dane w celu wygenerowania wyceny projektu. Ta inteligentna automatyzacja pozwala nam efektywnie zarządzać leadami i zapewniać wysokiej jakości obsługę klienta.",
+                      "desc1": "Dla obsługi i automatyzacji naszej działalności, a także dla konkretnych celów biznesowych stworzyliśmy zaawansowane chatboty i agentów AI korzystając z platformy Flowise - opartej na Langchain oraz hostując je i renderując przy użyciu Hugging Face. Te chatboty umożliwiają zbieranie leadów oraz wycenę indywidualnych projektów dla klientów w sposób zautomatyzowany i intuicyjny. Dzięki zaawansowanym możliwościom Flowise, nasze asystenty prowadzą naturalne rozmowy, rozumieją intencje użytkowników i dostarczają odpowiednie informacje lub inicjują procesy biznesowe.",
+                      "desc2": "Nasze chatboty AI są zintegrowane z naszą stroną internetową oraz innymi kanałami komunikacji, zapewniając spójne i wygodne doświadczenie dla klientów. Dzięki zaawansowanym funkcjom przetwarzania języka naturalnego i uczenia maszynowego, mogą one precyzyjnie identyfikować potrzeby klientów, przedstawiać odpowiednie oferty i zbierać niezbędne dane w celu wygenerowania wyceny projektu. Ta inteligentna automatyzacja pozwala nam efektywnie zarządzać leadami i zapewniać wysokiej jakości obsługę klienta.",
                       "desc3": "Chatbot - stworzony oczywiście w Flowise - dostępny pod powyższym linkiem dostarczy Ci najlepsze dostępne narzędzia AI dla Twoich indywidualnych celów oraz potrzeb."
                     }      
           },
@@ -523,14 +544,14 @@
               "tabThree": "Optymalizacja i SEO"
             },
             "tab1Title": "Kompleksowe Audyty Stron Internetowych & Konsultacje",
-            "tab1Description1": "Z wykorzystaniem najlepszych dostępnych narzędzi dokładnie analizuję każdy aspekt Twojej istniejącej witryny, identyfikując obszary wymagające usprawnień, możliwości optymalizacji i potencjalne luki.",
-            "tab1Description2": "Poprzez kompleksowe audyty, dostarczam kompleksowe raporty mające na celu zwiększenie wydajności Twojej strony internetowej, poprawę doświadczenia użytkownika oraz widocznośc w wyszukiwarkach, social mediach oraz wizytówkach firm.",
+            "tab1Description1": "Z wykorzystaniem najlepszych dostępnych narzędzi dokładnie analizujemy każdy aspekt Twojej istniejącej witryny, identyfikując obszary wymagające usprawnień, możliwości optymalizacji i potencjalne luki.",
+            "tab1Description2": "Poprzez kompleksowe audyty, dostarczamy kompleksowe raporty mające na celu zwiększenie wydajności Twojej strony internetowej, poprawę doświadczenia użytkownika oraz widocznośc w wyszukiwarkach, social mediach oraz wizytówkach firm.",
             "tab2Title": "Nowoczesne i Responsywne Projektowanie oraz Wdrożenia Stron Internetowych",
-            "tab2Description1": "Przekształć swoje pomysły w rzeczywistość online. Specjalizuję się w tworzeniu wizualnie atrakcyjnych, przyjaznych dla użytkownika i nowoczesnych platform internetowych, które przykuwają uwagę odbiorców i zapewniają wyjątkowe doświadczenie użytkownika na wszystkich urządzeniach.",
-            "tab2Description2": "Wykorzystując najnowsze technologie internetowe i najlepsze praktyki branżowe, buduję niestandardowe strony internetowe dopasowane do Twojej marki i celów biznesowych. Od koncepcji po uruchomienie, dbam o to, aby Twoja witryna była zoptymalizowana pod kątem wydajności, widoczności w wyszukiwarkach oraz sprzedaży i marketingu Twoich produktów oraz usług.",
+            "tab2Description1": "Przekształć swoje pomysły w rzeczywistość online. Specjalizujemy się w tworzeniu wizualnie atrakcyjnych, przyjaznych dla użytkownika i nowoczesnych platform internetowych, które przykuwają uwagę odbiorców i zapewniają wyjątkowe doświadczenie użytkownika na wszystkich urządzeniach.",
+            "tab2Description2": "Wykorzystując najnowsze technologie internetowe i najlepsze praktyki branżowe, budujemy niestandardowe strony internetowe dopasowane do Twojej marki i celów biznesowych. Od koncepcji po uruchomienie, dbamy o to, aby Twoja witryna była zoptymalizowana pod kątem wydajności, widoczności w wyszukiwarkach oraz sprzedaży i marketingu Twoich produktów oraz usług.",
             "tab3Title": "Optymalizacja Stron Internetowych i Strategie Rozwoju",
-            "tab3Description1": "Wykorzystuję zaawansowane narzędzia analityczne, aby zidentyfikować obszary wymagające usprawnień, monitorować metryki wydajności oraz wdrażać optymalizacje oparte na danych, mające na celu zwiększenie zaangażowania użytkowników, wskaźników konwersji i pozycji w wyszukiwarkach.",
-            "tab3Description2": "Moje usługi obejmują szeroki zakres pracy - w tym optymalizację dla wyszukiwarek (SEO), jak i udoskonalenia w zakresie doświadczenia użytkownika (UX). Pozostając o krok przed konkurencją, zapewniam, że Twoja strona internetowa zachowa przewagę konkurencyjną i będzie nadal napędzać rozwój Twojej firmy."
+            "tab3Description1": "Wykorzystujemy zaawansowane narzędzia analityczne, aby zidentyfikować obszary wymagające usprawnień, monitorować metryki wydajności oraz wdrażać optymalizacje oparte na danych, mające na celu zwiększenie zaangażowania użytkowników, wskaźników konwersji i pozycji w wyszukiwarkach.",
+            "tab3Description2": "Nasze usługi obejmują szeroki zakres pracy - w tym optymalizację dla wyszukiwarek (SEO), jak i udoskonalenia w zakresie doświadczenia użytkownika (UX). Pozostając o krok przed konkurencją, zapewniamy, że Twoja strona internetowa zachowa przewagę konkurencyjną i będzie nadal napędzać rozwój Twojej firmy."
           },
           "aboutWeb": {
             "header1": {
@@ -538,12 +559,12 @@
               "header2": "Dla Twojej Działalności",
               "header3": "Strony internetowe",
               "header4": "Landing Page i E-commerce",
-              "desc1": "W Macai Studio dostarczam indywidualne rozwiązania web, które doskonale odpowiadają unikalnym potrzebom Twojej działności. Dzięki zrozumieniu specyfiki Twojej branży, wyzwań i celów, tworzę indywidualne strategie, wdrażając je jako w pełni funkcjonalne i doskonale zoptymalizowane landing page, strony i platformy internetowe."
+              "desc1": "W Macai Studio dostarczamy indywidualne rozwiązania web, które doskonale odpowiadają unikalnym potrzebom Twojej działności. Dzięki zrozumieniu specyfiki Twojej branży, wyzwań i celów, tworzymy indywidualne strategie, wdrażając je jako w pełni funkcjonalne i doskonale zoptymalizowane landing page, strony i platformy internetowe."
             },
             "header2": {
               "header1": "Wprowadź Swój Biznes Online",
               "header2": "Na Kolejny Poziom",
-              "desc1": "Wykorzystując pełen potencjał i możliwości najnowszych technologii w tworzeniu rozwiązań internetowych, oferuję niezbędną wiedzę i narzędzia które pozwolą wprowadzić Twój biznes na kolejny, jeszcze wyższy poziom. Moje usługi łączą najnowsze pomysły, techniki i strategie dostosowane do specyfiki Twojej branży i celów.",
+              "desc1": "Wykorzystując pełen potencjał i możliwości najnowszych technologii w tworzeniu rozwiązań internetowych, oferujemy niezbędną wiedzę i narzędzia które pozwolą wprowadzić Twój biznes na kolejny, jeszcze wyższy poziom. Nasze usługi łączą najnowsze pomysły, techniki i strategie dostosowane do specyfiki Twojej branży i celów.",
               "button": "Rozpocznijmy Twój Projekt"
             }
           }
@@ -638,11 +659,11 @@
     },
           "About": {
             "header1": {
-              "header1": "AI",
-              "header2": "& Automatyzacja",
-              "header3": "Chatboty / Asystenci AI",
-              "header4": "Automatyzacja / CRM / Obsługa Klienta",
-              "desc1": "Oferuję kompleksowe rozwiązania AI i automatyzacji, które pomagają Twojej firmie osiągnąć nowy poziom efektywności operacyjnej. Moje systemy są precyzyjnie dostosowane do specyfiki Twojej branży, zapewniając optymalizację procesów i poprawę jakości obsługi klienta."
+              "header1": "Agenci i Asystenci",
+              "header2": "AI",
+              "header3": "Chatboty i Voiceboty AI ",
+              "header4": "Dla Twoich celów i potrzeb",
+              "desc1": "Wdrażamy zaawansowane Chatboty i Voiceboty napędzany przez sztuczną inteligencję, które rewolucjonizują sposób, w jaki Twoja firma obsługuje klientów. Moje rozwiązania są dostosowane do specyfiki Twojej branży, automatyzując interakcje i poprawiając jakość obsługi, co prowadzi do zwiększenia satysfakcji klientów i efektywności operacyjnej."
             },
             "header2": {
               "header1": "Transformacja Cyfrowa",
@@ -654,10 +675,10 @@
           "AboutTwo": {
             "header1": {
               "header1": "AI",
-              "header2": "& Automatyzacja",
-              "header3": "Integracja Chatbotów z Systemami CRM / CMS / ERP",
-              "header4": "Automatyzacja Procesów / Analityka AI / Wielokanałowa Obsługa",
-              "desc1": "Specjalizuję się w tworzeniu zaawansowanych integracji asystentów AI z popularnymi systemami biznesowymi jak Salesforce, HubSpot, WordPress czy Shopify. Oferuję kompleksową implementację chatbotów i asystentów AI, którzy płynnie współpracują z Twoim CRM, systemem ticketowym oraz narzędziami komunikacji, zapewniając spójną i zautomatyzowaną obsługę klienta."
+              "header2": "& Automatyzacje",
+              "header3": "Agenci AI i Asystenci z Wbudowanymi Automatyzacjami",
+              "header4": "Inteligentne Automatyzacje dla Efektywnej Obsługi Klienta",
+              "desc1": "Specjalizujemy się w tworzeniu asystentów i agentów AI z wbudowanymi integracjami z najpopularniejszymi systemami CRM, CMS oraz innymi narzędziami biznesowymi. Oferuję kompleksowe rozwiązania, które automatyzują procesy i zapewniają efektywną obsługę klienta, łącząc zaawansowane technologie z Twoimi istniejącymi systemami."
             },
             "header2": {
               "header1": "Inteligentna Integracja Systemów",

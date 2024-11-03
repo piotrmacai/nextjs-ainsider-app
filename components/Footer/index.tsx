@@ -124,7 +124,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="https://ainsider.tools"
+                        href="https://ainsider.pl"
                         className="inline-block hover:text-primary mb-3"
                       >
                          {t('footer.menu4')}
