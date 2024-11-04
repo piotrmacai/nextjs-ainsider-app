@@ -8,7 +8,7 @@ const Voiceflow = () => {
     script.type = 'text/javascript';
     script.onload = () => {
       window.voiceflow.chat.load({
-        verify: { projectID: '655d242ee8e45700076bf6a0' },
+        verify: { projectID: '66fd9286a5b369f00abef5fb' },
         url: 'https://general-runtime.voiceflow.com',
         versionID: 'production'
       });
