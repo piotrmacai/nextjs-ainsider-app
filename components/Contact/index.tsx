@@ -194,7 +194,7 @@ const Contact = () => {
                 {t('contact.email')}
                 </h4>
                 <p>
-                  <a href="mailto:me@piotrmacai.com">me@piotrmacai.com</a>
+                  <a href="mailto:piotr@insdr.cloud">piotr@insdr.cloud</a>
                 </p>
               </div>
               <div className="mb-7 5">

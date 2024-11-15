@@ -281,33 +281,33 @@ const BlogData: Portfolio[] = [
   //     urlLink:"/portfolio/macai-tech",
   //     tags: ["websites"],
   // },
-  // { 
-  //   _id: 10,
-  //   mainImage: "/images/portfolio/bodymedica.jpg",
-  //   title: "bodymedica.pl",
-  //   metadata:
-  //     "Business website for Physiotherapy Office",
-  //     urlLink:"/portfolio/bodymedica",
-  //     tags: ["websites"],
-  // },
-  // { 
-  //   _id: 11,
-  //   mainImage: "/images/portfolio/paintball.jpg",
-  //   title: "paintball-osada.pl",
-  //   metadata:
-  //     "Business website for Entertainment Park and Paintball",
-  //     urlLink:"/portfolio/paintball-osada",
-  //     tags: ["websites"],
-  // },
-  // { 
-  //   _id: 13,
-  //   mainImage: "/images/portfolio/smp.jpg",
-  //   title: "smpolaniec.com.pl",
-  //   metadata:
-  //     "Website for housing cooperative",
-  //     urlLink:"/portfolio/smpolaniec",
-  //     tags: ["websites"],
-  // },
+  { 
+    _id: 10,
+    mainImage: "/images/portfolio/bodymedica.jpg",
+    title: "bodymedica.pl",
+    metadata:
+      "Business website for Physiotherapy Office",
+      urlLink:"/portfolio/bodymedica",
+      tags: ["websites"],
+  },
+  { 
+    _id: 11,
+    mainImage: "/images/portfolio/paintball.jpg",
+    title: "paintball-osada.pl",
+    metadata:
+      "Business website for Entertainment Park and Paintball",
+      urlLink:"/portfolio/paintball-osada",
+      tags: ["websites"],
+  },
+  { 
+    _id: 13,
+    mainImage: "/images/portfolio/smp.jpg",
+    title: "smpolaniec.com.pl",
+    metadata:
+      "Website for housing cooperative",
+      urlLink:"/portfolio/smpolaniec",
+      tags: ["websites"],
+  },
   // { 
   //   _id: 14,
   //   mainImage: "/images/portfolio/aiwareChatbot.jpg",
@@ -327,33 +327,33 @@ const BlogData: Portfolio[] = [
   //     tags: ["ai"],
   // },
 
-  // { 
-  //   _id: 18,
-  //   mainImage: "/images/portfolio/szkolajazdymarketing.jpg",
-  //   title: "Social media + Marketing szkolajazdymachowski.pl",
-  //   metadata:
-  //     "Creation and development of FB profile and SEO in Google",
-  //     urlLink:"/portfolio/osk-machowski",
-  //     tags: ["marketing"],
-  // },
-  // { 
-  //   _id: 19,
-  //   mainImage: "/images/portfolio/ainsidertools-google.jpg",
-  //   title: "SEO Ainsider.tools in Google",
-  //   metadata:
-  //     "Top position on the first page of Google",
-  //     urlLink:"/portfolio/seo-ainsidertools",
-  //     tags: ["marketing"],
-  // },
-  // { 
-  //   _id: 20,
-  //   mainImage: "/images/portfolio/paintball-google.jpg",
-  //   title: "SEO paintball-osada.pl in Google",
-  //   metadata:
-  //     "Number 1 position in Google",
-  //     urlLink:"/portfolio/seo-paintballosada",
-  //     tags: ["marketing"],
-  // },
+  { 
+    _id: 18,
+    mainImage: "/images/portfolio/szkolajazdymarketing.jpg",
+    title: "Social media + Marketing szkolajazdymachowski.pl",
+    metadata:
+      "Creation and development of FB profile and SEO in Google",
+      urlLink:"/portfolio/osk-machowski",
+      tags: ["marketing"],
+  },
+  { 
+    _id: 19,
+    mainImage: "/images/portfolio/ainsidertools-google.jpg",
+    title: "SEO Ainsider.tools in Google",
+    metadata:
+      "Top position on the first page of Google",
+      urlLink:"/portfolio/seo-ainsidertools",
+      tags: ["marketing"],
+  },
+  { 
+    _id: 20,
+    mainImage: "/images/portfolio/paintball-google.jpg",
+    title: "SEO paintball-osada.pl in Google",
+    metadata:
+      "Number 1 position in Google",
+      urlLink:"/portfolio/seo-paintballosada",
+      tags: ["marketing"],
+  },
   // { 
   //   _id: 19,
   //   mainImage: "/images/portfolio/ainspire.jpg",
@@ -363,15 +363,15 @@ const BlogData: Portfolio[] = [
   //     urlLink:"/portfolio/ainspire",
   //     tags: ["websites", "ai"],
   // },
-  // { 
-  //   _id: 20,
-  //   mainImage: "/images/portfolio/mmhigh.jpg",
-  //   title: "mmhigh.pl Website",
-  //   metadata:
-  //     "Business website for high-altitude work company",
-  //     urlLink:"/portfolio/mmhigh",
-  //     tags: ["websites"],
-  // },
+  { 
+    _id: 20,
+    mainImage: "/images/portfolio/mmhigh.jpg",
+    title: "mmhigh.pl Website",
+    metadata:
+      "Business website for high-altitude work company",
+      urlLink:"/portfolio/mmhigh",
+      tags: ["websites"],
+  },
 ];
 
 export default BlogData;

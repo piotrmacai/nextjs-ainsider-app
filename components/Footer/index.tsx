@@ -60,7 +60,7 @@ const Footer = () => {
                   href="#"
                   className="text-black dark:text-white font-medium  text-sectiontitle mb-1.5"
                 >
-                  me@piotrmacai.com
+                  piotr@insdr.cloud
                 </a>
               </motion.div>
 

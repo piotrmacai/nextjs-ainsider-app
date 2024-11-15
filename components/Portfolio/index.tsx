@@ -31,32 +31,23 @@ const Portfolio = () => {
 
   return (
     <>
-  <section className="pt-35 md:pt-40 xl:pt-46 pb-20 xl:pb-25 px-3 overflow-hidden">
-        <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-          <div className="flex sm:flex-col md:flex-row lg:items-center lg:gap-2 xl:gap-32.5">
-            <div className="md:w-1/2 sm:w-full">
-              <h4 className="text-black dark:text-white text-lg font-medium ml-8 mb-4.5 ">
-              {/* {t('title')}   */}
-              Piotr Macai 
-              </h4>
-              <div className="flex flex-row justify-start items-center">
-              <Image
-                    width={130}
-                    height={130}
-                    src="/images/user/piotrmacaihero.png"
-                    alt="Logo"
-                    className="mr-6 mb-3"
-                  />
-              <h1 className="text-black dark:text-white text-4xl xl:text-hero font-bold mb-5 pr-16 ">
-              🔥  {t('portfolio.header')}
-                <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1 ml-2.5 ">
-                </span>
-              </h1>
-              </div>
-              <h4 className="text-black dark:text-white text-lg font-medium mt-4 mb-5.5">
-              {t('description')}
+ 
+ <section className="pt-40 md:pt-40 xl:pt-46 pb-20 xl:pb-25 px-3 overflow-hidden">
+        <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 flex flex-col md:flex-row"> {/* Added flex and flex-col for mobile view */}
+          <div className="md:w-1/2 sm:w-full md:block mb-8 md:mb-0"> {/* Added mb-8 for mobile view */}
+            <h4 className="text-black dark:text-white text-lg font-medium mb-4.5">
+              {t('portfoliosee')} 🔥
+            </h4>
+            <h1 className="text-black dark:text-white text-3xl xl:text-hero font-bold mb-5 pr-16">
+               Portfolio 
+              <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1 ml-2.5">
+              </span>
+            </h1>
+               <h4 className="text-black dark:text-white text-lg font-medium mt-4 mb-5.5">
+                {t('description')}
               </h4>
 
+            
               <motion.div
               variants={{ hidden: {opacity: 0, y: -20, },
                 visible: { opacity: 1,y: 0,},
@@ -111,30 +102,6 @@ const Portfolio = () => {
                   </a>
                 </li>
                 {/* <li>
-                  <a href="https://www.facebook.com/profile.php?id=100093134271073" target="_blank">
-                    <svg
-                      className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g clipPath="url(#clip0_48_1499)">
-                        <path
-                          d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z"
-                          fill=""
-                        />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_48_1499">
-                          <rect width="24" height="24" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                  </a>
-                </li> */}
-                <li>
                 <a href="https://www.instagram.com/piotr.macai/" target="_blank">
                   <svg
                     className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"
@@ -150,17 +117,19 @@ const Portfolio = () => {
                     />
                   </svg>
                 </a>
-                </li>
-                <li>
-                  <a href="https://www.github.com/aiwareai/" target="_blank">                   
+                </li> */}
+                {/* <li>
+                  <a href="https://www.github.com/aiwareai/" target="_blank">
+                    
                   <Image src="/images/brand/github.png" alt="git" width={24} height={24} className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"/>
                   </a>
-                </li>
-                <li>
-                  <a href="https://huggingface.co/Piotr-Macai" target="_blank">                   
+                </li> */}
+                {/* <li>
+                  <a href="https://huggingface.co/Piotr-Macai" target="_blank">
+                    
                   <Image src="/images/brand/hf-logo-pirate.svg" alt="git" width={24} height={24} className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"/>
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a href="https://www.behance.net/macaistudio" target="_blank">
                     <svg
@@ -191,76 +160,29 @@ const Portfolio = () => {
                 </li>
               </ul>
             </motion.div>
+{/* 
+            <div className="mt-10">
+              <form   action="https://formspree.io/f/xpwzwngo" target="_blank" method="POST">
+                <div className="flex flex-wrap gap-5">
+                  <input
+                    type="email" name="email"
+                    placeholder={t('leaveemail')}
+                    className="dark:bg-black border border-stroke dark:border-strokedark shadow-solid-2 dark:shadow-none rounded-full focus:outline-none focus:border-primary dark:focus:border-primary py-2.5 px-6"
+                  />
+                  <button
+                    type="submit"
+                    value="Submit"
+                    aria-label="contact"
+                    className="flex bg-black hover:bg-blackho dark:bg-btndark text-white rounded-full ease-in-out duration-300 px-7.5 py-2.5"
+                  >
+                    {t('herocontact')}
+                  </button>
+                </div>
+              </form>
+            </div> */}
+          </div>
 
-              <div className="mt-10">
-                {/* <form onSubmit={handleSubmit}> */}
-                  <div className="flex flex-wrap gap-5">
-                    <input
-                      // value={email}
-                      // onChange={(e) => setEmail(e.target.value)}
-                      // type="text"
-                      placeholder={t('portfolio.newsletter')}
-                      className="dark:bg-black border border-stroke dark:border-strokedark shadow-solid-2 dark:shadow-none rounded-full focus:outline-none focus:border-primary dark:focus:border-primary py-2.5 px-1"
-                    />
-                    <Link href="https://ainsider.beehiiv.com/subscribe" target="_blank">
-                    <button
-                      aria-label="signup to newsletter"
-                      className="flex bg-black hover:bg-blackho dark:bg-btndark text-white rounded-full ease-in-out duration-300 px-5.5 py-2.5"
-                    >
-                      {t('subscribe')}
-                    </button>
-                    </Link>
-                  </div>
-              </div>
-
-
-                {/* <div className="lg:grid grid-cols-3 grid-rows-1 gap-4 flex flex-row mt-10">
-
-                          <div className="col-span-1 bg-gray-200 p-4">
-                              <div 
-                                    style={{
-                                      backgroundColor: 'rgba(217, 216, 216, 0.24)',
-                                      borderRadius: '16px',
-                                      boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
-                                      backdropFilter: 'blur(19.5px)',
-                                      WebkitBackdropFilter: 'blur(19.5px)',
-                                      border: '1px solid rgba(255, 255, 255, 0.03)',
-                                    }}
-                              className="rounded-lg p-4 shadow-lg flex flex-col items-center justify-center grid-in-twitter">
-                                  <a href="/generativeai" target="_blank" className="text-center">
-                                  <img src="/images/brand/icons8-adobe-illustrator-100.png" alt="Tools" className="inline w-12 h-12 mb-2" />
-                                    <p className="text-lg font-semibold">Generative AI</p>
-                                    <p className="text-sm">Artworks</p>
-                                  </a>
-                                </div>
-                      </div>
-                      <div className="col-span-2 bg-gray-200 p-4">
-                              <div 
-                                style={{
-                                  backgroundColor: 'rgba(217, 216, 216, 0.30)',
-                                  borderRadius: '16px',
-                                  boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
-                                  backdropFilter: 'blur(19.5px)',
-                                  WebkitBackdropFilter: 'blur(19.5px)',
-                                  border: '1px solid rgba(255, 255, 255, 0.03)',
-                                }}
-                              className="rounded-lg p-4 shadow-lg flex flex-col items-center justify-center grid-in-twitter">
-                                  <a href="https://macai.tech/portfolio/" target="_blank" className="text-center">
-                                    <img src="/images/brand/icons8-portfolio-96.png" alt="Twitter" className="inline w-12 h-12 mb-2" />
-                                    <p className="text-lg font-semibold">Portfolio</p>
-                                    <p className="text-sm">With the best of my projects</p>
-                                  </a>
-                                </div>
-                      </div>
-                </div> */}
-
-
-            </div>
-
-
-                {/* SECOND COLUMN */}
-
-                <div className="md:w-1/2 sm:w-full md:block p-4 md:p-3"> {/* Removed the hidden class for mobile view */}
+          <div className="md:w-1/2 sm:w-full md:block p-8 md:p-3"> {/* Removed the hidden class for mobile view */}
             <div className="relative 2xl:-mr-7.5">
               <Image
                 src="/images/shape/shape-01.png"
@@ -286,21 +208,18 @@ const Portfolio = () => {
               <div className="relative aspect-[700/444] w-full">
                 <Image
                   className="dark:hidden shadow-solid-l"
-                  src="/images/heroheroxwhite.svg"
+                  src="/images/hero/hero-dark.svg"
                   alt="Hero"
                   fill
                 />
                 <Image
                   className="hidden dark:block shadow-solid-l"
-                  src="/images/hero/heroo1.svg"
+                  src="/images/hero/hero-dark.svg"
                   alt="Hero"
                   fill
                 />
               </div>
             </div>
-          </div>
-
-
           </div>
         </div>
       </section>
@@ -316,14 +235,14 @@ const Portfolio = () => {
                   >
                   {t('portfolio.button1')}
                   </button>
-                    {/* <button
+                    <button
                     className={`mr-2 text-lg font-semibold ${
                       selectedTag === "marketing" ? "bg-blue-500 text-white" : "bg-gray-200"
                     }`}
                     onClick={() => handleTagSelection("marketing")}
                   >
                     {t('portfolio.button2')}
-                  </button> */}
+                  </button>
                   <button
                     className={`mr-2 text-lg font-semibold ${
                       selectedTag === "ai" ? "bg-blue-500 text-white" : "bg-gray-200"

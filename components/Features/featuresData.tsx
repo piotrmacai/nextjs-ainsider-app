@@ -4,48 +4,47 @@ import { useTranslation } from 'react-i18next';
 const getTranslatedFeatures = () => {
   const { t } = useTranslation();
 
-  const featuresData: Feature[] = [
+  const featuresData: Feature[] = [ 
     {
       id: 1,
+      icon: "/images/icon/undraw_website_builder.svg",
+      title: t('features.designTitle'),
+      description: t('features.designDescription'),
+     }, 
+    {
+      id: 2,
       icon: "/images/icon/undraw_innovative.svg",
       title: t('features.websitesTitle'),
       description: t('features.websitesDescription'),
-    },  
+    },   
     {
-      id: 2,
-      icon: "/images/icon/undraw_active.svg",
-      title: t('features.aiTitle'),
-      description: t('features.aiDescription'),
-     },    
-     {
       id: 3,
-      icon: "/images/icon/undraw_product_iteration.svg",
-      title: t('features.automationsTitle'),
-      description: t('features.automationsDescription'),
-    }, 
-    {
-      id: 4,
       icon: "/images/icon/undraw_ecom.svg",
       title: t('features.ecommerceTitle'),
       description: t('features.ecommerceDescription'),
-    },  
+    },   
     {
-      id: 5,
+      id: 4,
       icon: "/images/icon/undraw_social.svg",
       title: t('features.marketingTitle'),
       description: t('features.marketingDescription'),
     }, 
+    {
+      id: 5,
+      icon: "/images/icon/undraw_active.svg",
+      title: t('features.aiTitle'),
+      description: t('features.aiDescription'),
+     },   
+       
      {
       id: 6,
-      icon: "/images/icon/undraw_website_builder.svg",
-      title: t('features.designTitle'),
-      description: t('features.designDescription'),
-     },   
+      icon: "/images/icon/undraw_product_iteration.svg",
+      title: t('features.automationsTitle'),
+      description: t('features.automationsDescription'),
+    }, 
+  
    
-   
-       
-    
-      
+ 
    
   ];
 

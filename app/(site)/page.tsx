@@ -36,15 +36,15 @@ import CTAToAinsider from "@/components/CTAToAinsider";
 
 
 export const metadata: Metadata = {
-  title: "Piotr Macai - AI | Web | Automation For Business",
+  title: "Insdr.cloud - AI | Web | Automations For Business",
   description: "Tailored To The Needs Of Your Company Web & AI and Automation solutions that help businesses to grow. Discover our services tailored to the needs of your company.",
   openGraph: {
-    title: "Piotr Macai - AI | Web | Automation For Business",
+    title: "Insdr.cloud - AI | Web | Automations For Business",
     description:"Tailored To The Needs Of Your Company Web & AI and Automation solutions that help businesses to grow. Discover our services tailored to the needs of your company.",
     images: [
       {
-        url: '/images/user/piotrmacaihero.png', // Updated path to your image
-        alt: 'Potr Macai Business Development', // Optional: alt text for the image
+        url: '/images/logo/logo-white.png', // Updated path to your image
+        alt: 'Insdr Business Development', // Optional: alt text for the image
       },
     ]
   }, 
