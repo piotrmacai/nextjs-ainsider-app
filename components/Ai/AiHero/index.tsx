@@ -10,7 +10,7 @@ const GenAiPortfolio = () => {
   return (
     <>
       <section className="pb-10 lg:py-15 xl:py-20 px-10">
-        <div className="flex flex-row mx-auto max-w-c-1280 px-4 md:px-8 xl:px-0 mt-15 xl:mt-20">
+        <div className="flex flex-col md:flex-row mx-auto max-w-c-1280 px-2 md:px-8 xl:px-0 mt-15 xl:mt-20">
           <div className="flex flex-col md:w-1/2">
             <h4 className="text-black dark:text-white text-lg font-medium mt-12 pt-4 mb-4.5">
               🔥   {t('ai.hero.header2')}
@@ -22,8 +22,8 @@ const GenAiPortfolio = () => {
             </h1>
             <p>{t('ai.hero.desc1')}</p>
           </div>
-          <div className="flex flex-col md:w-1/2">
-            <div className="relative aspect-[700/444]">
+          <div className="flex flex-col w-full md:w-1/2">
+            <div className="relative mt-4 md:mt-0 aspect-[700/444]">
               <Image
                 className="shadow-solid-l"
                 src="/images/hero/hero-dark.svg"

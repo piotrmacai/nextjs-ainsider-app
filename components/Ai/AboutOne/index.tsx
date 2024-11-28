@@ -11,7 +11,7 @@ const AiAboutOne = () => {
   return (
     <>
       {/* <!-- ===== About Start ===== --> */}
-      <section className="py-15 lg:py-20 xl:py-30 overflow-hidden mt-10">
+      <section className="py-15 px-8 lg:py-20 xl:py-30 overflow-hidden mt-10">
         <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
           <div className="flex items-center gap-8 lg:gap-32.5">
             <motion.div

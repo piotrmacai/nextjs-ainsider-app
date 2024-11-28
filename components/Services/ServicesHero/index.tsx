@@ -11,7 +11,7 @@ const GenAiPortfolio = () => {
     <>
       <section className="pb-10 lg:py-15 xl:py-20 px-10">
         <div className="flex flex-row mx-auto max-w-c-1280 px-4 md:px-8 xl:px-0 mt-15 xl:mt-20">
-          <div className="flex flex-col md:w-1/2">
+          <div className="flex flex-col md:w-1/2 md:px-8">
             <h4 className="text-black dark:text-white text-lg font-medium mb-4.5">
               🔥   {t('services.header1')}
             </h4>

@@ -53,9 +53,16 @@ const getTranslatedMenuData = () => {
       newTab: true,
       path: "#",
       icon: "/images/icon/phone.svg",
-      submenu: [
+      submenu: [   
         {
-          id: 2.5,
+          id: 1,
+          title: t('header.menuServices'),
+          newTab: true,
+          path: "/web",
+          icon: "/images/icon/phone.svg",
+        },
+        {
+          id: 2,
           title: t('header.menu12'),
           newTab: false,
           path: "/bots",
@@ -63,32 +70,33 @@ const getTranslatedMenuData = () => {
         },
         {
           id: 3,
-          title: t('header.menuServices'),
-          newTab: true,
-          path: "/services",
-          icon: "/images/icon/phone.svg",
+          title: t('header.menuAutomations'),
+          newTab: false,
+          path: "/automations",
+          icon: "/images/icon/bag.svg",
         },
         {
           id: 3,
           title: t('header.menu13'),
           newTab: true,
-          path: "https://ainsider.cloud",
+          path: "https://ainsider.pl",
+          icon: "/images/icon/phone.svg",
+        },  
+        {
+          id: 3,
+          title: "AI Newsletter",
+          newTab: true,
+          path: "https://ainsider.cloud/",
           icon: "/images/icon/phone.svg",
         },
         {
           id: 3,
           title: t('header.menu14'),
           newTab: true,
-          path: "https://ainsider.pl",
+          path: "https://ainsider.tools",
           icon: "/images/icon/phone.svg",
         },
-        {
-          id: 3,
-          title: "Newsletter",
-          newTab: true,
-          path: "https://ainsiderpl.beehiiv.com/",
-          icon: "/images/icon/phone.svg",
-        },
+      
         // {
         //   id: 34,
         //   title:  t('header.menu10'),

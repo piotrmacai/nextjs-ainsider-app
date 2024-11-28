@@ -107,11 +107,16 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
+                      <a href="/automations" className="inline-block hover:text-primary mb-3">
+                        {t('header.menuAutomations')}
+                      </a>
+                    </li>
+                    <li>
                       <a
-                        href="/services"
+                        href="/web"
                         className="inline-block hover:text-primary mb-3"
                       >
-                        {t('footer.menuServices')}
+                        {t('header.menuServices')}
                       </a>
                     </li>
                     <li>

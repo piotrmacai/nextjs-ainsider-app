@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import featuresTabData from "./featuresTabData";
-import SectionHeader from "../Common/SectionHeader";
 import FeaturesTabItem from "./FeaturesTabItem";
 import { useTranslation } from 'react-i18next';
 import { motion } from "framer-motion";
@@ -19,12 +18,7 @@ const FeaturesTab = () => {
         
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 relative">
         <div className="pb-8">
-        <SectionHeader 
-            headerInfo={{
-              title: t('featuresTab.title.one'),
-              subtitle: t('featuresTab.title.two'),
-              description: t('featuresTab.title.three'),
-            }} />
+       
             </div>
           <div className="absolute -top-16 -z-1 mx-auto h-[350px] w-[90%]">
             <Image

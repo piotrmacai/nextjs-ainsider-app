@@ -7,6 +7,8 @@
     "portfoliosee": "Zobacz Nasze Projekty",
     "herocontact": "Wyślij",
     "leaveemail": "Zostaw swój email",
+
+
     "features": {
         "header": {
           "title": "Jak możemy Ci pomóc?",
@@ -25,8 +27,35 @@
             "ecommerceDescription": "Dopasowane do Twojego biznesu e-commerce i platformy internetowe, które zwiększają sprzedaż, poprawiają doświadczenia użytkowników i rozwijają Twój biznes.",
             "automationsTitle": "Automatyzacje & CRM",
             "automationsDescription": "Wdrożymy systemy zarządzania dostosowane do Twoich potrzeb z automatyzacją najbardziej powtarzalnych i czasochłonnych zadań, co da Ci dużo czasu na to, co robisz."
-       
       },
+
+    "automationFeatures": {
+    "header": {
+      "title": "Usprawnij Operacje Twojej Firmy",
+      "subtitle": "Inteligentne Rozwiązania Automatyzacyjne",
+      "description": "Zwiększ efektywność, ogranicz pracę ręczną i wykorzystaj pełny potencjał swojej organizacji."
+    },
+    "1Title": "Integracja i Automatyzacja Przepływów Pracy",
+    "1Description": "Oferujemy kompleksowe strategie automatyzacji z wykorzystaniem wiodących platform, takich jak Make.com, Zapier i n8n, które łączą wszystkie elementy ekosystemu Twojej firmy w płynne, inteligentne procesy."
+    ,
+    "2Title": "Automatyzacja Marketingu",
+    "2Description": "Automatyzuj pozyskiwanie leadów, zaangażowanie klientów i procesy marketingowe dzięki zaawansowanym narzędziom integrującym CRM, e-mail marketing, media społecznościowe oraz platformy analityczne."
+    ,
+    "3Title": "Inteligentne Automatyzacje z Wykorzystaniem Sztucznej Inteligencji",
+    "3Description": "Wykorzystaj najnowsze technologie AI i uczenie maszynowe, aby tworzyć inteligentnych agentów automatyzacji, którzy przeprowadzają analizy predykcyjne, wykonują złożone zadania i podejmują decyzje wspierające rozwój Twojej firmy."
+    ,
+    "4Title": "Dedykowane Rozwiązania Automatyzacyjne",
+    "4Description": "Tworzymy spersonalizowane rozwiązania automatyzacyjne z wykorzystaniem technologii takich jak Python, Node.js i architektura serverless, precyzyjnie dopasowane do potrzeb Twojej firmy i infrastruktury technologicznej."
+    ,
+    "5Title": "Automatyzacja Procesów E-commerce",
+    "5Description": "Usprawnij zarządzanie magazynem, przetwarzanie zamówień, obsługę klienta i śledzenie sprzedaży dzięki zintegrowanym rozwiązaniom automatyzacyjnym, które minimalizują błędy i przyspieszają operacje."
+    ,
+    "6Title": "Strategia Automatyzacji dla Przedsiębiorstw",
+    "6Description": "Świadczymy kompleksowe konsultacje automatyzacyjne, które mapują procesy biznesowe, identyfikują obszary do optymalizacji i wdrażają skalowalne, opłacalne rozwiązania automatyzacyjne w całej organizacji."
+  },
+     
+
+
       "senja": {
         "title": "Testimonials",
         "subtitle": "Opinie Naszych Klientów",
@@ -210,7 +239,8 @@
             "menu14":"Biblioteka Narzędzi AI",
             "menu15": "Web & Automatyzacje",
             "pricing": "Wycena",
-            "menuServices":"Web i Automatyzacje"
+            "menuServices":"Web",
+            "menuAutomations":"Automatyzacje"
         },
         "footer": {
             "contact": "Kontakt",
@@ -571,16 +601,18 @@
           }
         },
         "heroAiSection": {
+          "mainheader":"Szczegóły Naszych Rozwiązań AI",
           "header": {
             "title": "Technologie AI",
             "subtitle": "Chatboty i Asystenci AI & Automatyzacja & CRM/CMS",
             "description": "Transformacja Twojej firmy Z Wykorzystaniem Najnowszej Technologii i Sztucznej Inteligencji"
           },
           "AiFeaturesTab": {
+            "mainheader":"Szczegóły Naszych Rozwiązań AI",
             "header": {
               "tabOne": "Asystenci i Agenci AI",
               "tabTwo": "Automatyzacje dla Biznesu",
-              "tabThree": "CRM i CMS - zarządzanie"
+              "tabThree": "AI z CRM i CMS"
             },
             "tab1Title": "Tworzenie i Wdrożenia Asystentów oraz Agentów AI",
             "tab1Description1": "Odkryj, jak Asystenci i Agenci AI mogą zrewolucjonizować interakcje w Twojej firmie. Nasze kompleksowe usługi obejmują projektowanie, rozwój i wdrażanie zaawansowanych asystentów AI, które poprawią jakość obsługi klienta, zwiększą produktywność i zoptymalizują operacje biznesowe.",

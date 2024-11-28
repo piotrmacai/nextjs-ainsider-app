@@ -15,23 +15,22 @@ const Hero = () => {
 
   return (
     <>
-   <section className="pt-35 md:pt-40 xl:pt-46 pb-20 xl:pb-25 px-3 overflow-hidden">
+      <section className="pt-35 md:pt-40 xl:pt-46 pb-20 xl:pb-25 px-3 overflow-hidden">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 flex flex-col md:flex-row"> {/* Added flex and flex-col for mobile view */}
           <div className="md:w-1/2 sm:w-full md:block mb-8 md:mb-0"> {/* Added mb-8 for mobile view */}
             <h4 className="text-black dark:text-white text-lg font-medium mb-4.5">
-              Hello! {t('we')} Insdr 🔥
+              Hello! {t('we')} Insdr 
             </h4>
             <h1 className="text-black dark:text-white text-3xl xl:text-hero font-bold mb-5 pr-16">
-               {t('mainheading')} 
+              {t('mainheading')} 
               <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1 ml-2.5">
               </span>
             </h1>
-               <h4 className="text-black dark:text-white text-lg font-medium mt-4 mb-5.5">
-                {t('description')}
-              </h4>
+            <h4 className="text-black dark:text-white text-lg font-medium mt-4 mb-5.5">
+              {t('description')}
+            </h4>
 
-            
-              <motion.div
+            <motion.div
               variants={{ hidden: {opacity: 0, y: -20, },
                 visible: { opacity: 1,y: 0,},
               }}
@@ -42,7 +41,7 @@ const Hero = () => {
               className="animate_top"
             >
               <ul className="flex items-center gap-5">
-     
+
               <li>
               <a href="https://x.com/piotrmacai" target="_blank">
                   <svg
@@ -196,7 +195,7 @@ const Hero = () => {
                   fill
                 />
                 <Image
-                  className="hidden dark:block shadow-solid-l"
+                  className="dark:block shadow-solid-l"
                   src="/images/hero/hero-dark.svg"
                   alt="Hero"
                   fill

@@ -5,7 +5,8 @@ import GenAiAbout from "@/components/Portfolio/GenAiPortfolio/GenAiAbout";
 import Brands from "@/components/Brands";
 import CTA from "@/components/CTA";
 import Contact from "@/components/Contact";
-import Feature from "@/components/Features";
+import AiAboutOne from "@/components/Ai/AboutOne";
+import AiAboutTwo from "@/components/Ai/AboutTwo";
 import AboutWeb from "@/components/AboutWeb";
 import AboutAi from "@/components/AboutAi";
 import AboutMarketing from "@/components/AboutMarketing";
@@ -15,8 +16,10 @@ import AiFeaturesTab from "@/components/FeaturesTabAi";
 import MarketingFeaturesTab from "@/components/FeaturesTabMarketing";
 import HeaderAi from "@/components/HeaderAi";
 import HeaderWeb from "@/components/HeaderWeb";
+import AutomationFeature from "@/components/Automation/AutomationFeature";
+import AutomationFeaturesTab from "@/components/Automation/AutomationFeaturesTab";
+
 import { Metadata } from "next";
-import WebHero from "@/components/Web/WebHero";
 
 export const metadata: Metadata = {
   title: "Aiware.me Portfolio",
@@ -27,19 +30,16 @@ export const metadata: Metadata = {
 const ServicesPage = async () => {
   return (
     <>
-    <WebHero/>
-    <Feature/>
+    <ServicesHero />  
+    <AutomationFeature/>     
     < FeaturesTab />
-    <div id="headerWeb">
-      {/* <HeaderWeb/> */}
-      <AboutWeb/>
-      <WebFeaturesTab/>
-      </div>
-      <div id="headerMarketing">
-      <AboutMarketing/>
-      <MarketingFeaturesTab/>
-      </div> 
-      <CTA/> 
+
+
+    <AiAboutTwo/> 
+   
+    <AiAboutOne/>  
+{/* <AiFeaturesTab/>    */}
+      <CTA/>
      <Brands/>
     <Contact/>
     </>

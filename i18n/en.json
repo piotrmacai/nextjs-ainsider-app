@@ -12,6 +12,9 @@
       "subtitle": "Testimonials",
       "description": "See what other are talking about Us"
     },
+
+
+
     "features": {
         "header": {
           "title": "How can we help you?",
@@ -32,6 +35,28 @@
         "automationsTitle": "Automations and CRMs",
         "automationsDescription": "We will implement Management Systems tailored to your needs with automations of the most repetitive and time-consuming tasks, which will give you a lot of time in whatever you do."
       },
+
+
+      "automationFeatures": {
+        "header": {
+          "title": "Streamline Your Business Operations",
+          "subtitle": "Intelligent Automation Solutions",
+          "description": "Transform efficiency, reduce manual work, and unlock your business's full potential"
+        },
+        "1Title": "Integration & Workflow Automation",
+        "1Description": "Comprehensive automation strategies using top platforms like Make.com, Zapier, and n8n to create seamless, intelligent workflows that connect your entire business ecosystem",
+        "2Title": "Marketing Automation Ecosystem",
+        "2Description": "Automate lead generation, customer engagement, and marketing processes with advanced tools that synchronize your CRM, email marketing, social media, and analytics platforms",
+        "3Title": "AI-Powered Automation Intelligence",
+        "3Description": "Leverage cutting-edge AI and machine learning to develop smart automation agents that handle complex tasks, predictive analysis, and intelligent decision-making across your organization",
+        "4Title": "Custom Automation Development",
+        "4Description": "Create bespoke automation solutions using Python, Node.js, and serverless architectures, tailored precisely to your unique business requirements and technological infrastructure",
+        "5Title": "E-commerce Process Automation",
+        "5Description": "Streamline inventory management, order processing, customer support, and sales tracking with integrated automation solutions that reduce errors and accelerate business operations",
+        "6Title": "Enterprise Automation Strategy",
+        "6Description": "Comprehensive automation consulting that maps your entire business process, identifies optimization opportunities, and implements scalable, cost-effective automation solutions across departments"
+      },
+
       
       "featuresTab": {
         "title": {
@@ -216,7 +241,8 @@
             "menu15": "Web & Automations",
             "menu12":"AI Bots",
             "pricing": "Pricing",
-            "menuServices":"Web & Automations"
+            "menuServices":"Web",
+            "menuAutomations":"Automations"
         },
         "footer": {
             "contact": "Contact",
@@ -630,10 +656,11 @@
     "description": "Transforming Your Business with Artificial Intelligence"
   },
   "AiFeaturesTab": {
+    "mainheader":"Details of Our AI Solutions",
     "header": {
       "tabOne": "AI Assistants and Agents",
-      "tabTwo": "Business Automation",
-      "tabThree": "CRM and CMS Management"
+      "tabTwo": "AI For Business Automation",
+      "tabThree": "AI with CRM & CMS"
     },
     "tab1Title": "Creation and Implementation of AI Assistants and Agents",
     "tab1Description1": "Discover how AI Assistants and Agents can revolutionize interactions within your company. Our comprehensive services include designing, developing, and implementing advanced AI assistants that enhance customer service quality, boost productivity, and optimize business operations.",

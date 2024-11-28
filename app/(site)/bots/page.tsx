@@ -34,11 +34,11 @@ export const metadata: Metadata = {
 const ServicesPage = async () => {
   return (
     <>
-    <AiHero />   
-     <AiFeaturesTab/>           
+    <AiHero />         
      {/* <HeaderAi/> */}
     <AiAboutOne/>  
-    <AiAboutTwo/>    
+    <AiAboutTwo/>  
+    <AiFeaturesTab/>       
     <CTAToPortfolio/>
     <FeaturesTab /> 
     <CTA/>
