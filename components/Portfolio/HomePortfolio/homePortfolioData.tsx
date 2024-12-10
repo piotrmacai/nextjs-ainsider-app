@@ -3,6 +3,15 @@ import { Portfolio } from "@/types/portfolio";
 const BlogData: Portfolio[] = [
   { 
     _id: 0,
+    mainImage: "/images/portfolio/voicebot2.jpg",
+    title: "Voice AI Assistant for Macai.studio",
+    metadata:
+      "Voice AI Assistant build with ElevenLabs Voice Engine",
+      urlLink:"/portfolio/voicebot-macaistudio",
+      tags: ["ai", "agents"],
+  },
+  { 
+    _id: 0.1,
     mainImage: "/images/portfolio/uichatbot.jpg",
     title: "Multimodal Chatbot at Next.js",
     metadata:

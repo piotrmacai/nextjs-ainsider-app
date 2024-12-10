@@ -331,6 +331,24 @@
                 "desc2":"We created this project using WordPress, which is the most popular CMS system in the world. WordPress allows easy content management - here with different types of posts, as well as easy customization of the appearance and functionality of the site, integration with social media and other tools.",
                 "tags":"Tags"
               },
+              "voicebot1": {
+                "details": "Project Details",
+                "company": "Company",
+                "industry": "Industry", 
+                "tech": "Project Technologies",
+                "header": "Voice AI Assitant for Macai.studio",
+                "desc1": "Empower your business with an AI voicebot implementation powered by ElevenLabs conversational AI. This cutting-edge solution offers lifelike voice interactions, providing users with a natural and intuitive way to engage with your services while delivering seamless and efficient communication.",
+                "desc2": "Our service includes full integration of the ElevenLabs AI voice engine, enabling dynamic, context-aware conversations tailored to your business needs. With advanced voice synthesis, natural language understanding, and continuous updates, this voicebot enhances user engagement and automates communication with unparalleled accuracy and responsiveness."
+                },
+                "voicebot2": {
+                  "details": "Project Details",
+                  "company": "Company",
+                  "industry": "Industry", 
+                  "tech": "Project Technologies",
+                  "header": "Voice AI Assitant for Macai.studio",
+                  "desc1": "Empower your business with an AI voicebot implementation powered by ElevenLabs conversational AI. This cutting-edge solution offers lifelike voice interactions, providing users with a natural and intuitive way to engage with your services while delivering seamless and efficient communication.",
+                  "desc2": "Our service includes full integration of the ElevenLabs AI voice engine, enabling dynamic, context-aware conversations tailored to your business needs. With advanced voice synthesis, natural language understanding, and continuous updates, this voicebot enhances user engagement and automates communication with unparalleled accuracy and responsiveness."
+                  },
               "nextbot": {
                 "details": "Project Details",
                 "company": "Company",
@@ -447,6 +465,10 @@
                 "desc1":"The website voltoninstall.pl was created as a showcase for the Volton Install company, specializing in modern electrical installations and Smart Home systems. Designed using HTML, CSS, and JavaScript, the website combines modernity and functionality, presenting a wide range of services from design to installation of smart home systems and professional electrical installations.",
                 "desc2":"In addition to high usability, voltoninstall.pl stands out with excellent SEO optimization, allowing the website to achieve high positions in Google search results for key phrases related to electrical services and smart home. With carefully chosen keywords, content optimization, and fast loading speed, the website attracts significant organic traffic, directly translating into increased interest in the offered services. This combination of modern design, functionality, and effective SEO optimization makes the website voltoninstall.pl a key tool in promoting and developing the company in the electrical services and smart home solutions market."             
              },
+             "pgr": {
+              "industry":"Smart Home & Electricity",
+              "desc1":"The website pgr-elektroteam.pl is a modern online platform designed to provide easy access to information about services of company and streamline the lead generation process. The project was realized using Wordpress with custom CSS and JS code." 
+            },
              "jazda": {
                 "industry":"Education / Professional development",
                 "desc1":"The website szkolajazdymachowski.pl is a modern online platform designed to provide easy access to information about driving courses and streamline the registration process for future students. The project was realized using HTML, CSS, and JavaScript technologies, ensuring speed, responsiveness, and excellent compatibility with various devices and browsers.",

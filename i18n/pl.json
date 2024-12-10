@@ -329,6 +329,24 @@
                 "desc2": "Stworzyliśmy ten projekt przy użyciu WordPressa, który jest najpopularniejszym systemem CMS na świecie. WordPress umożliwia łatwe zarządzanie treścią - tutaj z różnymi rodzajami wpisów, a także łatwe dostosowywanie wyglądu i funkcjonalności witryny, integrację z mediami społecznościowymi i innymi narzędziami.",
                 "tags": "Tagi"
               },
+              "voicebot1": {
+                "details": "Szczegóły Projektu",
+                "company": "Firma",
+                "industry": "Branża",
+                "tech": "Technologie Projektu", 
+                "header": "Głosowy AI Assistant dla Macai.studio",
+                "desc1": "Zautomatyzuj obsługę klienta dzięki implementacji AI voicebota opartego na ElevenLabs conversational AI. To nowoczesne rozwiązanie oferuje realistyczne interakcje głosowe, zapewniając użytkownikom naturalny i intuicyjny sposób korzystania z Twoich usług oraz płynną i efektywną komunikację.",
+                "desc2": "Nasza usługa obejmuje pełną integrację silnika głosowego ElevenLabs AI, umożliwiając dynamiczne, kontekstowe rozmowy dostosowane do potrzeb Twojej firmy. Dzięki zaawansowanej syntezie głosu, zrozumieniu języka naturalnego i ciągłym aktualizacjom voicebot zwiększa zaangażowanie użytkowników oraz automatyzuje komunikację z niespotykaną dokładnością."
+                   },
+                   "voicebot2": {
+                    "details": "Szczegóły Projektu",
+                "company": "Firma",
+                "industry": "Branża",
+                "tech": "Technologie Projektu", 
+                    "header": "Głosowy AI Assistant dla Szkoły Jazdy",
+                    "desc1": "Zautomatyzuj obsługę klienta dzięki implementacji AI voicebota opartego na ElevenLabs conversational AI. To nowoczesne rozwiązanie oferuje realistyczne interakcje głosowe, zapewniając użytkownikom naturalny i intuicyjny sposób korzystania z Twoich usług oraz płynną i efektywną komunikację.",
+                    "desc2": "Nasza usługa obejmuje pełną integrację silnika głosowego ElevenLabs AI, umożliwiając dynamiczne, kontekstowe rozmowy dostosowane do potrzeb Twojej firmy. Dzięki zaawansowanej syntezie głosu, zrozumieniu języka naturalnego i ciągłym aktualizacjom voicebot zwiększa zaangażowanie użytkowników oraz automatyzuje komunikację z niespotykaną dokładnością."
+                       },
               "nextbot": {
                 "details": "Szczegóły Projektu",
                 "company": "Firma",
@@ -448,6 +466,10 @@
                 "desc1": "Strona internetowa voltoninstall.pl została stworzona jako wizytówka firmy Volton Install, specjalizującej się w nowoczesnych instalacjach elektrycznych i systemach Smart Home. Zaprojektowana przy użyciu HTML, CSS i JavaScript, strona łączy nowoczesność i funkcjonalność, prezentując szeroki zakres usług od projektowania po instalację systemów Smart Home i profesjonalne instalacje elektryczne.",
                 "desc2": "Oprócz wysokiej użyteczności, voltoninstall.pl wyróżnia się doskonałą optymalizacją SEO, co pozwala stronie osiągnąć wysokie pozycje w wynikach wyszukiwania Google dla kluczowych fraz związanych z usługami elektrycznymi i inteligentnymi domami. Dzięki starannie dobranym słowom kluczowym, optymalizacji treści i szybkości ładowania strony, strona przyciąga znaczący ruch organiczny, co bezpośrednio przekłada się na zwiększone zainteresowanie oferowanymi usługami. Ta kombinacja nowoczesnego designu, funkcjonalności i skutecznej optymalizacji SEO czyni stronę voltoninstall.pl kluczowym narzędziem w promocji i rozwoju firmy na rynku usług elektrycznych i rozwiązań smart home."
               },
+              "pgr": {
+                "industry": "Inteligentne Domy i Elektryka",
+                "desc1": "Strona internetowa pgr-elektroteam.pl to nowoczesna platforma online zaprojektowana w celu zapewnienia łatwego dostępu do informacji o usługach firmy oraz usprawnienia procesu generowania leadów. Projekt został zrealizowany przy użyciu WordPressa z niestandardowym kodem CSS i JS."
+               },
               "jazda": {
                 "industry": "Edukacja / Rozwój Zawodowy",
                 "desc1": "Strona internetowa szkolajazdymachowski.pl to nowoczesna platforma online zaprojektowana w celu łatwego dostępu do informacji o kursach nauki jazdy i uproszczenia procesu rejestracji dla przyszłych uczniów. Projekt został zrealizowany przy użyciu technologii HTML, CSS i JavaScript, zapewniając szybkość, responsywność i doskonałą kompatybilność z różnymi urządzeniami i przeglądarkami.",

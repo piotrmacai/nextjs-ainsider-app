@@ -3,11 +3,29 @@ import { Portfolio } from "@/types/portfolio";
 const BlogData: Portfolio[] = [
   { 
     _id: 0,
+    mainImage: "/images/portfolio/voicebot2.jpg",
+    title: "Voice AI Assistant for Macai.studio",
+    metadata:
+      "Voice AI Assistant build with ElevenLabs Voice Engine",
+      urlLink:"/portfolio/voicebot-macaistudio",
+      tags: ["ai", "agents"],
+  },
+  { 
+    _id: 0.1,
     mainImage: "/images/portfolio/uichatbot.jpg",
     title: "Multimodal Chatbot at Next.js",
     metadata:
       "Multimodal Custom Ai Assistant with user log-in, memory build in Next.js",
       urlLink:"/portfolio/insdr-chatbot",
+      tags: ["ai", "agents"],
+  },
+  { 
+    _id: 0.2,
+    mainImage: "/images/portfolio/voicebot.jpg",
+    title: "Voice AI Assistant for Szkolajazdymachowski.pl",
+    metadata:
+      "Voice AI Assistant build with ElevenLabs Voice Engine",
+      urlLink:"/portfolio/voicebot-drivingschool",
       tags: ["ai", "agents"],
   },
   { 
@@ -37,15 +55,15 @@ const BlogData: Portfolio[] = [
       urlLink:"/portfolio/aitoolslibrary",
       tags: ["web", "ai"],
   },
-  // { 
-  //   _id: 1,
-  //   mainImage: "/images/portfolio/cora.jpg",
-  //   title: "Cora-goralczyk.pl",
-  //   metadata:
-  //     "Website for automotive mechanic workshop",
-  //     urlLink:"/portfolio/cora-goralczyk",
-  //     tags: ["websites"],
-  // },
+  { 
+    _id: 1,
+    mainImage: "/images/portfolio/cora.jpg",
+    title: "Cora-goralczyk.pl",
+    metadata:
+      "Website for automotive mechanic workshop",
+      urlLink:"/portfolio/cora-goralczyk",
+      tags: ["web"],
+  },
   { 
     _id: 2.5,
     mainImage: "/images/portfolio/ainsidersoftr.jpg",
@@ -55,15 +73,24 @@ const BlogData: Portfolio[] = [
       urlLink:"/portfolio/ainsiderpl",
       tags: ["web", "ai"],
   },
-  // {
-  //   _id: 2,
-  //   mainImage: "/images/portfolio/volton.jpg",
-  //   title: "Volton-install.pl",
-  //   metadata:
-  //     "Business website for electrical services and smart home",
-  //     urlLink:"/portfolio/volton",
-  //     tags: ["websites"],
-  // },
+  { 
+    _id: 1.7,
+    mainImage: "/images/portfolio/pgr.jpg",
+    title: "Pgr-elektroteam.pl",
+    metadata:
+      "Website for smart home company",
+      urlLink:"/portfolio/elektroteam",
+      tags: ["web"],
+  },
+  {
+    _id: 2,
+    mainImage: "/images/portfolio/volton.jpg",
+    title: "Volton-install.pl",
+    metadata:
+      "Business website for electrical services and smart home",
+      urlLink:"/portfolio/volton",
+      tags: ["web"],
+  },
   { 
     _id: 5,
     mainImage: "/images/portfolio/macaiStudio.jpg",
