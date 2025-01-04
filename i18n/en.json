@@ -329,7 +329,8 @@
             "menu12":"AI Bots",
             "pricing": "Pricing",
             "menuServices":"Web",
-            "menuAutomations":"Automations"
+            "menuAutomations":"Automations",
+            "agents": "AI Agents"
         },
         "footer": {
             "contact": "Contact",
@@ -385,19 +386,21 @@
           "header": "Intelligent AI Assistants Designed for Your Unique Requirements",
           "desc1": "I specialize in creating cutting-edge custom AI assistants that leverage natural language processing and advanced AI capabilities to solve your business challenges. Whether you need a virtual assistant, customer support bot, or a tool to automate internal workflows, I ensure each solution is fully personalized to your specific goals and operational needs.",
           "desc2": "From seamless integration with platforms like WordPress, CRMs, or e-commerce systems, to enabling multi-channel communication, my AI assistants deliver exceptional user experiences. They provide actionable recommendations, automate repetitive tasks, and empower your team or customers to achieve more with less effort.",
-          "integrations": "Integrations",
-          "integrationsText": "Integrated with platforms like WordPress, Slack, CRM systems, or custom APIs to ensure smooth deployment and scalability.",
+          "integrations": "Integrated with platforms like WordPress, Slack, CRM systems, or custom APIs to ensure smooth deployment and scalability.",
           "engine":"AI Engine",
-          "usecases": "Customer support automation, product recommendations, internal task management, personalized marketing assistants, and more."
+          "usecases": "Customer support automation, product recommendations, internal task management, personalized marketing assistants, and more.",
+             "channels":"Channels",
+             "integrationsText":"Integrations"
         },
 
-        "voicebot": {
+        "voicebot": { 
           "header": "AI Voice Assistants Designed for Unique Business Needs",
           "desc1": "The service focuses on creating advanced AI voice chatbots and assistants that enable natural, human-like interactions for businesses. By leveraging cutting-edge speech recognition, natural language processing, and text-to-speech technologies, these solutions enhance customer engagement, optimize operations, and automate repetitive tasks through voice-based communication.",
           "desc2": "These voice assistants integrate seamlessly with telephony systems, mobile applications, and smart devices, while also supporting multiple languages for a personalized experience. Whether managing customer inquiries, scheduling appointments, or providing real-time assistance, these AI-powered solutions are designed to improve efficiency and deliver outstanding user experiences.",
           "integrations": "Compatible with telephony systems, IVR platforms, mobile applications, smart speakers, and custom APIs to ensure smooth deployment and scalability.",
           "usecases": "Applications include voice-based customer support, appointment scheduling, real-time FAQ assistance, hands-free task automation, and personalized voice-driven marketing.",
-          "details":"Details"
+          "details":"Details",
+          "integrationsText":"Integrations"
         },
 
         "mainPortfolio": {

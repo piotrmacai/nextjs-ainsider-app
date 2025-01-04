@@ -324,7 +324,8 @@
             "menu15": "Web & Automatyzacje",
             "pricing": "Wycena",
             "menuServices":"Web",
-            "menuAutomations":"Automatyzacje"
+            "menuAutomations":"Automatyzacje",
+            "agents": "Agenci AI"
         },
         "footer": {
             "contact": "Kontakt",
@@ -374,13 +375,38 @@
               }
           },
 
+          "leadbot": {
+            "header": "Agent AI dla Generacji Leadów na Twoje Usługi",
+            "desc1": "Agent AI dla leadów to wyspecjalizowane narzędzie wdrażane w Twojej firmie, które aktywnie pozyskuje i kwalifikuje potencjalnych klientów. Wykorzystując zaawansowane algorytmy AI, agent prowadzi wartościowe rozmowy z odwiedzającymi, identyfikuje ich potrzeby i automatycznie przekształca zainteresowanych w leady sprzedażowe.",
+            "desc2": "Nasze wdrożenie obejmuje pełną konfigurację agenta pod Twoją branżę, szkolenie modelu AI na podstawie Twojej oferty oraz integrację z systemami sprzedażowymi. Dzięki temu otrzymujesz gotowe do działania narzędzie generujące wysokiej jakości leady 24/7.",
+            "integrations": "Profesjonalne wdrożenie obejmujące integrację z CRM, systemami marketing automation oraz platformami komunikacji, zapewniając płynny przepływ leadów.",
+            "usecases": "Kwalifikacja leadów, umawianie spotkań sprzedażowych, zbieranie danych kontaktowych, analiza intencji zakupowych, automatyczna segmentacja potencjalnych klientów.",
+            "details": "Szczegóły",
+            "integrationsText": "Integracje",
+            "channels": "Kanały",
+            "web": "Strona / sklep www",
+            "forwho": "Dla kogo jest Agent AI do leadów?",
+            "who1": "Firm B2B szukających automatyzacji procesu pozyskiwania leadów.",
+            "who2": "Działów sprzedaży potrzebujących stałego dopływu wykwalifikowanych kontaktów.",
+            "who3": "E-commerce chcących zwiększyć konwersję i wartość koszyka zakupowego.",
+            "who4": "Zespołów marketingowych dążących do optymalizacji ROI z ruchu na stronie."
+          },
+
           "supportbot": {
-            "header": "Inteligentne Asystenty AI Stworzone z Myślą o Twoich Wymaganiach",
-            "desc1": "Specjalizuję się w tworzeniu nowoczesnych, spersonalizowanych asystentów AI, którzy wykorzystują przetwarzanie języka naturalnego i zaawansowane możliwości sztucznej inteligencji, aby rozwiązywać wyzwania biznesowe. Niezależnie od tego, czy potrzebujesz wirtualnego asystenta, bota wsparcia klienta, czy narzędzia do automatyzacji procesów wewnętrznych, każda z rozwiązań jest dostosowana do Twoich celów i potrzeb operacyjnych.",
-            "desc2": "Od bezproblemowej integracji z platformami, takimi jak WordPress, systemy CRM czy sklepy internetowe, po umożliwienie komunikacji wielokanałowej — moje asystenty AI zapewniają doskonałe doświadczenia użytkowników. Dostarczają spersonalizowane rekomendacje, automatyzują powtarzalne zadania i pomagają Twojemu zespołowi lub klientom osiągać więcej przy mniejszym wysiłku.",
+            "header": "Agent AI dla Wsparcia i Obsługi Klienta",
+            "desc1": "Asystent AI to nowoczesne rozwiązanie, które wykorzystuje sztuczną inteligencję, aby wspierać Twoich klientów i zwiększać efektywność Twojego biznesu. Dzięki niemu Twoja firma zyskuje wirtualnego doradcę, który działa 24/7, odpowiada na pytania klientów, pozyskuje nowe leady i automatyzuje wiele procesów.",
+            "desc2": "Asystent AI to nie tylko narzędzie, to także inwestycja w przyszłość Twojego biznesu. Zapewnia przewagę konkurencyjną, zwiększa satysfakcję klientów i wspiera rozwój sprzedaży. Dzięki niemu możesz skupić się na tym, co najważniejsze, budowaniu relacji z klientami i rozwijaniu swojej marki.",
             "integrations": "Integracje z platformami, takimi jak WordPress, Slack, systemy CRM czy własne API, zapewniające płynne wdrożenie i skalowalność.",
             "usecases": "Automatyzacja wsparcia klienta, rekomendacje produktów, zarządzanie zadaniami wewnętrznymi, personalizowani asystenci marketingowi i wiele więcej.",
-             "details":"Szczegóły"
+             "details":"Szczegóły",
+             "integrationsText":"Integracje",
+             "channels":"Kanały",
+             "web":"Strona / sklep www",
+             "forwho":"Dla kogo jest Asystent AI?",
+             "who1":"Firmy, które chcą poprawić jakość obsługi klienta.",
+             "who2":"Przedsiębiorstwa szukające nowych sposobów na generowanie leadów.",
+             "who3":"Marki działające online, które potrzebują wsparcia 24/7 w komunikacji z użytkownikami.",
+             "who4":"Organizacje chcące automatyzować procesy i redukować koszty obsługi."
           },
 
           "voicebot": {
@@ -390,6 +416,40 @@
           "integrations": "Zgodne z systemami telefonicznymi, platformami IVR, aplikacjami mobilnymi, inteligentnymi głośnikami i dedykowanymi API, co zapewnia płynne wdrożenie i skalowalność.",
           "usecases": "Zastosowania obejmują obsługę klienta opartą na głosie, organizację spotkań, wsparcie FAQ w czasie rzeczywistym, bezdotykową automatyzację zadań oraz spersonalizowany marketing oparty na interakcjach głosowych."
         },
+
+        "ecombot": {
+        "header": "Agent AI dla Ecommerce",
+        "desc1": "Asystent AI dla e-commerce to inteligentne narzędzie personalizujące doświadczenia zakupowe. Analizując zachowania klientów w czasie rzeczywistym, dostarcza trafnych rekomendacji produktowych i zwiększa konwersję w Twoim sklepie internetowym.",
+        "desc2": "System wykorzystuje uczenie maszynowe do zrozumienia preferencji każdego klienta, sugerując produkty najlepiej dopasowane do jego potrzeb. Automatycznie identyfikuje wzorce zakupowe, cross-selling i up-selling, maksymalizując wartość koszyka.",
+        "integrations": "Pełna integracja z popularnymi platformami e-commerce (WooCommerce, Shopify, PrestaShop), systemami magazynowymi i płatnościami online.",
+        "usecases": "Personalizowane rekomendacje produktów, sugestie zakupowe w czasie rzeczywistym, analiza koszyków zakupowych, automatyczne kampanie remarketingowe.",
+        "details": "Szczegóły",
+        "integrationsText": "Integracje",
+        "channels": "Kanały",
+        "web": "Strona / sklep www",
+        "forwho": "Dla kogo jest Asystent AI do e-commerce?",
+        "who1": "Sklepów online chcących zwiększyć średnią wartość zamówienia.",
+        "who2": "E-commerce poszukujących automatyzacji personalizacji ofert.",
+        "who3": "Platform sprzedażowych dążących do poprawy user experience.",
+        "who4": "Sprzedawców chcących zoptymalizować cross-selling i up-selling."
+      },
+
+      "localbot": {
+      "header": "Lokalny Agent AI z pełną prywatnością danych",
+      "desc1": "Lokalny Asystent AI to rozwiązanie działające w pełni na Twojej infrastrukturze, bez połączenia z chmurą. Wszystkie dane i interakcje pozostają na Twoich serwerach, zapewniając maksymalny poziom bezpieczeństwa i zgodność z RODO.",
+      "desc2": "System działa w modelu on-premise, wykorzystując lokalne modele AI bez wysyłania danych na zewnątrz. Gwarantuje to pełną kontrolę nad danymi, co jest kluczowe dla firm operujących na wrażliwych danych klientów i transakcjach.",
+      "integrations": "Bezpieczna integracja z wewnętrznymi systemami firmy, bazami danych i infrastrukturą, z zachowaniem protokołów bezpieczeństwa.",
+      "usecases": "Przetwarzanie poufnych danych klientów, obsługa transakcji finansowych, analiza dokumentów wewnętrznych, zarządzanie danymi osobowymi.",
+      "details": "Szczegóły",
+      "integrationsText": "Integracje",
+      "channels": "Kanały",
+      "web": "System CRM / Strona www",
+      "forwho": "Dla kogo jest Lokalny Asystent AI?",
+      "who1": "Instytucji finansowych wymagających najwyższego poziomu bezpieczeństwa.",
+      "who2": "Firm operujących na danych wrażliwych i osobowych.",
+      "who3": "Organizacji zobowiązanych do przechowywania danych lokalnie.",
+      "who4": "Przedsiębiorstw z rygorystyczną polityką bezpieczeństwa danych."
+    },
 
           "mainPortfolio": {
             "header1": "Sztuka AI",
