@@ -14,6 +14,22 @@
       "accept": "Akceptuj"
     },
 
+    "apps": {
+      "header": "Kolekcja darmowych Asystentów i Chatbotów AI",
+      "desc": "Stworzone do pomocy w różnych, lecz najpotrzebniejszych celach.",
+      "desc1": "Copywriting | Obrazy | Social media | Produktywność.",
+      "headertut": "Instrukcja",
+      "desctut1": "1. Załóż konto na wybranej przez Ciebie platformie która pozwala na w pełni darmowe używanie AI.",
+      "desctut2": "2. Zaloguj się i wybierz Asystenta AI która Ci potrzebny",
+      "desctut3": "3. To wszystko - możesz używać Asystentów AI w pełni za darmo!",
+      "button1":"Obrazy i Grafiki",
+      "images":"Obrazy i Grafiki",
+      "writing":"Copy & pisanie",
+      "resources":"Wiedza AI",
+       "all":"All",
+        "socialmedia":"Social Media"
+  },
+
     "features": {
       "header": {
         "title": "Jak możemy Ci pomóc?",
@@ -196,8 +212,12 @@
        "ai": {
         "hero": {
           "header1": "Asystenci i Agenci AI",
-          "header2": "Chatboty oraz Voiceboty AI",
-           "desc1": "Idealnie dopasowani do indywidualnych celów i potrzeb Twojej firmy"
+          "header2": "Indywidualne Rozwiązania AI",
+           "desc1": "Idealnie dopasowani do indywidualnych celów i potrzeb Twojej firmy",
+           "desc2": "Dowolna baza wiedzy - z wielu różnych źródeł",
+           "desc3": "Dokładnie określone zachowania, ton, oraz format odpowiedzi",
+           "desc4": "Integracje z dowolnymi platformami i systemami CRM",
+           "desc5": "Automatyzacje szyte na miarę potrzeb"
         }
       },
        "funfact": {
@@ -271,7 +291,8 @@
             "button": "Kontakt"
         },
         "contact": {
-            "header": "Wycena Projektu",
+          "headermain": "Zacznijmy Twój projekt już teraz",
+            "header": "Wycena dopasowana do Ciebie. Wypełnij formularz i otrzymaj ofertę!",
             "button": "Wyślij",
             "consent":"Zgadzam się na przetwarzanie naszych danych osobowych",
             "header2": "Poznajmy się",
@@ -292,7 +313,7 @@
         },
         "portfolio": {
             "header": "Portfolio",
-            "button1": "Apps",
+            "button1": "Web & Apps",
             "button2": "Marketing & SEO",
             "button3": "AI",
             "button4": "Generatywna AI",
@@ -325,7 +346,7 @@
             "menu11":"Magazyn Gen AI",
             "menu12":"Asystenci AI",
             "menu13":"Kursy i Szkolenia",
-            "menu14":"Biblioteka Narzędzi AI",
+            "menuapps":"Nasze Aplikacje AI",
             "menu15": "Web & Automatyzacje",
             "pricing": "Wycena",
             "menuServices":"Web",

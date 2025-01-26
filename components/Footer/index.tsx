@@ -138,6 +138,14 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
+                        href="/apps"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                          {t('header.menuapps')}
+                      </a>
+                    </li>
+                    <li>
+                      <a
                         href="/privacy-policy"
                         className="inline-block hover:text-primary mb-3"
                       >

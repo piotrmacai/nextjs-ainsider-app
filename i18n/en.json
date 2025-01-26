@@ -19,6 +19,22 @@
       "accept": "Accept"
     },
 
+ 
+    "apps": {
+      "header": "Collection of Free AI Assistants and Chatbots",
+      "desc": "Created to assist in various, yet most essential tasks.",
+      "desc1": "Copywriting | Images | Social media | Productivity.",
+      "headertut": "Instructions",
+      "desctut1": "1. Create an account on the platform of your choice that allows for fully free use of AI.",
+      "desctut2": "2. Log in and select the AI Assistant you need.",
+      "desctut3": "3. That's it - you can use AI Assistants completely for free!",
+      "images":"Images & Graphics",
+      "writing":"Writing",
+      "resources":"AI Resources",
+      "all":"All",
+      "socialmedia":"Social Media"
+  },
+
   "features": {
     "header": {
       "title": "How can we help you?",
@@ -152,7 +168,11 @@
         "hero": {
           "header1": "Custom powerful AI Assistants and Agents",
           "header2": "Perfectly suited to your business",
-          "desc1": "Innoative voice and text AI chatbots for various tasks."
+          "desc1": "Innoative voice and text AI chatbots for various tasks.",
+          "desc2": "Any knowledge base - from various sources",
+          "desc3": "Precisely defined behaviors, tone, and response format",
+          "desc4": "Integrations with any platforms and CRM systems",
+          "desc5": "Custom-tailored automations"
         },
       "header2": {
           "header1": "Elevate Your Business",
@@ -275,7 +295,8 @@
             "button": " Contact"
         },
         "contact": {
-            "header": "Project Pricing",
+            "headermain": "Ready to get started? Let’s bring your project to life today",
+            "header": "A quote tailored for you – fill out the form and get your offer!",
             "button": "Send Message",
             "consent":"I consect to process my personal data",
             "header2": "Let's get to know",
@@ -296,7 +317,7 @@
         },
         "portfolio": {
             "header": "Portfolio",
-            "button1": "Apps",
+            "button1": "Web & Apps",
             "button2": "Marketing & SEO",
             "button3": "AI",
             "button4": "Generative AI",
@@ -331,6 +352,7 @@
             "menu14":"AI Tools Library",
             "menu15": "Web & Automations",
             "menu12":"AI Bots",
+            "menuapps":"Our AI Apps",
             "pricing": "Pricing",
             "menuServices":"Web",
             "menuAutomations":"Automations",

@@ -39,7 +39,9 @@ const Contact = () => {
               fill
             />
           </div>
-
+          <h2 className="text-black dark:text-white text-3xl xl:text-sectiontitle2 font-semibold mb-15">
+              {t('contact.headermain')}
+              </h2>
           <div className="flex flex-wrap md:flex-nowrap flex-col-reverse md:flex-row gap-8 xl:gap-20 md:justify-between">
             <motion.div
               variants={{
@@ -59,11 +61,9 @@ const Contact = () => {
               viewport={{ once: true }}
               className="animate_top w-full md:w-3/5 lg:w-3/4 shadow-solid-8 rounded-lg bg-white dark:bg-black dark:border dark:border-strokedark p-7.5 xl:p-15"
             >
-              <h2 className="text-black dark:text-white text-3xl xl:text-sectiontitle2 font-semibold mb-15">
+              <h2 className="text-black dark:text-white text-2xl xl:text-sectiontitle2 font-semibold mb-15">
               {t('contact.header')}
               </h2>
-
-
               <form
                 action="https://formspree.io/f/xovqvrlg"
                 method="POST"

@@ -20,7 +20,11 @@ const GenAiPortfolio = () => {
               <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1 ml-2.5 ">
               </span>
             </h1>
-            <p>{t('ai.hero.desc1')}</p>
+            <p className="text-black dark:text-white mb-4">{t('ai.hero.desc1')}</p> 
+            <p className="mb-2">✅ {t('ai.hero.desc2')}</p> 
+            <p className="mb-2">✅ {t('ai.hero.desc3')}</p>
+            <p className="mb-2">✅ {t('ai.hero.desc3')}</p>  
+            <p className="mb-2">✅ {t('ai.hero.desc4')}</p> 
           </div>
           <div className="flex flex-col w-full md:w-1/2">
             <div className="relative mt-4 md:mt-0 aspect-[700/444]">

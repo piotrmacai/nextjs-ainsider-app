@@ -57,12 +57,18 @@ const getTranslatedMenuData = () => {
         },
         {
           id: 3,
+          title: t('header.menuapps'),
+          newTab: true,
+          path: "/apps",
+          icon: "/images/icon/phone.svg",
+        },
+        {
+          id: 3,
           title: t('header.menu14'),
           newTab: true,
           path: "https://ainsider.tools",
           icon: "/images/icon/phone.svg",
         },
-      
         // {
         //   id: 34,
         //   title:  t('header.menu10'),
@@ -117,6 +123,13 @@ const getTranslatedMenuData = () => {
           title: "Local AI Agent",
           newTab: true,
           path: "/localbot",
+          icon: "/images/icon/phone.svg",
+        }, 
+        {
+          id: 6,
+          title: "Our AI Assitants",
+          newTab: true,
+          path: "/apps",
           icon: "/images/icon/phone.svg",
         }, 
       ],
