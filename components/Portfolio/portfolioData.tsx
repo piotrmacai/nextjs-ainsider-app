@@ -127,24 +127,24 @@ const BlogData: Portfolio[] = [
   //     urlLink:"/portfolio/insdrcloud",
   //     tags: ["websites", "ai"],
   // },
-  // { 
-  //   _id: 4,
-  //   mainImage: "/images/portfolio/skin.jpg",
-  //   title: "Skinproject.pl",
-  //   metadata:
-  //     "Website for Aesthetic Medicine Office",
-  //     urlLink:"/portfolio/skinproject",
-  //     tags: ["websites"],
-  // },
-  // { 
-  //   _id: 5,
-  //   mainImage: "/images/portfolio/afterrave.jpg",
-  //   title: "After-rave.eu",
-  //   metadata:
-  //     "Shop in Shopify in multiple languages",
-  //     urlLink:"/portfolio/after-rave",
-  //     tags: ["websites"],
-  // },
+  { 
+    _id: 4,
+    mainImage: "/images/portfolio/skin.jpg",
+    title: "Skinproject.pl",
+    metadata:
+      "Website for Aesthetic Medicine Office",
+      urlLink:"/portfolio/skinproject",
+      tags: ["websites"],
+  },
+  { 
+    _id: 5,
+    mainImage: "/images/portfolio/afterrave.jpg",
+    title: "After-rave.eu",
+    metadata:
+      "Shop in Shopify in multiple languages",
+      urlLink:"/portfolio/after-rave",
+      tags: ["websites"],
+  },
   { 
     _id: 5.5,
     mainImage: "/images/portfolio/hfassistants.jpg",
@@ -154,15 +154,15 @@ const BlogData: Portfolio[] = [
       urlLink:"/portfolio/huggingface-assistants",
       tags: ["ai"],
   },
-  // { 
-  //   _id: 6,
-  //   mainImage: "/images/portfolio/slovlydeskop.jpg",
-  //   title: "Slovlystudio.pl",
-  //   metadata:
-  //     "Online store for handmade clothing brand",
-  //     urlLink:"/portfolio/slovly",
-  //     tags: ["websites"],
-  // },
+  { 
+    _id: 6,
+    mainImage: "/images/portfolio/slovlydeskop.jpg",
+    title: "Slovlystudio.pl",
+    metadata:
+      "Online store for handmade clothing brand",
+      urlLink:"/portfolio/slovly",
+      tags: ["websites"],
+  },
   // { 
   //   _id: 7,
   //   mainImage: "/images/portfolio/aiwarecloudchatbot.jpg",
@@ -181,25 +181,25 @@ const BlogData: Portfolio[] = [
       urlLink:"/portfolio/promptrapp",
       tags: ["ai"],
   },
-  // { 
-  //   _id: 8,
-  //   mainImage: "/images/portfolio/szkolajazdynew.jpg",
-  //   title: "Szkolajazdymachowski.pl",
-  //   metadata:
-  //     "Website created together with AI Chatbot and FB profile for Driving School",
-  //     urlLink:"/portfolio/osk-machowski",
-  //     tags: ["websites"],
+  { 
+    _id: 8,
+    mainImage: "/images/portfolio/szkolajazdynew.jpg",
+    title: "Szkolajazdymachowski.pl",
+    metadata:
+      "Website created together with AI Chatbot and FB profile for Driving School",
+      urlLink:"/portfolio/osk-machowski",
+      tags: ["websites"],
       
-  // },
-  // { 
-  //   _id: 9,
-  //   mainImage: "/images/portfolio/bakaliovelove.jpg",
-  //   title: "Bakaliowelove.pl",
-  //   metadata:
-  //     "Woocommerce Store with healthy food",
-  //     urlLink:"/portfolio/bakaliowelove",
-  //     tags: ["websites"],
-  // },
+  },
+  { 
+    _id: 9,
+    mainImage: "/images/portfolio/bakaliovelove.jpg",
+    title: "Bakaliowelove.pl",
+    metadata:
+      "Woocommerce Store with healthy food",
+      urlLink:"/portfolio/bakaliowelove",
+      tags: ["websites"],
+  },
      { 
     _id: 10.5,
     mainImage: "/images/portfolio/macaiStudio.jpg",
@@ -209,15 +209,15 @@ const BlogData: Portfolio[] = [
       urlLink:"/portfolio/macai-chatbot",
       tags: ["ai", "agents"],
   },
-  // {
-  //   _id: 10,
-  //   mainImage: "/images/portfolio/lanelyya.jpg",
-  //   title: "Lanelyya.de",
-  //   metadata:
-  //     "Shop in multiple languages on Shopify for German market",
-  //     urlLink:"/portfolio/lanelyya",
-  //     tags: ["websites"],
-  // },  
+  {
+    _id: 10,
+    mainImage: "/images/portfolio/lanelyya.jpg",
+    title: "Lanelyya.de",
+    metadata:
+      "Shop in multiple languages on Shopify for German market",
+      urlLink:"/portfolio/lanelyya",
+      tags: ["websites"],
+  },  
   // {
   //   _id: 10,
   //   mainImage: "/images/portfolio/szkolajazdynew.jpg",
@@ -317,33 +317,33 @@ const BlogData: Portfolio[] = [
   //     urlLink:"/portfolio/macai-tech",
   //     tags: ["websites"],
   // },
-  // { 
-  //   _id: 10,
-  //   mainImage: "/images/portfolio/bodymedica.jpg",
-  //   title: "bodymedica.pl",
-  //   metadata:
-  //     "Business website for Physiotherapy Office",
-  //     urlLink:"/portfolio/bodymedica",
-  //     tags: ["websites"],
-  // },
-  // { 
-  //   _id: 11,
-  //   mainImage: "/images/portfolio/paintball.jpg",
-  //   title: "paintball-osada.pl",
-  //   metadata:
-  //     "Business website for Entertainment Park and Paintball",
-  //     urlLink:"/portfolio/paintball-osada",
-  //     tags: ["websites"],
-  // },
-  // { 
-  //   _id: 13,
-  //   mainImage: "/images/portfolio/smp.jpg",
-  //   title: "smpolaniec.com.pl",
-  //   metadata:
-  //     "Website for housing cooperative",
-  //     urlLink:"/portfolio/smpolaniec",
-  //     tags: ["websites"],
-  // },
+  { 
+    _id: 10,
+    mainImage: "/images/portfolio/bodymedica.jpg",
+    title: "bodymedica.pl",
+    metadata:
+      "Business website for Physiotherapy Office",
+      urlLink:"/portfolio/bodymedica",
+      tags: ["websites"],
+  },
+  { 
+    _id: 11,
+    mainImage: "/images/portfolio/paintball.jpg",
+    title: "paintball-osada.pl",
+    metadata:
+      "Business website for Entertainment Park and Paintball",
+      urlLink:"/portfolio/paintball-osada",
+      tags: ["websites"],
+  },
+  { 
+    _id: 13,
+    mainImage: "/images/portfolio/smp.jpg",
+    title: "smpolaniec.com.pl",
+    metadata:
+      "Website for housing cooperative",
+      urlLink:"/portfolio/smpolaniec",
+      tags: ["websites"],
+  },
   // { 
   //   _id: 14,
   //   mainImage: "/images/portfolio/aiwareChatbot.jpg",

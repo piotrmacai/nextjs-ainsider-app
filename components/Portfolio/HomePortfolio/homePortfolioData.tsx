@@ -118,24 +118,24 @@ const BlogData: Portfolio[] = [
   //     urlLink:"/portfolio/insdrcloud",
   //     tags: ["websites", "ai"],
   // },
-  // { 
-  //   _id: 4,
-  //   mainImage: "/images/portfolio/skin.jpg",
-  //   title: "Skinproject.pl",
-  //   metadata:
-  //     "Website for Aesthetic Medicine Office",
-  //     urlLink:"/portfolio/skinproject",
-  //     tags: ["websites"],
-  // },
-  // { 
-  //   _id: 5,
-  //   mainImage: "/images/portfolio/afterrave.jpg",
-  //   title: "After-rave.eu",
-  //   metadata:
-  //     "Shop in Shopify in multiple languages",
-  //     urlLink:"/portfolio/after-rave",
-  //     tags: ["websites"],
-  // },
+  { 
+    _id: 4,
+    mainImage: "/images/portfolio/skin.jpg",
+    title: "Skinproject.pl",
+    metadata:
+      "Website for Aesthetic Medicine Office",
+      urlLink:"/portfolio/skinproject",
+      tags: ["websites"],
+  },
+  { 
+    _id: 5,
+    mainImage: "/images/portfolio/afterrave.jpg",
+    title: "After-rave.eu",
+    metadata:
+      "Shop in Shopify in multiple languages",
+      urlLink:"/portfolio/after-rave",
+      tags: ["websites"],
+  },
   { 
     _id: 5.5,
     mainImage: "/images/portfolio/hfassistants.jpg",
@@ -145,15 +145,15 @@ const BlogData: Portfolio[] = [
       urlLink:"/portfolio/huggingface-assistants",
       tags: ["ai"],
   },
-  // { 
-  //   _id: 6,
-  //   mainImage: "/images/portfolio/slovlydeskop.jpg",
-  //   title: "Slovlystudio.pl",
-  //   metadata:
-  //     "Online store for handmade clothing brand",
-  //     urlLink:"/portfolio/slovly",
-  //     tags: ["websites"],
-  // },
+  { 
+    _id: 6,
+    mainImage: "/images/portfolio/slovlydeskop.jpg",
+    title: "Slovlystudio.pl",
+    metadata:
+      "Online store for handmade clothing brand",
+      urlLink:"/portfolio/slovly",
+      tags: ["websites"],
+  },
   // { 
   //   _id: 7,
   //   mainImage: "/images/portfolio/aiwarecloudchatbot.jpg",
@@ -172,25 +172,25 @@ const BlogData: Portfolio[] = [
       urlLink:"/portfolio/promptrapp",
       tags: ["ai"],
   },
-  // { 
-  //   _id: 8,
-  //   mainImage: "/images/portfolio/szkolajazdynew.jpg",
-  //   title: "Szkolajazdymachowski.pl",
-  //   metadata:
-  //     "Website created together with AI Chatbot and FB profile for Driving School",
-  //     urlLink:"/portfolio/osk-machowski",
-  //     tags: ["websites"],
+  { 
+    _id: 8,
+    mainImage: "/images/portfolio/szkolajazdynew.jpg",
+    title: "Szkolajazdymachowski.pl",
+    metadata:
+      "Website created together with AI Chatbot and FB profile for Driving School",
+      urlLink:"/portfolio/osk-machowski",
+      tags: ["websites"],
       
-  // },
-  // { 
-  //   _id: 9,
-  //   mainImage: "/images/portfolio/bakaliovelove.jpg",
-  //   title: "Bakaliowelove.pl",
-  //   metadata:
-  //     "Woocommerce Store with healthy food",
-  //     urlLink:"/portfolio/bakaliowelove",
-  //     tags: ["websites"],
-  // },
+  },
+  { 
+    _id: 9,
+    mainImage: "/images/portfolio/bakaliovelove.jpg",
+    title: "Bakaliowelove.pl",
+    metadata:
+      "Woocommerce Store with healthy food",
+      urlLink:"/portfolio/bakaliowelove",
+      tags: ["websites"],
+  },
      { 
     _id: 10.5,
     mainImage: "/images/portfolio/macaiStudio.jpg",
