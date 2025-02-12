@@ -4,6 +4,7 @@ import AiwareHero from "@/components/AiwareHero";
 import Brands from "@/components/Brands";
 import Feature from "@/components/Features";
 import FeaturesTab from "@/components/FeaturesTab";
+
 import CTA from "@/components/CTA";
 import FAQ from "@/components/FAQ";
 import Pricing from "@/components/Pricing";
@@ -23,15 +24,15 @@ import CTAToAinsider from "@/components/CTAToAinsider";
 
 
 export const metadata: Metadata = {
-  title: "Insdr.cloud - AI | Web | Automations For Business",
+  title: "Ainsider AI Company - AI | Web | Resources | Automations For Business",
   description: "Tailored To The Needs Of Your Company Web & AI and Automation solutions that help businesses to grow. Discover our services tailored to the needs of your company.",
   openGraph: {
-    title: "Insdr.cloud - AI | Web | Automations For Business",
+    title: "Ainsider AI Company - AI | Web | Resources | Automations For Business",
     description:"Tailored To The Needs Of Your Company Web & AI and Automation solutions that help businesses to grow. Discover our services tailored to the needs of your company.",
     images: [
       {
         url: '/images/logo/logo-white.png', // Updated path to your image
-        alt: 'Insdr Business Development', // Optional: alt text for the image
+        alt: 'Ainsider AI Company', // Optional: alt text for the image
       },
     ]
   }, 

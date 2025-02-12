@@ -45,7 +45,7 @@ const getTranslatedMenuData = () => {
           id: 3,
           title: t('header.menu13'),
           newTab: true,
-          path: "https://ainsider.pl",
+          path: "https://ainsider.store",
           icon: "/images/icon/phone.svg",
         },  
         {
