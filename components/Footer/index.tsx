@@ -138,7 +138,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="https://ainsider.beehiiv.com/"
+                        href="https://newsletter.ainsider.pl/"
                         className="inline-block hover:text-primary mb-3"
                       >
                          AI Newsletter PL
