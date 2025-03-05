@@ -1,6 +1,7 @@
 
 import Portfolio from "@/components/Portfolio";
 import { Metadata } from "next";
+import Voiceflow from "@/components/Voiceflow";
 
 export const metadata: Metadata = {
   title: "Piotr Macai - AI | Web | Automation For Business",
@@ -22,6 +23,7 @@ const PortfolioPage = async () => {
   return (
     <>
     <Portfolio />
+    <Voiceflow/>
     </>
   );
 };

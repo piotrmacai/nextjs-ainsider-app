@@ -38,7 +38,7 @@
       },
       "websitesTitle": "Automatyzacje Dowolnych Procesów",
       "websitesDescription": "Opracowujemy nowoczesne narzędzia i procesy automatyzujące tworzenie treści, zapewniając wysoką jakość, spójność i oszczędność czasu oraz zasobów.",
-      "marketingTitle": "Wdrożenia AI Dla Indywidualnych Clów",
+      "marketingTitle": "Wdrożenia AI Dla Indywidualnych Celów i Potrzeb",
       "marketingDescription": "Tworzymy indywidualne rozwiązania AI, które są w pełni dopasowane do Twoich celów, potrzeb, oraz indywidualnego środowiska i narzędzi, co pozwala Ci osiągnąć efektywne wyniki w Twojej działalności.",
       "aiTitle": "Chatboty & Agenci AI",
       "aiDescription": "Od chatbotów po zaawansowanych wirtualnych asystentów, tworzymy rozwiązania oparte na sztucznej inteligencji, które usprawniają procesy, poprawiają obsługę klienta i zwiększają produktywność.",
@@ -217,7 +217,7 @@
   "tab3Description2": "Tworzymy intuicyjne rozwiązania z funkcjami śledzenia postępów, personalizacji treści i integracji z innymi systemami. Nasze platformy zwiększają produktywność zespołów i wspierają rozwój organizacji."
 },
 
-         "agentsFeatures": {
+  "agentsFeatures": {
   "header": {
     "title": "Chatboty i Asystenci AI",
     "subtitle": "Personalizowani Agenci AI",
@@ -321,6 +321,51 @@
         "header2": "Niezawodne Wsparcie dla Twojego Biznesu",
         "desc1": "Oferujemy dedykowane wsparcie, które nie tylko rozwiązuje bieżące problemy - ale także wprowadza innowacje.",
         "desc2": "Zapewniamy regularne aktualizacje i optymalizacje, co pozwala Ci skupić się w pełni na rozwoju Twojego biznesu.",
+        "button": "Skontaktuj się z nami, aby omówić Twoje potrzeby"
+    }
+},
+
+
+
+"aivoiceabout": {
+    "title": "O Naszych Usługach",
+    "header3": "Stwórz Inteligentne Rozwiązania z AI Voice",
+    "subtitle1": "Korzyści, Które Oferujemy - Dowiedz Się, Co Możesz Zyskać",
+    "subtitle2": "Innowacyjni Głosowi Asystenci AI dla Twojego Biznesu",
+    "section1": {
+        "header1": "Tworzymy Głosowych Asystentów AI, którzy komunikują się z Twoimi Klientami",
+        "header2": "Inteligentne Rozwiązania Głosowe na Miarę Twoich Potrzeb",
+        "header3": "Stwórz Nowoczesną Komunikację Głosową z AI",
+        "header4": "Dzięki Naszym Profesjonalnym Usługom",
+        "desc1": "Zwiększ efektywność swojego biznesu dzięki naszym spersonalizowanym Głosowym Asystentom AI, którzy prowadzą naturalne rozmowy z Twoimi klientami. Oferujemy kompleksowe wdrożenia AI Voice, które integrują się z systemami telefonicznymi, contact center, CRM i innymi źródłami danych, aby zapewnić płynną obsługę klienta i zwiększyć Twoją konkurencyjność na rynku.",
+        "desc2": "Skoncentrowani na Naturalnej Komunikacji i Sukcesie",
+        "desc3": "Gwarantujemy naturalną, płynną komunikację głosową AI, która działa 24/7, zapewniając optymalne doświadczenie rozmówcy i wyższą efektywność obsługi klienta.",
+        "desc4": "Głosowi Asystenci AI Dostosowani do Twojej Branży",
+        "desc5": "Nasze zaawansowane rozwiązania głosowe AI są elastyczne i mogą być dostosowane do różnych scenariuszy komunikacji, od obsługi klienta po automatyzację procesów sprzedażowych i wsparcia technicznego."
+    },
+    "section2": {
+        "header1": "Szyte na miarę Twoich potrzeb",
+        "header2": "Indywidualni Głosowi Asystenci dla Twojego Biznesu",
+        "desc1": "Personalizowani Asystenci Głosowi AI, którzy prowadzą naturalne rozmowy telefoniczne, integrują się z systemami contact center i CRM, aby zwiększyć jakość obsługi klienta i poprawić doświadczenia użytkowników.",
+        "button": "Rozpocznij Transformację z AI Voice i Zwiększ Swoje Zyski",
+        "desc2": "Dedykowani Asystenci Głosowi, którzy maksymalizują efektywność dzięki naturalnej komunikacji i rozumieniu kontekstu rozmowy w czasie rzeczywistym.",
+        "desc3": "Nowoczesne rozwiązania głosowe AI, które są elastyczne i dostosowane do specyfiki Twojej branży, co przekłada się na wzrost satysfakcji klientów i redukcję kosztów obsługi.",
+        "header3": "Głosowi Asystenci AI, którzy Prowadzą Naturalne Rozmowy"
+    },
+    "section3": {
+        "header1": "Wydajność i Integracja z AI Voice",
+        "header2": "Zwiększ Efektywność Dzięki Inteligentnej Komunikacji Głosowej",
+        "header3": "Maksymalna Wydajność dla Twojego Contact Center",
+        "header4": "Zaawansowane AI Voice dla Doskonałej Obsługi Klienta",
+        "desc1": "Dzięki zaawansowanym Asystentom Głosowym AI, Twoja firma zyskuje narzędzia do automatyzacji komunikacji, obsługi zapytań i integracji z systemami contact center. Nasze rozwiązania zapewniają maksymalną wydajność, co przekłada się na szybszą i bardziej efektywną obsługę klienta.",
+        "desc3": "Ekstremalnie naturalna komunikacja głosowa i rozumienie kontekstu, które poprawiają doświadczenie klienta i zwiększają efektywność obsługi na wszystkich poziomach.",
+        "desc4": "Strategie AI Voice oparte na analizie rozmów, które gwarantują optymalizację procesów komunikacji i przynoszą wartość biznesową z każdej interakcji."
+    },
+    "section4": {
+        "header1": "Utrzymanie i Rozwój AI Voice",
+        "header2": "Niezawodne Wsparcie dla Twojego Biznesu",
+        "desc1": "Oferujemy dedykowane wsparcie, które nie tylko rozwiązuje bieżące problemy, ale także wprowadza innowacje w zakresie komunikacji głosowej AI, aby Twoje rozwiązania były zawsze na czołowej pozycji w branży.",
+        "desc2": "Zapewniamy regularne aktualizacje i optymalizacje Asystentów Głosowych AI, co pozwala Ci skupić się w pełni na rozwoju Twojego biznesu, podczas gdy my dbamy o techniczne aspekty komunikacji głosowej.",
         "button": "Skontaktuj się z nami, aby omówić Twoje potrzeby"
     }
 },
@@ -456,6 +501,13 @@
              "header3": "Dla Biznesu",
              "more": "Zobacz Więcej"
        },
+
+
+
+
+
+
+
        "ai": {
         "hero": {
           "header1": "Asystenci i Agenci AI",
@@ -467,6 +519,41 @@
            "desc5": "Automatyzacje szyte na miarę potrzeb"
         }
       },
+
+
+      "aivoice": {
+        "hero": {
+          "header1": "Głosowi Asystenci AI",
+          "header2": "Rozwiązania Voice AI dla Firm",
+           "desc1": "Zaawansowani asystenci głosowi dostosowani do specyfiki Twojej firmy",
+           "desc2": "Naturalna konwersacja głosowa z wykorzystaniem bazy wiedzy",
+           "desc3": "Personalizacja głosu, tonu i stylu komunikacji",
+           "desc4": "Obsługa połączeń głosowych i integracja z systemami firmy",
+           "desc5": "Automatyzacja komunikacji głosowej 24/7"
+        }
+      },
+
+      "aivoiceagentsFeatures": {
+  "header": {
+    "title": "Głosowi Asystenci i Agenci AI",
+    "subtitle": "Personalizowane Rozwiązania Voice AI",
+    "description": "Spersonalizowani do Potrzeb i Wymagań Komunikacji Głosowej Twojej Firmy"
+  },
+  "1Title": "Inteligentni asystenci głosowi dla firm",
+"1Description": "Zaawansowani asystenci głosowi AI wspierający zarządzanie wewnętrznymi procesami firmy, automatyzację komunikacji głosowej oraz efektywną współpracę zespołową, gwarantując wysoką jakość interakcji.",
+"2Title": "Voice AI dla obsługi i wsparcia klienta",
+"2Description": "Głosowi asystenci AI wspierający obsługę klienta, którzy prowadzą naturalne rozmowy, udzielają trafnych odpowiedzi w czasie rzeczywistym i zwiększają satysfakcję użytkownika dzięki spersonalizowanej komunikacji głosowej.",
+"3Title": "Voice AI do generowania leadów i automatyzacji sprzedaży",
+"3Description": "Głosowi agenci AI dedykowani pozyskiwaniu klientów, kwalifikowaniu leadów oraz automatyzacji rozmów sprzedażowych, zwiększając skuteczność konwersji poprzez naturalne interakcje głosowe.",
+"4Title": "Asystenci głosowi dla e-commerce i sprzedaży",
+"4Description": "Nowoczesne rozwiązania Voice AI dla e-commerce, które oferują personalizowane rekomendacje produktów, prowadzą klientów przez proces zakupowy i zwiększają przychody dzięki zaawansowanej komunikacji głosowej.",
+"5Title": "Integracje systemów Voice AI",
+"5Description": "Kompleksowe rozwiązania Voice AI, które integrują się z systemami telefonicznymi, call center i innymi platformami komunikacyjnymi, zapewniając płynną obsługę zapytań głosowych w czasie rzeczywistym.",
+"6Title": "Dedykowane rozwiązania Voice AI",
+"6Description": "Indywidualnie projektowane systemy Voice AI, które odpowiadają na specyficzne potrzeby komunikacji głosowej firm, oferując personalizację głosu, tonu i stylu rozmowy oraz integrację z istniejącymi narzędziami."
+},
+
+
        "funfact": {
         "header1": "Technologie & Frameworki",
         "header2": "Zawsze dobieramy technologie i narzędzia w zależności od potrzeb projektu - lecz zawsze korzystając z tych najlepszych dostępnych na rynku dla danych potrzeb oraz wymagań.",
@@ -579,6 +666,8 @@
                 "deadline": "Deadline and other informations"
               }
         },
+
+
         "header": {
             "menu1": "Home",
             "menu2": "Portfolio",
@@ -590,8 +679,8 @@
             "menu8": "Gen AI",
             "menu10":"Marketing",
             "menu9": "Polityka Prywatności",
-            "menu11":"Magazyn Gen AI",
-            "menu12":"Asystenci AI",
+            "menu11":"Magazyn AI",
+            "menu12":"Agenci AI",
             "menu13":"Kursy i Szkolenia",
             "menu14":"Biblioteka Narzędzi AI",
             "menuapps":"Nasze Aplikacje AI",
@@ -599,7 +688,7 @@
             "menutools": "https://tools.ainsider.pl",
             "menubeehiiv": "https://ainsider.pl",
             "pricing": "Wycena",
-            "menuServices":"Web",
+            "menuServices":"Web & Ecommerce",
             "menuAutomations":"Automatyzacje",
             "agents": "Agenci AI"
         },

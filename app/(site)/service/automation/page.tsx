@@ -7,6 +7,8 @@ import AutomationPricing from "@/components/Automation/AutomationPricing";
 import AiPortfolio from "@/components/Portfolio/AiPortfolio";
 import Contact from "@/components/Contact";
 import AutomationAbout from "@/components/About/AutomationAbout";
+import Voiceflow from "@/components/Voiceflow";
+
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -26,6 +28,7 @@ const PortfolioPage = async () => {
     <AutomationFunFact/>
     <AutomationPricing/>
     <Contact/>
+    <Voiceflow/>
     </>
   );
 };

@@ -5,6 +5,7 @@ import GenAiAbout from "@/components/Portfolio/GenAiPortfolio/GenAiAbout";
 import Brands from "@/components/Brands";
 import CTA from "@/components/CTA";
 import Contact from "@/components/Contact";
+import Voiceflow from "@/components/Voiceflow";
 
 import { Metadata } from "next";
 
@@ -24,6 +25,7 @@ const PortfolioPage = async () => {
      <Brands/>
     <CTA/>
     <Contact/>
+    <Voiceflow/>
     </>
   );
 };

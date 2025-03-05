@@ -5,7 +5,7 @@ import GenAiAbout from "@/components/Portfolio/GenAiPortfolio/GenAiAbout";
 import Brands from "@/components/Brands";
 import Contact from "@/components/Contact";
 
-import AiHero from "@/components/Ai/AiHero";
+import AiVoiceHero from "@/components/AiVoice/AiVoiceHero";
 import AiAboutOne from "@/components/Ai/AboutOne";
 import AiAboutTwo from "@/components/Ai/AboutTwo";
 import CTAToPortfolio from "@/components/CTAToPortfolio";
@@ -21,9 +21,9 @@ import HeaderAi from "@/components/HeaderAi";
 import HeaderWeb from "@/components/HeaderWeb";
 import { Metadata } from "next";
 import Feature from "@/components/Features";
-import AiFeature from "@/components/Ai/AiFeature";
-import AiAbout from "@/components/About/AiAbout";
-import Voiceflow from "@/components/Voiceflow";
+import AiVoiceFeature from "@/components/AiVoice/AiVoiceFeature";
+import AiVoiceAbout from "@/components/About/AiVoiceAbout";
+import ElevenLabsConvAI from "@/components/Elevenlabs";
 
 export const metadata: Metadata = {
   title: "Aiware.me Portfolio",
@@ -34,22 +34,18 @@ export const metadata: Metadata = {
 const ServicesPage = async () => {
   return (
     <>
-    <AiHero />   
-    <AiFeature/>  
-    <AiAbout/>
+    <AiVoiceHero />   
+    <AiVoiceFeature/>  
+    <AiVoiceAbout/>
      <AiAboutOne/>        
-    <AiAboutTwo/>      <
-      CTAToPortfolio/> 
+    <AiAboutTwo/>      
+    <CTAToPortfolio/> 
     <FeaturesTab />    
     <CTA/>   
     {/* <AiFeaturesTab/>    */}
     <Brands/>   
-
-  
-   
- 
     <Contact/>
-    <Voiceflow/>
+    <ElevenLabsConvAI />
     </>
   );
 };

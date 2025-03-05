@@ -7,6 +7,8 @@ import SupportBotAbout from "@/components/SupportChatbot/SupportBotAbout";
 import SupportBotPricing from "@/components/SupportChatbot/SupportBotPricing";
 import AiPortfolio from "@/components/Portfolio/AiPortfolio";
 import Contact from "@/components/Contact";
+import Voiceflow from "@/components/Voiceflow";
+
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -26,6 +28,7 @@ const PortfolioPage = async () => {
     <SupportBotFunFact/>
     <SupportBotPricing/>
     <Contact/>
+    <Voiceflow/>
     </>
   );
 };

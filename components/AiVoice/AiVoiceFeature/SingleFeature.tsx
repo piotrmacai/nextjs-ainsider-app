@@ -1,0 +1,45 @@
+import React from "react";
+import { Feature } from "@/types/feature";
+import Image from "next/image";
+import { motion } from "framer-motion";
+
+interface Props {
+  feature: Feature;
+  t: (key: string) => string; // Ensure correct type for t function
+}
+
+const SingleFeature: React.FC<Props> = ({ feature, t }) => { // Receive t as prop
+  const { icon, title, description } = feature;
+
+  return (
+    <>
+      <motion.div
+        variants={{
+          hidden: {
+            opacity: 0,
+            y: -10,
+          },
+          visible: {
+            opacity: 1,
+            y: 0,
+          },
+        }}
+        initial="hidden"
+        whileInView="visible"
+        transition={{ duration: 0.5 }}
+        viewport={{ once: true }}
+        className="animate_top border border-white shadow-solid-3 rounded-lg p-7.5 xl:p-12.5 transition-all hover:shadow-solid-4 dark:hover:bg-hoverdark dark:border-strokedark dark:bg-blacksection z-10 bg-white"
+      >
+        <div className="flex items-center justify-center rounded-[4px] relative">
+          <Image src={icon} width={100} height={100} alt="title" />
+        </div>
+        <h3 className="font-semibold text-xl xl:text-itemtitle text-black dark:text-white mt-7.5 mb-5">
+          {t(title)} {/* Translate title using t function */}
+        </h3>
+        <p>{t(description)}</p> {/* Translate description using t function */}
+      </motion.div>
+    </>
+  );
+};
+
+export default SingleFeature;

@@ -33,7 +33,6 @@ export default function RootLayout({
             {children}
             <Footer />
           </ThemeProvider>
-          <Voiceflow/>
           <Cookiebanner/>
         </body>
       </html>

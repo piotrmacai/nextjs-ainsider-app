@@ -7,6 +7,7 @@ import { useTranslation } from 'react-i18next';
 import SupportBotFeaturesTab from "@/components/FeaturesTabAi/SupportBot";
 import FeaturesTab from "@/components/FeaturesTab";
 import Contact from "@/components/Contact";
+import Voiceflow from "@/components/Voiceflow";
 
 const LocalBot = async () => {
   const { t } = useTranslation();
@@ -212,6 +213,7 @@ const LocalBot = async () => {
 
         </div>
       </section>
+      <Voiceflow/>
     </>
   );
 };

@@ -234,6 +234,43 @@
           "header2": "Perfectly suited to your business",
           "desc1": "Innoative voice and text AI chatbots for various tasks."
         },
+
+
+
+        "aivoice": {
+          "hero": {
+            "header1": "AI Voice Assistants",
+            "header2": "Voice AI Solutions for Business",
+             "desc1": "Advanced voice assistants customized to your company's specific needs",
+             "desc2": "Natural voice conversation using knowledge base",
+             "desc3": "Personalization of voice, tone and communication style",
+             "desc4": "Voice call handling and integration with company systems",
+             "desc5": "24/7 voice communication automation"
+          }
+        },
+
+
+        "aivoiceagentsFeatures": {
+          "header": {
+            "title": "Voice Assistants and AI Agents",
+            "subtitle": "Personalized Voice AI Solutions", 
+            "description": "Customized to Meet Your Company's Voice Communication Needs and Requirements"
+          },
+          "1Title": "Intelligent voice assistants for business",
+          "1Description": "Advanced AI voice assistants supporting internal company process management, voice communication automation, and effective team collaboration, ensuring high-quality interactions.",
+          "2Title": "Voice AI for customer service and support",
+          "2Description": "AI voice assistants supporting customer service, conducting natural conversations, providing accurate real-time responses, and increasing user satisfaction through personalized voice communication.",
+          "3Title": "Voice AI for lead generation and sales automation",
+          "3Description": "AI voice agents dedicated to customer acquisition, lead qualification, and sales conversation automation, increasing conversion effectiveness through natural voice interactions.",
+          "4Title": "Voice assistants for e-commerce and sales",
+          "4Description": "Modern Voice AI solutions for e-commerce that offer personalized product recommendations, guide customers through the purchasing process, and increase revenue through advanced voice communication.",
+          "5Title": "Voice AI system integrations",
+          "5Description": "Comprehensive Voice AI solutions that integrate with telephone systems, call centers, and other communication platforms, ensuring smooth handling of voice queries in real-time.",
+          "6Title": "Dedicated Voice AI solutions",
+          "6Description": "Individually designed Voice AI systems that address specific voice communication needs of companies, offering voice, tone, and conversation style personalization along with integration with existing tools."
+        },
+
+
       "header2": {
           "header1": "Elevate Your Business",
           "header2": "To The Next Level",
@@ -241,6 +278,11 @@
           "button": "Let's Start the Project"
       }
          },
+
+
+
+
+
 
 
 
@@ -331,6 +373,52 @@
         "button": "Contact Us to Discuss Your Needs"
     }
 },
+
+
+
+"aivoiceabout": {
+    "title": "About Our Services",
+    "header3": "Create Intelligent Solutions with AI Voice",
+    "subtitle1": "Benefits We Offer - Find Out What You Can Gain",
+    "subtitle2": "Innovative AI Voice Assistants for Your Business",
+    "section1": {
+        "header1": "We Create AI Voice Assistants That Communicate with Your Customers",
+        "header2": "Intelligent Voice Solutions Tailored to Your Needs",
+        "header3": "Create Modern Voice Communication with AI",
+        "header4": "With Our Professional Services",
+        "desc1": "Enhance your business efficiency with our personalized AI Voice Assistants that conduct natural conversations with your customers. We offer comprehensive AI Voice implementations that integrate with phone systems, contact centers, CRM and other data sources to ensure smooth customer service and increase your market competitiveness.",
+        "desc2": "Focused on Natural Communication and Success",
+        "desc3": "We guarantee natural, fluid AI voice communication that works 24/7, ensuring optimal caller experience and higher customer service efficiency.",
+        "desc4": "AI Voice Assistants Tailored to Your Industry",
+        "desc5": "Our advanced AI voice solutions are flexible and can be adapted to various communication scenarios, from customer service to sales process automation and technical support."
+    },
+    "section2": {
+        "header1": "Tailored to Your Needs",
+        "header2": "Individual Voice Assistants for Your Business",
+        "desc1": "Personalized AI Voice Assistants that conduct natural phone conversations, integrate with contact center and CRM systems to enhance customer service quality and improve user experiences.",
+        "button": "Start Your AI Voice Transformation and Increase Your Profits",
+        "desc2": "Dedicated Voice Assistants that maximize efficiency through natural communication and real-time conversation context understanding.",
+        "desc3": "Modern AI voice solutions that are flexible and adapted to your industry specifics, resulting in increased customer satisfaction and reduced service costs.",
+        "header3": "AI Voice Assistants That Conduct Natural Conversations"
+    },
+    "section3": {
+        "header1": "Performance and Integration with AI Voice",
+        "header2": "Boost Efficiency Through Intelligent Voice Communication",
+        "header3": "Maximum Performance for Your Contact Center",
+        "header4": "Advanced AI Voice for Excellence in Customer Service",
+        "desc1": "With advanced AI Voice Assistants, your company gains tools for communication automation, query handling, and contact center system integration. Our solutions ensure maximum efficiency, resulting in faster and more effective customer service.",
+        "desc3": "Extremely natural voice communication and context understanding that improve customer experience and increase service efficiency at all levels.",
+        "desc4": "AI Voice strategies based on conversation analysis that guarantee communication process optimization and deliver business value from every interaction."
+    },
+    "section4": {
+        "header1": "AI Voice Maintenance and Development",
+        "header2": "Reliable Support for Your Business",
+        "desc1": "We offer dedicated support that not only resolves current issues but also drives innovation in AI voice communication to keep your solutions at the forefront of the industry.",
+        "desc2": "We provide regular updates and optimizations of AI Voice Assistants, allowing you to fully focus on growing your business while we take care of the technical aspects of voice communication.",
+        "button": "Contact Us to Discuss Your Needs"
+    }
+},
+
 
 
 
@@ -588,7 +676,7 @@
             "menu13":"Courses and Guides",
             "menu14":"AI Tools Library",
             "menu15": "Web & Automations",
-            "menu12":"AI Bots",
+            "menu12":"AI Agents & Assistants",
             "pricing": "Pricing",
             "menuServices":"Web",
             "menuAutomations":"Automations",

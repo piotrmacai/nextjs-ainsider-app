@@ -4,6 +4,7 @@
 import Image from "next/image";
 import SharePost from "@/components/Blog/SharePost";
 import { useTranslation } from 'react-i18next';
+import Voiceflow from "@/components/Voiceflow";
 
 const SingleBlogPage = async () => {
   const { t } = useTranslation();
@@ -70,6 +71,7 @@ const SingleBlogPage = async () => {
           </div>
         </div>
       </section>
+      <Voiceflow/>
     </>
   );
 };
