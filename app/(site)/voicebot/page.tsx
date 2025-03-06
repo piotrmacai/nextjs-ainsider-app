@@ -140,7 +140,11 @@ const VoiceBot = async () => {
                 <h4 className="font-semibold text-2xl text-black dark:text-white mt-2 mb-7.5">
                   {t('voicebot.integrationsText')}
                 </h4>
-                <ul>
+              
+                <ul> 
+                   <li className="last:mb-0 mb-2 transition-all duration-300">
+                    <p>Woocommerce</p>
+                  </li>
                   <li className="last:mb-0 mb-2 transition-all duration-300">
                     <p>Google Workspace</p></li>
                     <li className="last:mb-0 mb-2 transition-all duration-300">
@@ -158,6 +162,9 @@ const VoiceBot = async () => {
                   <li className="last:mb-0 mb-2 transition-all duration-300">
                     <p>Notion</p>
                   </li>
+                  <li className="last:mb-0 mb-2 transition-all duration-300">
+                    <p>Shopify</p>
+                  </li>
                 </ul>
               </div>
 
@@ -168,7 +175,10 @@ const VoiceBot = async () => {
                 </h4>
                 <ul>
                 <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>{t('voicebot.web')}</p>
+                    <p>Woocommerce</p>
+                  </li>
+                <li className="last:mb-0 mb-3 transition-all duration-300">
+                    <p>Shopify</p>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
                     <p>Telegram</p></li>

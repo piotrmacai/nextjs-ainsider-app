@@ -142,8 +142,12 @@ const EcomBot = async () => {
                   {t('ecombot.integrationsText')}
                 </h4>
                 <ul>
-                  <li className="last:mb-0 mb-2 transition-all duration-300">
-                    <p>Google Workspace</p></li>
+                <li className="last:mb-0 mb-3 transition-all duration-300">
+                    <p>Woocommerce</p>
+                  </li>
+                <li className="last:mb-0 mb-3 transition-all duration-300">
+                    <p>Shopify</p>
+                  </li>
                     <li className="last:mb-0 mb-2 transition-all duration-300">
                     <p>Google Drive</p>
                   </li>
@@ -169,7 +173,10 @@ const EcomBot = async () => {
                 </h4>
                 <ul>
                 <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>{t('ecombot.web')}</p>
+                    <p>Woocommerce</p>
+                  </li>
+                <li className="last:mb-0 mb-3 transition-all duration-300">
+                    <p>Shopify</p>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
                     <p>Telegram</p></li>

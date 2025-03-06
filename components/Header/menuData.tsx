@@ -48,13 +48,13 @@ const getTranslatedMenuData = () => {
           path: t('header.menubeehiiv'),
           icon: "/images/icon/phone.svg",
         },
-        {
-          id: 3,
-          title: t('header.menuapps'),
-          newTab: true,
-          path: "/apps",
-          icon: "/images/icon/phone.svg",
-        },
+        // {
+        //   id: 3,
+        //   title: t('header.menuapps'),
+        //   newTab: true,
+        //   path: "/apps",
+        //   icon: "/images/icon/phone.svg",
+        // },
         {
           id: 3,
           title: t('header.menu14'),
@@ -69,6 +69,13 @@ const getTranslatedMenuData = () => {
           path: "https://ainsider.pl/",
           icon: "/images/icon/phone.svg",
         }, 
+        {
+          id: 3,
+          title: "AI Agent Templates",
+          newTab: true,
+          path: "/docs",
+          icon: "/images/icon/phone.svg",
+        },
         // {
         //   id: 8,
         //   title: "AI Agents Docs",
@@ -130,6 +137,13 @@ const getTranslatedMenuData = () => {
           title: "Local & Private AI Agent",
           newTab: true,
           path: "/localbot",
+          icon: "/images/icon/phone.svg",
+        }, 
+        {
+          id: 5,
+          title: "AI Agent Templates",
+          newTab: true,
+          path: "/docs",
           icon: "/images/icon/phone.svg",
         }, 
         // {

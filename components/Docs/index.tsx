@@ -6,18 +6,23 @@ import Link from "next/link";
 
 const DocsComponent = () => {
   const { t } = useTranslation();
-  const [activeSection, setActiveSection] = useState("flowise-getting-started");
+  const [activeSection, setActiveSection] = useState("n8n-templates");
 
   const sections = {
     flowise: {
-      title: "Flowise",
+      title: "Ai Agents",
       subsections: [
-        { id: "flowise-getting-started", title: "Getting Started" },
-        { id: "flowise-installation", title: "Installation" },
-        { id: "flowise-basics", title: "Basics" },
-        { id: "flowise-templates", title: "Templates" },
+        { id: "voiceflow-templates", title: "Voiceflow" },
+        { id: "flowise-templates", title: "Flowise" },
+        { id: "n8n-templates", title: "n8n" },
+        { id: "langchain-templates", title: "Langchain" },
+        { id: "botpress-templates", title: "Botpress" },
+
+   // { id: "flowise-getting-started", title: "Getting Started" },
+        // { id: "flowise-installation", title: "Installation" },
+        // { id: "flowise-basics", title: "Basics" },
         // { id: "flowise-integrations", title: "Integrations" },
-        { id: "flowise-resources", title: "Resources" },
+        // { id: "flowise-resources", title: "Resources" },
       ],  
     },
     // botpress: {
@@ -76,148 +81,49 @@ const DocsComponent = () => {
   const getContent = (sectionId: string) => {
     // This would be replaced with actual documentation content
     const content: { [key: string]: JSX.Element } = {
-      // Flowise Sections
-      "flowise-getting-started": (
+
+   
+      "voiceflow-templates": (
         <div>
-          <h2 className="text-2xl font-bold mb-4">Getting Started with Flowise</h2>
+          <h2 className="text-2xl font-bold mb-4">Voiceflow Templates</h2>
           <p className="mb-4">
-            Flowise is an open-source low-code UI tool for building customized LLM orchestration flows and AI agents using Langchain.js. Accelerate development through drag-and-drop workflow design with native support for dynamic RAG model updates and real-time document synchronization.
-          </p>
-          <h3 className="text-xl font-semibold mb-3">Key Concepts</h3>
-          <ul className="list-disc pl-6 mb-4">
-            <li>Visual node-based workflow designer with 50+ pre-built components</li>
-            <li>Native integration with vector databases (Pinecone, Upstash) and embedding models</li>
-            <li>Document Store API for dynamic content management and Google Drive sync</li>
-            <li>Automated text splitting with multiple strategies (Markdown, Recursive, Code)</li>
-          </ul>
-        </div>
-      ),
-      "flowise-installation": (
-        <div>
-           <h2 className="text-2xl font-bold mb-4">Local deployment</h2>
-          <p className="mb-4">
-            Supported installation methods with environment configuration tips:
-          </p>
-          <h2 className="text-xl font-semibold mb-3">CLOUD</h2>
-          <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded-md mb-4">
-            {`# Self-hosting requires more technical skill to setup instance, backing up database and maintaning updates. If you aren’t experienced at managing servers and just want to use the webapp, we recommend using Flowise Cloud.`}
-          </pre><br></br>
-          <h2 className="text-2xl font-bold mb-4">SELF-HOSTING</h2>
-          <p className="mb-4">
-          Pre-requisite: ensure NodeJS is installed on machine. Node v18.15.0 or v20 and above is supported.
-          </p>
-       
-          <h3 className="text-xl font-semibold mb-3"># SETUP 1 WITH PNPM</h3>   
-
-          <p className="mb-4">
-          1. Clone the repository
-          Copy the command and paste in your terminal, confirm every step by enter
-          </p>
-          <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded-md mb-4">
-           {` # git clone https://github.com/FlowiseAI/Flowise.git `}
-          </pre>
-
-          <p className="mb-4">
-          2. Go into repository folder
-              <br></br>
-          Copy and paste into terminal, to go to the ‘Flowise’ folder with installed Flowise AI code
-          </p>
-          <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded-md mb-4">
-           {` # cd Flowise `}
-          </pre>
-
-          <p className="mb-4">
-          3. Install all dependencies of all modules:
-
-          Copy the command and run in terminal
-          </p>
-          <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded-md mb-4">
-           {` # pnpm install `}
-          </pre>
-
-          <p className="mb-4">
-          4. Build the code:
-
-          Copy the command and run in terminal
-          </p>
-          <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded-md mb-4">
-           {` # pnpm build `}
-          </pre>
-
-          <p className="mb-4">
-          5. Start the app at http://localhost:3000 . Copy the command, and after run go to the localhost:3000 at your browser
-          </p>
-          <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded-md mb-4">
-           {` # pnpm start `}
-          </pre>
-
-
-
-          
-          <h3 className="text-xl font-semibold mb-3"># SETUP 2</h3>   
-
-          <p className="mb-4">
-          Install Flowise:
-          Copy and run each command in terminal:
-          </p>
-          <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded-md mb-4">
-          {` # npm install -g flowise `}
-          </pre>
-
-          <p className="mb-4">
-          2. Copy and run command:
-          </p>
-          <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded-md mb-4">
-          {` # npm install -g flowise `}
-          </pre>
-
-          <p className="mb-4">
-          3. Copy and and run in terminal:
-          </p>
-          <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded-md mb-4">
-          {` # npx flowise star `}
-          </pre>
-
-          <p className="mb-4">
-          4. Go to: http://localhost:3000
+            Production-ready templates of AI Agents created using Voiceflow:
           </p>
 
+          <div className="grid md:grid-cols-1 gap-4">
 
-        </div>
-      ),
-      "flowise-basics": (
-        <div>
-          <h2 className="text-2xl font-bold mb-4">Flowise Basics</h2>
-          <p className="mb-4">
-            Core components for building production-grade LLM workflows:
-          </p>
-          <div className="grid gap-4">
-            <div>
-              <h3 className="text-xl font-semibold mb-2">Essential Node Types</h3>
-              <ul className="list-disc pl-6">
-                <li>Document Loaders: PDF, CSV, HTML with metadata handling</li>
-                <li>Text Splitters: Recursive/Markdown/Code splitting with chunk overlap</li>
-                <li>Vector Store Connectors: Pinecone, Chroma, Upstash with record management</li>
-                <li>LLM Gateways: OpenAI, HuggingFace, local LLM endpoints</li>
-              </ul>
+          <Link href="https://github.com/piotrmacai/Voiceflow/tree/main/agent-voiceflow-leadbot-v1" target="_blank" rel="noopener noreferrer">
+            <div className="p-4 border rounded-md">
+              <h3 className="text-lg font-semibold mb-2">Lead Generation & Customer Support Agent</h3>
+              <p>
+                <Link href="https://github.com/piotrmacai/Voiceflow/tree/main/agent-voiceflow-leadbot-v1" target="_blank" rel="noopener noreferrer">
+                github.com/piotrmacai/Voiceflow/tree/main/agent-voiceflow-leadbot-v1
+                </Link>
+              </p>
             </div>
-            <div>
-              <h3 className="text-xl font-semibold mb-2">Workflow Design Pattern</h3>
-              <ol className="list-decimal pl-6">
-                <li>Ingest documents via Loaders with metadata tagging</li>
-                <li>Split content using context-aware strategies (1500chunk/750overlap recommended)</li>
-                <li>Generate embeddings matching vector store dimensions</li>
-                <li>Configure retrieval parameters (top K=4 default)</li>
-              </ol>
+            </Link>
+
+            <Link href="https://github.com/piotrmacai/Voiceflow/tree/main/agent-ecom-v1" target="_blank" rel="noopener noreferrer">
+            <div className="p-4 border rounded-md">
+              <h3 className="text-lg font-semibold mb-2">Ecommerce Agent with Product Recommendation system</h3>
+              <p>
+                <Link href="https://github.com/piotrmacai/Voiceflow/tree/main/agent-ecom-v1" target="_blank" rel="noopener noreferrer">
+                github.com/piotrmacai/Voiceflow/tree/main/agent-ecom-v1
+                </Link>
+              </p>
             </div>
+            </Link>
+
+         
           </div>
         </div>
       ),
+
       "flowise-templates": (
         <div>
           <h2 className="text-2xl font-bold mb-4">Flowise Templates</h2>
           <p className="mb-4">
-            Production-ready templates with automated document synchronization:
+          Production-ready templates of AI Agents created using Flowise
           </p>
           <div className="grid md:grid-cols-1 gap-4">
             <div className="p-4 border rounded-md">
@@ -247,6 +153,237 @@ const DocsComponent = () => {
           </div>
         </div>
       ),
+
+      "n8n-templates": (
+        <div>
+          <h2 className="text-2xl font-bold mb-4">n8n Templates</h2>
+          <p className="mb-4">
+          Production-ready templates of AI Agents created using n8n
+          </p>
+          <div className="grid md:grid-cols-1 gap-4">
+
+          <Link href="https://github.com/piotrmacai/n8n/tree/main/agent-telegram-agent-starter" target="_blank" rel="noopener noreferrer">
+            <div className="p-4 border rounded-md">
+              <h3 className="text-lg font-semibold mb-2">Telegram AI assistant starter template</h3>
+              <p>
+                <Link href="https://github.com/piotrmacai/n8n/tree/main/agent-telegram-agent-starter" target="_blank" rel="noopener noreferrer">
+                github.com/piotrmacai/n8n/tree/main/agent-telegram-agent-starter
+                </Link>
+              </p>
+            </div>
+            </Link>
+
+          <Link href="https://github.com/piotrmacai/n8n/tree/main/agent-telegram-multimodal" target="_blank" rel="noopener noreferrer">
+            <div className="p-4 border rounded-md">
+              <h3 className="text-lg font-semibold mb-2">Multimodal Telegram AI assistant template</h3>
+              <p>
+                <Link href="https://github.com/piotrmacai/n8n/tree/main/agent-telegram-multimodal" target="_blank" rel="noopener noreferrer">
+               github.com/piotrmacai/n8n/tree/main/agent-telegram-multimodal
+                </Link>
+              </p>
+            </div>
+            </Link>
+
+          
+          </div>
+        </div>
+      ),
+
+      "langchain-templates": (
+        <div>
+          <h2 className="text-2xl font-bold mb-4">Langchain Templates</h2>
+          <p className="mb-4">
+          Production-ready templates of AI Agents created using Langchain
+          </p>
+          <div className="grid md:grid-cols-1 gap-4">
+
+          <Link href="https://github.com/piotrmacai/Langchain/tree/main/agent-ollama-deepseek-rag" target="_blank" rel="noopener noreferrer">
+            <div className="p-4 border rounded-md">
+              <h3 className="text-lg font-semibold mb-2">Local RAG Chatbot with Ollama DeepSeek
+              </h3>
+              <p>
+                <Link href="https://github.com/piotrmacai/Langchain/tree/main/agent-ollama-deepseek-rag" target="_blank" rel="noopener noreferrer">
+                github.com/piotrmacai/Langchain/tree/main/agent-ollama-deepseek-rag
+                </Link>
+              </p>
+            </div>
+            </Link>
+
+          <Link href="https://github.com/piotrmacai/Langchain/tree/main/agent-researcher-ollama-deepseek" target="_blank" rel="noopener noreferrer">
+            <div className="p-4 border rounded-md">
+              <h3 className="text-lg font-semibold mb-2">Local AI Researcher Agent with Ollama and DeepSeek model</h3>
+              <p>
+                <Link href="https://github.com/piotrmacai/Langchain/tree/main/agent-researcher-ollama-deepseek" target="_blank" rel="noopener noreferrer">
+                github.com/piotrmacai/Langchain/tree/main/agent-researcher-ollama-deepseek
+                </Link>
+              </p>
+            </div>
+            </Link>
+
+          
+          </div>
+        </div>
+      ),
+
+      "botpress-templates": (
+        <div>
+          <h2 className="text-2xl font-bold mb-4">Botpress Templates</h2>
+          <p className="mb-4">
+          Production-ready templates of AI Agents created using Botpress
+          </p>
+          <div className="grid md:grid-cols-1 gap-4">
+          <Link href="https://github.com/piotrmacai/agent-botpress-leadbot-v2" target="_blank" rel="noopener noreferrer">
+            <div className="p-4 border rounded-md">
+              <h3 className="text-lg font-semibold mb-2">Lead Generation & Customer Support Agent</h3>
+              <p>
+                <Link href="https://github.com/piotrmacai/agent-botpress-leadbot-v2" target="_blank" rel="noopener noreferrer">
+                github.com/piotrmacai/agent-botpress-leadbot-v2
+                </Link>
+              </p>
+            </div>
+            </Link>
+          </div>
+        </div>
+      ),
+
+      // Flowise Sections
+      // "flowise-getting-started": (
+      //   <div>
+      //     <h2 className="text-2xl font-bold mb-4">Getting Started with Flowise</h2>
+      //     <p className="mb-4">
+      //       Flowise is an open-source low-code UI tool for building customized LLM orchestration flows and AI agents using Langchain.js. Accelerate development through drag-and-drop workflow design with native support for dynamic RAG model updates and real-time document synchronization.
+      //     </p>
+      //     <h3 className="text-xl font-semibold mb-3">Key Concepts</h3>
+      //     <ul className="list-disc pl-6 mb-4">
+      //       <li>Visual node-based workflow designer with 50+ pre-built components</li>
+      //       <li>Native integration with vector databases (Pinecone, Upstash) and embedding models</li>
+      //       <li>Document Store API for dynamic content management and Google Drive sync</li>
+      //       <li>Automated text splitting with multiple strategies (Markdown, Recursive, Code)</li>
+      //     </ul>
+      //   </div>
+      // ),
+      // "flowise-installation": (
+      //   <div>
+      //      <h2 className="text-2xl font-bold mb-4">Local deployment</h2>
+      //     <p className="mb-4">
+      //       Supported installation methods with environment configuration tips:
+      //     </p>
+      //     <h2 className="text-xl font-semibold mb-3">CLOUD</h2>
+      //     <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded-md mb-4">
+      //       {`# Self-hosting requires more technical skill to setup instance, backing up database and maintaning updates. If you aren’t experienced at managing servers and just want to use the webapp, we recommend using Flowise Cloud.`}
+      //     </pre><br></br>
+      //     <h2 className="text-2xl font-bold mb-4">SELF-HOSTING</h2>
+      //     <p className="mb-4">
+      //     Pre-requisite: ensure NodeJS is installed on machine. Node v18.15.0 or v20 and above is supported.
+      //     </p>
+       
+      //     <h3 className="text-xl font-semibold mb-3"># SETUP 1 WITH PNPM</h3>   
+
+      //     <p className="mb-4">
+      //     1. Clone the repository
+      //     Copy the command and paste in your terminal, confirm every step by enter
+      //     </p>
+      //     <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded-md mb-4">
+      //      {` # git clone https://github.com/FlowiseAI/Flowise.git `}
+      //     </pre>
+
+      //     <p className="mb-4">
+      //     2. Go into repository folder
+      //         <br></br>
+      //     Copy and paste into terminal, to go to the ‘Flowise’ folder with installed Flowise AI code
+      //     </p>
+      //     <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded-md mb-4">
+      //      {` # cd Flowise `}
+      //     </pre>
+
+      //     <p className="mb-4">
+      //     3. Install all dependencies of all modules:
+
+      //     Copy the command and run in terminal
+      //     </p>
+      //     <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded-md mb-4">
+      //      {` # pnpm install `}
+      //     </pre>
+
+      //     <p className="mb-4">
+      //     4. Build the code:
+
+      //     Copy the command and run in terminal
+      //     </p>
+      //     <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded-md mb-4">
+      //      {` # pnpm build `}
+      //     </pre>
+
+      //     <p className="mb-4">
+      //     5. Start the app at http://localhost:3000 . Copy the command, and after run go to the localhost:3000 at your browser
+      //     </p>
+      //     <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded-md mb-4">
+      //      {` # pnpm start `}
+      //     </pre>
+
+
+
+          
+      //     <h3 className="text-xl font-semibold mb-3"># SETUP 2</h3>   
+
+      //     <p className="mb-4">
+      //     Install Flowise:
+      //     Copy and run each command in terminal:
+      //     </p>
+      //     <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded-md mb-4">
+      //     {` # npm install -g flowise `}
+      //     </pre>
+
+      //     <p className="mb-4">
+      //     2. Copy and run command:
+      //     </p>
+      //     <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded-md mb-4">
+      //     {` # npm install -g flowise `}
+      //     </pre>
+
+      //     <p className="mb-4">
+      //     3. Copy and and run in terminal:
+      //     </p>
+      //     <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded-md mb-4">
+      //     {` # npx flowise star `}
+      //     </pre>
+
+      //     <p className="mb-4">
+      //     4. Go to: http://localhost:3000
+      //     </p>
+
+
+      //   </div>
+      // ),
+      // "flowise-basics": (
+      //   <div>
+      //     <h2 className="text-2xl font-bold mb-4">Flowise Basics</h2>
+      //     <p className="mb-4">
+      //       Core components for building production-grade LLM workflows:
+      //     </p>
+      //     <div className="grid gap-4">
+      //       <div>
+      //         <h3 className="text-xl font-semibold mb-2">Essential Node Types</h3>
+      //         <ul className="list-disc pl-6">
+      //           <li>Document Loaders: PDF, CSV, HTML with metadata handling</li>
+      //           <li>Text Splitters: Recursive/Markdown/Code splitting with chunk overlap</li>
+      //           <li>Vector Store Connectors: Pinecone, Chroma, Upstash with record management</li>
+      //           <li>LLM Gateways: OpenAI, HuggingFace, local LLM endpoints</li>
+      //         </ul>
+      //       </div>
+      //       <div>
+      //         <h3 className="text-xl font-semibold mb-2">Workflow Design Pattern</h3>
+      //         <ol className="list-decimal pl-6">
+      //           <li>Ingest documents via Loaders with metadata tagging</li>
+      //           <li>Split content using context-aware strategies (1500chunk/750overlap recommended)</li>
+      //           <li>Generate embeddings matching vector store dimensions</li>
+      //           <li>Configure retrieval parameters (top K=4 default)</li>
+      //         </ol>
+      //       </div>
+      //     </div>
+      //   </div>
+      // ),
+  
       // "flowise-integrations": (
       //   <div>
       //     <h2 className="text-2xl font-bold mb-4">Data Sources</h2>

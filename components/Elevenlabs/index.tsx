@@ -1,73 +1,54 @@
-"use client"
+"use client";
 
-import React, { useEffect } from 'react';
+import { useEffect, useRef } from "react";
 
-const ElevenLabsConvAI = () => {
+const ElevenLabsWidget = () => {
+  const widgetRef = useRef<HTMLElement | null>(null);
+
   useEffect(() => {
-    // Create the script element for ElevenLabs widget
-    const script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.async = true;
-    script.src = 'https://elevenlabs.io/convai-widget/index.js';
-    
-    // Add the script to the document
-    const firstScript = document.getElementsByTagName('script')[0];
-    firstScript.parentNode?.insertBefore(script, firstScript);
+    const scriptId = "elevenlabs-convai-script";
 
-    // Cleanup function to remove the script when component unmounts
-    return () => {
-      if (script.parentNode) {
-        script.parentNode.removeChild(script);
-      }
-    };
+    // Check if script is already added
+    if (!document.getElementById(scriptId)) {
+      const script = document.createElement("script");
+      script.id = scriptId;
+      script.src = "https://elevenlabs.io/convai-widget/index.js";
+      script.async = true;
+      script.type = "text/javascript";
+      document.body.appendChild(script);
+    }
   }, []);
 
-  // Return the custom element with the agent-id attribute
-  return (
-    <div
-      is="elevenlabs-convai"
-      agent-id="TeoMhDWNYm9FGDR4WE8S"
-    />
-  );
+  return <elevenlabs-convai ref={widgetRef} agent-id="TeoMhDWNYm9FGDR4WE8S"></elevenlabs-convai>;
 };
 
-export default ElevenLabsConvAI;
+export default ElevenLabsWidget;
 
-// "use client"
 
-// import React, { useEffect } from 'react';
 
-// interface ElevenLabsConvAIProps {
-//   agentId?: string;
-//   className?: string;
-// }
+// "use client";
 
-// const ElevenLabsConvAI = ({ 
-//   agentId = "TeoMhDWNYm9FGDR4WE8S",
-//   className,
-// }: ElevenLabsConvAIProps) => {
+// import { useEffect } from "react";
+
+// const ElevenLabsWidget = () => {
 //   useEffect(() => {
-//     const script = document.createElement('script');
-//     script.type = 'text/javascript';
-//     script.async = true;
-//     script.src = 'https://elevenlabs.io/convai-widget/index.js';
-    
-//     const firstScript = document.getElementsByTagName('script')[0];
-//     firstScript.parentNode?.insertBefore(script, firstScript);
+//     const scriptId = "elevenlabs-convai-script";
 
-//     return () => {
-//       if (script.parentNode) {
-//         script.parentNode.removeChild(script);
-//       }
-//     };
+//     // Prevent duplicate script injection
+//     if (!document.getElementById(scriptId)) {
+//       const script = document.createElement("script");
+//       script.id = scriptId;
+//       script.src = "https://elevenlabs.io/convai-widget/index.js";
+//       script.async = true;
+//       script.type = "text/javascript";
+//       document.body.appendChild(script);
+//     }
 //   }, []);
-//   return (
-//     <div
-//       is="elevenlabs-convai"
-//       agent-id={agentId}
-//       className={className}
-//     />
-//   );
+
+//   return <elevenlabs-convai agent-id="TeoMhDWNYm9FGDR4WE8S"></elevenlabs-convai>;
 // };
 
-// export default ElevenLabsConvAI;
+// export default ElevenLabsWidget;
+
+
+
