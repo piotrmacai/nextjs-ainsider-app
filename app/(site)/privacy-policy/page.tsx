@@ -4,7 +4,6 @@ import React from "react";
 import Contact from "@/components/Contact";
 import { Metadata } from "next";
 import { useTranslation } from 'react-i18next';
-import Voiceflow from "@/components/Voiceflow";
 
 
 const PolicyPrivacy = () => {
@@ -117,7 +116,6 @@ const PolicyPrivacy = () => {
             </div>
           </div>
         </section>
-        <Voiceflow/>
       </>
     );
   };

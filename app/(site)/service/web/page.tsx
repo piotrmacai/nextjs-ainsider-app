@@ -8,7 +8,6 @@ import WebPortfolio from "@/components/Portfolio/WebPortfolio";
 import Contact from "@/components/Contact";
 import WebAbout from "@/components/About/WebAbout";
 import FeaturesTab from "@/components/FeaturesTab";
-import Voiceflow from "@/components/Voiceflow";
 
 import { Metadata } from "next";
 
@@ -30,7 +29,6 @@ const PortfolioPage = async () => {
     <FeaturesTab/>
     <WebPricing/>
     <Contact/>
-    <Voiceflow/>
     </>
   );
 };

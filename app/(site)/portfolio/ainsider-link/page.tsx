@@ -3,7 +3,6 @@
 import Image from "next/image";
 import SharePost from "@/components/Blog/SharePost";
 import { useTranslation } from 'react-i18next';
-import Voiceflow from "@/components/Voiceflow";
 
 const SingleBlogPage = () => {
   const { t } = useTranslation();
@@ -64,7 +63,6 @@ const SingleBlogPage = () => {
           </div>
         </div>
       </section>
-      <Voiceflow/>
     </>
   );
 };

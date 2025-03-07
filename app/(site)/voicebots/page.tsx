@@ -23,7 +23,7 @@ import { Metadata } from "next";
 import Feature from "@/components/Features";
 import AiVoiceFeature from "@/components/AiVoice/AiVoiceFeature";
 import AiVoiceAbout from "@/components/About/AiVoiceAbout";
-import ElevenLabsWidget from "@/components/Elevenlabs";
+// import ElevenLabsWidget from "@/components/Elevenlabs"; 
 
 export const metadata: Metadata = {
   title: "Aiware.me Portfolio",
@@ -45,7 +45,7 @@ const ServicesPage = async () => {
     {/* <AiFeaturesTab/>    */}
     <Brands/>   
     <Contact/>
-    <ElevenLabsWidget />
+    {/* <ElevenLabsWidget /> */}
     </>
   );
 };

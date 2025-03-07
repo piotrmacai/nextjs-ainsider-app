@@ -17,7 +17,6 @@ import HeaderAi from "@/components/HeaderAi";
 import HeaderWeb from "@/components/HeaderWeb";
 import { Metadata } from "next";
 import WebHero from "@/components/Web/WebHero";
-import Voiceflow from "@/components/Voiceflow";
 
 export const metadata: Metadata = {
   title: "Aiware.me Portfolio",
@@ -43,7 +42,6 @@ const ServicesPage = async () => {
       <CTA/> 
      <Brands/>
     <Contact/>
-    <Voiceflow/>
     </>
   );
 };

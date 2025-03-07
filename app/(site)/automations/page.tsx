@@ -19,7 +19,6 @@ import HeaderWeb from "@/components/HeaderWeb";
 import AutomationFeature from "@/components/Automation/AutomationFeature";
 import AutomationFeaturesTab from "@/components/Automation/AutomationFeaturesTab";
 import AutomationAbout from "@/components/About/AutomationAbout";
-import Voiceflow from "@/components/Voiceflow";
 
 import { Metadata } from "next";
 
@@ -45,7 +44,7 @@ const ServicesPage = async () => {
       <CTA/>
      <Brands/>
     <Contact/>
-    <Voiceflow/>
+
     </>
   );
 };

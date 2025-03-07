@@ -23,7 +23,6 @@ import { Metadata } from "next";
 import Feature from "@/components/Features";
 import AiFeature from "@/components/Ai/AiFeature";
 import AiAbout from "@/components/About/AiAbout";
-import Voiceflow from "@/components/Voiceflow";
 
 export const metadata: Metadata = {
   title: "Aiware.me Portfolio",
@@ -44,12 +43,7 @@ const ServicesPage = async () => {
     <CTA/>   
     {/* <AiFeaturesTab/>    */}
     <Brands/>   
-
-  
-   
- 
     <Contact/>
-    <Voiceflow/>
     </>
   );
 };

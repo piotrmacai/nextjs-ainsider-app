@@ -1,7 +1,6 @@
 import React from "react";
 import Contact from "@/components/Contact";
 import { Metadata } from "next";
-import Voiceflow from "@/components/Voiceflow";
 
 export const metadata: Metadata = {
   title: "Darmowe Konsultacje oraz Wyceny Projektu",
@@ -13,7 +12,6 @@ const SupportPage = () => {
   return (
     <div className="pt-40 pb-20">
       <Contact />
-      <Voiceflow/>
     </div>
   );
 };

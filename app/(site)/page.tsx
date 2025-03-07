@@ -21,8 +21,6 @@ import CTAToNewsletter from "@/components/CTAToNewsletter";
 import CTAToAinsider from "@/components/CTAToAinsider";
 import About from "@/components/About";
 import MainAbout from "@/components/About/MainAbout";
-import Voiceflow from "@/components/Voiceflow";
-
 
 
 
@@ -58,7 +56,6 @@ export default function Home() {
       <SenjaWidget/>  
       <Brands />
       <Contact />     
-      <Voiceflow/>
       {/* <PortfolioCta/> */}
   
       {/* <Integration /> */}

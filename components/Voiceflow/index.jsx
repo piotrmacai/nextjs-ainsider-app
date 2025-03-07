@@ -8,7 +8,7 @@ const Voiceflow = () => {
     script.onload = () => {
       window.voiceflow.chat.load({
         verify: { 
-          projectID: '676829f3d33548b049c119c2' 
+          projectID: '66fd9286a5b369f00abef5fb' 
         },
         url: 'https://general-runtime.voiceflow.com',
         versionID: 'production',
@@ -16,6 +16,15 @@ const Voiceflow = () => {
           url: "https://runtime-api.voiceflow.com" 
         }
       });
+
+      // Add custom styles to position chat widget higher
+      const styleSheet = document.createElement("style");
+      styleSheet.textContent = `
+        #voiceflow-chat {
+          bottom: 100px !important;
+        }
+      `;
+      document.head.appendChild(styleSheet);
     };
     script.src = 'https://cdn.voiceflow.com/widget-next/bundle.mjs';
     const firstScript = document.getElementsByTagName('script')[0];
@@ -27,6 +36,11 @@ const Voiceflow = () => {
       if (scriptElement) {
         scriptElement.remove();
       }
+      // Remove custom styles
+      const styleElement = document.querySelector('style');
+      if (styleElement) {
+        styleElement.remove();
+      }
     };
   }, []);
 
@@ -34,6 +48,14 @@ const Voiceflow = () => {
 };
 
 export default Voiceflow;
+
+
+
+
+
+
+
+
 
 // "use client"
 

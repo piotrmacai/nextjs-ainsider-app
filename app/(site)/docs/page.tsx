@@ -1,7 +1,5 @@
 import SidebarLink from "@/components/Docs/SidebarLink";
 import DocsComponent from "@/components/Docs/index";
-import Voiceflow from "@/components/Voiceflow";
-
 
 export default function DocsPage() {
   return (
@@ -11,7 +9,6 @@ export default function DocsPage() {
       <section className="pb-16 md:pb-20 lg:pb-24 pt-24 md:pt-28 lg:pt-32">
          
             <DocsComponent/>
-            <Voiceflow/> 
       </section>
     </>
   );

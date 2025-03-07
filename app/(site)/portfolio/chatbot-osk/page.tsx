@@ -1,6 +1,5 @@
 import Image from "next/image";
 import SharePost from "@/components/Blog/SharePost";
-import Voiceflow from "@/components/Voiceflow";
 
 const SingleBlogPage = () => {
   return (
@@ -70,7 +69,6 @@ const SingleBlogPage = () => {
           </div>
         </div>
       </section>
-      <Voiceflow/>
     </>
   );
 };
