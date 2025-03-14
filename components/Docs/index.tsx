@@ -162,6 +162,39 @@ const DocsComponent = () => {
           </p>
           <div className="grid md:grid-cols-1 gap-4">
 
+          <Link href="https://github.com/piotrmacai/n8n/tree/main/agent-slack-personal-agent" target="_blank" rel="noopener noreferrer">
+            <div className="p-4 border rounded-md">
+              <h3 className="text-lg font-semibold mb-2">Slack Personal AI Agent Template</h3>
+              <p>
+                <Link href="https://github.com/piotrmacai/n8n/tree/main/agent-slack-personal-agent" target="_blank" rel="noopener noreferrer">
+                github.com/piotrmacai/n8n/tree/main/agent-slack-personal-agent
+                </Link>
+              </p>
+            </div>
+            </Link>
+
+            <Link href="https://github.com/piotrmacai/n8n/tree/main/agent-woocommerce-ai-agent" target="_blank" rel="noopener noreferrer">
+            <div className="p-4 border rounded-md">
+              <h3 className="text-lg font-semibold mb-2">Woocommerce AI Agent</h3>
+              <p>
+                <Link href="https://github.com/piotrmacai/n8n/tree/main/agent-woocommerce-ai-agent" target="_blank" rel="noopener noreferrer">
+                github.com/piotrmacai/n8n/tree/main/agent-woocommerce-ai-agent
+                </Link>
+              </p>
+            </div>
+            </Link>
+
+            <Link href="https://github.com/piotrmacai/n8n/tree/main/agent-cms-content-creator" target="_blank" rel="noopener noreferrer">
+            <div className="p-4 border rounded-md">
+              <h3 className="text-lg font-semibold mb-2">Content Creator AI Agent for Wordpress & CMS</h3>
+              <p>
+                <Link href="https://github.com/piotrmacai/n8n/tree/main/agent-cms-content-creator" target="_blank" rel="noopener noreferrer">
+                github.com/piotrmacai/n8n/tree/main/agent-cms-content-creator
+                </Link>
+              </p>
+            </div>
+            </Link>
+
           <Link href="https://github.com/piotrmacai/n8n/tree/main/agent-telegram-agent-starter" target="_blank" rel="noopener noreferrer">
             <div className="p-4 border rounded-md">
               <h3 className="text-lg font-semibold mb-2">Telegram AI assistant starter template</h3>
@@ -232,6 +265,18 @@ const DocsComponent = () => {
           Production-ready templates of AI Agents created using Botpress
           </p>
           <div className="grid md:grid-cols-1 gap-4">
+
+          <Link href="https://github.com/piotrmacai/agent-botpress-leadbot-v2" target="_blank" rel="noopener noreferrer">
+            <div className="p-4 border rounded-md">
+              <h3 className="text-lg font-semibold mb-2">Ecommerce AI Agent with Product Recommedations</h3>
+              <p>
+                <Link href="https://github.com/piotrmacai/botpress/tree/main/ecommerce-agent-v1" target="_blank" rel="noopener noreferrer">
+                github.com/piotrmacai/botpress/tree/main/ecommerce-agent-v1
+                </Link>
+              </p>
+            </div>
+            </Link>
+
           <Link href="https://github.com/piotrmacai/agent-botpress-leadbot-v2" target="_blank" rel="noopener noreferrer">
             <div className="p-4 border rounded-md">
               <h3 className="text-lg font-semibold mb-2">Lead Generation & Customer Support Agent</h3>
