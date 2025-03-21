@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useTranslation } from 'react-i18next';
+import NotionFormEmbed from "../NotionForm";
 
 const Contact = () => {
   /**
@@ -64,7 +65,7 @@ const Contact = () => {
               <h2 className="text-black dark:text-white text-2xl xl:text-sectiontitle2 font-semibold mb-15">
               {t('contact.header')}
               </h2>
-              <form
+              {/* <form
                 action="https://formspree.io/f/xovqvrlg"
                 method="POST"
               >
@@ -83,15 +84,7 @@ const Contact = () => {
                     className="w-full lg:w-1/2 bg-transparent border-b border-stroke dark:border-strokedark focus-visible:outline-none focus:border-waterloo dark:focus:border-manatee focus:placeholder:text-black dark:focus:placeholder:text-white pb-3.5"
                   />
                 </div>
-{/* 
-                <div className="flex flex-col lg:flex-row lg:justify-between gap-7.5 lg:gap-14 mb-12.5">
-                  <input
-                    type="text" name="purpose"
-                    placeholder={t('contact.form.need')}
-                    required
-                    className="w-full lg:w-1/2 bg-transparent border-b border-stroke dark:border-strokedark focus-visible:outline-none focus:border-waterloo dark:focus:border-manatee focus:placeholder:text-black dark:focus:placeholder:text-white pb-3.5"
-                  />
-                </div> */}
+
 
                 <div className="flex mb-11.5">
                   <textarea
@@ -110,15 +103,7 @@ const Contact = () => {
                     className="w-full bg-transparent border-b border-stroke dark:border-strokedark focus-visible:outline-none focus:border-waterloo dark:focus:border-manatee focus:placeholder:text-black dark:focus:placeholder:text-white"
                   ></textarea>
                 </div>
-{/* 
-                <div className="flex mb-11.5">
-                  <textarea
-                    placeholder={t('contact.form.deadline')}
-                    name="message"
-                     rows={4}
-                    className="w-full bg-transparent border-b border-stroke dark:border-strokedark focus-visible:outline-none focus:border-waterloo dark:focus:border-manatee focus:placeholder:text-black dark:focus:placeholder:text-white"
-                  ></textarea>
-                </div> */}
+
 
                 <div className="flex flex-wrap xl:justify-between ">
                   <div className="flex mb-4 md:mb-0">
@@ -155,8 +140,8 @@ const Contact = () => {
                     </svg>
                   </button>
                 </div>
-              </form>
-
+              </form> */}
+       <NotionFormEmbed />
             </motion.div>
 
             <motion.div
@@ -213,6 +198,7 @@ const Contact = () => {
                   <a href="https://www.facebook.com/piotrmacai/">{t('contact.mess')}</a>
                 </p>
               </div>
+       
             </motion.div>
           </div>
         </div>
