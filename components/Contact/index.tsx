@@ -23,8 +23,8 @@ const Contact = () => {
   return (
     <>
       {/* <!-- ===== Contact Start ===== --> */}
-      <section id="support" className="px-4 md:px-8 2xl:px-0">
-        <div className="mx-auto max-w-c-1390 relative pt-10 lg:pt-15 xl:pt-20 px-7.5 lg:px-15 xl:px-20 overflow-hidden">
+      <section id="support" className="px-2 md:px-4 2xl:px-0">
+        <div className="mx-auto relative pt-10 lg:pt-15 xl:pt-20 px-4.5 lg:px-8 xl:px-12 overflow-hidden">
           <div className="absolute -z-1 rounded-lg left-0 top-0 w-full h-2/3 bg-gradient-to-t from-[#fff] to-[#dee7ff47] dark:bg-gradient-to-t dark:from-[#24283E] dark:to-[#252A42]"></div>
           <div className="absolute -z-1 bottom-[-255px] left-0 w-full h-full">
             <Image
@@ -63,8 +63,11 @@ const Contact = () => {
               className="animate_top w-full md:w-3/5 lg:w-3/4 shadow-solid-8 rounded-lg bg-white dark:bg-black dark:border dark:border-strokedark p-7.5 xl:p-15"
             >
               <h2 className="text-black dark:text-white text-2xl xl:text-sectiontitle2 font-semibold mb-15">
-              {t('contact.header')}
+              {t('contact.header1')}
               </h2>
+              <h3 className="text-black dark:text-white text-xl xl:text-sectiontitle2 font-semibold mb-15">
+              {t('contact.header1.2')}
+              </h3>
               {/* <form
                 action="https://formspree.io/f/xovqvrlg"
                 method="POST"

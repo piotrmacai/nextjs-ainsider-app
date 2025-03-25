@@ -808,6 +808,22 @@
               }
         },
 
+        
+        "notioncrm": {
+          "header": "Notion CRM Implementation - Custom Business Solution",
+          "desc1": "Transform your business operations with a custom Notion CRM implementation. Our tailored solution turns Notion into a powerful, centralized platform for managing customer relationships, sales pipelines, and business workflows.",
+          "desc2": "We don't just implement a CRM - we create a comprehensive business management system that adapts to your unique business needs, enhancing productivity, visibility, and strategic decision-making.",
+          "architecture": "Robust architectural approach leveraging Notion's flexibility and our custom development expertise.",
+          "features": "Comprehensive CRM features designed to streamline your business processes and drive growth.",
+          "integrations": "Seamless connections with your existing tools and platforms for a unified business ecosystem.",
+          "customization": "Tailored solutions ranging from basic setup to fully custom, enterprise-grade implementations.",
+          "forwho": "Who Benefits from Our Notion CRM?",
+          "who1": "Startups looking for a flexible, cost-effective CRM solution",
+          "who2": "Small to medium businesses seeking to centralize their operations",
+          "who3": "Teams wanting to customize their workflow management",
+          "who4": "Organizations aiming to improve collaboration and data visibility"
+        },
+
       
         "supportbot": {
           "header": "Intelligent AI Assistants Designed for Your Unique Requirements",

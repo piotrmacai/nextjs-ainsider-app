@@ -707,7 +707,8 @@
         },
         "contact": {
           "headermain": "Zacznijmy Twój projekt już teraz",
-            "header": "Wycena dopasowana do Ciebie. Wypełnij formularz i otrzymaj ofertę!",
+            "header1": "Wycena dopasowana do Ciebie.",
+            "header1.2": "Wypełnij formularz i otrzymaj szczegółową ofertę!",
             "button": "Wyślij",
             "consent":"Zgadzam się na przetwarzanie naszych danych osobowych",
             "header2": "Poznajmy się",
@@ -855,6 +856,23 @@
              "who3":"Marki działające online, które potrzebują wsparcia 24/7 w komunikacji z użytkownikami.",
              "who4":"Organizacje chcące automatyzować procesy i redukować koszty obsługi."
           },
+
+
+          "notioncrm": {
+            "header": "Implementacja Notion CRM - Niestandardowe Rozwiązanie Biznesowe",
+            "desc1": "Przekształć swoje operacje biznesowe dzięki niestandardowej implementacji Notion CRM. Nasze dopasowane rozwiązanie zamienia Notion w potężną, scentralizowaną platformę do zarządzania relacjami z klientami, ścieżkami sprzedaży i przepływami pracy.",
+            "desc2": "Nie tylko wdrażamy CRM - tworzymy kompleksowy system zarządzania biznesem, który dostosowuje się do Twoich unikalnych potrzeb biznesowych, zwiększając produktywność, widoczność i strategiczne podejmowanie decyzji.",
+            "architecture": "Solidne podejście architektoniczne wykorzystujące elastyczność Notion i nasze expertise w zakresie rozwoju niestandardowego.",
+            "features": "Kompleksowe funkcje CRM zaprojektowane w celu usprawnienia procesów biznesowych i napędzania wzrostu.",
+            "integrations": "Bezproblemowe połączenia z istniejącymi narzędziami i platformami dla zunifikowanego ekosystemu biznesowego.",
+            "customization": "Dopasowane rozwiązania - od podstawowej konfiguracji po w pełni niestandardowe, klasy enterprise implementacje.",
+            "forwho": "Kto skorzysta z naszego Notion CRM?",
+            "who1": "Startupy poszukujące elastycznego, opłacalnego rozwiązania CRM",
+            "who2": "Małe i średnie firmy dążące do centralizacji operacji",
+            "who3": "Zespoły chcące dostosować zarządzanie przepływem pracy",
+            "who4": "Organizacje zmierzające do poprawy współpracy i widoczności danych"
+          },
+
 
           "voicebot": {
           "header": "Asystenci Głosowi AI Dostosowani do Unikalnych Potrzeb Biznesowych",
