@@ -4,7 +4,8 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Lines from "@/components/Lines";
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
+import localFont from 'next/font/local';
 import { ThemeProvider } from "next-themes";
 import "../globals.css";
 import ToasterContext from "../context/ToastContext";
@@ -15,12 +16,23 @@ import Voiceflow from "@/components/Voiceflow";
 import ElevenLabsWidget from "@/components/Elevenlabs";
 
 
-const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-  fallback: ['system-ui', 'Arial', 'sans-serif'],
-  // Optional: preload the most used weights
-  weight: ['400', '500', '700'],
+// const inter = Inter({
+//   subsets: ['latin'],
+//   display: 'swap',
+//   fallback: ['system-ui', 'Arial', 'sans-serif'],
+//   weight: ['400', '500', '700'],
+// });
+// Load Inter font locally
+const inter = localFont({
+  src: [
+    {
+      path: '../../public/fonts/inter/InterVariable.woff2',
+      weight: '100 900', // Supports all weights (100-900)
+      style: 'normal',
+    },
+  ],
+  variable: '--font-inter', // Optional: for CSS variables
+  display: 'swap', // Optional: improves performance
 });
 
 export default function RootLayout({
