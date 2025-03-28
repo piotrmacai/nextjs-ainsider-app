@@ -24,7 +24,7 @@ import WebAbout from "@/components/About/WebAbout";
 import Motion from "@/components/Motion/MotionWeb";
 
 export const metadata: Metadata = {
-  title: "Aiware.me Portfolio",
+  title: "Ainsider.co Portfolio",
   description: "With AI and Web Technology Projects",
   // other metadata
 };

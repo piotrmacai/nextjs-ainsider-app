@@ -3,7 +3,7 @@ export default function Head() {
     <>
       <title>Ainsider AI Company - AI | Web | Automations For Business</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
-      <meta name="description" content="Ainsider AI Company - AI | Web | Automations For Business" />
+      <meta name="description" content="Ainsider Company - AI | Web | Automations For Business" />
       <link rel="icon" href="/images/favicon.ico" />
       
       <meta property="og:type" content="website" />
