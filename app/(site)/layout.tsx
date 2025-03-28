@@ -14,7 +14,11 @@ import Cookiebanner from "@/components/Cookiebanner";
 import Voiceflow from "@/components/Voiceflow";
 import ElevenLabsWidget from "@/components/Elevenlabs";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  preload: false, // Prevents fetching at build time
+});
 
 export default function RootLayout({
   children,

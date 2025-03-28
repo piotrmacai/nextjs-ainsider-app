@@ -1,11 +1,24 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  experimental: { esmExternals: true },
+  experimental: {
+    esmExternals: true,
+    // Font loading configuration
+    fontLoaders: [
+      {
+        loader: '@next/font/google',
+        options: {
+          subsets: ['latin'],
+          display: 'swap',
+          timeout: 30000, // 30 seconds timeout
+        },
+      },
+    ],
+  },
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ["localhost"],
+    domains: ["localhost", "ainsider.co"],
     remotePatterns: [
       {
         protocol: "https",
