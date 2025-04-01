@@ -22,7 +22,8 @@ import CTAToAinsider from "@/components/CTAToAinsider";
 import About from "@/components/About";
 import MainAbout from "@/components/About/MainAbout";
 import Motion from "@/components/Motion/MotionOrbit";
-
+import ServiceTimeline from "@/components/ServiceTimeline";
+import FeaturesTabResources from "@/components/FeaturesTabsResources";
 
 
 export const metadata: Metadata = {
@@ -48,12 +49,14 @@ export default function Home() {
       < Socials />
       <Feature /> 
       <Motion/>
+      
       <MainAbout/>
       {/* <About />    */}
-      <FeaturesTab />      
+      {/* <FeaturesTab />   */}
+      <ServiceTimeline/>    
        {/* <HomePortfolio/> */}
        {/* <CTAToAinsider/> */}
-     
+     <FeaturesTabResources/>
       <CTA />       
       <SenjaWidget/>  
       <Brands />

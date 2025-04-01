@@ -12,6 +12,8 @@ const featuresTabData: FeatureTab[] = [
     desc2: t('featuresTab.tab1Description1'),
     image: "/images/features/undraw_solution_mindset.svg",
     imageDark: "/images/features/undraw_solution_mindset.svg",
+    link: "",
+    linkText: ""
   },
   {
     id: "tabTwo",
@@ -20,6 +22,8 @@ const featuresTabData: FeatureTab[] = [
     desc2: t('featuresTab.tab2Description2'),
     image: "/images/features/undraw_online_stats.svg",
     imageDark: "/images/features/undraw_online_stats.svg",
+    link: "",
+    linkText: ""
   },
   {
     id: "tabThree",
@@ -28,6 +32,8 @@ const featuresTabData: FeatureTab[] = [
     desc2: t('featuresTab.tab3Description2'),
     image: "/images/features/undraw_predictive.svg",
     imageDark: "/images/features/undraw_predictive.svg",
+    link: "",
+    linkText: ""
   },
 ];
 

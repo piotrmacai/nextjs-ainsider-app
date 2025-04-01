@@ -26,6 +26,30 @@
       "channels": "Channels and platforms where you can use the AI Agent"
     },
 
+    "serviceTimeline": {
+      "title": {
+        "one": "Our Service Process",
+        "two": "How We Work With You",
+        "three": "Step by step through our collaborative process designed to deliver personalized solutions"
+      },
+      "step1": {
+        "title": "Discovery and Analysis",
+        "description": "We begin by thoroughly understanding your needs. We audit your systems, processes, and technologies, whether for websites or AI tools. We discuss business goals, challenges, and target audience during consultations via Slack, WhatsApp, or Messenger. Using Notion or Trello, we document findings and identify areas for improvement. This phase combines our technical expertise with your business vision."
+      },
+      "step2": {
+        "title": "Strategy Development",
+        "description": "Based on gathered information, we create a personalized strategy. We define a roadmap - whether for strengthening your online presence or integrating AI for automation. We select appropriate technologies, establish KPIs, timelines, and resources. We collaborate through Slack or WhatsApp, organizing tasks in Notion or Trello for complete transparency. You receive a detailed plan aligned with your long-term goals."
+      },
+      "step3": {
+        "title": "Implementation and Automation",
+        "description": "Here we turn strategy into action. We build and deploy solutions with a focus on efficiency and scalability. For web projects, we may use React or Next.js; for AI - advanced algorithms or APIs. We emphasize automation to streamline processes and increase productivity. During implementation, we communicate via Messenger, Slack, or WhatsApp, tracking progress in Notion or Trello. Thorough testing ensures smooth integration with existing systems."
+      },
+      "step4": {
+        "title": "Monitoring and Optimization",
+        "description": "Our commitment doesn't end at launch. We monitor the performance of your solution using analytical tools, tracking KPIs such as speed or user engagement. Regular updates via Slack, WhatsApp, or Messenger keep you informed, while Notion or Trello boards provide an overview of ongoing optimizations. We analyze data, implementing improvements as needed. This continuous process ensures your solution evolves with your business, delivering lasting value."
+      }
+    },
+
   "features": {
     "header": {
       "title": "How can we help you?",
@@ -216,7 +240,30 @@
     }
 },
 
-    
+"featuresTabResources": {
+  "title": {
+    "one": "AI Resources Hub",
+    "two": "Stay Ahead with AI",
+    "three": "Explore our curated AI tools and knowledge sources"
+  },
+  "header": {
+    "tabOne": "AI Newsletter",
+    "tabTwo": "AI Tools Directory",
+    "tabThree": "AI Social Updates"
+  },
+  "tab1Title": "AI Insights Newsletter",
+  "tab1Description1": "Get weekly curated AI news, tools, and breakthroughs directly to your inbox.",
+  "tab1Description2": "Our newsletter cuts through the noise to deliver only the most impactful AI developments for professionals and enthusiasts.",
+  "tab1LinkText": "Subscribe Now",
+  "tab2Title": "AI Tools Directory",
+  "tab2Description1": "Discover the most powerful AI tools and frameworks for your projects.",
+  "tab2Description2": "Our carefully vetted directory helps you find the perfect AI solution for any use case, updated weekly.",
+  "tab2LinkText": "Explore Tools",
+  "tab3Title": "AI Social Updates",
+  "tab3Description1": "Follow for real-time AI news, LLM breakthroughs, and practical tips.",
+  "tab3Description2": "Get daily insights on the evolving AI landscape from industry experts and practitioners.",
+  "tab3LinkText": "Follow on X"
+},
 
       
       "featuresTab": {

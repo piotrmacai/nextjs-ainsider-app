@@ -43,6 +43,32 @@
         "socialmedia":"Social Media"
   },
 
+
+
+"serviceTimeline": {
+  "title": {
+    "one": "Nasz proces usługowy",
+    "two": "Jak z Tobą współpracujemy",
+    "three": "Krok po kroku przez nasz wspólny proces dostarczający spersonalizowane rozwiązania"
+  },
+  "step1": {
+    "title": "Odkrywanie i analiza",
+    "description": "Zaczynamy od dogłębnego poznania Twoich potrzeb. Przeprowadzamy audyt systemów, procesów i technologii, niezależnie czy chodzi o strony internetowe czy narzędzia AI. Omawiamy cele biznesowe, wyzwania i grupę docelową podczas konsultacji przez Slack, WhatsApp czy Messenger. Korzystając z Notion lub Trello, dokumentujemy ustalenia i identyfikujemy obszary do poprawy. Ten etap łączy naszą wiedzę techniczną z Twoją wizją biznesową."
+  },
+  "step2": {
+    "title": "Opracowanie strategii",
+    "description": "Na podstawie zebranych informacji tworzymy spersonalizowaną strategię. Definiujemy mapę drogową - czy to dla wzmocnienia obecności online, czy integracji AI do automatyzacji. Wybieramy odpowiednie technologie, określamy KPI, harmonogramy i zasoby. Współpracujemy przez Slack czy WhatsApp, organizując zadania w Notion lub Trello dla pełnej przejrzystości. Finalnie otrzymujesz szczegółowy plan zgodny z Twoimi długoterminowymi celami."
+  },
+  "step3": {
+    "title": "Wdrożenie i automatyzacja",
+    "description": "Tu zamieniamy strategię w działanie. Budujemy i wdrażamy rozwiązania z naciskiem na efektywność i skalowalność. Dla projektów webowych możemy użyć React czy Next.js; dla AI - zaawansowane algorytmy lub API. Stawiamy na automatyzację, aby usprawnić procesy i zwiększyć wydajność. Podczas wdrożenia komunikujemy się przez Messenger, Slack lub WhatsApp, śledząc postępy w Notion czy Trello. Dokładne testy zapewniają płynną integrację z istniejącymi systemami."
+  },
+  "step4": {
+    "title": "Monitorowanie i optymalizacja",
+    "description": "Nasze zaangażowanie nie kończy się na uruchomieniu. Monitorujemy wydajność rozwiązania przy użyciu narzędzi analitycznych, śledząc KPI jak szybkość czy zaangażowanie użytkowników. Regularne odprawy przez Slack, WhatsApp lub Messenger informują Cię na bieżąco, a tablice w Notion lub Trello pokazują przegląd trwających optymalizacji. Analizujemy dane, wprowadzając ulepszenia w razie potrzeby. Ten ciągły proces zapewnia, że Twoje rozwiązanie ewoluuje wraz z biznesem, dostarczając trwałą wartość."
+  }
+},
+
     "features": {
       "header": {
         "title": "Jak możemy Ci pomóc?",
@@ -246,6 +272,31 @@
         "title": "Testimonials",
         "subtitle": "Opinie Naszych Klientów",
         "description": "Zobacz co mówią o Nas inni"
+      },
+
+      "featuresTabResources": {
+        "title": {
+          "one": "Centrum Zasobów AI",
+          "two": "Bądź na bieżąco z AI",
+          "three": "Odkryj nasze wyselekcjonowane narzędzia i źródła wiedzy o AI"
+        },
+        "header": {
+          "tabOne": "Newsletter AI",
+          "tabTwo": "Katalog Narzędzi AI",
+          "tabThree": "Aktualności AI"
+        },
+        "tab1Title": "Newsletter o Sztucznej Inteligencji",
+        "tab1Description1": "Otrzymuj cotygodniowe, starannie wyselekcjonowane wiadomości, narzędzia i przełomy w dziedzinie AI prosto na swoją skrzynkę.",
+        "tab1Description2": "Nasz newsletter pomaga odnaleźć się w gąszczu informacji, dostarczając tylko najważniejsze doniesienia z dziedziny AI.",
+        "tab1LinkText": "Zapisz się teraz",
+        "tab2Title": "Katalog Narzędzi AI",
+        "tab2Description1": "Odkryj najpotężniejsze narzędzia i frameworki AI dla swoich projektów.",
+        "tab2Description2": "Nasz starannie wyselekcjonowany katalog pomaga znaleźć idealne rozwiązanie AI dla każdego przypadku użycia.",
+        "tab2LinkText": "Przeglądaj narzędzia",
+        "tab3Title": "Aktualności AI w mediach",
+        "tab3Description1": "Śledź na bieżąco wiadomości o AI, przełomy w LLM i praktyczne porady.",
+        "tab3Description2": "Otrzymuj codzienne informacje o zmieniającym się krajobrazie AI od ekspertów i praktyków.",
+        "tab3LinkText": "Obserwuj na X"
       },
 
 

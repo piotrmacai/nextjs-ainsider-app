@@ -20,9 +20,9 @@ const FeaturesTab = () => {
       <section className="pt-18.5 pb-20 lg:pb-22.5 relative">
         <SectionHeader
           headerInfo={{
-            title: t('featuresTab.title.one'),
-            subtitle: t('featuresTab.title.two'),
-            description: t('featuresTab.title.three'),
+            title: t('featuresTabResources.title.one'),
+            subtitle: t('featuresTabResources.title.two'),
+            description: t('featuresTabResources.title.three'),
           }}
         />
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 relative">
@@ -77,7 +77,7 @@ const FeaturesTab = () => {
                 </div>
                 <div className="lg:w-auto md:w-3/5">
                   <h5 className="text-black dark:text-white text-sm xl:text-regular font-medium">
-                    {t(`featuresTab.header.tab${index === 0 ? 'One' : index === 1 ? 'Two' : 'Three'}`)}
+                    {t(`featuresTabResources.header.tab${index === 0 ? 'One' : index === 1 ? 'Two' : 'Three'}`)}
                   </h5>
                 </div>
               </div>
