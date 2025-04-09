@@ -60,7 +60,7 @@ const Hero = () => {
               <li>
               <a href="https://x.com/piotrmacai" target="_blank">
                   <svg
-                    className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"
+                    className="fill-[#79738B] hover:fill-primary transition-all duration-300"
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
@@ -77,7 +77,7 @@ const Hero = () => {
                 <li>
                   <a href="https://www.linkedin.com/in/piotrmac0/" target="_blank">
                     <svg
-                      className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"
+                      className="fill-[#79738B] hover:fill-primary transition-all duration-300"
                       width="24"
                       height="24"
                       viewBox="0 0 24 24"
@@ -101,7 +101,7 @@ const Hero = () => {
                 {/* <li>
                 <a href="https://www.instagram.com/piotr.macai/" target="_blank">
                   <svg
-                    className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"
+                    className="fill-[#79738B] hover:fill-primary transition-all duration-300"
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
@@ -118,19 +118,19 @@ const Hero = () => {
                 <li>
                   <a href="https://www.github.com/aiwareai/" target="_blank">
                     
-                  <Image src="/images/brand/github.png" alt="git" width={24} height={24} className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"/>
+                  <Image src="/images/brand/github.png" alt="git" width={24} height={24} className="fill-[#79738B] hover:fill-primary transition-all duration-300"/>
                   </a>
                 </li>
                 <li>
                   <a href="https://huggingface.co/Piotr-Macai" target="_blank">
                     
-                  <Image src="/images/brand/hf-logo-pirate.svg" alt="git" width={24} height={24} className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"/>
+                  <Image src="/images/brand/hf-logo-pirate.svg" alt="git" width={24} height={24} className="fill-[#79738B] hover:fill-primary transition-all duration-300"/>
                   </a>
                 </li>
                 <li>
                   <a href="https://www.behance.net/macaistudio" target="_blank">
                     <svg
-                      className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"
+                      className="fill-[#79738B] hover:fill-primary transition-all duration-300"
                       width="24"
                       height="24"
                       viewBox="0 0 24 24"
@@ -144,7 +144,7 @@ const Hero = () => {
                 <li>
                   <a href="https://www.artstation.com/piotrmacai" target="_blank">
                     <svg
-                      className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"
+                      className="fill-gray-800 hover:fill-primary transition-all duration-300"
                       width="24"
                       height="24"
                       viewBox="0 0 24 24"
