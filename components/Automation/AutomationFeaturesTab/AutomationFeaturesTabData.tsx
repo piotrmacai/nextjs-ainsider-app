@@ -8,6 +8,8 @@ const featuresTabData: FeatureTab[] = [
     desc2: `It's all with advanced AI-driven analysis, assessment of CRM system readiness, and identification of areas where automation can significantly improve efficiency and outcomes. We deliver strategic recommendations enabling you to leverage new technologies to optimize your online presence and business processes.`,
     image: "/images/features/undraw_solution_mindset.svg",
     imageDark: "/images/features/undraw_solution_mindset.svg",
+    link: "",
+    linkText: ""
   },
   {
     id: "tabTwo",
@@ -16,6 +18,8 @@ const featuresTabData: FeatureTab[] = [
     desc2: `We work with the latest tools and technologies to ensure your projects deliver absolutely everything you need. From conception to implementation, our team is committed to delivering solutions that not only meet but exceed expectations.`,
     image: "/images/features/undraw_online_stats.svg",
     imageDark: "/images/features/undraw_online_stats.svg",
+    link: "",
+    linkText: ""
   },
   {
     id: "tabThree",
@@ -24,6 +28,8 @@ const featuresTabData: FeatureTab[] = [
     desc2: `With technology, we can automatically collect and analyze data from multiple channels, leveraging the power of tools to create a comprehensive marketing strategy that is dynamic and tailored to changing customer needs.`,
     image: "/images/features/undraw_predictive.svg",
     imageDark: "/images/features/undraw_predictive.svg",
+    link: "",
+    linkText: ""
   },
 ];
 
