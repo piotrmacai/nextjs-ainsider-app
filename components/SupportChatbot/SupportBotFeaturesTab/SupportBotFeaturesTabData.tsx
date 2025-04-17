@@ -7,6 +7,8 @@ const featuresTabData: FeatureTab[] = [
     desc2: `I provide comprehensive recommendations regarding the selection of appropriate technologies, system integrations, and project implementation plan to ensure maximum efficiency of deployment.`,
     image: "/images/features/undraw_solution_mindset.svg",
     imageDark: "/images/features/undraw_solution_mindset.svg",
+    link: "",
+    linkText: ""
   },
   {
     id: "tabTwo",
@@ -15,6 +17,8 @@ const featuresTabData: FeatureTab[] = [
     desc2: `My team of experts works with me at every stage of the process, starting from concept and strategy development, to deployment and monitoring of solution performance.`,
     image: "/images/features/undraw_online_stats.svg",
     imageDark: "/images/features/undraw_online_stats.svg",
+    link: "",
+    linkText: ""
   },
   {
     id: "tabThree",
@@ -23,6 +27,8 @@ const featuresTabData: FeatureTab[] = [
     desc2: `Then, I implement effective optimization strategies, including algorithm refinement, user experience personalization, and continuous process improvement.`,
     image: "/images/features/undraw_predictive.svg",
     imageDark: "/images/features/undraw_predictive.svg",
+    link: "",
+    linkText: ""
   },
 ];
 
