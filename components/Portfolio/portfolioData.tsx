@@ -3,6 +3,15 @@ import { Portfolio } from "@/types/portfolio";
 const BlogData: Portfolio[] = [
   { 
     _id: 1.1,
+    mainImage: "/images/portfolio/n8n-openwebui.jpg",
+    title: "n8n Agent at Open WebUI chat interface",
+    metadata:
+      "Solution which allow to use any n8n AI Agent or workflow directly in Open WebUI chat interface",
+      urlLink:"https://github.com/piotrmacai/librechat-docker",
+      tags: ["all", "ai", "agents"],
+  },
+  { 
+    _id: 1.1,
     mainImage: "/images/portfolio/librechat.png",
     title: "LibreChat - LLM User Interface",
     metadata:
