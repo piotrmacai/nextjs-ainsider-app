@@ -503,7 +503,7 @@
   "header": {
     "tabOne": "AI Newsletter",
     "tabTwo": "AI Tools Directory",
-    "tabThree": "AI Social Updates"
+    "tabThree": "Ainsider Store"
   },
   "tab1Title": "AI Insights Newsletter",
   "tab1Description1": "Get weekly curated AI news, tools, and breakthroughs directly to your inbox.",
@@ -513,10 +513,10 @@
   "tab2Description1": "Discover the most powerful AI tools and frameworks for your projects.",
   "tab2Description2": "Our carefully vetted directory helps you find the perfect AI solution for any use case, updated weekly.",
   "tab2LinkText": "Explore Tools",
-  "tab3Title": "AI Social Updates",
-  "tab3Description1": "Follow for real-time AI news, LLM breakthroughs, and practical tips.",
-  "tab3Description2": "Get daily insights on the evolving AI landscape from industry experts and practitioners.",
-  "tab3LinkText": "Follow on X"
+  "tab3Title": "Ainsider Store",
+"tab3Description1": "Ready-to-use automations and AI Agents that you can easily implement yourself - with your own knowledge, your platforms, and your 'context'.",
+"tab3Description2": "All workflows include documentation and implementation instructions - with integration to your platforms.",
+"tab3LinkText": "More"
 },
 
       

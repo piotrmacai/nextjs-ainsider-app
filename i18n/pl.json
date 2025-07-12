@@ -528,7 +528,7 @@
         "header": {
           "tabOne": "Newsletter AI",
           "tabTwo": "Katalog Narzędzi AI",
-          "tabThree": "Aktualności AI"
+          "tabThree": "Ainsider Store"
         },
         "tab1Title": "Newsletter o Sztucznej Inteligencji",
         "tab1Description1": "Otrzymuj cotygodniowe, starannie wyselekcjonowane wiadomości, narzędzia i przełomy w dziedzinie AI prosto na swoją skrzynkę.",
@@ -538,10 +538,10 @@
         "tab2Description1": "Odkryj najpotężniejsze narzędzia i frameworki AI dla swoich projektów.",
         "tab2Description2": "Nasz starannie wyselekcjonowany katalog pomaga znaleźć idealne rozwiązanie AI dla każdego przypadku użycia.",
         "tab2LinkText": "Przeglądaj narzędzia",
-        "tab3Title": "Aktualności AI w mediach",
-        "tab3Description1": "Śledź na bieżąco wiadomości o AI, przełomy w LLM i praktyczne porady.",
-        "tab3Description2": "Otrzymuj codzienne informacje o zmieniającym się krajobrazie AI od ekspertów i praktyków.",
-        "tab3LinkText": "Obserwuj na X"
+        "tab3Title": "Ainsider Store",
+        "tab3Description1": "Gotowe do użycia automatyzacje i Agenci AI, które możesz bardzo łatwo wdrożyć u siebie - z Twoją własną wiedzą, Twoimi platformami, i Twoim 'kontekstem'.",
+        "tab3Description2": "Wszystkie workflow posiadają dokumentację oraz instrukcję wdrożenia - z integracją z Twoimi platformami.",
+        "tab3LinkText": "Więcej"
       },
 
 
