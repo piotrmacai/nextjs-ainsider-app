@@ -14,6 +14,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "ainsider.co",
       },
+      {
+        protocol: "https",
+        hostname: "ainsider.store",
+      },
     ],
   },
 };
