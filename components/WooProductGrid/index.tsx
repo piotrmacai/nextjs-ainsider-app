@@ -141,7 +141,7 @@ const WooProductGrid = () => {
                 href={product.permalink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border rounded-xl p-4 shadow hover:shadow-lg transition-shadow duration-200"
+                className="shadow-md rounded-xl p-4 shadow hover:shadow-lg transition-shadow duration-200"
               >
                 <div className="relative">
                   <Image

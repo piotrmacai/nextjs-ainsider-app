@@ -46,8 +46,10 @@ export default function Home() {
   return (
     <main>
       <AiwareHero/>
-      < Socials />
+      <FeaturesTabResources/>
+      <div id="services">
       <Feature /> 
+      </div>
       <Motion/>
       
       <MainAbout/>
@@ -56,40 +58,11 @@ export default function Home() {
       <ServiceTimeline/>    
        {/* <HomePortfolio/> */}
        {/* <CTAToAinsider/> */}
-     <FeaturesTabResources/>
       <CTA />       
       <SenjaWidget/>  
       <Brands />
-      <Contact />     
-      {/* <PortfolioCta/> */}
-  
-      {/* <Integration /> */}
-      {/* <FAQ /> */}
-      {/* <Testimonial /> */}
-      {/* <div id="headerWeb"> */}
-      {/* <HeaderWeb/> */}
-      {/* <AboutWeb/>
-      <WebFeaturesTab/> */}
-      {/* </div> */}
-      {/* <div id="headerAi"> */}
-      {/* <HeaderAi/>     
-      <AboutAi/>
-      <AiFeaturesTab/> */}
-      {/* </div>  */}
-      {/* <div id="headerMarketing"> */}
-      {/* <AboutMarketing/> */}
-      {/* <MarketingFeaturesTab/> */}
-      {/* </div>  */}
-      {/* <div id="headerGenAi">
-      <GenAiHome/> 
-      </div>   */} 
-      
-       {/* <Pricing />    */}
-       {/* <FunFact />  */}
-     
-  
-      {/* <Voiceflow/> */}
-      {/* <Blog /> */}
+      <Contact />
+      < Socials />     
     </main>
   );
 }

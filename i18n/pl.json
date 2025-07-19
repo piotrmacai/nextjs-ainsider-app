@@ -331,7 +331,16 @@
       "ecommerceTitle": "Dedykowane Rozwiązania Web & CRM",
       "ecommerceDescription": "Oferujemy kompleksowe rozwiązania Web i CRM, które integrują różnorodne funkcje, umożliwiając efektywne zarządzanie relacjami z klientami oraz optymalizację procesów biznesowych, co prowadzi do zwiększenia efektywności i satysfakcji klientów.",
       "automationsTitle": "Voiceboty & Rozwiązania Głosowe",
-      "automationsDescription": "Tworzymy i integrujemy najnowsze głosowe rozwiązania AI - w tym głosowych agentów i chatboty AI, które automatyzują rozmowy telefoniczne i komunikację z klientami, upraszczają złożone zadania i dostarczają skalowalne rozwiązania dla Twojego biznesu. Nasze rozw"
+      "automationsDescription": "Tworzymy i integrujemy najnowsze głosowe rozwiązania AI - w tym głosowych agentów i chatboty AI, które automatyzują rozmowy telefoniczne i komunikację z klientami, upraszczają złożone zadania i dostarczają skalowalne rozwiązania dla Twojego biznesu.",
+      "storeTitle": "Sklep z Gotowymi Agentami i Automatyzacjami AI",
+      "storeDescription": "Oferujemy gotowe do wdrożenia automatyzacje oraz agentów AI, które możesz natychmiast wykorzystać w swoim biznesie. Rozwiązania są łatwe w instalacji i skalowaniu, co pozwala na szybki start i mierzalne efekty.",
+    
+      "auditTitle": "Audyty i Strategia Wdrożenia AI",
+      "auditDescription": "Przeprowadzamy kompleksowe audyty gotowości do wdrożenia AI oraz opracowujemy indywidualną strategię dostosowaną do Twoich celów, zespołu i infrastruktury. Pomagamy zrozumieć, gdzie AI przyniesie największą wartość i jak ją efektywnie wdrożyć.",
+    
+      "trainingTitle": "Szkolenia i Kursy z AI i Automatyzacji",
+      "trainingDescription": "Prowadzimy praktyczne szkolenia i kursy z zakresu AI, chatbotów, automatyzacji i integracji systemów. Nasze programy są dostosowane do różnych poziomów zaawansowania – od podstaw po zaawansowane wdrożenia AI w firmie."
+    
     },
 
 
@@ -528,7 +537,8 @@
         "header": {
           "tabOne": "Newsletter AI",
           "tabTwo": "Katalog Narzędzi AI",
-          "tabThree": "Ainsider Store"
+          "tabThree": "Ainsider Store",
+          "tabFour": "Usługi AI"
         },
         "tab1Title": "Newsletter o Sztucznej Inteligencji",
         "tab1Description1": "Otrzymuj cotygodniowe, starannie wyselekcjonowane wiadomości, narzędzia i przełomy w dziedzinie AI prosto na swoją skrzynkę.",
@@ -541,7 +551,11 @@
         "tab3Title": "Ainsider Store",
         "tab3Description1": "Gotowe do użycia automatyzacje i Agenci AI, które możesz bardzo łatwo wdrożyć u siebie - z Twoją własną wiedzą, Twoimi platformami, i Twoim 'kontekstem'.",
         "tab3Description2": "Wszystkie workflow posiadają dokumentację oraz instrukcję wdrożenia - z integracją z Twoimi platformami.",
-        "tab3LinkText": "Więcej"
+        "tab3LinkText": "Więcej",
+        "tab4Title": "Usługi i Wdrożenia AI",
+  "tab4Description1": "Sprawdź, gdzie AI może realnie zwiększyć efektywność Twojego biznesu. Przeprowadzamy audyty gotowości i analizę potencjału wdrożenia.",
+  "tab4Description2": "Na tej podstawie tworzymy konkretną strategię wdrożenia AI – dopasowaną do Twoich celów, zespołu i narzędzi.",
+  "tab4LinkText": "Dowiedz się więcej"
       },
 
 

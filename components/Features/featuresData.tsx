@@ -34,16 +34,31 @@ const getTranslatedFeatures = () => {
       icon: "/images/icon/undraw_social.svg",
       title: t('features.marketingTitle'),
       description: t('features.marketingDescription'),
-    }, 
-    
-       
+    },    
      {
       id: 6,
       icon: "/images/icon/undraw_product_iteration.svg",
       title: t('features.automationsTitle'),
       description: t('features.automationsDescription'),
     }, 
-  
+    {
+      id: 7,
+      icon: "/images/icon/undraw_chat-withai.svg",
+      title: t('features.storeTitle'),
+      description: t('features.storeDescription'),
+    }, 
+    {
+      id: 8,
+      icon: "/images/icon/undraw_online-community.svg",
+      title: t('features.auditTitle'),
+      description: t('features.auditDescription'),
+     },   
+     {
+      id: 9,
+      icon: "/images/icon/undraw_chat-bot.svg",
+      title: t('features.trainingTitle'),
+      description: t('features.trainingDescription'),
+    }, 
    
  
    

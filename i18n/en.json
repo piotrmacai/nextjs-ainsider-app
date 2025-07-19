@@ -321,7 +321,16 @@
   "ecommerceTitle": "Dedicated Web & CRM Solutions",
   "ecommerceDescription": "We offer comprehensive Web and CRM solutions that integrate various features, enabling effective customer relationship management and business process optimization, leading to increased efficiency and customer satisfaction.",
   "automationsTitle": "Voicebots & Voice Solutions",
-  "automationsDescription": "We create and integrate voice AI solutions to build advanced Voice AI Agents and Chatbots, that automate processes, simplify complex tasks, and provide scalable solutions for your business."
+  "automationsDescription": "We create and integrate voice AI solutions to build advanced Voice AI Agents and Chatbots, that automate processes, simplify complex tasks, and provide scalable solutions for your business.",
+  "storeTitle": "Ready-to-Use AI Agents & Automations",
+  "storeDescription": "We offer ready-to-deploy AI agents and automations that you can instantly apply to your business. Our solutions are easy to install and scale, enabling a fast start and measurable results.",
+
+  "auditTitle": "AI Audit & Implementation Strategy",
+  "auditDescription": "We conduct comprehensive AI readiness audits and develop tailored implementation strategies aligned with your goals, team, and infrastructure. We help you identify where AI can bring the most value and how to integrate it effectively.",
+
+  "trainingTitle": "AI & Automation Trainings and Courses",
+  "trainingDescription": "We deliver practical trainings and courses on AI, chatbots, automations, and system integrations. Our programs are designed for all skill levels – from beginners to advanced teams planning enterprise AI deployment."
+
 },
 
 
@@ -503,7 +512,8 @@
   "header": {
     "tabOne": "AI Newsletter",
     "tabTwo": "AI Tools Directory",
-    "tabThree": "Ainsider Store"
+    "tabThree": "Ainsider Store",
+    "tabFour": "AI Services"
   },
   "tab1Title": "AI Insights Newsletter",
   "tab1Description1": "Get weekly curated AI news, tools, and breakthroughs directly to your inbox.",
@@ -516,7 +526,11 @@
   "tab3Title": "Ainsider Store",
 "tab3Description1": "Ready-to-use automations and AI Agents that you can easily implement yourself - with your own knowledge, your platforms, and your 'context'.",
 "tab3Description2": "All workflows include documentation and implementation instructions - with integration to your platforms.",
-"tab3LinkText": "More"
+"tab3LinkText": "More",
+"tab4Title": "AI Audit & Implementation Strategy",
+  "tab4Description1": "Discover where AI can genuinely improve your business performance. We conduct readiness audits and analyze the potential for AI adoption.",
+  "tab4Description2": "Based on the audit, we develop a clear and actionable AI implementation strategy tailored to your goals, team, and tools.",
+  "tab4LinkText": "Learn more"
 },
 
       

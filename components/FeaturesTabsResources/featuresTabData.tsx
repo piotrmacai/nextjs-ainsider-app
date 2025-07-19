@@ -6,7 +6,17 @@ import { useTranslation } from 'react-i18next';
 const getTranslatedFeaturesTabData = () => {
   const { t } = useTranslation();
 
-const featuresTabData: FeatureTab[] = [
+const featuresTabData: FeatureTab[] = [  
+  {
+      id: "tabFour",
+      title: t('featuresTabResources.tab4Title'),
+      desc1: t('featuresTabResources.tab4Description1'),
+      desc2: t('featuresTabResources.tab4Description2'),
+      image: "/images/features/undraw_chat-with-ai.svg",
+      imageDark: "/images/features/undraw_chat-bot.svg", 
+      link: "#services",
+      linkText: t('featuresTabResources.tab4LinkText'),
+    },
     {
       id: "tabOne",
       title: t('featuresTabResources.tab1Title'),
@@ -37,6 +47,7 @@ const featuresTabData: FeatureTab[] = [
       link: "https://ainsider.store",
       linkText: t('featuresTabResources.tab3LinkText'),
     },
+  
   ];
 
 return featuresTabData;
