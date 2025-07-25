@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 flex flex-col md:flex-row"> {/* Added flex and flex-col for mobile view */}
           <div className="md:w-1/2 sm:w-full md:block mb-8 md:mb-0 md:mt-12"> {/* Added mb-8 for mobile view */}
             <h4 className="text-black dark:text-white text-lg font-medium mb-4.5">
-              Hello: {t('we')} Ainsider!
+              Hello: {t('we')} Ainsider AI
             </h4>
             <h1 className="text-black dark:text-white text-3xl xl:text-hero font-bold mb-5 pr-16">
               {t('mainheading')} 
@@ -162,7 +162,7 @@ const Hero = () => {
               </ul>
             </motion.div>
 
-            <div className="mt-10">
+            {/* <div className="mt-10">
               <form   action="https://formspree.io/f/xpwzwngo" target="_blank" method="POST">
                 <div className="flex flex-wrap gap-5">
                   <input
@@ -180,7 +180,7 @@ const Hero = () => {
                   </button>
                 </div>
               </form>
-            </div>
+            </div> */}
           </div>
 
           <div className="md:w-1/2 sm:w-full md:block p-8 md:p-3"> {/* Removed the hidden class for mobile view */}

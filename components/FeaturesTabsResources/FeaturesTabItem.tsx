@@ -14,7 +14,7 @@ const FeaturesTabItem: React.FC<Props> = ({ featureTab }) => {
 
   return (
     <>
-      <div className="flex items-center">
+      <div className="flex flex-col md:flex-row items-center">
         <div className="md:w-2/3">
           <h2 className="text-black dark:text-white text-xl xl:text-2xl font-bold mb-7">
             {t(title)}
@@ -23,14 +23,14 @@ const FeaturesTabItem: React.FC<Props> = ({ featureTab }) => {
           <p className="w-11/12">{t(desc2)}</p>
 
         </div>
-        <div className="hidden md:flex md:items-center md:justify-center  md:w-1/3 relative mx-auto aspect-[562/366] max-w-[550px]">
+        <div className="md:flex md:items-center md:justify-center  md:w-1/3 relative mx-auto aspect-[562/366] max-w-[550px]">
           {/* <Image src={image} alt={t(title)} fill className="dark:hidden" />
           <Image src={imageDark} alt={t(title)} fill className="hidden dark:block" /> */}
              {link && linkText && (
             <div className="flex md:items-center md:justify-center">
               <Link 
                 href={link}
-                className="text-blue-600 dark:text-blue-400 hover:underline px-4 py-2 border border-transparent rounded-2xl text-sm font-medium text-white bg-primary hover:bg-secondary/90 transition-colors duration-200"
+                className="text-blue-600 dark:text-blue-400 hover:underline px-4 py-2 border border-transparent rounded-2xl text-sm font-medium text-white bg-primary hover:bg-secondary/90 transition-colors duration-200 mt-4 md:mt-0"
                 target={link.startsWith('#') ? '_self' : '_blank'}
                 rel={link.startsWith('#') ? '' : 'noopener noreferrer'}
               >
