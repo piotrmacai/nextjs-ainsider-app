@@ -1,40 +1,49 @@
 import { Portfolio } from "@/types/portfolio";
 
 const BlogData: Portfolio[] = [
-  { 
-    _id: 1.1,
-    mainImage: "/images/portfolio/n8n-openwebui.jpg",
-    title: "n8n Agent at Open WebUI chat interface",
+     { 
+    _id: 1,
+    mainImage: "/images/portfolio/videoapp.png",
+    title: "Video Portfolio App",
     metadata:
-      "Solution which allow to use any n8n AI Agent or workflow directly in Open WebUI chat interface",
-      urlLink:"https://github.com/piotrmacai/librechat-docker",
-      tags: ["all", "ai", "agents"],
+      "Fully interactive and modern video portfolio app build in Next.js",
+      urlLink:"https://macai.cloud/",
+      tags: ["web"],
+  },
+  // { 
+  //   _id: 13,
+  //   mainImage: "/images/portfolio/ainsiderco.png",
+  //   title: "Landing Page & Personal Portfolio Framework",
+  //   metadata:
+  //     "Personalized landing page and portfolio app with various social links and AI Assitant build in Next.js",
+  //     urlLink:"https://ainsider.link",
+  //     tags: ["ai", "web"],
+  // },
+  { 
+    _id: 1,
+    mainImage: "/images/portfolio/rekrutspark.png",
+    title: "Rekrut Spark Website",
+    metadata:
+      "Modern website for HR Agency with job listing and application functionality",
+      urlLink:"https://rekrut-spark.com/",
+      tags: ["web"],
   },
   { 
     _id: 1.1,
     mainImage: "/images/portfolio/librechat.png",
-    title: "LibreChat - LLM User Interface",
+    title: "LibreChat - Custom LLM User Interface",
     metadata:
       "Personalized landing page and portfolio app with various social links and AI Assitant build in Next.js",
       urlLink:"https://github.com/piotrmacai/librechat-docker",
       tags: ["ai", "agents"],
   },
   { 
-    _id: 13,
-    mainImage: "/images/portfolio/videoapp.png",
-    title: "Video Portfolio App",
-    metadata:
-      "Fully interactive and modern video portfolio app build in Next.js",
-      urlLink:"https://nextjs-video-web-app.vercel.app/",
-      tags: ["web"],
-  },
-  { 
     _id: 1.2,
-    mainImage: "/images/portfolio/n8n-docker.png",
-    title: "n8n platform installed locally",
+    mainImage: "/images/portfolio/ainsiderstore.png",
+    title: "n8n Agents and Automations Workflows",
     metadata:
-      "Locally installed n8n AI Automation platform - with Docker Container",
-      urlLink:"https://github.com/piotrmacai/",
+      "Store with ready to use n8n agents and automations workflows for business",
+      urlLink:"https://ainsider.store",
       tags: ["ai", "agents"],
   },
   { 
@@ -47,31 +56,13 @@ const BlogData: Portfolio[] = [
       tags: ["ai", "agents"],
   },
   { 
-    _id: 13,
-    mainImage: "/images/portfolio/ainsiderco.png",
-    title: "Landing Page & Personal Portfolio Framework",
-    metadata:
-      "Personalized landing page and portfolio app with various social links and AI Assitant build in Next.js",
-      urlLink:"https://ainsider.co/",
-      tags: ["ai", "web"],
-  },
-  { 
     _id: 0,
     mainImage: "/images/portfolio/ainsiderplimg.png",
     title: "Ainsider.pl",
     metadata:
       "Ai Tools and AI models Directory for polish audience",
-      urlLink:"/portfolio/ainsiderpl",
+      urlLink:"https://ainsider.pl",
       tags: ["web", "ai"],  
-  },
-  { 
-    _id: 1,
-    mainImage: "/images/portfolio/deepseekimg.png",
-    title: "Local & Private AI Assistant",
-    metadata:
-      "Private RAG AI Assistant build with DeepSeek and Ollama",
-      urlLink:"/localbot",
-      tags: ["ai", "agents"],
   },
   { 
     _id: 2,
@@ -88,17 +79,26 @@ const BlogData: Portfolio[] = [
     title: "Personal Portfolio with Links and AI Assitant",
     metadata:
       "Personalized portfolio app with various social links and AI Assitant build in Next.js",
-      urlLink:"/portfolio/ainsider-link",
+      urlLink:"https://ainsider.link",
       tags: ["ai", "web"],
   },
+  // { 
+  //   _id: 4,
+  //   mainImage: "/images/portfolio/voiceflowecom.png",
+  //   title: "AI Agent for Ecommerce with Products Recommendation",
+  //   metadata:
+  //     "Advanced personalized AI Agent for Ecommerce with Products Recommendation build in Voiceflow",
+  //     urlLink:"/ecombot",
+  //     tags: ["ai", "agents"],
+  // },
   { 
-    _id: 4,
-    mainImage: "/images/portfolio/voiceflowecom.png",
-    title: "AI Agent for Ecommerce with Products Recommendation",
+    _id: 17,
+    mainImage: "/images/portfolio/afterrave.jpg",
+    title: "After-rave.eu",
     metadata:
-      "Advanced personalized AI Agent for Ecommerce with Products Recommendation build in Voiceflow",
-      urlLink:"/ecombot",
-      tags: ["ai", "agents"],
+      "Shop in Shopify in multiple languages",
+      urlLink:"/portfolio/after-rave",
+      tags: ["websites"],
   },
   { 
     _id: 5,
@@ -109,24 +109,24 @@ const BlogData: Portfolio[] = [
       urlLink:"/portfolio/voicebot-drivingschool",
       tags: ["ai", "agents"],
   },
-  { 
-    _id: 6,
-    mainImage: "/images/portfolio/macaistudiostore.png",
-    title: "Store.macai.studio",
-    metadata:
-      "Ecommerce created with Woo with AI, LLM and AI Art knowledge.",
-      urlLink:"/portfolio/storemacaistudio",
-      tags: ["web"],
-  },
-  { 
-    _id: 7,
-    mainImage: "/images/portfolio/piotrmacaidev.jpg",
-    title: "macai.studio",
-    metadata:
-      "Piotr Macai Personal Portfolio in React.js",
-      urlLink:"https://macai.studio",
-      tags: ["web"],
-  },
+  // { 
+  //   _id: 6,
+  //   mainImage: "/images/portfolio/macaistudiostore.png",
+  //   title: "Store.macai.studio",
+  //   metadata:
+  //     "Ecommerce created with Woo with AI, LLM and AI Art knowledge.",
+  //     urlLink:"/portfolio/storemacaistudio",
+  //     tags: ["web"],
+  // },
+  // { 
+  //   _id: 7,
+  //   mainImage: "/images/portfolio/piotrmacaidev.jpg",
+  //   title: "macai.studio",
+  //   metadata:
+  //     "Piotr Macai Personal Portfolio in React.js",
+  //     urlLink:"https://macai.studio",
+  //     tags: ["web"],
+  // },
   { 
     _id: 8,
     mainImage: "/images/portfolio/ainsider_tools.jpg",
@@ -145,6 +145,15 @@ const BlogData: Portfolio[] = [
       urlLink:"/portfolio/cora-goralczyk",
       tags: ["web"],
   },
+  // { 
+  //   _id: 1.1,
+  //   mainImage: "/images/portfolio/n8n-openwebui.jpg",
+  //   title: "n8n Agent at Open WebUI chat interface",
+  //   metadata:
+  //     "Solution which allow to use any n8n AI Agent or workflow directly in Open WebUI chat interface",
+  //     urlLink:"https://github.com/piotrmacai/librechat-docker",
+  //     tags: ["all", "ai", "agents"],
+  // },
   // { 
   //   _id: 10,
   //   mainImage: "/images/portfolio/ainsidersoftr.jpg",
@@ -209,24 +218,15 @@ const BlogData: Portfolio[] = [
       urlLink:"/portfolio/skinproject",
       tags: ["websites"],
   },
-  { 
-    _id: 17,
-    mainImage: "/images/portfolio/afterrave.jpg",
-    title: "After-rave.eu",
-    metadata:
-      "Shop in Shopify in multiple languages",
-      urlLink:"/portfolio/after-rave",
-      tags: ["websites"],
-  },
-  { 
-    _id: 18,
-    mainImage: "/images/portfolio/hfassistants.jpg",
-    title: "Huggingface Assistants",
-    metadata:
-      "Custom various AI Assistants",
-      urlLink:"/portfolio/huggingface-assistants",
-      tags: ["ai"],
-  },
+  // { 
+  //   _id: 18,
+  //   mainImage: "/images/portfolio/hfassistants.jpg",
+  //   title: "Huggingface Assistants",
+  //   metadata:
+  //     "Custom various AI Assistants",
+  //     urlLink:"/portfolio/huggingface-assistants",
+  //     tags: ["ai"],
+  // },
   { 
     _id: 19,
     mainImage: "/images/portfolio/slovlydeskop.jpg",
@@ -264,15 +264,15 @@ const BlogData: Portfolio[] = [
       urlLink:"/portfolio/bakaliowelove",
       tags: ["websites"],
   },
-     { 
-    _id: 23,
-    mainImage: "/images/portfolio/macaiStudio.jpg",
-    title: "AI Assistant for Macai.studio",
-    metadata:
-      "Ai Assistant for Macai.studio",
-      urlLink:"/portfolio/macai-chatbot",
-      tags: ["ai", "agents"],
-  },
+  //    { 
+  //   _id: 23,
+  //   mainImage: "/images/portfolio/macaiStudio.jpg",
+  //   title: "AI Assistant for Macai.studio",
+  //   metadata:
+  //     "Ai Assistant for Macai.studio",
+  //     urlLink:"/portfolio/macai-chatbot",
+  //     tags: ["ai", "agents"],
+  // },
   {
     _id: 24,
     mainImage: "/images/portfolio/lanelyya.jpg",
@@ -309,15 +309,15 @@ const BlogData: Portfolio[] = [
       urlLink:"/portfolio/smpolaniec",
       tags: ["websites"],
   },
-    { 
-    _id: 28,
-    mainImage: "/images/portfolio/szkolachatbot.jpg",
-    title: "AI Assistant for Szkolajazdymachowski.pl",
-    metadata:
-      "Ai Assistant for Driving School Szkolajazdypolaniec.pl",
-      urlLink:"/portfolio/chatbot-osk",
-      tags: ["ai", "agents"],
-  },
+  //   { 
+  //   _id: 28,
+  //   mainImage: "/images/portfolio/szkolachatbot.jpg",
+  //   title: "AI Assistant for Szkolajazdymachowski.pl",
+  //   metadata:
+  //     "Ai Assistant for Driving School Szkolajazdypolaniec.pl",
+  //     urlLink:"/portfolio/chatbot-osk",
+  //     tags: ["ai", "agents"],
+  // },
     // { 
   //   _id: 5,
   //   mainImage: "/images/portfolio/macaiStudio.jpg",
