@@ -38,7 +38,7 @@ const ServicesPage = async () => {
     <AutomationFeature/>
     <AutomationAbout/> 
     <Motion/>
-    <AgentPricing/>      
+    {/* <AgentPricing/>       */}
     <FeaturesTab />
     {/* <AiAboutTwo/>  */}
     {/* <AiAboutOne/>   */}

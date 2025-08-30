@@ -19,19 +19,19 @@ const getTranslatedMenuData = () => {
       newTab: true,
       path: "#",
       icon: "/images/icon/phone.svg",
-      submenu: [   
+      submenu: [     
+        {
+          id: 1,
+          title: t('header.menuServices'),
+          newTab: true,
+          path: "/web",
+          icon: "/images/icon/phone.svg",
+        },
         {
           id: 2,
           title: t('header.agents'),
           newTab: false,
           path: "/bots",
-          icon: "/images/icon/bag.svg",
-        },
-        {
-          id: 2,
-          title: t('header.voiceagents'),
-          newTab: false,
-          path: "/voicebots",
           icon: "/images/icon/bag.svg",
         },
         {
@@ -42,11 +42,18 @@ const getTranslatedMenuData = () => {
           icon: "/images/icon/bag.svg",
         },
         {
-          id: 1,
-          title: t('header.menuServices'),
-          newTab: true,
-          path: "/web",
-          icon: "/images/icon/phone.svg",
+          id: 4,
+          title: t('header.personal-assistant'),
+          newTab: false,
+          path: "/personal-assistant",
+          icon: "/images/icon/bag.svg",
+        },
+        {
+          id: 4,
+          title: t('header.invoice-ai'),
+          newTab: false,
+          path: "/invoice-ai",
+          icon: "/images/icon/bag.svg",
         },
         {
           id: 3,

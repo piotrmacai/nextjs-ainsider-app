@@ -69,6 +69,102 @@
     }
   },
 
+  "aiCTA": {
+    "maintitle": "Zacznijmy już teraz",
+    "mainsubtitle": "By ustalić indywidualne szczegóły integracji niezbędne dla wdrożenia",
+    "title": "Zacznijmy już teraz",
+    "subtitle": "By ustalić indywidualne szczegóły integracji niezbędne dla wdrożenia",
+    "button": "Umów konsultację",
+"footertext": "Darmowa konsultacja • Bez zobowiązań • Profesjonalne doradztwo"  },
+
+"invoice-ai": {
+  "header": "Automatyzacja Przypomnień o Fakturach — Inteligentne Wdrożenie AI",
+  "desc1": "Projektujemy i wdrażamy systemy AI do automatycznego zarządzania przypomnieniami o fakturach. Integrujemy się z Twoimi narzędziami finansowymi, aby usprawnić procesy windykacji i komunikacji z klientami.",
+  "desc2": "System działa w chmurze lub lokalnie, zgodnie z Twoimi wymaganiami bezpieczeństwa. Obsługuje e-maile, SMS-y, komunikatory i integruje się z systemami księgowymi oraz CRM.",
+  "integrations": "Integracje z Gmail, Outlook, Xero, QuickBooks, ERP, CRM, Slack/Teams oraz własnymi API.",
+  "usecases": "Automatyczne przypomnienia o płatnościach, segmentacja klientów według ryzyka, generowanie raportów zaległości, harmonogramy windykacji, integracja z systemami księgowymi.",
+  "details": "Szczegóły",
+  "integrationsText": "Integracje",
+  "channels": "Kanały",
+  "web": "Przeglądarka, desktop, iOS/Android",
+  "forwho": "Dla kogo jest Automatyzacja Przypomnień o Fakturach?",
+  "who1": "Firm, które chcą zredukować liczbę zaległych płatności i poprawić cash flow.",
+  "who2": "Zespołów finansowych i księgowych potrzebujących automatyzacji komunikacji z klientami.",
+  "who3": "Startupów i MŚP szukających skalowalnego rozwiązania do zarządzania należnościami.",
+  "who4": "Organizacji wymagających zgodności z polityką bezpieczeństwa danych i audytu.",
+  "features": {
+    "privacy": {
+      "title": "Bezpieczeństwo Danych",
+      "desc": "Tryb chmurowy lub on-premise. Szyfrowanie, logi audytowe i kontrola dostępu."
+    },
+    "personalization": {
+      "title": "Personalizacja Komunikacji",
+      "desc": "Szablony wiadomości, ton komunikacji, harmonogramy i segmentacja klientów."
+    },
+    "support": {
+      "title": "Automatyczna Obsługa",
+      "desc": "Przypomnienia, eskalacje, odpowiedzi na zapytania i działania zgodne z harmonogramem."
+    },
+    "integrations": {
+      "title": "Integracje",
+      "desc": "Gmail, Outlook, Xero, QuickBooks, ERP, CRM, Slack/Teams, REST/Webhook."
+    },
+    "analytics": {
+      "title": "Raporty i Statystyki",
+      "desc": "Wskaźniki płatności, skuteczność przypomnień, segmentacja klientów i analiza ryzyka."
+    },
+    "installation": {
+      "title": "Szybkie Wdrożenie",
+      "desc": "Konfiguracja kont, mapowanie procesów windykacyjnych i uruchomienie MVP w kilka dni."
+    }
+  }
+},
+
+    
+  
+  "personalassistant": {
+"header": "Multimodalny Personalny Asystent AI — wdrożenie pod Twoje potrzeby",
+"desc1": "Projektujemy i wdrażamy w pełni konfigurowalnego asystenta AI, który łączy tekst, głos, obraz i pliki. Dostosowujemy modele, logikę i interfejs do Twoich procesów oraz narzędzi pracy.",
+"desc2": "Asystent integruje się z Twoim ekosystemem: pocztą, kalendarzem, notatkami, CRM i dyskiem. Może działać w chmurze lub w Twojej infrastrukturze, zgodnie z wymaganiami bezpieczeństwa.",
+"integrations": "Bezpieczne połączenia z Gmail, Google Calendar, Notion/Obsidian/Evernote, CRM, Drive, Slack/Teams oraz własnymi API.",
+"usecases": "Planowanie i umawianie zadań, podsumowania e-maili i spotkań, generowanie notatek z rozmów, wyszukiwanie kontekstowe w dokumentach, automatyzacja workflowów.",
+"details": "Szczegóły",
+"integrationsText": "Integracje",
+"channels": "Kanały",
+"web": "Przeglądarka, desktop, iOS/Android",
+"forwho": "Dla kogo jest Personalny Asystent AI?",
+"who1": "Zespołów sprzedaży i operacji chcących skrócić czas obsługi i researchu.",
+"who2": "Founderów i menedżerów potrzebujących automatyzacji zadań i kalendarza.",
+"who3": "Firm, które chcą łączyć e-maile, kalendarz i notatki w jednym inteligentnym interfejsie.",
+"who4": "Organizacji wymagających kontroli dostępu, audytu i dostosowania do procesów.",
+"features": {
+"privacy": {
+"title": "Kontrola Danych",
+"desc": "Tryb chmurowy lub on-premise. Uprawnienia OAuth, logi audytowe i granularne zgody."
+},
+"personalization": {
+"title": "Personalizacja",
+"desc": "Persony, ton, prompt-routing, pamięć długoterminowa i własne zestawy narzędzi."
+},
+"support": {
+"title": "Asysta 24/7",
+"desc": "Obsługa zapytań, przypomnienia, podsumowania i automatyczne akcje o każdej porze."
+},
+"integrations": {
+"title": "Integracje",
+"desc": "Gmail, Google Calendar, Notion/Obsidian, Drive, Slack/Teams, CRM i REST/Webhook."
+},
+"analytics": {
+"title": "Analiza i Raporty",
+"desc": "KPI użycia, kosztów i jakości. Wgląd w intencje, źródła i skuteczność akcji."
+},
+"installation": {
+"title": "Szybkie Wdrożenie",
+"desc": "Konfiguracja kont OAuth, mapowanie procesów i uruchomienie MVP w krótkim czasie."
+}
+}
+},
+
   "localbot": {
     "header": "Lokalny Agent AI z pełną prywatnością danych",
     "desc1": "Lokalny Asystent AI to rozwiązanie działające w pełni na Twojej infrastrukturze, bez połączenia z chmurą. Wszystkie dane i interakcje pozostają na Twoich serwerach, zapewniając maksymalny poziom bezpieczeństwa i zgodność z RODO.",
@@ -1082,7 +1178,7 @@
           "header1": "Asystenci i Agenci AI",
           "header2": "Indywidualne Rozwiązania AI",
            "desc1": "Idealnie dopasowani do indywidualnych celów i potrzeb Twojej firmy",
-           "desc2": "Agenci tekstowy oraz głosowi",
+           "desc2": "Multimodalni agenci tekstowi oraz głosowi",
            "desc3": "Integracje z dowolnymi platformami i systemami CRM",
            "desc4": "Dowolna baza wiedzy - z wielu różnych źródeł",
            "desc5": "Automatyzacje szyte na miarę potrzeb"
@@ -1271,7 +1367,9 @@
             "pricing": "Wycena",
             "menuServices":"Web & Ecommerce",
             "menuAutomations":"Automatyzacje",
-            "agents": "Agenci AI"
+            "agents": "Agenci AI",
+            "personal-assistant": "Personalny Asystent AI",
+            "invoice-ai": "Automatyzacja Faktur"
         },
         "footer": {
             "contact": "Kontakt",

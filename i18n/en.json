@@ -100,6 +100,102 @@
   "integrations": "Seamlessly integrate with your existing tools and databases."
 },
 
+
+"invoice-ai": {
+  "header": "Invoice Reminder Automation — Smart AI Implementation",
+  "desc1": "We design and implement AI systems for automated invoice reminder management. Our solution integrates with your financial tools to streamline collections and client communication.",
+  "desc2": "The system runs in the cloud or on-premises, depending on your security requirements. It supports emails, SMS, messaging platforms, and integrates with accounting and CRM systems.",
+  "integrations": "Integrations with Gmail, Outlook, Xero, QuickBooks, ERP, CRM, Slack/Teams, and custom APIs.",
+  "usecases": "Automated payment reminders, customer risk segmentation, overdue invoice reporting, collection schedules, and accounting system integration.",
+  "details": "Details",
+  "integrationsText": "Integrations",
+  "channels": "Channels",
+  "web": "Browser, desktop, iOS/Android",
+  "forwho": "Who Is Invoice Reminder Automation For?",
+  "who1": "Companies looking to reduce overdue payments and improve cash flow.",
+  "who2": "Finance and accounting teams needing automated client communication.",
+  "who3": "Startups and SMEs seeking scalable receivables management solutions.",
+  "who4": "Organizations requiring data security compliance and audit capabilities.",
+  "features": {
+    "privacy": {
+      "title": "Data Security",
+      "desc": "Cloud or on-premise mode. Encryption, audit logs, and access control."
+    },
+    "personalization": {
+      "title": "Communication Personalization",
+      "desc": "Message templates, tone of voice, scheduling, and customer segmentation."
+    },
+    "support": {
+      "title": "Automated Handling",
+      "desc": "Reminders, escalations, query responses, and scheduled actions."
+    },
+    "integrations": {
+      "title": "Integrations",
+      "desc": "Gmail, Outlook, Xero, QuickBooks, ERP, CRM, Slack/Teams, REST/Webhook."
+    },
+    "analytics": {
+      "title": "Reports & Analytics",
+      "desc": "Payment metrics, reminder effectiveness, customer segmentation, and risk analysis."
+    },
+    "installation": {
+      "title": "Rapid Deployment",
+      "desc": "Account setup, collection process mapping, and MVP launch within days."
+    }
+  }
+},
+
+
+"personalassistant": {
+  "header": "Multimodal Personal AI Assistant — tailored implementation",
+  "desc1": "We design and implement a fully customizable AI assistant that works with text, voice, images, and files. Models, logic, and interface are adapted to your workflows and tools.",
+  "desc2": "The assistant integrates with your ecosystem: email, calendar, notes, CRM, and drive. It can operate in the cloud or on your infrastructure, depending on your security requirements.",
+  "integrations": "Secure connections with Gmail, Google Calendar, Notion/Obsidian/Evernote, CRM, Drive, Slack/Teams, and custom APIs.",
+  "usecases": "Task planning and scheduling, email and meeting summaries, automatic note generation from conversations, contextual search in documents, workflow automation.",
+  "details": "Details",
+  "integrationsText": "Integrations",
+  "channels": "Channels",
+  "web": "Web, desktop, iOS/Android",
+  "forwho": "Who is the Personal AI Assistant for?",
+  "who1": "Sales and operations teams looking to shorten handling and research time.",
+  "who2": "Founders and managers needing task and calendar automation.",
+  "who3": "Companies that want to combine emails, calendars, and notes in one intelligent interface.",
+  "who4": "Organizations requiring access control, audit, and process customization.",
+  "features": {
+    "privacy": {
+      "title": "Data Control",
+      "desc": "Cloud or on-premise mode. OAuth permissions, audit logs, and granular consents."
+    },
+    "personalization": {
+      "title": "Personalization",
+      "desc": "Personas, tone, prompt-routing, long-term memory, and custom toolsets."
+    },
+    "support": {
+      "title": "24/7 Assistance",
+      "desc": "Handles queries, reminders, summaries, and automated actions at any time."
+    },
+    "integrations": {
+      "title": "Integrations",
+      "desc": "Gmail, Google Calendar, Notion/Obsidian, Drive, Slack/Teams, CRM, and REST/Webhook."
+    },
+    "analytics": {
+      "title": "Analytics and Reports",
+      "desc": "Usage, cost, and quality KPIs. Insights into intents, sources, and action performance."
+    },
+    "installation": {
+      "title": "Quick Deployment",
+      "desc": "OAuth account setup, process mapping, and MVP launch in a short time."
+    }
+  }
+},
+
+"aiCTA": {
+  "title": "Let's Get Started",
+  "subtitle": "To determine the individual integration details necessary for implementation",
+  "button": "Schedule a Consultation",
+  "footertext": "Free consultation • No commitment • Professional guidance"
+
+},
+
 "localbot": {
     "header": "Local AI Agent with Full Data Privacy",
     "desc1": "Local AI Assistant is a solution that runs entirely on your infrastructure, with no cloud connection required. All data and interactions remain on your servers, ensuring maximum security and GDPR compliance.",
@@ -712,10 +808,14 @@
 
       "ai": {
         "hero": {
-          "header1": "Custom powerful AI Assistants and Agents",
-          "header2": "Perfectly suited to your business",
-          "desc1": "Innoative voice and text AI chatbots for various tasks."
-        },
+          "header1": "AI Assistants and Agents",
+          "header2": "Custom AI Solutions",
+          "desc1": "Perfectly tailored to your company's individual goals and needs",
+          "desc2": "Multimodal text and voice agents",
+          "desc3": "Integrations with any platforms and CRM systems",
+          "desc4": "Any knowledge base - from multiple sources",
+          "desc5": "Custom automation solutions"
+            },
 
 
 
@@ -1302,7 +1402,9 @@
             "pricing": "Pricing",
             "menuServices":"Web",
             "menuAutomations":"Automations",
-            "agents": "AI Agents"
+            "agents": "AI Agents",
+            "personal-assistant": "Personal AI Assistant",
+            "invoice-ai": "Invoice Reminder AI"
         },
         "footer": {
             "contact": "Contact",
