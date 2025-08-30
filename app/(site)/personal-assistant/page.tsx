@@ -12,7 +12,7 @@ import MotionN8n from "@/components/Motion/MotionN8n";
 import { motion } from "framer-motion";
 import { Shield, Palette, Headphones, Layers, BarChart3, Rocket } from "lucide-react";
 
-const PersonalAssistant = async () => {
+const PersonalAssistant = () => {
   const { t } = useTranslation();
 
   return (
@@ -28,7 +28,7 @@ const PersonalAssistant = async () => {
             <h4 className="text-black dark:text-white text-lg font-medium mb-4.5">
               Hello: {t('we')} Ainsider AI
             </h4>
-            <h1 className="text-black dark:text-white text-3xl xl:text-hero font-bold mb-5 pr-16">
+            <h1 className="text-black dark:text-white text-2xl xl:text-hero font-bold mb-5 pr-16">
               {t('personalassistant.header')} 
               <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1 ml-2.5">
               </span>
@@ -259,51 +259,55 @@ const PersonalAssistant = async () => {
                 </div>
 
 
-                <div className="blog-details">
-                  <p className="text-black dark:text-white">
-                  {t('personalassistant.desc1')}                  
-                   </p>
-                  {/* <div className="relative aspect-[97/60] w-full sm:aspect-[97/78]">
-                    <Image
-                      src={"/images/portfolio/ainsidertoolsbot.jpg"}
-                      alt="Ai Tools Bot"
-                      fill
-                      className="object-contain object-center rounded-md"
-                    />
-                  </div> */}
-                  <p className="text-white dark:text-white">
-                    {t('personalassistant.desc2')}
-                  </p>
+                <div className="blog-details space-y-4">
+                  <div className="flex items-start gap-3">
+                    <Rocket className="w-5 h-5 mt-1 flex-shrink-0 text-blue-600 dark:text-blue-400" />
+                    <p className="text-black dark:text-white">
+                      {t('personalassistant.desc1')}                  
+                    </p>
+                  </div>
+                  
+                  <div className="flex items-start gap-3">
+                    <Headphones className="w-5 h-5 mt-1 flex-shrink-0 text-green-600 dark:text-green-400" />
+                    <p className="text-white dark:text-white">
+                      {t('personalassistant.desc2')}
+                    </p>
+                  </div>
 
-
-                  <p className="text-black dark:text-white">{t('personalassistant.forwho')}</p> 
-                   <p className="text-black dark:text-white">{t('personalassistant.who1')} </p>
-                   <p className="text-black dark:text-white"> {t('personalassistant.who2')}</p>
-                   <p className="text-black dark:text-white"> {t('personalassistant.who3')}</p>
-                   <p className="text-black dark:text-white"> {t('personalassistant.who4')}</p>
-  
+                  <div className="flex items-start gap-3">
+                    <Shield className="w-5 h-5 mt-1 flex-shrink-0 text-purple-600 dark:text-purple-400" />
+                    <p className="text-black dark:text-white">{t('personalassistant.forwho')}</p>
+                  </div>
+                  
+                  <ul className="space-y-0.5 pl-8">
+                    <li className="flex items-start gap-2">
+                      <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 text-sm mr-2">
+                        <BarChart3 className="w-3 h-3" />
+                      </span>
+                      <p className="text-black dark:text-white">{t('personalassistant.who1')}</p>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 text-sm mr-2">
+                        <Layers className="w-3 h-3" />
+                      </span>
+                      <p className="text-black dark:text-white">{t('personalassistant.who2')}</p>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200 text-sm mr-2">
+                        <Palette className="w-3 h-3" />
+                      </span>
+                      <p className="text-black dark:text-white">{t('personalassistant.who3')}</p>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200 text-sm mr-2">
+                        <Rocket className="w-3 h-3" />
+                      </span>
+                      <p className="text-black dark:text-white">{t('personalassistant.who4')}</p>
+                    </li>
+                  </ul>
                 </div>
 
-                <a
-                  href="/contact"
-                  className="inline-flex items-center gap-2.5 font-medium text-white dark:text-black bg-black dark:bg-white rounded-full py-3 px-6 hover:opacity-90"
-                >
-                {t('cta.contact')}
-                  <Image
-                    width={20}
-                    height={20}
-                    src="/images/icon/icon-arrow-dark.svg"
-                    alt="Arrow"
-                    className="dark:hidden"
-                  />
-                  <Image
-                    width={20}
-                    height={20}
-                    src="/images/icon/icon-arrow-light.svg"
-                    alt="Arrow"
-                    className="hidden dark:block"
-                  />
-                </a>
+      
               </div>
             </div>
         

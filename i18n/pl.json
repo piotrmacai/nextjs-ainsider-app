@@ -79,43 +79,43 @@
 
 "invoice-ai": {
   "header": "Automatyzacja Przypomnień o Fakturach — Inteligentne Wdrożenie AI",
-  "desc1": "Projektujemy i wdrażamy systemy AI do automatycznego zarządzania przypomnieniami o fakturach. Integrujemy się z Twoimi narzędziami finansowymi, aby usprawnić procesy windykacji i komunikacji z klientami.",
-  "desc2": "System działa w chmurze lub lokalnie, zgodnie z Twoimi wymaganiami bezpieczeństwa. Obsługuje e-maile, SMS-y, komunikatory i integruje się z systemami księgowymi oraz CRM.",
-  "integrations": "Integracje z Gmail, Outlook, Xero, QuickBooks, ERP, CRM, Slack/Teams oraz własnymi API.",
-  "usecases": "Automatyczne przypomnienia o płatnościach, segmentacja klientów według ryzyka, generowanie raportów zaległości, harmonogramy windykacji, integracja z systemami księgowymi.",
+  "desc1": "Projektujemy i wdrażamy systemy oparte na AI do automatyzacji zarządzania przypomnieniami o fakturach. Zintegrowane z Twoimi narzędziami finansowymi, usprawniają proces windykacji i komunikacji z klientami.",
+  "desc2": "System działa w chmurze lub lokalnie — w zależności od wymagań bezpieczeństwa. Obsługuje e-mail, SMS, komunikatory i integruje się z systemami księgowymi oraz CRM.",
+  "integrations": "Integracje z Gmail, Outlook, Xero, QuickBooks, ERP, CRM, Slack/Teams oraz dedykowanymi API.",
+  "usecases": "Automatyczne przypomnienia o płatnościach, segmentacja klientów według ryzyka, raporty zaległości, harmonogramy windykacyjne oraz integracje z systemami księgowymi.",
   "details": "Szczegóły",
   "integrationsText": "Integracje",
   "channels": "Kanały",
   "web": "Przeglądarka, desktop, iOS/Android",
   "forwho": "Dla kogo jest Automatyzacja Przypomnień o Fakturach?",
-  "who1": "Firm, które chcą zredukować liczbę zaległych płatności i poprawić cash flow.",
-  "who2": "Zespołów finansowych i księgowych potrzebujących automatyzacji komunikacji z klientami.",
-  "who3": "Startupów i MŚP szukających skalowalnego rozwiązania do zarządzania należnościami.",
-  "who4": "Organizacji wymagających zgodności z polityką bezpieczeństwa danych i audytu.",
+  "who1": "Firmy chcące zmniejszyć liczbę przeterminowanych płatności i poprawić płynność finansową.",
+  "who2": "Zespoły finansowe i księgowe potrzebujące automatyzacji komunikacji z klientami.",
+  "who3": "Startupy i MŚP szukające skalowalnego zarządzania należnościami.",
+  "who4": "Organizacje wymagające zgodności z politykami bezpieczeństwa danych i audytowalności.",
   "features": {
     "privacy": {
       "title": "Bezpieczeństwo Danych",
-      "desc": "Tryb chmurowy lub on-premise. Szyfrowanie, logi audytowe i kontrola dostępu."
+      "desc": "Tryb chmurowy lub lokalny. Szyfrowanie end-to-end, dzienniki audytowe i granularna kontrola dostępu zapewniają zgodność z regulacjami dotyczącymi danych finansowych."
     },
     "personalization": {
-      "title": "Personalizacja Komunikacji",
-      "desc": "Szablony wiadomości, ton komunikacji, harmonogramy i segmentacja klientów."
+      "title": "Personalizacja systemu",
+      "desc": "Łącz się bezproblemowo z Twoimi wybranymi bazami danych i platformami, oraz bezproblemowo konfiguruj spersonalizowane workflowy, automatyczne przypomnienia i komunikację z klientami powiązaną z Twoimi systemami rozliczeniowymi."
     },
     "support": {
-      "title": "Automatyczna Obsługa",
-      "desc": "Przypomnienia, eskalacje, odpowiedzi na zapytania i działania zgodne z harmonogramem."
+      "title": "Automatyczna Obsługa Windykacji",
+      "desc": "Pełna automatyzacja przypomnień o płatnościach, ścieżek eskalacji, powiadomień o opóźnieniach oraz odpowiedzi klientów w kanałach e-mail, SMS i czat."
     },
     "integrations": {
-      "title": "Integracje",
-      "desc": "Gmail, Outlook, Xero, QuickBooks, ERP, CRM, Slack/Teams, REST/Webhook."
+      "title": "Integracje z Systemami Finansowymi",
+      "desc": "Natywna obsługa Gmail, Outlook, Xero, QuickBooks, ERP i CRM oraz możliwość dodania własnych konektorów przez REST lub webhooks."
     },
     "analytics": {
-      "title": "Raporty i Statystyki",
-      "desc": "Wskaźniki płatności, skuteczność przypomnień, segmentacja klientów i analiza ryzyka."
+      "title": "Śledzenie Płatności i Analizy",
+      "desc": "Panele w czasie rzeczywistym z listą zaległych faktur, skutecznością przypomnień, KPI płatności, oceną ryzyka klientów i predykcyjną analizą przepływów pieniężnych."
     },
     "installation": {
       "title": "Szybkie Wdrożenie",
-      "desc": "Konfiguracja kont, mapowanie procesów windykacyjnych i uruchomienie MVP w kilka dni."
+      "desc": "Szybka konfiguracja konta, mapowanie workflowów fakturowania i windykacji oraz uruchomienie MVP w kilka dni z możliwością dalszej rozbudowy."
     }
   }
 },
@@ -139,29 +139,29 @@
 "who4": "Organizacji wymagających kontroli dostępu, audytu i dostosowania do procesów.",
 "features": {
 "privacy": {
-"title": "Kontrola Danych",
-"desc": "Tryb chmurowy lub on-premise. Uprawnienia OAuth, logi audytowe i granularne zgody."
-},
-"personalization": {
-"title": "Personalizacja",
-"desc": "Persony, ton, prompt-routing, pamięć długoterminowa i własne zestawy narzędzi."
-},
-"support": {
-"title": "Asysta 24/7",
-"desc": "Obsługa zapytań, przypomnienia, podsumowania i automatyczne akcje o każdej porze."
-},
-"integrations": {
-"title": "Integracje",
-"desc": "Gmail, Google Calendar, Notion/Obsidian, Drive, Slack/Teams, CRM i REST/Webhook."
-},
-"analytics": {
-"title": "Analiza i Raporty",
-"desc": "KPI użycia, kosztów i jakości. Wgląd w intencje, źródła i skuteczność akcji."
-},
-"installation": {
-"title": "Szybkie Wdrożenie",
-"desc": "Konfiguracja kont OAuth, mapowanie procesów i uruchomienie MVP w krótkim czasie."
-}
+    "title": "Pełna Kontrola Danych",
+    "desc": "Asystent działa w chmurze lub lokalnie (on-premise). Dostęp przez OAuth, granularne uprawnienia, logi audytowe i polityki zgodne z RODO."
+  },
+  "personalization": {
+    "title": "Własna Personalizacja",
+    "desc": "Indywidualny system prompt, dedykowane persony i style komunikacji, własne workflowy i pamięć kontekstowa. Możliwość tworzenia unikalnych zestawów akcji, narzędzi i logiki dopasowanej do Twoich procesów."
+  },
+  "support": {
+    "title": "Wielokanałowa Obsługa",
+    "desc": "Asystent dostępny w przeglądarce, aplikacjach mobilnych, Slack/Teams, WhatsApp, e-mailu czy voice-botach — 24/7 w Twoim środowisku pracy."
+  },
+  "integrations": {
+    "title": "Integracje Bez Ograniczeń",
+    "desc": "Podłącz dowolne systemy: Gmail, Google Calendar, CRM, Notion, Slack/Teams, własne API i webhooki. Możliwość tworzenia dedykowanych konektorów."
+  },
+  "analytics": {
+    "title": "Dowolne Możliwości Rozbudowy",
+    "desc": "Asystent rozwija się wraz z Twoimi potrzebami. Dodawaj nowe integracje, kanały komunikacji, customowe akcje i moduły analityczne. Architektura otwarta na modyfikacje i rozszerzenia."
+  },
+  "installation": {
+    "title": "Elastyczne Wdrożenie",
+    "desc": "Szybka konfiguracja OAuth, mapowanie procesów i uruchomienie MVP. Możliwość rozwoju o kolejne integracje, kanały i funkcjonalności krok po kroku."
+  }
 }
 },
 

@@ -102,88 +102,87 @@
 
 
 "invoice-ai": {
-  "header": "Invoice Reminder Automation — Smart AI Implementation",
-  "desc1": "We design and implement AI systems for automated invoice reminder management. Our solution integrates with your financial tools to streamline collections and client communication.",
-  "desc2": "The system runs in the cloud or on-premises, depending on your security requirements. It supports emails, SMS, messaging platforms, and integrates with accounting and CRM systems.",
+  "header": "Invoice Reminder Automation — Intelligent AI Implementation",
+  "desc1": "We design and implement AI-driven systems for automated invoice reminder management. Integrated with your financial tools, the assistant streamlines debt collection and client communication.",
+  "desc2": "The system runs in the cloud or on-premise, depending on your security requirements. It supports email, SMS, messengers, and integrates with accounting and CRM systems.",
   "integrations": "Integrations with Gmail, Outlook, Xero, QuickBooks, ERP, CRM, Slack/Teams, and custom APIs.",
-  "usecases": "Automated payment reminders, customer risk segmentation, overdue invoice reporting, collection schedules, and accounting system integration.",
+  "usecases": "Automated payment reminders, client segmentation by risk, overdue reports, collection schedules, and integrations with accounting systems.",
   "details": "Details",
   "integrationsText": "Integrations",
   "channels": "Channels",
   "web": "Browser, desktop, iOS/Android",
-  "forwho": "Who Is Invoice Reminder Automation For?",
-  "who1": "Companies looking to reduce overdue payments and improve cash flow.",
-  "who2": "Finance and accounting teams needing automated client communication.",
-  "who3": "Startups and SMEs seeking scalable receivables management solutions.",
-  "who4": "Organizations requiring data security compliance and audit capabilities.",
+  "forwho": "Who is Invoice Reminder Automation for?",
+  "who1": "Companies seeking to reduce overdue payments and improve cash flow.",
+  "who2": "Finance and accounting teams needing automation in client communication.",
+  "who3": "Startups and SMBs looking for scalable receivables management.",
+  "who4": "Organizations requiring compliance with data security policies and auditability.",
   "features": {
     "privacy": {
       "title": "Data Security",
-      "desc": "Cloud or on-premise mode. Encryption, audit logs, and access control."
+      "desc": "Cloud or on-premise mode. End-to-end encryption, audit logs, and granular access control ensure compliance with financial data regulations."
     },
     "personalization": {
-      "title": "Communication Personalization",
-      "desc": "Message templates, tone of voice, scheduling, and customer segmentation."
-    },
+      "title": "System Personalization",
+      "desc": "Seamlessly connect with your chosen databases and platforms, and effortlessly configure personalized workflows, automated reminders, and client communication linked to your billing systems."
+       },
     "support": {
-      "title": "Automated Handling",
-      "desc": "Reminders, escalations, query responses, and scheduled actions."
+      "title": "Automated Collections Handling",
+      "desc": "End-to-end automation of payment reminders, escalation paths, late fee notifications, and client responses across email, SMS, and chat channels."
     },
     "integrations": {
-      "title": "Integrations",
-      "desc": "Gmail, Outlook, Xero, QuickBooks, ERP, CRM, Slack/Teams, REST/Webhook."
+      "title": "Finance System Integrations",
+      "desc": "Native support for Gmail, Outlook, Xero, QuickBooks, ERP, and CRM systems, plus the ability to add custom connectors via REST or webhooks."
     },
     "analytics": {
-      "title": "Reports & Analytics",
-      "desc": "Payment metrics, reminder effectiveness, customer segmentation, and risk analysis."
+      "title": "Payment Tracking & Insights",
+      "desc": "Real-time dashboards with overdue invoices, reminder effectiveness, payment KPIs, client risk scoring, and predictive cash flow analytics."
     },
     "installation": {
-      "title": "Rapid Deployment",
-      "desc": "Account setup, collection process mapping, and MVP launch within days."
+      "title": "Fast Deployment",
+      "desc": "Quick account setup, mapping of invoice and collection workflows, and MVP launch within days with options for further scaling."
     }
   }
 },
 
-
 "personalassistant": {
-  "header": "Multimodal Personal AI Assistant — tailored implementation",
-  "desc1": "We design and implement a fully customizable AI assistant that works with text, voice, images, and files. Models, logic, and interface are adapted to your workflows and tools.",
-  "desc2": "The assistant integrates with your ecosystem: email, calendar, notes, CRM, and drive. It can operate in the cloud or on your infrastructure, depending on your security requirements.",
-  "integrations": "Secure connections with Gmail, Google Calendar, Notion/Obsidian/Evernote, CRM, Drive, Slack/Teams, and custom APIs.",
+  "header": "Multimodal Personal AI Assistant — tailored to your needs",
+  "desc1": "We design and implement a fully customizable AI assistant that connects text, voice, images, and files. We adapt models, logic, and the interface to your workflows and tools.",
+  "desc2": "The assistant integrates with your ecosystem: email, calendar, notes, CRM, and cloud drive. It can run in the cloud or on your infrastructure, depending on security requirements.",
+  "integrations": "Secure integrations with Gmail, Google Calendar, Notion/Obsidian/Evernote, CRM, Drive, Slack/Teams, and custom APIs.",
   "usecases": "Task planning and scheduling, email and meeting summaries, automatic note generation from conversations, contextual search in documents, workflow automation.",
   "details": "Details",
   "integrationsText": "Integrations",
   "channels": "Channels",
-  "web": "Web, desktop, iOS/Android",
+  "web": "Browser, desktop, iOS/Android",
   "forwho": "Who is the Personal AI Assistant for?",
   "who1": "Sales and operations teams looking to shorten handling and research time.",
-  "who2": "Founders and managers needing task and calendar automation.",
-  "who3": "Companies that want to combine emails, calendars, and notes in one intelligent interface.",
-  "who4": "Organizations requiring access control, audit, and process customization.",
+  "who2": "Founders and managers who need task and calendar automation.",
+  "who3": "Companies that want to connect email, calendar, and notes into one intelligent interface.",
+  "who4": "Organizations requiring access control, audit logs, and process customization.",
   "features": {
     "privacy": {
-      "title": "Data Control",
-      "desc": "Cloud or on-premise mode. OAuth permissions, audit logs, and granular consents."
+      "title": "Full Data Control",
+      "desc": "The assistant runs in the cloud or on-premise. OAuth access, granular permissions, audit logs, and GDPR-compliant policies."
     },
     "personalization": {
-      "title": "Personalization",
-      "desc": "Personas, tone, prompt-routing, long-term memory, and custom toolsets."
+      "title": "Custom Personalization",
+      "desc": "Individual system prompt, dedicated personas and communication styles, custom workflows, and contextual memory. Build unique sets of actions, tools, and logic tailored to your processes."
     },
     "support": {
-      "title": "24/7 Assistance",
-      "desc": "Handles queries, reminders, summaries, and automated actions at any time."
+      "title": "Multichannel Support",
+      "desc": "Accessible via browser, mobile apps, Slack/Teams, WhatsApp, email, or voice bots — available 24/7 in your work environment."
     },
     "integrations": {
-      "title": "Integrations",
-      "desc": "Gmail, Google Calendar, Notion/Obsidian, Drive, Slack/Teams, CRM, and REST/Webhook."
+      "title": "Unlimited Integrations",
+      "desc": "Connect any system: Gmail, Google Calendar, CRM, Notion, Slack/Teams, your own APIs, and webhooks. Build dedicated custom connectors as needed."
     },
     "analytics": {
-      "title": "Analytics and Reports",
-      "desc": "Usage, cost, and quality KPIs. Insights into intents, sources, and action performance."
+      "title": "Unlimited Expandability",
+      "desc": "The assistant grows with your needs. Add new integrations, communication channels, custom actions, and analytics modules. Architecture is fully open to modifications and extensions."
     },
     "installation": {
-      "title": "Quick Deployment",
-      "desc": "OAuth account setup, process mapping, and MVP launch in a short time."
+      "title": "Flexible Deployment",
+      "desc": "Quick OAuth setup, process mapping, and MVP launch. Expand step by step with more integrations, channels, and features."
     }
   }
 },
