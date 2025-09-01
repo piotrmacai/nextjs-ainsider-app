@@ -732,7 +732,7 @@
         "header": {
           "tabOne": "Newsletter AI",
           "tabTwo": "Katalog Narzędzi AI",
-          "tabThree": "Ainsider Store",
+          "tabThree": "Skool.com",
           "tabFour": "Usługi AI"
         },
         "tab1Title": "Newsletter o Sztucznej Inteligencji",
@@ -743,8 +743,8 @@
         "tab2Description1": "Odkryj najpotężniejsze narzędzia i frameworki AI dla swoich projektów.",
         "tab2Description2": "Nasz starannie wyselekcjonowany katalog pomaga znaleźć idealne rozwiązanie AI dla każdego przypadku użycia.",
         "tab2LinkText": "Przeglądaj narzędzia",
-        "tab3Title": "Ainsider Store",
-        "tab3Description1": "Gotowe do użycia automatyzacje i Agenci AI, które możesz bardzo łatwo wdrożyć u siebie - z Twoją własną wiedzą, Twoimi platformami, i Twoim 'kontekstem'.",
+        "tab3Title": "Skool",
+        "tab3Description1": "Twoja baza wiedzy AI - Poradniki, kursy, oraz gotowe do użycia automatyzacje i Agenci AI, które możesz bardzo łatwo wdrożyć u siebie - z Twoją własną wiedzą, Twoimi platformami, i Twoim 'kontekstem'.",
         "tab3Description2": "Wszystkie workflow posiadają dokumentację oraz instrukcję wdrożenia - z integracją z Twoimi platformami.",
         "tab3LinkText": "Więcej",
         "tab4Title": "Usługi i Wdrożenia AI",

@@ -44,7 +44,7 @@ const featuresTabData: FeatureTab[] = [
       desc2: t('featuresTabResources.tab3Description2'),
       image: "/images/features/undraw_predictive.svg",
       imageDark: "/images/features/undraw_predictive.svg", 
-      link: "https://ainsider.store",
+      link: "https://www.skool.com/ainsider-6149",
       linkText: t('featuresTabResources.tab3LinkText'),
     },
   

@@ -28,6 +28,13 @@ const getTranslatedMenuData = () => {
           icon: "/images/icon/phone.svg",
         },
         {
+          id: 1.5,
+          title: "Landing page",
+          newTab: true,
+          path: "/landings",
+          icon: "/images/icon/phone.svg",
+        },
+        {
           id: 2,
           title: t('header.agents'),
           newTab: false,

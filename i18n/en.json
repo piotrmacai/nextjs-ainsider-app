@@ -743,7 +743,7 @@
   "header": {
     "tabOne": "AI Newsletter",
     "tabTwo": "AI Tools Directory",
-    "tabThree": "Ainsider Store",
+    "tabThree": "Skool.com",
     "tabFour": "AI Services"
   },
   "tab1Title": "AI Insights Newsletter",
@@ -754,8 +754,8 @@
   "tab2Description1": "Discover the most powerful AI tools and frameworks for your projects.",
   "tab2Description2": "Our carefully vetted directory helps you find the perfect AI solution for any use case, updated weekly.",
   "tab2LinkText": "Explore Tools",
-  "tab3Title": "Ainsider Store",
-"tab3Description1": "Ready-to-use automations and AI Agents that you can easily implement yourself - with your own knowledge, your platforms, and your 'context'.",
+  "tab3Title": "Skool.com",
+"tab3Description1": "Your AI & Automation knowledge base with a lot of ready-to-use automations and AI Agents that you can easily implement yourself - with your own knowledge, your platforms, and your 'context'.",
 "tab3Description2": "All workflows include documentation and implementation instructions - with integration to your platforms.",
 "tab3LinkText": "More",
 "tab4Title": "AI Audit & Implementation Strategy",
