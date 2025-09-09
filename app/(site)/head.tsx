@@ -10,7 +10,6 @@ export default function Head() {
       <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
       <meta name="apple-mobile-web-app-title" content="Ainsider AI Company" />
       <link rel="manifest" href="/manifest.json" />
-  
 <meta property="og:locale" content="en_US" />
 <meta property="og:url" content="https://ainsider.co" />
 <meta property="og:type" content="website" />

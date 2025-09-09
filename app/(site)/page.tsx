@@ -53,8 +53,8 @@ export default function Home() {
       </div> 
       <Motion/>     
       {/* <MainAbout/> */}
-      {/* <ServiceTimeline/>     */}
-      <WooProductGrid/>
+      <ServiceTimeline/>    
+      {/* <WooProductGrid/> */}
       <CTA />       
       {/* <SenjaWidget/>   */}
       <Brands />
