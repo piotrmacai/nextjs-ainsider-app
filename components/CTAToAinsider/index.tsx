@@ -31,10 +31,10 @@ const CTAToAinsider = () => {
               viewport={{ once: true }}
               className="animate_left md:w-[70%] lg:w-1/2"
             >
-              <h2 className="text-black dark:text-white text-2xl xl:text-sectiontitle4 font-bold mb-4 w-11/12">
+              <h2 className="text-black dark:text-white text-xl xl:text-sectiontitle4 font-bold mb-4 w-11/12">
               {t('ctatoainsider.header1')} 
               </h2>
-              <h2 className="text-black dark:text-white text-3xl xl:text-sectiontitle4 font-bold mb-4 w-11/12">
+              <h2 className="text-black dark:text-white text-2xl xl:text-sectiontitle4 font-bold mb-4 w-11/12">
               {t('ctatoainsider.header2')}
               </h2>
               <p>
@@ -67,8 +67,9 @@ const CTAToAinsider = () => {
                   alt="Saly"
                   className="hidden xl:block"
                 />
-                <a
-                  href="/contact"
+
+                   <a
+                  href={t('ctatoainsider.url')}
                   className="inline-flex items-center gap-2.5 font-medium text-white dark:text-black bg-black dark:bg-white rounded-full py-3 px-6 hover:opacity-90"
                 >
                 {t('ctatoainsider.button')}
@@ -87,6 +88,7 @@ const CTAToAinsider = () => {
                     className="hidden dark:block"
                   />
                 </a>
+
               </div>
             </motion.div>
           </div>

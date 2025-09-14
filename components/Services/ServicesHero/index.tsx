@@ -11,7 +11,7 @@ const GenAiPortfolio = () => {
     <>
       <section className="pb-10 lg:py-15 xl:py-20 px-10">
         <div className="flex flex-row mx-auto max-w-c-1280 px-4 md:px-8 xl:px-0 mt-15 xl:mt-20">
-          <div className="flex flex-col md:w-1/2 md:px-8">
+          <div className="flex flex-col md:w-1/2 md:px-8 mt-4 md:mt-8">
             <h4 className="text-black dark:text-white text-lg font-medium mb-4.5">
               🔥   {t('services.header1')}
             </h4>
@@ -21,6 +21,23 @@ const GenAiPortfolio = () => {
               </span>
             </h1>
             <p>{t('services.desc')}</p>
+                     <div className="mt-10 gap-4 flex flex-col md:flex-row">
+            <a href="#services">
+            <button
+                  className="flex bg-black hover:bg-blackho dark:bg-btndark text-white rounded-full ease-in-out duration-300 px-7.5 py-2.5"
+                >
+                  {t('services.quote')}
+                </button>
+                </a>
+{/* 
+                <a href="https://www.skool.com/ainsider-6149/about?ref=d207b2af5b914ff09daac8af70f1162c" target="_blank">
+            <button
+                  className="flex bg-blackho hover:bg-black dark:bg-btndark text-white rounded-full ease-in-out duration-300 px-7.5 py-2.5"
+                >
+                  Skool
+                </button>
+                </a> */}
+                </div>
           </div>
           <div className="flex flex-col md:w-1/2">
             <div className="relative aspect-[700/444]">

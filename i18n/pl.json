@@ -696,23 +696,24 @@
       "subtitle": "Inteligentne Rozwiązania Automatyzacyjne",
       "description": "Zwiększ efektywność, ogranicz pracę ręczną i wykorzystaj pełny potencjał swojej organizacji."
     },
-    "1Title": "Integracja i Automatyzacja Przepływów Pracy",
-    "1Description": "Oferujemy kompleksowe strategie automatyzacji z wykorzystaniem wiodących platform, takich jak Make.com, Zapier i n8n, które łączą wszystkie elementy ekosystemu Twojej firmy w płynne, inteligentne procesy."
-    ,
-    "2Title": "Automatyzacja Marketingu",
-    "2Description": "Automatyzuj pozyskiwanie leadów, zaangażowanie klientów i procesy marketingowe dzięki zaawansowanym narzędziom integrującym CRM, e-mail marketing, media społecznościowe oraz platformy analityczne."
-    ,
-    "3Title": "Inteligentne Automatyzacje z Wykorzystaniem Sztucznej Inteligencji",
-    "3Description": "Wykorzystaj najnowsze technologie AI i uczenie maszynowe, aby tworzyć inteligentnych agentów automatyzacji, którzy przeprowadzają analizy predykcyjne, wykonują złożone zadania i podejmują decyzje wspierające rozwój Twojej firmy."
-    ,
-    "4Title": "Dedykowane Rozwiązania Automatyzacyjne",
-    "4Description": "Tworzymy spersonalizowane rozwiązania automatyzacyjne z wykorzystaniem technologii takich jak Python, Node.js i architektura serverless, precyzyjnie dopasowane do potrzeb Twojej firmy i infrastruktury technologicznej."
-    ,
-    "5Title": "Automatyzacja Procesów E-commerce",
-    "5Description": "Usprawnij zarządzanie magazynem, przetwarzanie zamówień, obsługę klienta i śledzenie sprzedaży dzięki zintegrowanym rozwiązaniom automatyzacyjnym, które minimalizują błędy i przyspieszają operacje."
-    ,
-    "6Title": "Strategia Automatyzacji dla Przedsiębiorstw",
-    "6Description": "Świadczymy kompleksowe konsultacje automatyzacyjne, które mapują procesy biznesowe, identyfikują obszary do optymalizacji i wdrażają skalowalne, opłacalne rozwiązania automatyzacyjne w całej organizacji."
+    "1Title": "Kompleksowe Strategie Automatyzacji",
+    "1Description": "Projektujemy pełne strategie automatyzacji procesów biznesowych, które obejmują analizę potrzeb, mapowanie przepływów pracy i identyfikację obszarów o największym potencjale do optymalizacji.",
+    "2Title": "Wdrożenia Strategii Automatyzacyjnych",
+    "2Description": "Realizujemy zaplanowane strategie w praktyce, wykorzystując narzędzia takie jak Make.com, Zapier, n8n czy architektury serverless, aby przekształcić procesy w wydajne i skalowalne systemy.",
+    "3Title": "Monitoring i Optymalizacja Procesów",
+    "3Description": "Wdrażamy narzędzia monitorujące i raportujące, które analizują wydajność zautomatyzowanych procesów w czasie rzeczywistym, umożliwiając bieżącą optymalizację i szybkie reagowanie na zmiany.",
+    "4Title": "Prywatne Chatboty i Asystenci AI",
+    "4Description": "Budujemy spersonalizowane chatboty i asystentów AI działających lokalnie lub w chmurze prywatnej, które odpowiadają na zapytania klientów i wspierają pracowników bez ryzyka utraty danych.",
+    "5Title": "Dostosowanie GPT, Gemini, Claude, Grok i MCP",
+    "5Description": "Trenujemy i integrujemy wiodące modele językowe i agentowe, takie jak GPT, Gemini, Claude, Grok czy MCP, aby odpowiadały na indywidualne potrzeby i kontekst biznesowy Twojej organizacji.",
+    "6Title": "Automatyzacje Marketingu i Sprzedaży",
+    "6Description": "Automatyzujemy procesy pozyskiwania leadów, kampanie marketingowe, obsługę CRM oraz działania sprzedażowe, aby zwiększyć skuteczność i zmniejszyć koszty pozyskania klienta.",
+    "7Title": "Automatyzacje Księgowości i Finansów",
+    "7Description": "Usprawniamy przetwarzanie faktur, kontrolę wydatków, rozliczenia i raportowanie finansowe, wykorzystując integracje z systemami ERP oraz narzędziami księgowymi.",
+    "8Title": "Integracje AI z Istniejącymi Systemami",
+    "8Description": "Integrujemy sztuczną inteligencję z platformami już używanymi w Twojej firmie, takimi jak CRM, ERP, systemy magazynowe czy aplikacje biurowe, aby zwiększyć ich funkcjonalność i wydajność.",
+    "9Title": "Indywidualne Rozwiązania AI",
+    "9Description": "Projektujemy i tworzymy dedykowane aplikacje i agentów AI, które realizują unikalne procesy biznesowe, wspierają strategiczne decyzje i zapewniają przewagę konkurencyjną."
   },
      
 
@@ -1318,12 +1319,15 @@
                 "more": "Szczegółowa Wycena"
             }
         },
+
         "ctatoainsider": {
-          "header1": "Ainsider.pl",
-          "header2": "Narzędzia AI | Tutoriale | Poradniki",
-          "contact": "Twoja Platforma #AI",
-          "button": "Zobacz"
+          "header1": "Analiza Potencjału Automatyzacji",
+          "header2": "Odkryj procesy warto zautomatyzować, aby oszczędzać czas, redukować koszty i zwiększać efektywność.",
+          "contact": "Wypełnij krótki formularz, który pomoże nam zrozumieć specyfikę Twojej działalności i przygotować dopasowaną strategię automatyzacji.",
+          "button": "Darmowa Analiza",
+          "url":"https://ainsider.notion.site/26eb65ddefcf80c694e9fab2ca8d98ee?pvs=105"
       },
+
         "ctatonewsletter": {
           "header1": "AI Newsletter",
           "header2": "Narzędzia AI | Tutoriale | Poradniki",
@@ -1436,6 +1440,7 @@
             "header1": "Nasze Usługi",
             "header2": "AI & Automatyzacje dla Twojego biznesu",
             "desc": "Automatyzacje procesów. Asystenci i Agenci AI. Landingi i platformy Web. Dla Twojego biznesu.",
+            "quote": "Zobacz co możesz zautomatyzować",
             "about1": {
                 "h1-1": "GENERATIVE AI",
                 "h1-2": "BUSINESS TRANSFORMATION",

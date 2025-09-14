@@ -19,8 +19,10 @@ import HeaderWeb from "@/components/HeaderWeb";
 import AutomationFeature from "@/components/Automation/AutomationFeature";
 import AutomationFeaturesTab from "@/components/Automation/AutomationFeaturesTab";
 import AutomationAbout from "@/components/About/AutomationAbout";
-import Motion from "@/components/Motion/MotionAgents";
+// import Motion from "@/components/Motion/MotionAgents";
+import Motion from "@/components/Motion/MotionOrbit";
 import AgentPricing from "@/components/Ai/AgentPricing";
+import CTAToAinsider from "@/components/CTAToAinsider";
 
 
 import { Metadata } from "next";
@@ -43,7 +45,8 @@ const ServicesPage = async () => {
     {/* <AiAboutTwo/>  */}
     {/* <AiAboutOne/>   */}
 {/* <AiFeaturesTab/>    */}
-      <CTA/>
+      {/* <CTA/> */}
+      <CTAToAinsider/>
     <Contact/>
      <Brands/>
     </>

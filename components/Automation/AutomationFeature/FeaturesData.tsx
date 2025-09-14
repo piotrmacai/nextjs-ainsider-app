@@ -43,9 +43,27 @@ const getTranslatedFeatures = () => {
       description: t('automationFeatures.6Description'),
     }, 
   
-   
- 
-   
+       {
+      id: 7,
+      icon: "/images/icon/undraw_product_iteration.svg",
+      title: t('automationFeatures.7Title'),
+      description: t('automationFeatures.7Description'),
+    },
+
+        {
+      id: 8,
+      icon: "/images/icon/undraw_product_iteration.svg",
+      title: t('automationFeatures.8Title'),
+      description: t('automationFeatures.8Description'),
+    },
+
+        {
+      id: 9,
+      icon: "/images/icon/undraw_product_iteration.svg",
+      title: t('automationFeatures.9Title'),
+      description: t('automationFeatures.9Description'),
+    },
+
   ];
 
   return featuresData;

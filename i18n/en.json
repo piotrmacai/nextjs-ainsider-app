@@ -829,25 +829,31 @@
   "6Description": "Custom AI Agents designed to address unique business challenges, integrating seamlessly into existing systems to deliver scalable, efficient, and innovative solutions."
 },
 
-  "automationFeatures": {
-        "header": {
-          "title": "Streamline Your Business Operations",
-          "subtitle": "Intelligent Automation Solutions",
-          "description": "Transform efficiency, reduce manual work, and unlock your business's full potential"
-        },
-        "1Title": "Integration & Workflow Automation",
-        "1Description": "Comprehensive automation strategies using top platforms like Make.com, Zapier, and n8n to create seamless, intelligent workflows that connect your entire business ecosystem",
-        "2Title": "Marketing Automation Ecosystem",
-        "2Description": "Automate lead generation, customer engagement, and marketing processes with advanced tools that synchronize your CRM, email marketing, social media, and analytics platforms",
-        "3Title": "AI-Powered Automation Intelligence",
-        "3Description": "Leverage cutting-edge AI and machine learning to develop smart automation agents that handle complex tasks, predictive analysis, and intelligent decision-making across your organization",
-        "4Title": "Custom Automation Development",
-        "4Description": "Create bespoke automation solutions using Python, Node.js, and serverless architectures, tailored precisely to your unique business requirements and technological infrastructure",
-        "5Title": "E-commerce Process Automation",
-        "5Description": "Streamline inventory management, order processing, customer support, and sales tracking with integrated automation solutions that reduce errors and accelerate business operations",
-        "6Title": "Enterprise Automation Strategy",
-        "6Description": "Comprehensive automation consulting that maps your entire business process, identifies optimization opportunities, and implements scalable, cost-effective automation solutions across departments"
-      },
+   "automationFeatures": {
+    "header": {
+      "title": "Streamline Your Business Operations",
+      "subtitle": "Intelligent Automation Solutions",
+      "description": "Increase efficiency, reduce manual work, and unlock the full potential of your organization."
+    },
+    "1Title": "Comprehensive Automation Strategies",
+    "1Description": "We design complete automation strategies for business processes, including needs analysis, workflow mapping, and identifying areas with the highest optimization potential.",
+    "2Title": "Automation Strategy Implementation",
+    "2Description": "We put planned strategies into action using tools such as Make.com, Zapier, n8n, and serverless architectures to transform workflows into efficient and scalable systems.",
+    "3Title": "Process Monitoring and Optimization",
+    "3Description": "We implement monitoring and reporting tools that analyze the performance of automated processes in real time, enabling ongoing optimization and rapid response to changes.",
+    "4Title": "Private Chatbots and AI Assistants",
+    "4Description": "We build customized chatbots and AI assistants running locally or in private cloud environments, designed to handle customer queries and support employees without data security risks.",
+    "5Title": "Customization of GPT, Gemini, Claude, Grok, and MCP",
+    "5Description": "We train and integrate leading language and agent models such as GPT, Gemini, Claude, Grok, and MCP to meet the unique needs and business context of your organization.",
+    "6Title": "Marketing and Sales Automation",
+    "6Description": "We automate lead generation, marketing campaigns, CRM operations, and sales activities to boost effectiveness and lower customer acquisition costs.",
+    "7Title": "Finance and Accounting Automation",
+    "7Description": "We streamline invoice processing, expense tracking, settlements, and financial reporting by integrating with ERP systems and accounting tools.",
+    "8Title": "AI Integrations with Existing Systems",
+    "8Description": "We integrate artificial intelligence into the platforms already used in your business, such as CRM, ERP, warehouse management, or office applications, to increase functionality and efficiency.",
+    "9Title": "Custom AI Solutions",
+    "9Description": "We design and develop dedicated AI applications and agents that execute unique business processes, support strategic decision-making, and deliver competitive advantages."
+  },
 
 
       "ai": {
@@ -1355,12 +1361,16 @@
                 "more": "Detailed Pricing" 
               }
         },
-        "ctatoainsider": {
-          "header1": "Ainsider.pl",
-          "header2": "AI Tools | Guides | Insights",
-          "contact": "Your Ultimate AI Platform",
-          "button": "Explore"
+
+
+   "ctatoainsider": {
+    "header1": "Automation Potential Analysis",
+    "header2": "Discover which processes in your company are worth automating.",
+    "contact": "Fill out a short form that will help us understand the specifics of your business and prepare a tailored automation strategy.",
+    "button": "Free Analysis",
+     "url":"https://ainsider.notion.site/26eb65ddefcf81098302cc75e1382471?pvs=105"
       },
+
         "ctatonewsletter": {
           "header1": "Newsletter AI",
           "header2": "AI Tools | Guides | Insights",
@@ -1468,6 +1478,7 @@
           "header1": "Our Services",
           "header2": "Automations and AI For Business",
           "desc": "Automations of processes. AI Chatbots. AI Agents. For Your Business",
+          "quote": "Get a Free Automation Quote",
           "about1": {
               "h1-1": "GENERATIVE AI",
               "h1-2": "BUSINESS TRANSFORMATION",
