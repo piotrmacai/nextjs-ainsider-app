@@ -14,7 +14,7 @@ import { I18nextProvider } from 'react-i18next';
 import Cookiebanner from "@/components/Cookiebanner";
 import Voiceflow from "@/components/Voiceflow";
 import ElevenLabsWidget from "@/components/Elevenlabs";
-
+import Botpress from "@/components/Botpress";
 
 // const inter = Inter({
 //   subsets: ['latin'],
@@ -55,7 +55,8 @@ export default function RootLayout({
           </ThemeProvider>
           <Cookiebanner/>
           {/* <Voiceflow/> */}
-          <ElevenLabsWidget />
+          {/* <ElevenLabsWidget /> */}
+          <Botpress/>
         </body>
       </html>
     </I18nextProvider>

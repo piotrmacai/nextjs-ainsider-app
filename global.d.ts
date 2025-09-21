@@ -8,3 +8,7 @@ declare namespace JSX {
     }
   }
   
+  // Extend the Window interface for botpress
+// interface Window {
+//   botpress?: any;
+// }

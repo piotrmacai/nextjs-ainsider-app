@@ -23,7 +23,7 @@ import AutomationAbout from "@/components/About/AutomationAbout";
 import Motion from "@/components/Motion/MotionOrbit";
 import AgentPricing from "@/components/Ai/AgentPricing";
 import CTAToAinsider from "@/components/CTAToAinsider";
-
+import BotpressEmbed from "@/components/BotpressEmbed";
 
 import { Metadata } from "next";
 
@@ -38,7 +38,8 @@ const ServicesPage = async () => {
     <>
     <ServicesHero />  
     <AutomationFeature/>
-    <AutomationAbout/> 
+    <AutomationAbout/>
+     {/* <BotpressEmbed/> */}
     <Motion/>
     {/* <AgentPricing/>       */}
     <FeaturesTab />
