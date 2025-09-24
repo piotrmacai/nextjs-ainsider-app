@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { useTranslation } from 'react-i18next';
 import NotionFormEmbed from "../NotionForm";
+import BotpressSection from "@/components/BotpressSection";
 
 const Contact = () => {
   /**
@@ -25,6 +26,18 @@ const Contact = () => {
       {/* <!-- ===== Contact Start ===== --> */}
       <section id="support" className="px-2 md:px-4 2xl:px-0">
         <div className="mx-auto relative pt-10 lg:pt-15 xl:pt-20 px-4.5 lg:px-8 xl:px-12 overflow-hidden">
+              {/* Modern Contact Title */}
+          <div className="flex flex-col items-center justify-center text-center mb-10">
+            <h1 className="text-black dark:text-white text-4xl xl:text-5xl tracking-tight font-extrabold mb-4 drop-shadow-sm">
+              {t('contact.pageTitle', { defaultValue: 'Contact' })}
+            </h1>
+              <p className="text-lg text-gray-600 dark:text-gray-300 font-medium max-w-2xl">
+              {t('contact.pageTitleDesc')}
+            </p>
+            <div className="w-full max-w-2xl mt-6 rounded-2xl bg-white/40 dark:bg-black/30 shadow-lg backdrop-blur-md p-4">
+            <BotpressSection />
+          </div>
+          </div>         
           <div className="absolute -z-1 rounded-lg left-0 top-0 w-full h-2/3 bg-gradient-to-t from-[#fff] to-[#f7faff47] dark:bg-gradient-to-t dark:from-[#24283E] dark:to-[#252A42]"></div>
           <div className="absolute -z-1 bottom-[-255px] left-0 w-full h-full">
             <Image

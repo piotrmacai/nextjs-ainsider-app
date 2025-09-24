@@ -1397,6 +1397,8 @@
             "button": " Contact"
         },
         "contact": {
+          "pageTitle": "Contact",
+          "pageTitleDesc": "Get in touch with us through the AI Assistant or the form below.",
             "headermain": "Let's start your project now",
             "header1": "A quote tailored to you.",
             "header1.2": "Fill out the form and receive a detailed offer!",

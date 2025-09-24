@@ -1352,6 +1352,8 @@
             "button": "Kontakt"
         },
         "contact": {
+          "pageTitle": "Kontakt",
+          "pageTitleDesc": "Skontaktuj się z nami przez Asystenta AI lub formularz poniżej.",
           "headermain": "Zacznijmy Twój projekt już teraz",
             "header1": "Wycena dopasowana do Ciebie.",
             "header1.2": "Wypełnij formularz i otrzymaj szczegółową ofertę!",
