@@ -42,7 +42,7 @@ const SingleBlogPage = () => {
             <div className="lg:w-2/3">
               <div className="animate_top rounded-md shadow-solid-13 bg-white dark:bg-blacksection border border-stroke dark:border-strokedark p-7.5 md:p-10">
                 <h2 className="font-semibold text-3xl 2xl:text-sectiontitle2 text-black dark:text-white mb-5">
-                Ainsider.tools.pl
+                Ainsider.store
                 </h2>
                 <div className="mb-10 w-full overflow-hidden">
                   <div className="relative aspect-[97/60] w-full sm:aspect-[97/78]">

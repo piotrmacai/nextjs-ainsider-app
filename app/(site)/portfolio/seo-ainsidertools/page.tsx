@@ -22,7 +22,7 @@ const SingleBlogPage = async () => {
                 <ul>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
                     <p>Link:</p>
-                    <a href="https://ainsider.tools" target="_blank" rel="noopener noreferrer" className="text-white transition-all duration-300 hover:text-primary">https://ainsider.tools</a>
+                    <a href="https://ainsider.store" target="_blank" rel="noopener noreferrer" className="text-white transition-all duration-300 hover:text-primary">https://ainsider.store</a>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
                     <p>{t('mainPortfolio.company')}</p>
@@ -48,7 +48,7 @@ const SingleBlogPage = async () => {
                   <div className="relative aspect-[97/60] w-full sm:aspect-[97/78]">
                     <Image
                       src="/images/portfolio/ainsidertools-google.jpg"
-                      alt="Ainsider.tools Website"
+                      alt="Ainsider.store Website"
                       layout="fill"
                       className="object-contain object-center rounded-md"
                     />

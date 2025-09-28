@@ -48,7 +48,7 @@ const SingleBlogPage = async () => {
                   <div className="relative aspect-[97/60] w-full sm:aspect-[97/78]">
                     <Image
                       src="/images/portfolio/uprawaChatbot.jpg"
-                      alt="Ainsider.tools Website"
+                      alt="Ainsider.store Website"
                       layout="fill"
                       className="object-contain object-center rounded-md"
                     />

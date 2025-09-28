@@ -4,7 +4,7 @@ const DocsData: Portfolio[] = [
   { 
     _id: 1,
     mainImage: "/images/portfolio/ainsider_tools.jpg",
-    title: "Ainsider.tools",
+    title: "Ainsider.store",
     metadata:
       "AI Tools and Models Directory",
       urlLink:"/portfolio/aitoolslibrary",

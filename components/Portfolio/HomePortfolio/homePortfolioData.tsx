@@ -85,7 +85,7 @@ const BlogData: Portfolio[] = [
   { 
     _id: 2.5,
     mainImage: "/images/portfolio/ainsider_tools.jpg",
-    title: "Ainsider.Tools",
+    title: "Ainsider.store",
     metadata:
       "Gen AI Tools Directory and Magazine",
       urlLink:"/portfolio/aitoolslibrary",
@@ -121,9 +121,9 @@ const BlogData: Portfolio[] = [
   { 
     _id: 5,
     mainImage: "/images/portfolio/macaiStudio.jpg",
-    title: "AI Assistant for Ainsider.tools",
+    title: "AI Assistant for Ainsider.store",
     metadata:
-      "Ai Assistant for Ainsider.tools",
+      "Ai Assistant for Ainsider.store  with lead generation",
       urlLink:"/portfolio/ainsiderbot",
       tags: ["ai", "agents"],
   },

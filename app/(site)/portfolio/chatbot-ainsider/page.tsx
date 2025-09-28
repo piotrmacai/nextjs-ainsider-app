@@ -16,7 +16,7 @@ const SingleBlogPage = () => {
                 <ul>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
                     <p>Link:</p>
-                    <a href="https://ainsider.tools" className="text-white transition-all duration-300 hover:text-primary">ainsider.tools</a>
+                    <a href="https://ainsider.store" className="text-white transition-all duration-300 hover:text-primary">ainsider.store</a>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
                     <p>Company:</p>
