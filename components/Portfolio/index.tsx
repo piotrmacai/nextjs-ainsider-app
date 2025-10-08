@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 import { useTranslation } from 'react-i18next';
 
 const Portfolio = () => {
-  const [selectedTag, setSelectedTag] = useState("ai");
+  const [selectedTag, setSelectedTag] = useState("all");
   const [filteredPortfolio, setFilteredPortfolio] = useState(PortfolioData);
   const { t } = useTranslation();
  
