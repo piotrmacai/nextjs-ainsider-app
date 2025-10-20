@@ -21,8 +21,8 @@ const Hero = () => {
         <div className="mx-auto max-w-c-1390 px-4 md:px-4 2xl:px-0 relative z-10">
           <div className="flex flex-col md:flex-row">
             {/* Main Content */}
-            <div className="md:w-1/2 sm:w-full mb-8 md:mb-0 md:mt-8 relative z-20">
-              <h4 className="text-black dark:text-white text-lg font-medium mb-4.5">
+            <div className="md:w-1/2 sm:w-full mb-8 md:mb-0 sm:mt-8 md:mt-16 sm:pr-0 md:pr-8 relative z-20">
+              <h4 className="text-black dark:text-white text-lg font-medium mb-4.5 sm:mt-8 md:mt-16">
                 Ainsider Company
               </h4>
               <h1 className="text-black dark:text-white text-3xl xl:text-hero font-bold mb-5 pr-2">
@@ -54,15 +54,26 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Spline Scene - Right Section */}
-            <div className="md:w-1/2 relative md:mt-20 mt-8">
-              <div className="w-full h-full relative scale-150 md:scale-[1.7]">
-                <SplineScene
-                  scene="https://prod.spline.design/UbM7F-HZcyTbZ4y3/scene.splinecode"
-                  className="w-full h-full"
+            {/* Hero Images - Right Section */}
+            <div className="md:w-1/2 relative md:mt-20 mt-8 mr-10">
+              <div className="relative aspect-[700/444] w-full">
+                {/* Light theme image */}
+                <Image
+                  className="dark:hidden shadow-solid-l"
+                  src="/images/hero/hero-light.svg"
+                  alt="Hero"
+                  fill
+                />
+                {/* Dark theme image */}
+                <Image
+                  className="hidden dark:block shadow-solid-l"
+                  src="/images/hero/hero-dark.svg"
+                  alt="Hero"
+                  fill
                 />
               </div>
-            </div>
+            </div>         
+       
           </div>
         </div>
 

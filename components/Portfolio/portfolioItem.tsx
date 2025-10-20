@@ -60,7 +60,7 @@ const PortfolioItem = ({ portfolio }: { portfolio: Portfolio }) => {
               <span 
                 key={index} 
                 className="inline-block bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200 rounded-full px-4 py-1.5 text-sm font-medium"
-              >
+              > 
                 #{tag}
               </span>
             ))}
