@@ -1,6 +1,15 @@
 import { Portfolio } from "@/types/portfolio";
 
 const BlogData: Portfolio[] = [
+  { 
+    _id: 0.1,
+    mainImage: "/images/portfolio/macaivoicebot.png",
+    title: "Voice AI Assitant built-in into website",
+    metadata:
+      "Voice AI Agent trained on business data built-in into website",
+      urlLink:"https://macai.cloud/",
+      tags: ["ai", "all", "web"],
+  },
      { 
     _id: 1,
     mainImage: "/images/portfolio/macailabs-full.png",
@@ -55,17 +64,8 @@ const BlogData: Portfolio[] = [
       urlLink:"https://landings.ainsider.co/",
       tags: ["all", "web"],
   },
-      { 
-    _id: 6,
-    mainImage: "/images/portfolio/macaivoicebot.png",
-    title: "Voice AI Assitant built-in into website",
-    metadata:
-      "Voice AI Agent trained on business data built-in into website",
-      urlLink:"https://macai.cloud/",
-      tags: ["ai", "all", "web"],
-  },
     { 
-    _id: 7,
+    _id: 6,
     mainImage: "/images/portfolio/openweb-full.png",
     title: "Open WebUI - very powerful local LLM interface",
     metadata:
@@ -74,7 +74,7 @@ const BlogData: Portfolio[] = [
       tags: ["ai", "all", "web"],
   },
     { 
-    _id: 8,
+    _id: 7,
     mainImage: "/images/portfolio/ainsiderstore-full.png",
     title: "Ainsider.store",
     metadata:
@@ -82,7 +82,15 @@ const BlogData: Portfolio[] = [
       urlLink:"/portfolio/aitoolslibrary",
       tags: ["all", "web", "ai"],
   },
-  
+  { 
+    _id: 8,
+    mainImage: "/images/portfolio/personalai.png",
+    title: "Customized Personal AI Assistant",
+    metadata:
+      "n8n workflow connected with your platforms and tools",
+      urlLink:"https://github.com/piotrmacai",
+      tags: ["ai", "all"],
+  },
     { 
     _id: 9,
     mainImage: "/images/portfolio/ainsidercrm.png",
@@ -109,6 +117,7 @@ const BlogData: Portfolio[] = [
   //   aspectRatio: "16:9",
   //   tags: ["web"],
   //   externalUrl: "https://machtrans.pl",
+  
     { 
     _id: 10,
     mainImage: "/images/portfolio/machtrans-full.png",
@@ -117,6 +126,15 @@ const BlogData: Portfolio[] = [
       "Top SEO and ultra-fast Website in React.js for Transport Company",
       urlLink:"https://machtrans.pl/",
       tags: ["all", "web"],
+  },
+  { 
+    _id: 13.5,
+    mainImage: "/images/portfolio/n8n-wordpress.png",
+    title: "Wordpress blog post automation",
+    metadata:
+      "n8n workflow created posts with images on autopilot",
+      urlLink:"https://github.com/piotrmacai",
+      tags: ["ai", "all"],
   },
   // { 
   //   _id: 11,
@@ -136,14 +154,23 @@ const BlogData: Portfolio[] = [
   //   tags: ["web"],
   //   urlLink: "https://ai.studio/apps/drive/1uKtZrmz-GqMDbVsnurr35N-Oq_FvdEqi",
   // },
-    { 
-    _id: 12,
+  { 
+    _id: 11,
     mainImage: "/images/portfolio/afterrave.jpg",
     title: "After-rave.eu",
     metadata:
       "Shop in Shopify in multiple languages",
       urlLink:"/portfolio/after-rave",
       tags: ["all", "web","ecommerce"],
+  },
+  { 
+    _id: 12,
+    mainImage: "/images/portfolio/videoautomation.jpg",
+    title: "Video Generation & Publishing Automation",
+    metadata:
+      "Complete AI system for generating marketing or ad video and publish it to social media",
+      urlLink:"https://github.com/piotrmacai",
+      tags: ["ai", "all"],
   },
      { 
     _id: 13,
@@ -154,7 +181,6 @@ const BlogData: Portfolio[] = [
       urlLink:"https://ai.studio/apps/drive/1XayPfs4Sb0EQpLeUKm5mQRyw2KEdMdmQ",
       tags: ["ai", "all", "web"],
   },
-
   // {
   //   _id: 2.1,
   //   title: "AI powered Business Dashboard",
@@ -182,6 +208,24 @@ const BlogData: Portfolio[] = [
       urlLink:"/portfolio/elektroteam",
       tags: ["all", "web"],
   },
+  { 
+    _id: 15.5,
+    mainImage: "/images/portfolio/notioncrm.jpg",
+    title: "Complete CRM for Business",
+    metadata:
+      "Highly personalized CRM for business with AI Assitant and automation workflows",
+      urlLink:"https://ainsider.co/crm",
+      tags: ["ai", "all", "web"],
+  },
+  { 
+    _id: 15.7,
+    mainImage: "/images/portfolio/ainsider-link.jpg",
+    title: "AI Recommendation Agent",
+    metadata:
+      "AI Agent with purpose to find the best AI Solutoins or Services based on their needs - trained on company data and AI best resources",
+      urlLink:"https://ainsider.link",
+      tags: ["ai", "all", "web"],
+  },
   {
     _id: 16,
     mainImage: "/images/portfolio/volton.jpg",
@@ -191,15 +235,15 @@ const BlogData: Portfolio[] = [
       urlLink:"/portfolio/volton",
       tags: ["all", "web"],
   },
-  {
-    _id: 17,
-    title: "AI Langind Page Builder",
-    mainImage: "/images/portfolio/AiWebsiteBuilder.jpg",
-    metadata:
-     "Landing Page builder powered by Google Gemini AI",
-    tags: ["ai", "all", "web"],
-    urlLink: "https://ai.studio/apps/drive/1cncRS8NIp2Ig8IVxKijO1NVc1x94Pf1m",
-  },
+  // {
+  //   _id: 17,
+  //   title: "AI Langind Page Builder",
+  //   mainImage: "/images/portfolio/AiWebsiteBuilder.jpg",
+  //   metadata:
+  //    "Landing Page builder powered by Google Gemini AI",
+  //   tags: ["ai", "all", "web"],
+  //   urlLink: "https://ai.studio/apps/drive/1cncRS8NIp2Ig8IVxKijO1NVc1x94Pf1m",
+  // },
      { 
     _id: 18,
     mainImage: "/images/portfolio/klicious-full.png",
@@ -208,6 +252,15 @@ const BlogData: Portfolio[] = [
       "Website and Ecom for Creative Company",
       urlLink:"/portfolio/klicious",
       tags: ["all", "web"],
+  },
+  { 
+    _id: 18.5,
+    mainImage: "/images/portfolio/ainsider-link.jpg",
+    title: "Invoice Tracking & Reminder System",
+    metadata:
+      "Complete Invoice Tracking & Reminder System connected with any invoiceplaform you're using",
+      urlLink:"https://ainsider.link",
+      tags: ["ai", "all", "web"],
   },
   {
     _id: 19,
@@ -275,11 +328,11 @@ const BlogData: Portfolio[] = [
   // { 
   //   _id: 17,
   //   mainImage: "/images/portfolio/voicebot.jpg",
-  //   title: "Voice AI Assistant for Szkolajazdymachowski.pl",
+  //   title: "Customer Support AI Assistant for Oskmachowski.pl",
   //   metadata:
-  //     "Voice AI Assistant build with ElevenLabs Voice Engine",
+  //     "Voice & Text AI Assistant for customer support and onboardings for Driving School customers",
   //     urlLink:"/portfolio/voicebot-drivingschool",
-  //     tags: ["ai", "agents"],
+  //     tags: ["ai", "all", "web"],
   // },
   // { 
   //   _id: 6,

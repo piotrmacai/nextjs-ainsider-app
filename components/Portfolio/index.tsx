@@ -186,7 +186,7 @@ const Portfolio = () => {
                     selectedTag === "web" ? "bg-blue-500 bg-gray-300" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-600 dark:hover:bg-gray-600"
                   }`}
                   onClick={() => handleTagSelection("all")}
-                >
+                > 
                   {t('portfolio.buttonall')}
                 </button>
                 <button
@@ -205,14 +205,14 @@ const Portfolio = () => {
                 >
                   {t('portfolio.button3')}
                 </button>
-                <button
+                {/* <button
                   className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
                     selectedTag === "ecommerce" ? "bg-blue-500 bg-gray-300" : "bg-gray-600 dark:bg-gray-600 dark:text-white hover:bg-gray-600 dark:hover:bg-gray-600"
                   }`}
                   onClick={() => handleTagSelection("ecommerce")}
                 >
                   {t('portfolio.button6')}
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
