@@ -1,8 +1,17 @@
 import { Portfolio } from "@/types/portfolio";
 
 const BlogData: Portfolio[] = [
-  { 
+    { 
     _id: 0.1,
+    mainImage: "/images/portfolio/insdrstudio.png",
+    title: "Video Business website",
+    metadata:
+      "Modern motion website built in Next.js with video portfolio app",
+      urlLink:"https://insdrstudio.vercel.app/",
+      tags: ["all", "web"],
+  },
+  { 
+    _id: 0.2,
     mainImage: "/images/portfolio/macaivoicebot.png",
     title: "Voice AI Assitant built-in into website",
     metadata:
@@ -73,6 +82,15 @@ const BlogData: Portfolio[] = [
       urlLink:"https://oskmachowski.pl/",
       tags: ["all", "web"],
   },
+         { 
+    _id: 4.5,
+    mainImage: "/images/portfolio/vercelchat.png",
+    title: "Custom AI Chatbot App",
+    metadata:
+      "Built in Next.js with Vercel AI Gateway. Perfect as starter for own AI Apps",
+      urlLink:"https://ainsiderchat.vercel.app/",
+      tags: ["ai", "all"],
+  },
     { 
     _id: 5,
     mainImage: "/images/portfolio/ainsiderlanding.png",
@@ -88,7 +106,7 @@ const BlogData: Portfolio[] = [
     title: "Open WebUI - very powerful local LLM interface",
     metadata:
       "Locally installed n8n AI Automation platform - with Docker Container",
-      urlLink:"https://github.com/piotrmacai/",
+      urlLink:"https://github.com/piotrmacai/n8n/tree/main/openWebUI-n8n-integration",
       tags: ["ai", "all", "web"],
   },
     { 
@@ -109,13 +127,22 @@ const BlogData: Portfolio[] = [
       urlLink:"/portfolio/aitoolslibrary",
       tags: ["all", "web", "ai"],
   },
+          { 
+    _id: 7.5,
+    mainImage: "/images/portfolio/vercelchat.png",
+    title: "Voice Agent App",
+    metadata:
+      "Using Elevenlabs Voice Agent, built with Vercel AI Gateway. Perfect as starter for own Voice Agents or Apps",
+      urlLink:"https://v0.app/chat/eleven-labs-agents-starter-xuyVdQFxPAE?ref=L4O3TN",
+      tags: ["ai", "all"],
+  },
   { 
     _id: 8,
     mainImage: "/images/portfolio/personalai.png",
     title: "Customized Personal AI Assistant",
     metadata:
       "n8n workflow connected with your platforms and tools",
-      urlLink:"https://github.com/piotrmacai",
+      urlLink:"https://github.com/piotrmacai/n8n/tree/main/telegram-personal-agent",
       tags: ["ai", "all"],
   },
     { 
@@ -160,7 +187,7 @@ const BlogData: Portfolio[] = [
     title: "Wordpress blog post automation",
     metadata:
       "n8n workflow created posts with images on autopilot",
-      urlLink:"https://github.com/piotrmacai",
+      urlLink:"https://github.com/piotrmacai/n8n/tree/main/wordpress-full-blog-automation",
       tags: ["ai", "all"],
   },
   // { 
@@ -196,7 +223,7 @@ const BlogData: Portfolio[] = [
     title: "Video Generation & Publishing Automation",
     metadata:
       "Complete AI system for generating marketing or ad video and publish it to social media",
-      urlLink:"https://github.com/piotrmacai",
+      urlLink:"https://github.com/piotrmacai/n8n/tree/main/ai-video-automation",
       tags: ["ai", "all"],
   },
      { 
@@ -262,15 +289,15 @@ const BlogData: Portfolio[] = [
       urlLink:"/portfolio/klicious",
       tags: ["all", "web"],
   },
-  { 
-    _id: 18.5,
-    mainImage: "/images/portfolio/ainsider-link.jpg",
-    title: "Invoice Tracking & Reminder System",
-    metadata:
-      "Complete Invoice Tracking & Reminder System connected with any invoiceplaform you're using",
-      urlLink:"https://ainsider.link",
-      tags: ["ai", "all", "web"],
-  },
+  // { 
+  //   _id: 18.5,
+  //   mainImage: "/images/portfolio/ainsider-link.jpg",
+  //   title: "Invoice Tracking & Reminder System",
+  //   metadata:
+  //     "Complete Invoice Tracking & Reminder System connected with any invoiceplaform you're using",
+  //     urlLink:"https://ainsider.link",
+  //     tags: ["ai", "all", "web"],
+  // },
   {
     _id: 19,
     mainImage: "/images/portfolio/AiPhotoshop.jpg",
