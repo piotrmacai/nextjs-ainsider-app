@@ -15,16 +15,16 @@ import getTranslatedFeatures from "./featuresData";
         <section id="features" className="py-10 lg:py-10 xl:py-15">
           <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
             {/* <!-- Section Title Start --> */}
-            <SectionHeader
+            {/* <SectionHeader
               headerInfo={{
                 title: t('features.header.title'),
                 subtitle: t('features.header.subtitle'),
                 description: t('features.header.description'),
               }}
-            />
+            /> */}
             {/* <!-- Section Title End --> */}
   
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7.5 xl:gap-12.5 mt-12.5 lg:mt-15 xl:mt-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7.5 xl:gap-12.5 mt-4 lg:mt-4 xl:mt-8">
               {/* <!-- Features item Start --> */}
   
               {featuresData.map((feature, key) => (

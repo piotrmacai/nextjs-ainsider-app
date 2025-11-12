@@ -46,6 +46,15 @@ const BlogData: Portfolio[] = [
   //     urlLink:"https://ainsider.link",
   //     tags: ["ai", "web"],
   // },
+  { 
+    _id: 1.8,
+    mainImage: "/images/portfolio/geminin8n.png",
+    title: "Gemini AI Chatbot App",
+    metadata:
+      "with Gemini models and n8n workflows",
+      urlLink:"https://github.com/piotrmacai/Gemini-Chatbot-App",
+      tags: ["ai", "all", "web"],
+  },
        { 
     _id: 3,
     mainImage: "/images/portfolio/n8n-workflows.jpg",
@@ -56,7 +65,16 @@ const BlogData: Portfolio[] = [
       tags: ["ai", "all", "web"],
   },
   { 
-    _id: 2,
+    _id: 2.0,
+    mainImage: "/images/portfolio/creativeai.png",
+    title: "AI powered Image Directing App",
+    metadata:
+      "Nano Banana powered Image Generation and Editing App",
+      urlLink:"https://github.com/piotrmacai/GeminiDesigner",
+      tags: ["ai", "all", "web"],
+  },
+  { 
+    _id: 2.1,
     mainImage: "/images/portfolio/rekrut-full.png",
     title: "Rekrut Spark Website",
     metadata:
@@ -85,9 +103,9 @@ const BlogData: Portfolio[] = [
          { 
     _id: 4.5,
     mainImage: "/images/portfolio/vercelchat.png",
-    title: "Custom AI Chatbot App",
+    title: "AI Chatbot App with Vercel AI SDK",
     metadata:
-      "Built in Next.js with Vercel AI Gateway. Perfect as starter for own AI Apps",
+      "Perfect as starter for own AI Apps. Built in Next.js with Vercel AI Gateway.",
       urlLink:"https://ainsiderchat.vercel.app/",
       tags: ["ai", "all"],
   },

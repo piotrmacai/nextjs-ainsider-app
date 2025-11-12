@@ -19,19 +19,26 @@ const getTranslatedMenuData = () => {
       newTab: true,
       path: "#",
       icon: "/images/icon/phone.svg",
-      submenu: [     
+      submenu: [  
+        // {
+        //   id: 1,
+        //   title: "Landing page",
+        //   newTab: true,
+        //   path: "/landings",
+        //   icon: "/images/icon/phone.svg",
+        // },   
         {
-          id: 1,
+          id: 1.5,
           title: t('header.menuServices'),
           newTab: true,
           path: "/web",
           icon: "/images/icon/phone.svg",
         },
         {
-          id: 1.5,
-          title: "Landing page",
+          id: 1.8,
+          title: "Vibe Coding",
           newTab: true,
-          path: "/landings",
+          path: "/vibe-coding",
           icon: "/images/icon/phone.svg",
         },
         {

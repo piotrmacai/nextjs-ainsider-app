@@ -20,6 +20,16 @@
       "accept": "Accept"
     },
 
+
+    "vibecoding": {
+  "header": {
+    "header1": "Vibe Coding Technology",
+    "header2": "Vibe Coding – Ultra-Fast Web Design & Implementation",
+    "desc1": "Crafted with passion and attention to every detail – using the latest technology and best industry practices",
+    "contact": "Contact"
+  }
+},
+
     "bot": {
       "appengine": "Applications and frameworks we use most often - each has unique advantages and features, allowing us to choose the best solutions for your project requirements",
       "llmengine": "LLM models we use - selected for individual needs",
@@ -57,6 +67,38 @@
     "description2": "We train you on how to use it, then monitor performance and analyze system operation data.",
     "description3": "We provide optimization, technical support, and further development - we're with you even after implementation."
   }
+},
+
+
+
+"VibeCodingFeaturesTab": {
+  "header": {
+    "tabOne": "Brief: Vision and Needs",
+    "tabTwo": "Next-Gen UX/UI Design",
+    "tabThree": "Deployment in Vibe Mode"
+  },
+  "process": {
+    "title": "How We Build Products in Vibe Coding",
+    "subtitle": "Fast and Precise Design-Technology Flow",
+    "description": "Transparent process from idea to working application — maximum speed, full quality and perfect project representation in the final product.",
+    "tabs": {
+      "tabOne": "Brief and Product Direction",
+      "tabTwo": "UX/UI and High-Fidelity Design",
+      "tabThree": "Deployment and Performance"
+    }
+  },
+
+  "tab1Title": "Brief: Defining Vision and Key Needs",
+  "tab1Description1": "We establish the product direction, user needs and business goals — the foundations for the entire vibe coding process and ultra-fast production.",
+  "tab1Description2": "We specify functionalities, technological requirements and scope — so that the product is perfectly tailored to the brand, users and real project goals.",
+
+  "tab2Title": "UX/UI: High-End Design and Product Logic",
+  "tab2Description1": "We create aesthetic and modern interfaces in high-fidelity quality, planning every element with user convenience, dynamics and conversion in mind.",
+  "tab2Description2": "The project is refined visually and functionally, aligned with the latest UX/UI practices, prepared for rapid deployment without compromises.",
+
+  "tab3Title": "Deployment: Pixel Perfect + Top Technology",
+  "tab3Description1": "We execute deployment that precisely mirrors the design — every element, margin, animation and interaction is precise and aligned with the vision.",
+  "tab3Description2": "The application or website is implemented in a modern technology stack, optimized for speed, responsiveness and quality performance on every device."
 },
 
 "automations": {
@@ -973,6 +1015,54 @@
   }
 },
 
+"vibecodingabout": {
+  "title": "Vibe Coding",
+  "header3": "Create Ultra-Modern Experiences",
+  "subtitle1": "What You Gain With Vibe Coding",
+  "subtitle2": "Lightning-Fast Creation, Perfect Technology, Ready to Deploy",
+  
+  "section1": {
+    "header1": "We Build Products That Amaze and Work Instantly",
+    "header2": "Express Digital Excellence",
+    "header3": "Design, Code and Deployment at Vibe Speed",
+    "header4": "Highest Quality From the First Sketch",
+    "desc1": "We create digital experiences that are fast, intuitive and ready to deploy in record time. From concept, through UX/UI, to a working application — everything in one cohesive design and technology process.",
+    "desc2": "Speed, Perfection, Performance",
+    "desc3": "Ultra-fast loading, refined interfaces and top-tier architecture — this is the standard that provides a competitive advantage from day one.",
+    "desc4": "Data-Driven Design",
+    "desc5": "We base our work on data so that every screen, component and function is maximally effective, engaging and refined."
+  },
+
+  "section2": {
+    "header1": "Exactly What Your Project Needs",
+    "header2": "Custom Applications, Interfaces and Systems",
+    "desc1": "Tailor-made interfaces, web applications, micro-products, landing pages and systems — designed from scratch, in full vibe coding flow, with speed, scalability and amazing UX in mind.",
+    "button": "Start With a Product That Makes an Impression",
+    "desc2": "We create interactive, modern applications and panels that look world-class and work instantly.",
+    "desc3": "Flexible and functional solutions — from MVP to production products — built with the latest technologies, optimized from backend to UI.",
+    "header3": "Interfaces and Landing Pages That Attract and Convert"
+  },
+
+  "section3": {
+    "header1": "Performance, Optimization and Quality",
+    "header2": "Maximum Visibility and Impact",
+    "header3": "Built to Be Fast",
+    "header4": "Optimization That Delivers Real Results",
+
+    "desc1": "We design and implement so that your products load instantly, are perfectly optimized and ready for growing user and search engine requirements.",
+    "desc3": "Extreme speed of operation, low latency and highest user comfort — regardless of device.",
+    "desc4": "Data-driven optimization strategies — performance, UX, core web vitals, information structure and full analysis tailored to your product."
+  },
+
+  "section4": {
+    "header1": "Ongoing Support",
+    "header2": "Always Stable, Always On Time",
+    "desc1": "We provide active maintenance, quick fixes, feature development and regular improvements so that your application remains top-tier for a long time.",
+    "desc2": "We deliver continuous updates, technical optimizations and project support — you can focus on business, we'll take care of the rest.",
+    "button": "Let's Talk About Your Project"
+  }
+},
+
 
      "webabout": {
     "title": "About Our Services",
@@ -984,19 +1074,19 @@
         "header2": "Digital Excellence Tailored to Your Needs",
         "header3": "Create a Modern Online Presence",
         "header4": "With Our Professional Services",
-        "desc1": "Enhance your business efficiency with our personalized web solutions, tailored to the unique needs of your company. We offer comprehensive implementations of websites, e-commerce stores, and CRM systems that not only improve user experience but also contribute to your competitive edge in the market.",
+        "desc1": "We create vibe coding websites and e-commerce platforms with ultra-fast UX/UI, implemented using top-quality technology. Our projects combine modern technical solutions with perfect user experience, ensuring lightning-fast loading and maximum performance.",
         "desc2": "Focused on Efficiency and Success",
-        "desc3": "We guarantee lightning-fast load times and an optimized user experience across all devices, leading to higher conversion rates.",
+        "desc3": "Ultra-fast UX/UI projects for vibe coding websites and e-commerce, implemented with top-quality technology, guaranteeing extremely fast load times and excellent user experience across all devices.",
         "desc4": "SEO Strategies Tailored to Your Industry",
-        "desc5": "Our advanced search engine optimization techniques enhance your brand visibility and help you achieve dominance in search engine results."
+        "desc5": "We implement vibe coding websites and e-commerce platforms using top-quality technology, creating ultra-fast UX/UI projects that maximize performance and conversions."
     },
     "section2": {
         "header1": "Tailored to Your Needs",
         "header2": "Custom Web, E-commerce, and CRM Solutions",
-        "desc1": "Personalized E-commerce Stores, CRM Systems, and Landing Pages that boost conversions and improve user experiences.",
+        "desc1": "Vibe coding websites and e-commerce platforms with ultra-fast UX/UI, implemented with top-quality technology, that boost conversions and provide excellent user experiences.",
         "button": "Start Your Digital Transformation and Increase Your Profits",
-        "desc2": "Dedicated Web and E-commerce Platforms that maximize customer satisfaction through intuitive interfaces.",
-        "desc3": "Modern online sales systems that are flexible and tailored to the specific needs of your industry, leading to increased efficiency.",
+        "desc2": "Dedicated vibe coding e-commerce platforms with ultra-fast UX/UI, implemented using top-quality technology, maximizing customer satisfaction through lightning-fast performance.",
+        "desc3": "Ultra-fast UX/UI projects for vibe coding websites and e-commerce, implemented with top-quality technology, tailored to the specific needs of your industry and ensuring maximum efficiency.",
         "header3": "Landing Pages That Attract Customers and Boost Sales"
     },
     "section3": {
@@ -1004,15 +1094,15 @@
         "header2": "Boost Online and Social Media Visibility",
         "header3": "Maximum Performance for Your Business",
         "header4": "Advanced SEO for Search Engine Dominance",
-        "desc1": "Thanks to advanced SEO optimization, your business gains higher visibility in search engines, leading to increased website traffic and more potential customers. Our solutions ensure maximum performance, resulting in faster page load times and better user experiences.",
-        "desc3": "Extremely fast load times that enhance user experience and increase conversion rates across all devices.",
-        "desc4": "Data-driven SEO strategies that ensure high visibility in search results and attract traffic from social media."
+        "desc1": "Vibe coding websites and e-commerce platforms with ultra-fast UX/UI, implemented with top-quality technology, ensure maximum performance and extremely fast load times, leading to increased traffic and higher conversion rates.",
+        "desc3": "Ultra-fast UX/UI projects for vibe coding websites and e-commerce, implemented with top-quality technology, guaranteeing extremely fast load times and excellent user experience across all devices.",
+        "desc4": "Vibe coding website and e-commerce implementations using top-quality technology, creating ultra-fast UX/UI projects that maximize performance and attract traffic from all channels."
     },
     "section4": {
         "header1": "Maintenance and Updates",
         "header2": "Reliable Support for Your Business",
-        "desc1": "We offer dedicated support that not only resolves current issues but also drives innovation.",
-        "desc2": "We provide regular updates and optimizations, allowing you to fully focus on growing your business.",
+        "desc1": "We offer dedicated support for vibe coding websites and e-commerce platforms, ensuring continuous optimization of ultra-fast UX/UI projects and maintaining top-quality technology standards.",
+        "desc2": "We provide regular updates and optimizations for vibe coding projects using top-quality technology, allowing you to fully focus on growing your business.",
         "button": "Contact Us to Discuss Your Needs"
     }
 },
@@ -1358,6 +1448,17 @@
                 "item4": "Custom projects: from 499 $", 
                 "more": "Detailed Pricing" 
               },
+
+              "vibecoding": {
+                "header": "Vibe Coding – Ultraszybkie Projekty i Wdrożenia Strony Internetowe",
+                "desc": "Błyskawiczne projektowanie i wdrożenie stron www, które zachwycają wyglądem i działają perfekcyjnie od pierwszej sekundy.",
+                "item1": "Landing Page / Strony Wizytówkowe – gotowe nawet w 48h – od 1299 PLN",
+                "item2": "Strony Biznesowe i Korporacyjne – ekspresowe wdrożenie – od 1999 PLN",
+                "item3": "Sklepy Internetowe i Platformy e-commerce – start sprzedaży w kilka dni – od 2499 PLN",
+                "item4": "Dedykowane Projekty i Aplikacje Webowe – realizacje premium – od 2999 PLN",
+                "more": "Zamów Szybką Wycenę"
+              },
+
               "ai": {
                 "header": "AI & Automations",
                 "desc": "Processes and various repetitive tasks in your company",
@@ -1385,7 +1486,7 @@
           "button": "Subscribe"
       },
         "ctatoportfolio": {
-          "header1": "Zobacz Nasze Projekty",
+          "header1": "See Our Projects",
           "header2": "Portfolio",
           "contact": "Portfolio",
           "button": "Portfolio"
@@ -1640,19 +1741,19 @@
                 "industry": "Industry", 
                 "tech": "Project Technologies",
                 "desc1": "This AI assistant transforms any image into a creative and detailed text prompt. Simply upload an image, and the assistant will analyze its content, context, and style to generate an engaging, relevant prompt for creative writing, visual art descriptions, or AI-driven tasks like generating new images. Perfect for creators, artists, and AI enthusiasts, it provides an intuitive way to harness visual inspiration and convert it into actionable text prompts.",
-                "desc2": "Nasz sklep wykorzystuje zaawansowane funkcje WooCommerce do personalizacji oferty produktowej, co pozwala nam dostosowywać rekomendacje produktów do preferencji każdego klienta. Dzięki temu zakupy w Bakaliowe Love są nie tylko proste, ale także dostosowane do indywidualnych potrzeb zdrowotnych i dietetycznych naszych użytkowników.",
-                "desc3": "Technologia WooCommerce wspiera również nasze wysiłki logistyczne i zarządzanie zapasami, co przekłada się na szybką i efektywną realizację zamówień. Oferujemy klientom różne opcje płatności i dostawy, sprawiając, że Bakaliowe Love staje się numerem jeden dla wszystkich poszukujących wygodnego dostępu do zdrowej żywności online.",
-                "desc4": "Platforma została zaprojektowana z myślą o maksymalnej użyteczności i dostępności dla użytkowników o różnym poziomie wiedzy - od studentów i hobbystów po doświadczonych inżynierów i badaczy. Dzięki intuicyjnemu interfejsowi użytkownika i wykorzystaniu nowoczesnych rozwiązań frontendowych, Ainsider Tools umożliwia szybkie wyszukiwanie i filtrowanie narzędzi AI, pomagając znaleźć odpowiednie zasoby dopasowane do konkretnych potrzeb projektowych."
+                "desc2": "Our store utilizes advanced WooCommerce features for product offer personalization, allowing us to tailor product recommendations to each customer's preferences. Thanks to this, shopping at Bakaliowe Love is not only simple but also adapted to the individual health and dietary needs of our users.",
+                "desc3": "WooCommerce technology also supports our logistics and inventory management efforts, resulting in fast and efficient order fulfillment. We offer customers various payment and delivery options, making Bakaliowe Love the number one destination for anyone looking for convenient access to healthy food online.",
+                "desc4": "The platform was designed with maximum usability and accessibility in mind for users with varying levels of knowledge - from students and hobbyists to experienced engineers and researchers. Thanks to an intuitive user interface and the use of modern frontend solutions, Ainsider Tools enables quick searching and filtering of AI tools, helping to find the right resources tailored to specific project needs."
               },
               "hf": {
                 "details": "Project Details",
                 "company": "Company",
                 "industry": "Industry", 
                 "tech": "Project Technologies",
-                "desc1": "Bakaliowe Love to innowacyjny sklep internetowy specjalizujący się w suszonych owocach i zdrowej żywności, zbudowany na potężnej platformie WooCommerce. Dzięki tej rozwiązaniu zapewniamy naszym klientom niezawodne i bezpieczne zakupy online. WooCommerce umożliwia nam oferowanie intuicyjnego doświadczenia zakupowego z łatwym dostępem do szerokiego asortymentu produktów odżywczych i organicznych.",
-                "desc2": "Nasz sklep wykorzystuje zaawansowane funkcje WooCommerce do personalizacji oferty produktowej, co pozwala nam dostosowywać rekomendacje produktów do preferencji każdego klienta. Dzięki temu zakupy w Bakaliowe Love są nie tylko proste, ale także dostosowane do indywidualnych potrzeb zdrowotnych i dietetycznych naszych użytkowników.",
-                "desc3": "Technologia WooCommerce wspiera również nasze wysiłki logistyczne i zarządzanie zapasami, co przekłada się na szybką i efektywną realizację zamówień. Oferujemy klientom różne opcje płatności i dostawy, sprawiając, że Bakaliowe Love staje się numerem jeden dla wszystkich poszukujących wygodnego dostępu do zdrowej żywności online.",
-                "desc4": "Platforma została zaprojektowana z myślą o maksymalnej użyteczności i dostępności dla użytkowników o różnym poziomie wiedzy - od studentów i hobbystów po doświadczonych inżynierów i badaczy. Dzięki intuicyjnemu interfejsowi użytkownika i wykorzystaniu nowoczesnych rozwiązań frontendowych, Ainsider Tools umożliwia szybkie wyszukiwanie i filtrowanie narzędzi AI, pomagając znaleźć odpowiednie zasoby dopasowane do konkretnych potrzeb projektowych."
+                "desc1": "Bakaliowe Love is an innovative online store specializing in dried fruits and healthy food, built on the powerful WooCommerce platform. With this solution, we provide our customers with reliable and secure online shopping. WooCommerce enables us to offer an intuitive shopping experience with easy access to a wide range of nutritional and organic products.",
+                "desc2": "Our store utilizes advanced WooCommerce features for product offer personalization, allowing us to tailor product recommendations to each customer's preferences. Thanks to this, shopping at Bakaliowe Love is not only simple but also adapted to the individual health and dietary needs of our users.",
+                "desc3": "WooCommerce technology also supports our logistics and inventory management efforts, resulting in fast and efficient order fulfillment. We offer customers various payment and delivery options, making Bakaliowe Love the number one destination for anyone looking for convenient access to healthy food online.",
+                "desc4": "The platform was designed with maximum usability and accessibility in mind for users with varying levels of knowledge - from students and hobbyists to experienced engineers and researchers. Thanks to an intuitive user interface and the use of modern frontend solutions, Ainsider Tools enables quick searching and filtering of AI tools, helping to find the right resources tailored to specific project needs."
               },
               "ainsidersoftr": {
                 "details": "Project Details",
@@ -1853,6 +1954,8 @@
                 "more": "Detailed Pricing" 
               }
         },
+
+
         "webFeature": {
           "header": {
               "header1": "How Can i Help You?",

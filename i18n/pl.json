@@ -18,6 +18,19 @@
       "accept": "Akceptuj"
     },
 
+
+       
+    "vibecoding": {
+      "header": {
+          "header1": "Technologia Vibe Coding",
+          "header2": "Vibe Coding – Ultraszybkie Projekty i Wdrożenia Projektów Webowych",
+          "desc1": "Stworzone z Pasją i Dbałością o Każdy Szczegół - Z Wykorzystaniem Najnowszej Technologii i Najlepszych Praktyk",
+          "contact":"Kontakt" 
+        }
+  },
+
+
+
            "store": {
                 "header": "Systemy Automatyzacji oparte na Agentach AI",
                  "desc1": "Gotowe do integracji i użycia z Twoimi platformami.",
@@ -77,6 +90,35 @@
     "button": "Wycena projektu",
 "footertext": "Darmowa konsultacja • Bez zobowiązań • Profesjonalne doradztwo"  },
 
+"VibeCodingFeaturesTab": {
+  "header": {
+    "tabOne": "Brief: Wizja i Potrzeby",
+    "tabTwo": "Projektowanie UX/UI Next-Gen",
+    "tabThree": "Wdrożenie w Trybie Vibe"
+  },
+  "process": {
+    "title": "Jak Tworzymy Produkty w Vibe Coding",
+    "subtitle": "Szybki i Precyzyjny Flow Projektowo-Technologiczny",
+    "description": "Transparentny proces od pomysłu do działającej aplikacji — maksymalna szybkość, pełna jakość i perfekcyjne odwzorowanie projektu w finalnym produkcie.",
+    "tabs": {
+      "tabOne": "Brief i Kierunek Produktu",
+      "tabTwo": "UX/UI i High-Fidelity Design",
+      "tabThree": "Wdrożenie i Performance"
+    }
+  },
+
+  "tab1Title": "Brief: Zdefiniowanie Wizji i Kluczowych Potrzeb",
+  "tab1Description1": "Ustalany jest kierunek produktu, potrzeby użytkowników oraz cele biznesowe — fundamenty dla całego procesu vibe coding i ultraszybkiej produkcji.",
+  "tab1Description2": "Precyzujemy funkcjonalności, wymagania technologiczne i zakres — tak, aby produkt był idealnie dopasowany do marki, użytkowników i realnych celów projektu.",
+
+  "tab2Title": "UX/UI: High-End Design i Logika Produktu",
+  "tab2Description1": "Tworzymy estetyczne i nowoczesne interfejsy w jakości high-fidelity, planując każdy element pod kątem wygody użytkownika, dynamiki i konwersji.",
+  "tab2Description2": "Projekt jest dopracowany wizualnie i funkcjonalnie, zgodny z najnowszymi praktykami UX/UI, przygotowany do szybkiego wdrożenia bez kompromisów.",
+
+  "tab3Title": "Wdrożenie: Pixel Perfect + Topowa Technologia",
+  "tab3Description1": "Wykonujemy wdrożenie dokładnie odwzorowujące projekt — każdy element, margines, animacja i interakcja jest precyzyjna i zgodna z wizją.",
+  "tab3Description2": "Aplikacja lub strona jest implementowana w nowoczesnym stosie technologicznym, zoptymalizowana pod szybkość, responsywność i jakość działania na każdym urządzeniu."
+},
 
 
 "landing-ai": {
@@ -269,6 +311,96 @@
   "contact": "Szczegółowa Wycena"
 },
 
+
+"vibecodingpricing": {
+    "title": "Nasze Usługi",
+    "subtitle": "Cennik",
+    "description": "Aby otrzymać szczegółową wycenę, zapraszamy do rozmowy z naszym doradcą lub wypełnienia formularza kontaktowego.",
+    "cta": "Otrzymaj Wycenę",
+    
+    "landing": {
+      "title": "Landing Page & One Page",
+      "pricelandingtheme": "od 499 PLN",
+      "pricelandingcustom": "od 1999 PLN",
+      "description": "Strony landingowe i one-page zaprojektowane, aby zmaksymalizować wyniki Twoich kampanii.",
+      "theme": {
+        "title": "Na Bazie Szablonu"
+      },
+      "custom": {
+        "title": "Indywidualny Projekt UX/UI"
+      },
+      "features": {
+        "title": "Kluczowe Funkcje",
+        "list": [
+          "Nowoczesny, responsywny design",
+          "Optymalizowana SEO",
+          "Szybkie ładowanie (90+ Google PageSpeed)",
+          "Dowolne integracje z CRM i Formularzami",
+          "Konfiguracja Google Analytics",
+          "Podejście mobile-first",
+          "Konfiguracja hostingu,domeny",
+          "Konfiguracja skrzynki email"
+        ]
+      }
+    },
+    "business": {
+      "title": "Strony biznesowe",
+      "pricebstheme": "od 999 PLN",
+      "pricebscustom": "od 2999 PLN",
+      "description": "Profesjonalne strony internetowe, które reprezentują Twoją markę i wspierają rozwój biznesu.",
+      "theme": {
+        "title": "Dostosowanie Motywu"
+      },
+      "custom": {
+        "title": "Indywidualny Projekt UX/UI"
+      },
+      "features": {
+        "title": "Kluczowe Funkcje",
+        "list": [
+          "Strona oraz 5-10 podstron",
+          "System zarządzania treścią",
+          "Zaawansowana optymalizacja SEO",
+          "Szybkie ładowanie (90+ Google PageSpeed)",
+          "Dowolne integracje z CRM i Formularzami",
+          "Konfiguracja Google Analytics i Search Console",
+          "Responsywny design mobile-first",
+          "1 rok wsparcia technicznego",
+          "Konfiguracja hostingu,domeny",
+          "Konfiguracja firmowej poczty email"
+        ]
+      }
+    },
+    "ecommerce": {
+      "title": "Sklepy Internetowe",
+      "priceecomtheme": "od 1999 PLN",
+      "priceecomcustom": "od 4999 PLN",
+      "description": "Wydajne platformy ecommerce zaprojektowane, aby zmaksymalizować sprzedaż i doświadczenie klienta.",
+      "theme": {
+        "title": "Dostosowanie Motywu"
+      },
+      "custom": {
+        "title": "Indywidualny Projekt UX/UI"
+      },
+      "features": {
+        "title": "Kluczowe Funkcje",
+        "list": [
+          "Wewnętrzny magazyn lub przez integracje",
+          "Dowolne bramki płatności",
+          "Integracje z systemami CRM",
+          "Integracje z systemami fakturowania",
+          "Systemy automatyzacji ecommerce",
+          "Zaawansowana optymalizacja SEO",
+          "Konfiguracja Google Analytics i Search Console",
+          "Responsywny design mobile-first",
+          "1 rok wsparcia technicznego",
+          "Konfiguracja wydajnego hostingu",
+          "Konfiguracja firmowej poczty email",
+          "Integracja narzędzi marketingowych",
+          "Konfiguracja dostaw i podatków"
+        ]
+      }
+    }
+  },
 
 
 "webpricing": {
@@ -916,6 +1048,55 @@
     }
 },
 
+"vibecodingabout": {
+  "title": "Vibe Coding",
+  "header3": "Twórz Ultra-Nowoczesne Doświadczenia",
+  "subtitle1": "Co Zyskasz z Vibe-Codingiem?",
+  "subtitle2": "Błyskawiczna Kreacja, Perfekcyjna Technologia, Gotowe Do Wdrożenia",
+  
+  "section1": {
+    "header1": "Budujemy produkty, które zachwycają i działają natychmiast",
+    "header2": "Ekspresowa Cyfrowa Doskonałość",
+    "header3": "Design, Kod i Wdrożenie w Tempie Vibe",
+    "header4": "Najwyższa Jakość od Pierwszego Szkicu",
+    "desc1": "Tworzymy doświadczenia cyfrowe, które są szybkie, intuicyjne i gotowe do wdrożenia w rekordowym czasie. Od konceptu, przez UX/UI, po działającą aplikację — wszystko w jednym spójnym procesie projektowo-technologicznym.",
+    "desc2": "Szybkość, Perfekcja, Wydajność",
+    "desc3": "Ultraszybkie ładowanie, dopracowane interfejsy i topowa architektura — to standard, który zapewnia przewagę konkurencyjną od pierwszego dnia.",
+    "desc4": "Projektowanie Oparte na Analizie",
+    "desc5": "Bazujemy na danych, aby każdy ekran, komponent i funkcja były maksymalnie skuteczne, angażujące i dopracowane."
+  },
+
+  "section2": {
+    "header1": "Dokładnie to, czego potrzebuje Twój projekt",
+    "header2": "Indywidualne Aplikacje, Interfejsy i Systemy",
+    "desc1": "Szyte na miarę interfejsy, aplikacje webowe, mikroprodukty, landing page’e i systemy — projektowane od zera, w pełnym vibe coding flow, z myślą o szybkości, skalowalności i zachwycającym UX.",
+    "button": "Startuj z Produktem, Który Robi Wrażenie",
+    "desc2": "Tworzymy interaktywne, nowoczesne aplikacje i panele, które wyglądają światowej klasy i działają natychmiast.",
+    "desc3": "Elastyczne i funkcjonalne rozwiązania — od MVP po produkty produkcyjne — zbudowane w najnowszych technologiach, zoptymalizowane od backendu po UI.",
+    "header3": "Interfejsy i Landing Page’e, Które Przyciągają i Konwertują"
+  },
+
+  "section3": {
+    "header1": "Wydajność, Optymalizacja i Jakość",
+    "header2": "Maksymalna Widoczność i Wpływ",
+    "header3": "Zbudowane, by Być Szybkie",
+    "header4": "Optymalizacja, Która Daje Realne Efekty",
+
+    "desc1": "Projektujemy i wdrażamy tak, aby Twoje produkty ładowały się błyskawicznie, były perfekcyjnie zoptymalizowane i gotowe na rosnące wymagania użytkowników oraz wyszukiwarek.",
+    "desc3": "Ekstremalna szybkość działania, niskie opóźnienia i najwyższy komfort użytkowania — niezależnie od urządzenia.",
+    "desc4": "Strategie optymalizacji oparte na danych — performance, UX, core web vitals, struktura informacji i pełna analiza dopasowana do Twojego produktu."
+  },
+
+  "section4": {
+    "header1": "Stałe wsparcie",
+    "header2": "Zawsze Stabilnie, Zawsze Na Czas",
+    "desc1": "Zapewniamy aktywne utrzymanie, szybkie poprawki, rozwój funkcji oraz regularne usprawnienia, aby Twoja aplikacja pozostała topowa przez długi czas.",
+    "desc2": "Dostarczamy ciągłe aktualizacje, optymalizacje techniczne oraz wsparcie projektowe — możesz skupić się na biznesie, my zajmiemy się resztą.",
+    "button": "Porozmawiajmy o Twoim Projekcie"
+  }
+},
+
+
 "landingsabout": { 
     "title": "O Naszych Usługach Landing Page",
     "header3": "Profesjonalne Landing Page, Które Konwertują",
@@ -1302,7 +1483,7 @@
 
 
             "web": {
-                "header": "Strony internetowe i platformy e-commerce",
+                "header": "Nowoczesne Strony internetowe i platformy e-commerce",
                 "desc": "Stworzone precyzyjnie dla Twoich potrzeb.",
                 "item1": "Strony typu landing page / wizytówki: 1299 PLN",
                 "item2": "Strona biznesowa: od 1999 PLN",
@@ -1310,6 +1491,17 @@
                 "item4": "Indywidualne projekty: od 2999 PLN",
                 "more": "Szczegółowa Wycena"
             },
+
+            
+          "vibecoding": {
+  "header": "Vibe Coding – Ultraszybkie Projekty i Wdrożenia Strony Internetowe",
+  "desc": "Błyskawiczne projektowanie i wdrożenie stron www, które zachwycają wyglądem i działają perfekcyjnie od pierwszej sekundy.",
+  "item1": "Landing Page / Strony Wizytówkowe – gotowe nawet w 48h – od 1299 PLN",
+  "item2": "Strony Biznesowe i Korporacyjne – ekspresowe wdrożenie – od 1999 PLN",
+  "item3": "Sklepy Internetowe i Platformy e-commerce – start sprzedaży w kilka dni – od 2499 PLN",
+  "item4": "Dedykowane Projekty i Aplikacje Webowe – realizacje premium – od 2999 PLN",
+  "more": "Zamów Szybką Wycenę"
+},
 
 
 
@@ -1824,6 +2016,8 @@
                     }      
           },
 
+
+
           
           "web": {
             "header": {
@@ -1867,6 +2061,7 @@
                 "more": "Detailed Pricing" 
               }
         },
+
         "privacy": {
           "head":"POLITYKA PRYWATNOŚCI ORAZ COOKIES Ainsider.co",
           "head1":"§1. POSTANOWIENIA OGÓLNE",
@@ -1897,6 +2092,7 @@
           "headcook6":"§6. POSTANOWIENIA KOŃCOWE",
           "cook7": "Niniejsza Polityka Cookies wchodzi w życie z dniem 01.05.2024. Administrator zastrzega sobie prawo do zmiany niniejszej Polityki Cookies. O zmianach Klienci będą informowani drogą elektroniczną."
         },
+
         "heroWebSection": {
           "header": {
             "title": "Szyte Na Miarę Technologie Internetowe",
