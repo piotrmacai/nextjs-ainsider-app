@@ -15,6 +15,8 @@ import Cookiebanner from "@/components/Cookiebanner";
 import Voiceflow from "@/components/Voiceflow";
 import ElevenLabsWidget from "@/components/Elevenlabs";
 import Botpress from "@/components/Botpress";
+import { CookieConsentProvider } from "@/app/context/CookieConsentContext";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 // const inter = Inter({
 //   subsets: ['latin'],
@@ -46,17 +48,20 @@ export default function RootLayout({
     <I18nextProvider i18n={i18n}>
       <html lang={locale}>
         <body className={`bg-white dark:bg-black`}>
-          <ThemeProvider enableSystem={false} attribute="class" defaultTheme="dark">
-            <Lines />
-            <Header />
-            <ToasterContext />
-            {children}
-            <Footer />
-          </ThemeProvider>
-          <Cookiebanner/>
-          {/* <Voiceflow/> */}
-          {/* <ElevenLabsWidget /> */}
-          <Botpress/>
+          <CookieConsentProvider>
+            <ThemeProvider enableSystem={false} attribute="class" defaultTheme="dark">
+              <Lines />
+              <Header />
+              <ToasterContext />
+              {children}
+              <Footer />
+            </ThemeProvider>
+            <Cookiebanner />
+            <Voiceflow />
+            {/* <ElevenLabsWidget /> */}
+            <Botpress />
+            <GoogleAnalytics gaId="G-XXXXXXXXXX" />
+          </CookieConsentProvider>
         </body>
       </html>
     </I18nextProvider>

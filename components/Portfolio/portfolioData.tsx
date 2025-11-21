@@ -1,50 +1,68 @@
 import { Portfolio } from "@/types/portfolio";
 
 const BlogData: Portfolio[] = [
-    { 
+  {
+    _id: 0.01,
+    mainImage: "/images/portfolio/AiProductDesigner.png",
+    title: "AI Product Designer",
+    metadata:
+      "Powered by latest AI models it's powerful product generator",
+    urlLink: "https://github.com/piotrmacai/Gemini-ProductPhotoStudio",
+    tags: ["all", "web"],
+  },
+  {
     _id: 0.1,
     mainImage: "/images/portfolio/insdrstudio.png",
     title: "Video Business website",
     metadata:
       "Modern motion website built in Next.js with video portfolio app",
-      urlLink:"https://insdrstudio.vercel.app/",
-      tags: ["all", "web"],
+    urlLink: "https://insdrstudio.vercel.app/",
+    tags: ["all", "web"],
   },
-  { 
+  {
     _id: 0.2,
     mainImage: "/images/portfolio/macaivoicebot.png",
     title: "Voice AI Assitant built-in into website",
     metadata:
       "Voice AI Agent trained on business data built-in into website",
-      urlLink:"https://macai.cloud/",
-      tags: ["ai", "all", "web"],
+    urlLink: "https://macai.cloud/",
+    tags: ["ai", "all", "web"],
   },
-     { 
+  {
     _id: 1,
     mainImage: "/images/portfolio/macailabs-full.png",
     title: "Video Portfolio App",
     metadata:
       "Fully interactive and modern video portfolio app build in Next.js",
-      urlLink:"https://macai.cloud/",
-      tags: ["all", "web"],
+    urlLink: "https://macai.cloud/",
+    tags: ["all", "web"],
   },
-    { 
+  {
     _id: 1.7,
     mainImage: "/images/portfolio/ainsider-link.jpg",
     title: "AI Recommendation Agent",
     metadata:
       "AI Agent with purpose to find the best AI Solutoins or Services based on their needs - trained on company data and AI best resources",
-      urlLink:"https://ainsider.link",
-      tags: ["ai", "all", "web"],
+    urlLink: "https://ainsider.link",
+    tags: ["ai", "all", "web"],
+  }, 
+  {
+    _id: 1.71,
+    mainImage: "/images/portfolio/GeminiSocialGenerator.png",
+    title: "Social Media Post Creator",
+    metadata:
+      "Powered by latest AI models it's powerful social media post generator",
+    urlLink: "https://github.com/piotrmacai/Gemini-SocialMediaDesigner",
+    tags: ["all", "web"],
   },
-   { 
+  {
     _id: 1.75,
     mainImage: "/images/portfolio/blog-ainsider.png",
     title: "Modern Blog about AI for polish audience",
     metadata:
       "Automation, Agents and technology - with tutorials, guides and toolkits",
-      urlLink:"https://blog.ainsider.cloud",
-      tags: ["ai", "all", "web"],
+    urlLink: "https://blog.ainsider.cloud",
+    tags: ["ai", "all", "web"],
   },
   // { 
   //   _id: 13,
@@ -55,131 +73,131 @@ const BlogData: Portfolio[] = [
   //     urlLink:"https://ainsider.link",
   //     tags: ["ai", "web"],
   // },
-  { 
+  {
     _id: 1.8,
     mainImage: "/images/portfolio/geminin8n.png",
     title: "Gemini AI Chatbot App",
     metadata:
       "with Gemini models and n8n workflows",
-      urlLink:"https://github.com/piotrmacai/Gemini-Chatbot-App",
-      tags: ["ai", "all", "web"],
+    urlLink: "https://github.com/piotrmacai/Gemini-Chatbot-App",
+    tags: ["ai", "all", "web"],
   },
-       { 
+  {
     _id: 3,
     mainImage: "/images/portfolio/n8n-workflows.jpg",
     title: "n8n workflows and AI Agents",
     metadata:
       "Only top quality & open-sourced n8n workflows and AI Agents for various business needs",
-      urlLink:"https://github.com/piotrmacai/n8n",
-      tags: ["ai", "all", "web"],
+    urlLink: "https://github.com/piotrmacai/n8n",
+    tags: ["ai", "all", "web"],
   },
-  { 
+  {
     _id: 2.0,
     mainImage: "/images/portfolio/creativeai.png",
     title: "AI powered Image Directing App",
     metadata:
       "Nano Banana powered Image Generation and Editing App",
-      urlLink:"https://github.com/piotrmacai/GeminiDesigner",
-      tags: ["ai", "all", "web"],
+    urlLink: "https://github.com/piotrmacai/GeminiDesigner",
+    tags: ["ai", "all", "web"],
   },
-  { 
+  {
     _id: 2.1,
     mainImage: "/images/portfolio/rekrut-full.png",
     title: "Rekrut Spark Website",
     metadata:
       "Modern website for HR Agency with job listing and application functionality",
-      urlLink:"https://rekrut-spark.com/",
-      tags: ["all", "web"],
+    urlLink: "https://rekrut-spark.com/",
+    tags: ["all", "web"],
   },
-     { 
+  {
     _id: 3,
     mainImage: "/images/portfolio/ainsiderbot.png",
     title: "AI Assitant built-in into website",
     metadata:
       "AI Agent trained on business data built-in into website",
-      urlLink:"https://ainsider.co",
-      tags: ["ai", "all", "web"],
+    urlLink: "https://ainsider.co",
+    tags: ["ai", "all", "web"],
   },
-   { 
+  {
     _id: 4,
     mainImage: "/images/portfolio/osk.png",
     title: "Oskmachowski.pl",
     metadata:
       "Ultra-fast Business & well SEO-optimized Website with built-in AI Assistant",
-      urlLink:"https://oskmachowski.pl/",
-      tags: ["all", "web"],
+    urlLink: "https://oskmachowski.pl/",
+    tags: ["all", "web"],
   },
-         { 
+  {
     _id: 4.5,
     mainImage: "/images/portfolio/vercelchat.png",
     title: "AI Chatbot App with Vercel AI SDK",
     metadata:
       "Perfect as starter for own AI Apps. Built in Next.js with Vercel AI Gateway.",
-      urlLink:"https://ainsiderchat.vercel.app/",
-      tags: ["ai", "all"],
+    urlLink: "https://ainsiderchat.vercel.app/",
+    tags: ["ai", "all"],
   },
-    { 
+  {
     _id: 5,
     mainImage: "/images/portfolio/ainsiderlanding.png",
     title: "Landing Page for Ainsider.co",
     metadata:
       "Ultra-fast Business Landing Page for Vibe Coded Landings",
-      urlLink:"https://landings.ainsider.co/",
-      tags: ["all", "web"],
+    urlLink: "https://landings.ainsider.co/",
+    tags: ["all", "web"],
   },
-    { 
+  {
     _id: 6,
     mainImage: "/images/portfolio/openweb-full.png",
     title: "Open WebUI - very powerful local LLM interface",
     metadata:
       "Locally installed n8n AI Automation platform - with Docker Container",
-      urlLink:"https://github.com/piotrmacai/n8n/tree/main/openWebUI-n8n-integration",
-      tags: ["ai", "all", "web"],
+    urlLink: "https://github.com/piotrmacai/n8n/tree/main/openWebUI-n8n-integration",
+    tags: ["ai", "all", "web"],
   },
-    { 
+  {
     _id: 6.5,
     mainImage: "/images/portfolio/notioncrm.jpg",
     title: "Complete CRM for Business",
     metadata:
       "Highly personalized CRM for business with AI Assitant and automation workflows",
-      urlLink:"https://ainsider.co/crm",
-      tags: ["ai", "all", "web"],
+    urlLink: "https://ainsider.co/crm",
+    tags: ["ai", "all", "web"],
   },
-    { 
+  {
     _id: 7,
     mainImage: "/images/portfolio/ainsiderstore-full.png",
     title: "Ainsider.store",
     metadata:
       "Gen AI Tools Directory and Magazine",
-      urlLink:"/portfolio/aitoolslibrary",
-      tags: ["all", "web", "ai"],
+    urlLink: "/portfolio/aitoolslibrary",
+    tags: ["all", "web", "ai"],
   },
-          { 
+  {
     _id: 7.5,
     mainImage: "/images/portfolio/vercelchat.png",
     title: "Voice Agent App",
     metadata:
       "Using Elevenlabs Voice Agent, built with Vercel AI Gateway. Perfect as starter for own Voice Agents or Apps",
-      urlLink:"https://v0.app/chat/eleven-labs-agents-starter-xuyVdQFxPAE?ref=L4O3TN",
-      tags: ["ai", "all"],
+    urlLink: "https://v0.app/chat/eleven-labs-agents-starter-xuyVdQFxPAE?ref=L4O3TN",
+    tags: ["ai", "all"],
   },
-  { 
+  {
     _id: 8,
     mainImage: "/images/portfolio/personalai.png",
     title: "Customized Personal AI Assistant",
     metadata:
       "n8n workflow connected with your platforms and tools",
-      urlLink:"https://github.com/piotrmacai/n8n/tree/main/telegram-personal-agent",
-      tags: ["ai", "all"],
+    urlLink: "https://github.com/piotrmacai/n8n/tree/main/telegram-personal-agent",
+    tags: ["ai", "all"],
   },
-    { 
+  {
     _id: 9,
     mainImage: "/images/portfolio/ainsidercrm.png",
     title: "Landing Page for Ainsider CRM",
     metadata:
       "Ultra-fast Business & well SEO-optimized Website with built-in AI Assistant",
-      urlLink:"https://ai.studio/apps/drive/1gj3DyNXi5-9fgxTmBWZ_OH9cvNEqRVBR",
-      tags: ["all", "web"],
+    urlLink: "https://ai.studio/apps/drive/1gj3DyNXi5-9fgxTmBWZ_OH9cvNEqRVBR",
+    tags: ["all", "web"],
   },
   // { 
   //   _id: 1.1,
@@ -198,24 +216,24 @@ const BlogData: Portfolio[] = [
   //   aspectRatio: "16:9",
   //   tags: ["web"],
   //   externalUrl: "https://machtrans.pl",
-  
-    { 
+
+  {
     _id: 10,
     mainImage: "/images/portfolio/machtrans-full.png",
     title: "Machtrans.pl",
     metadata:
       "Top SEO and ultra-fast Website in React.js for Transport Company",
-      urlLink:"https://machtrans.pl/",
-      tags: ["all", "web"],
+    urlLink: "https://machtrans.pl/",
+    tags: ["all", "web"],
   },
-  { 
+  {
     _id: 13.5,
     mainImage: "/images/portfolio/n8n-wordpress.png",
     title: "Wordpress blog post automation",
     metadata:
       "n8n workflow created posts with images on autopilot",
-      urlLink:"https://github.com/piotrmacai/n8n/tree/main/wordpress-full-blog-automation",
-      tags: ["ai", "all"],
+    urlLink: "https://github.com/piotrmacai/n8n/tree/main/wordpress-full-blog-automation",
+    tags: ["ai", "all"],
   },
   // { 
   //   _id: 11,
@@ -235,32 +253,41 @@ const BlogData: Portfolio[] = [
   //   tags: ["web"],
   //   urlLink: "https://ai.studio/apps/drive/1uKtZrmz-GqMDbVsnurr35N-Oq_FvdEqi",
   // },
-  { 
+  {
     _id: 11,
     mainImage: "/images/portfolio/afterrave.jpg",
     title: "After-rave.eu",
     metadata:
       "Shop in Shopify in multiple languages",
-      urlLink:"/portfolio/after-rave",
-      tags: ["all", "web","ecommerce"],
+    urlLink: "/portfolio/after-rave",
+    tags: ["all", "web", "ecommerce"],
   },
-  { 
+  {
+    _id: 11.5,
+    mainImage: "/images/portfolio/voiceflow.png",
+    title: "AI Agent for Lead Generation and Customer Support",
+    metadata:
+      "Advanced personalized AI Agent for Ecommerce with Products Recommendation build in Voiceflow",
+    urlLink: "https://ainsider.cloud",
+    tags: ["all", "ai"],
+  },
+  {
     _id: 12,
     mainImage: "/images/portfolio/videoautomation.jpg",
     title: "Video Generation & Publishing Automation",
     metadata:
       "Complete AI system for generating marketing or ad video and publish it to social media",
-      urlLink:"https://github.com/piotrmacai/n8n/tree/main/ai-video-automation",
-      tags: ["ai", "all"],
+    urlLink: "https://github.com/piotrmacai/n8n/tree/main/ai-video-automation",
+    tags: ["ai", "all"],
   },
-     { 
+  {
     _id: 13,
     mainImage: "/images/portfolio/bizdash-full.png",
     title: "AI powered Business Dashboard",
     metadata:
       "Ultra-fast Business & powered by Gemini AI models Dashboard for all business owners",
-      urlLink:"https://ai.studio/apps/drive/1XayPfs4Sb0EQpLeUKm5mQRyw2KEdMdmQ",
-      tags: ["ai", "all", "web"],
+    urlLink: "https://ai.studio/apps/drive/1XayPfs4Sb0EQpLeUKm5mQRyw2KEdMdmQ",
+    tags: ["ai", "all", "web"],
   },
   // {
   //   _id: 2.1,
@@ -280,14 +307,14 @@ const BlogData: Portfolio[] = [
   //     urlLink:"https://machtrans.pl/",
   //     tags: ["all", "web"],
   // },
-    { 
+  {
     _id: 15,
     mainImage: "/images/portfolio/pgr-full.png",
     title: "Pgr-elektroteam.pl",
     metadata:
       "Website for smart home company",
-      urlLink:"/portfolio/elektroteam",
-      tags: ["all", "web"],
+    urlLink: "/portfolio/elektroteam",
+    tags: ["all", "web"],
   },
   {
     _id: 16,
@@ -295,8 +322,8 @@ const BlogData: Portfolio[] = [
     title: "Volton-install.pl",
     metadata:
       "Business website for electrical services and smart home",
-      urlLink:"/portfolio/volton",
-      tags: ["all", "web"],
+    urlLink: "/portfolio/volton",
+    tags: ["all", "web"],
   },
   // {
   //   _id: 17,
@@ -307,14 +334,14 @@ const BlogData: Portfolio[] = [
   //   tags: ["ai", "all", "web"],
   //   urlLink: "https://ai.studio/apps/drive/1cncRS8NIp2Ig8IVxKijO1NVc1x94Pf1m",
   // },
-     { 
+  {
     _id: 18,
     mainImage: "/images/portfolio/klicious-full.png",
     title: "K-licious.pl",
     metadata:
       "Website and Ecom for Creative Company",
-      urlLink:"/portfolio/klicious",
-      tags: ["all", "web"],
+    urlLink: "/portfolio/klicious",
+    tags: ["all", "web"],
   },
   // { 
   //   _id: 18.5,
@@ -329,19 +356,19 @@ const BlogData: Portfolio[] = [
     _id: 19,
     mainImage: "/images/portfolio/AiPhotoshop.jpg",
     title: "AI Photoshop",
-    metadata: 
-    "Ai-powered App to edit images with text prompts and drawing canvsas",
-    tags: ["ai","all", "web"],
+    metadata:
+      "Ai-powered App to edit images with text prompts and drawing canvsas",
+    tags: ["ai", "all", "web"],
     urlLink: "https://ai.studio/apps/drive/1OptMLu_Y9w_xcKe0wFMm-ATZXVZRtqeR",
   },
-  { 
+  {
     _id: 20,
     mainImage: "/images/portfolio/ainsiderplimg.png",
     title: "Ainsider.pl",
     metadata:
       "Ai Newsletter for polish audience",
-      urlLink:"https://ainsider.pl",
-      tags: ["all", "web", "ai"],  
+    urlLink: "https://ainsider.pl",
+    tags: ["all", "web", "ai"],
   },
   // { 
   //   _id: 15,
@@ -352,42 +379,33 @@ const BlogData: Portfolio[] = [
   //     urlLink:"/voicebot",
   //     tags: ["ai", "agents"],
   // },
-    {
+  {
     _id: 21,
     mainImage: "/images/portfolio/lanelyya.jpg",
     title: "Lanelyya.de",
     metadata:
       "Shop in multiple languages on Shopify for German market",
-      urlLink:"/portfolio/lanelyya",
-      tags: ["all", "web","ecommerce"],
-  },  
-  { 
+    urlLink: "/portfolio/lanelyya",
+    tags: ["all", "web", "ecommerce"],
+  },
+  {
     _id: 22,
     mainImage: "/images/portfolio/bodymedica.jpg",
     title: "bodymedica.pl",
     metadata:
       "Business website for Physiotherapy Office",
-      urlLink:"/portfolio/bodymedica",
-      tags: ["all", "web"],
+    urlLink: "/portfolio/bodymedica",
+    tags: ["all", "web"],
   },
-  { 
+  {
     _id: 23,
     mainImage: "/images/portfolio/ainsiderlink.jpg",
     title: "Personal Portfolio with Links and AI Assitant",
     metadata:
       "Personalized portfolio app with various social links and AI Assitant build in Next.js",
-      urlLink:"https://ainsider.link",
-      tags: ["ai", "all", "web"],
+    urlLink: "https://ainsider.link",
+    tags: ["ai", "all", "web"],
   },
-  // { 
-  //   _id: 4,
-  //   mainImage: "/images/portfolio/voiceflowecom.png",
-  //   title: "AI Agent for Ecommerce with Products Recommendation",
-  //   metadata:
-  //     "Advanced personalized AI Agent for Ecommerce with Products Recommendation build in Voiceflow",
-  //     urlLink:"/ecombot",
-  //     tags: ["ai", "agents"],
-  // },
   // { 
   //   _id: 17,
   //   mainImage: "/images/portfolio/voicebot.jpg",
@@ -415,14 +433,14 @@ const BlogData: Portfolio[] = [
   //     urlLink:"https://macai.studio",
   //     tags: ["web"],
   // },
-  { 
+  {
     _id: 24,
     mainImage: "/images/portfolio/cora.jpg",
     title: "Cora-goralczyk.pl",
     metadata:
       "Website for automotive mechanic workshop",
-      urlLink:"/portfolio/cora-goralczyk",
-      tags: ["all", "web","ecommerce"],
+    urlLink: "/portfolio/cora-goralczyk",
+    tags: ["all", "web", "ecommerce"],
   },
   // { 
   //   _id: 1.1,
@@ -460,14 +478,14 @@ const BlogData: Portfolio[] = [
   //     urlLink:"https://newsletter.ainsider.pl/",
   //     tags: ["ai", "web"],
   // },
-  { 
+  {
     _id: 25,
     mainImage: "/images/portfolio/skin.jpg",
     title: "Skinproject.pl",
     metadata:
       "Website for Aesthetic Medicine Office",
-      urlLink:"/portfolio/skinproject",
-      tags: ["all", "web"],
+    urlLink: "/portfolio/skinproject",
+    tags: ["all", "web"],
   },
   // { 
   //   _id: 18,
@@ -478,50 +496,50 @@ const BlogData: Portfolio[] = [
   //     urlLink:"/portfolio/huggingface-assistants",
   //     tags: ["ai"],
   // }, 
-  { 
+  {
     _id: 26,
     mainImage: "/images/portfolio/slovlydeskop.jpg",
     title: "Slovlystudio.pl",
     metadata:
       "Online store for handmade clothing brand",
-      urlLink:"/portfolio/slovly",
-      tags: ["all", "web","ecommerce"],
+    urlLink: "/portfolio/slovly",
+    tags: ["all", "web", "ecommerce"],
   },
-  { 
+  {
     _id: 27,
     mainImage: "/images/portfolio/promptr.jpg",
     title: "Text-to-image Prompt Builder App",
     metadata:
       "Text-to-image Prompt Builder App",
-      urlLink:"/portfolio/promptrapp",
-      tags: ["ai"],
+    urlLink: "/portfolio/promptrapp",
+    tags: ["ai"],
   },
-  { 
+  {
     _id: 28,
     mainImage: "/images/portfolio/bakaliovelove.jpg",
     title: "Bakaliowelove.pl",
     metadata:
       "Woocommerce Store with healthy food",
-      urlLink:"/portfolio/bakaliowelove",
-      tags: ["websites"],
+    urlLink: "/portfolio/bakaliowelove",
+    tags: ["websites"],
   },
-  { 
+  {
     _id: 29,
     mainImage: "/images/portfolio/paintball.jpg",
     title: "paintball-osada.pl",
     metadata:
       "Business website for Entertainment Park and Paintball",
-      urlLink:"/portfolio/paintball-osada",
-      tags: ["websites"],
+    urlLink: "/portfolio/paintball-osada",
+    tags: ["websites"],
   },
-  { 
+  {
     _id: 30,
     mainImage: "/images/portfolio/smp.jpg",
     title: "smpolaniec.com.pl",
     metadata:
       "Website for housing cooperative",
-      urlLink:"/portfolio/smpolaniec",
-      tags: ["websites"],
+    urlLink: "/portfolio/smpolaniec",
+    tags: ["websites"],
   },
   //   { 
   //   _id: 28,
