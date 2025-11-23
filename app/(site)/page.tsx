@@ -25,6 +25,7 @@ import Motion from "@/components/Motion/MotionOrbit";
 import ServiceTimeline from "@/components/ServiceTimeline";
 import FeaturesTabResources from "@/components/FeaturesTabsResources";
 import WooProductGrid from "@/components/WooProductGrid";
+import AinsiderStore from "@/components/AinsiderStore";
 
 
 export const metadata: Metadata = {
@@ -32,34 +33,36 @@ export const metadata: Metadata = {
   description: "Tailored To The Needs Of Your Company Web & AI and Automation solutions that help businesses to grow. Discover our services tailored to the needs of your company.",
   openGraph: {
     title: "Ainsider AI Company - AI | Web | Resources | Automations For Business",
-    description:"Tailored To The Needs Of Your Company Web & AI and Automation solutions that help businesses to grow. Discover our services tailored to the needs of your company.",
+    description: "Tailored To The Needs Of Your Company Web & AI and Automation solutions that help businesses to grow. Discover our services tailored to the needs of your company.",
     images: [
       {
         url: '/images/logo/webLogo.png', // Updated path to your image
         alt: 'Ainsider AI Company', // Optional: alt text for the image
       },
     ]
-  }, 
+  },
   // inne metadane
 };
 
 export default function Home() {
   return (
     <main>
-      <AiwareHero/>
-      <FeaturesTabResources/>
+      <AiwareHero />
+      <AinsiderStore />
+      {/* <FeaturesTabResources /> */}
       <div id="services">
-      <Feature /> 
-      </div> 
-      <Motion/>     
+        <Feature />
+      </div>
+      <Motion />
+
       {/* <MainAbout/> */}
-      <ServiceTimeline/>    
+      <ServiceTimeline />
       {/* <WooProductGrid/> */}
-      <CTA />       
+      <CTA />
       {/* <SenjaWidget/>   */}
       <Brands />
       <Contact />
-      < Socials />     
+      < Socials />
     </main>
   );
 }

@@ -45,7 +45,7 @@ const BlogData: Portfolio[] = [
       "AI Agent with purpose to find the best AI Solutoins or Services based on their needs - trained on company data and AI best resources",
     urlLink: "https://ainsider.link",
     tags: ["ai", "all", "web"],
-  }, 
+  },
   {
     _id: 1.71,
     mainImage: "/images/portfolio/GeminiSocialGenerator.png",

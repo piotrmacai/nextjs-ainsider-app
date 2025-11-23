@@ -1,4 +1,26 @@
 {
+  "ainsiderstore": {
+    "badge": "Ainsider Store",
+    "title": "The Ultimate Directory for",
+    "subtitle": "AI Tools & Agents",
+    "description": "Discover, deploy, and master the next generation of intelligence. Your one-stop shop for everything AI, from ready-to-use agents to comprehensive learning resources.",
+    "cta_visit": "Visit Directory",
+    "cta_guides": "View Guides",
+    "features": {
+      "agents_directory": {
+        "title": "Agents Directory",
+        "description": "Explore a curated list of top-tier AI agents ready to deploy."
+      },
+      "resources_hub": {
+        "title": "Resources Hub",
+        "description": "Access guides, tutorials, and whitepapers to master AI."
+      },
+      "agents_templates": {
+        "title": "Agents Templates",
+        "description": "Jumpstart your development with pre-built agent templates."
+      }
+    }
+  },
   "welcome": "Hello! We're Ainsider!",
   "mainheading": "Your Partner in Automation and AI for Business",
   "description": "Automations | AI Agents | Web and CRM",
@@ -2091,9 +2113,206 @@
       },
       "header2": {
         "header1": "Intelligent System Integration",
-        "header2": "Powered by AI",
-        "desc1": "I create advanced integration solutions that connect AI chatbots and assistants with your business systems. I ensure seamless data synchronization between CRM, CMS, ticketing systems, and e-commerce platforms, automating sales processes and customer service. My solutions support multi-channel communication, real-time analytics, and personalized customer interactions.",
-        "button": "Explore Integration Possibilities"
+        "head7": "",
+        "headcook": "COOKIES POLICY MACAI.STUDIO",
+        "cook1": "Cookies - small text files sent by a www server and stored on the user's end device (e.g. computer, smartphone) when using websites. Session cookies - cookies deleted after the browser session ends. Persistent cookies - cookies remaining on the user's device for a specified time. First-party cookies - cookies placed by the website the user is currently visiting. Third-party cookies - cookies placed by sites other than the visited website.",
+        "headcook1": "§1. DEFINITIONS",
+        "cook2": "The Administrator uses the following types of cookies: a) Necessary for the operation of the Store: Storing the contents of the cart, Remembering user login, Adapting displayed content to the user. b) Functional: Remembering user preferences (e.g. language, region), Remembering page appearance settings. c) Analytical: Measuring traffic on the page to improve its functioning, Generating anonymous statistics and reports. d) Marketing: Personalizing ads displayed to the user, Analyzing the effectiveness of marketing campaigns.",
+        "headcook2": "§2. TYPES AND PURPOSES OF USING COOKIES",
+        "cook3": "Cookies are used for the purpose of: a) Ensuring proper operation and security of the Store, b) Analyzing traffic on the site and optimizing the Store's functionality, c) Adapting content and functionality to user preferences, d) Conducting marketing and advertising activities.",
+        "headcook3": "§3. COOKIE MANAGEMENT",
+        "cook4": "The user can change browser settings at any time to block the storage of cookies or delete already stored cookies. Blocking or deleting cookies may cause difficulties in using the Store or disable some of its functions. The user can withdraw consent to the use of cookies at any time by changing browser settings.",
+        "headcook4": "§4. THIRD-PARTY COOKIES",
+        "cook5": "The Store's website may also include cookies from third parties, such as: a) Analytical service providers (e.g. Google Analytics), b) Advertising service providers (e.g. Google Ads), c) Entities providing social media plugins. Third-party cookies are subject to separate privacy policies of those entities",
+        "headcook5": "§5. CONTACT AND COMPLAINTS",
+        "cook6": "For matters related to the use of cookies on the Store's website, the user can contact the Administrator at the email address: piotr@macai.studio. The user has the right to lodge a complaint with the supervisory authority (President of the Personal Data Protection Office) regarding violations of personal data protection regulations.",
+        "headcook6": "§6. FINAL PROVISIONS",
+        "cook7": "This Cookie Policy enters into force on 01.05.2024. The Administrator reserves the right to amend this Cookie Policy. Customers will be informed of any changes electronically."
+      },
+      "heroWebSection": {
+        "header": {
+          "title": "Web Technologies",
+          "subtitle": "Landing Pages, Websites, and E-commerce",
+          "description": "Perfectly Tailored for Your Online Presence"
+        },
+        "process": {
+          "title": "Our Process",
+          "subtitle": "How We Work",
+          "description": "A transparent workflow that ensures quality and efficiency at every stage",
+          "tabs": {
+            "tabOne": "Discovery & Planning",
+            "tabTwo": "Design & Development",
+            "tabThree": "Testing & Launch"
+          }
+        },
+        "WebFeaturesTab": {
+          "header": {
+            "tabOne": "Audits and Consultations",
+            "tabTwo": "Design and Development",
+            "tabThree": "Optimization and Growth"
+          },
+          "tab1Title": "Comprehensive Website Audits and Expert Consultations",
+          "tab1Description1": "Unlock the full potential of your online presence with thorough website audits and expert consultations. I meticulously analyze every aspect of your existing website, identifying areas for improvement, optimization opportunities, and potential gaps.",
+          "tab1Description2": "Through comprehensive assessments, I provide valuable insights and recommendations to enhance your website's performance, user experience, and search engine visibility. From technical audits to strategic consultations, I am your trusted partner in data-driven decision-making, empowering you to achieve growth and success online.",
+          "tab2Title": "Modern and Responsive Website Design and Development",
+          "tab2Description1": "Transform your ideas into a stunning online reality with my cutting-edge website design and development services. I specialize in creating visually appealing, user-friendly, and responsive websites that captivate your audience and provide an exceptional user experience across all devices.",
+          "tab2Description2": "Leveraging the latest web technologies and industry best practices, I build custom websites tailored to your brand and business goals. From concept to launch, I ensure your website is optimized for performance, search engine visibility, and overall user satisfaction.",
+          "tab3Title": "Website Optimization and Growth Strategies",
+          "tab3Description1": "Maximize the potential of your online presence with comprehensive website optimization and growth strategies. I leverage advanced analytics tools to identify areas for improvement, monitor performance metrics, and implement data-driven optimizations to enhance user engagement, conversion rates, and search engine rankings.",
+          "tab3Description2": "My services encompass a wide range of optimization techniques, including search engine optimization (SEO), conversion rate optimization (CRO), and user experience (UX) enhancements. By staying ahead of the curve, I ensure your website remains competitive and continues to drive growth for your business."
+        },
+        "aboutWeb": {
+          "header1": {
+            "header1": "Tailored Solutions",
+            "header2": "Strategic Approach",
+            "header3": "Landing Pages, Websites",
+            "header4": "and E-commerce For Your Business",
+            "desc1": "As an AI and web development expert at MacAI Studio, I am committed to delivering tailored solutions that align perfectly with your unique online needs. By understanding the intricacies of your industry, challenges, and goals, I create customized strategies that address your biggest pain points and drive success for your online presence."
+          },
+          "header2": {
+            "header1": "Elevate Your Online Business",
+            "header2": "To New Heights",
+            "desc1": "Harnessing the power of cutting-edge artificial intelligence technologies and web development best practices, I offer a carefully crafted approach to elevate your online business to new heights. My services incorporate the latest ideas, techniques, and strategies tailored to your specific industry and goals.",
+            "button": "Let's Start Your Project"
+          }
+        }
+      },
+      "SupportBotFeaturesTab": {
+        "mainheader": "Details of our Support AI Agent",
+        "header": {
+          "tabOne": "Your Custom Data",
+          "tabTwo": "Personalized Behavior And Workflow",
+          "tabThree": "Integrations with CRMs and Your Tools"
+        },
+        "tab1Title": "Your Custom Data including products and services",
+        "tab1Description1": "Our AI agents enable seamless integration with your custom data, including product catalogs, service lists, and internal knowledge bases, ensuring personalized and context-aware interactions.",
+        "tab1Description2": "By leveraging your unique data, we create solutions that provide accurate responses, streamline customer queries, and enhance operational insights tailored to your offerings.",
+        "tab2Title": "Personalized Behavior And Workflow tailored to Your needs",
+        "tab2Description1": "Our AI solutions are crafted to align with your specific business processes, adapting workflows and interactions to reflect your unique organizational needs and goals.",
+        "tab2Description2": "We design automation workflows that seamlessly integrate with your operations, improving responsiveness, minimizing errors, and providing consistent, personalized experiences for your customers.",
+        "tab3Title": "Integrations with CRMs as Your Platforms and Tools",
+        "tab3Description1": "We specialize in embedding AI into your CRM and tool ecosystem, enabling intelligent data handling, workflow automation, and enhanced customer management capabilities.",
+        "tab3Description2": "Our integration services enhance your existing platforms with AI-driven features, optimizing communication, data analysis, and content management to support informed decision-making and operational efficiency."
+      },
+      "heroAiSection": {
+        "header": {
+          "title": "AI Technologies",
+          "subtitle": "Automation, Analysis, and Intelligence",
+          "description": "Transforming Your Business with Artificial Intelligence"
+        },
+        "AiFeaturesTab": {
+          "mainheader": "Details of Our AI Solutions",
+          "header": {
+            "tabOne": "AI Assistants and Agents",
+            "tabTwo": "AI For Business Automation",
+            "tabThree": "AI with CRM & CMS"
+          },
+          "tab1Title": "Creation and Implementation of AI Assistants and Agents",
+          "tab1Description1": "Discover how AI Assistants and Agents can revolutionize interactions within your company. Our comprehensive services include designing, developing, and implementing advanced AI assistants that enhance customer service quality, boost productivity, and optimize business operations.",
+          "tab1Description2": "With our expertise, we create intelligent AI agents that automate tasks, respond to inquiries in real time, and integrate with your systems. Let us provide you with solutions that work towards your success, increasing efficiency and customer satisfaction.",
+          "tab2Title": "Business Automation",
+          "tab2Description1": "Implement modern automation solutions that transform your business operations. We specialize in designing and implementing automation systems that eliminate repetitive tasks, improve accuracy, and accelerate processes.",
+          "tab2Description2": "Our approach leverages the latest technologies and best industry practices to deliver solutions tailored to your company's specific needs. The automations we introduce enhance efficiency, reduce costs, and allow you to focus on strategic business goals.",
+          "tab3Title": "AI-Driven CRM and CMS Management",
+          "tab3Description1": "Streamline your Customer Relationship Management (CRM) and Content Management Systems (CMS) with intelligent AI solutions. Our services include integrating and optimizing CRM and CMS systems tailored to your business needs.",
+          "tab3Description2": "Using advanced AI tools, we help automate customer data management, personalize communication, and improve operational efficiency. With our solutions, you can make better business decisions, increase customer satisfaction, and manage content effectively."
+        },
+        "AboutAI": {
+          "header1": {
+            "header1": "Automations",
+            "header2": "with AI",
+            "header3": "Chatbots and AI Assistants",
+            "header4": "Automations & CRM & CMS",
+            "desc1": "As an dev with true passion for AI I am committed to delivering tailored solutions that leverage the power of artificial intelligence to transform your business. By understanding the intricacies of your industry, challenges, and goals, I create intelligent strategies and AI-driven solutions that address your unique needs and drive real business impact."
+          },
+          "header2": {
+            "header1": "Unleash the Power of AI",
+            "header2": "For Your Business",
+            "desc1": "Harness the transformative potential of artificial intelligence with my carefully crafted approach. By combining cutting-edge AI technologies with deep industry expertise, I offer end-to-end services tailored to your specific requirements, empowering you to Stay ahead of the curve and achieve sustainable growth.",
+            "button": "Let's Explore AI Solutions"
+          }
+        }
+      },
+      "heroMarketingSection": {
+        "FeaturesTab": {
+          "header": {
+            "tabOne": "Design and Branding for Your Business",
+            "tabTwo": "Creating Intuitive UX/UI Interfaces",
+            "tabThree": "Generative Visual Content Creation"
+          },
+          "tab1Title": "Advanced Design and Branding Solutions",
+          "tab1Description1": "Discover how professional design and branding can elevate your business image to a new level. My services include designing cohesive and aesthetically pleasing visual materials that highlight your brand and build customer trust.",
+          "tab1Description2": "I create unique graphic designs that combine modern trends with functionality, ensuring each solution is tailored to your brand and audience. My designs improve brand recognition and help build lasting relationships with customers.",
+          "tab2Title": "Creating Intuitive UX/UI Interfaces",
+          "tab2Description1": "Design user interfaces that are simple to use and tailored to your clients' needs. I specialize in creating user experiences (UX) and user interfaces (UI) that merge aesthetics with intuitive navigation.",
+          "tab2Description2": "My approach to UX/UI is based on in-depth research and analysis of user behavior. I design interfaces that enhance engagement, minimize user friction, and increase overall satisfaction.",
+          "tab3Title": "Generative Visual Content Creation",
+          "tab3Description1": "Leverage artificial intelligence to automatically create videos, graphics, and product photography that fully reflect the professionalism of your business. I offer AI-driven services for creating personalized visual content tailored to your needs.",
+          "tab3Description2": "Using advanced generative algorithms, I produce visual content that includes high-quality product photography, attractive promotional graphics, and dynamic videos—all based on your preferences and requirements. I enable full automation and personalization of creative processes, ensuring your visual materials are always top-notch."
+        },
+        "About": {
+          "header1": {
+            "header1": "Design",
+            "header2": "& UI/UX",
+            "header3": "Design / Branding",
+            "header4": "",
+            "desc1": "I offer comprehensive design and UX/UI services that help you build your dream image in the digital world. My solutions are tailored to your needs and industry, ensuring consistency and efficiency in every aspect of your business."
+          },
+          "header2": {
+            "header1": "Unleash the Power of AI",
+            "header2": "For Your Business",
+            "desc1": "Harness the full potential of modern tools and marketing strategies for effective lead generation and dynamic social media growth. With my services, combining advanced technologies with deep expertise, I offer comprehensive solutions tailored to your needs and market specifics, together taking your business to the next level.",
+            "button": "Discover AI Solutions"
+          }
+        }
+      },
+      "AiAboutSection": {
+        "FeaturesTab": {
+          "header": {
+            "tabOne": "Custom AI Chatbots for Business",
+            "tabTwo": "Intelligent Virtual Assistants",
+            "tabThree": "AI-Powered Customer Support"
+          },
+          "tab1Title": "Advanced AI Chatbot Solutions",
+          "tab1Description1": "Transform your customer interactions with custom AI chatbots designed specifically for your business needs. Our chatbots provide 24/7 automated support, handle inquiries, and streamline customer service operations efficiently.",
+          "tab1Description2": "Each chatbot is built with advanced natural language processing capabilities and trained on your business data to provide accurate, contextual responses that align with your brand voice and customer service standards.",
+          "tab2Title": "Intelligent Virtual Assistants",
+          "tab2Description1": "Empower your business operations with smart virtual assistants that can handle complex tasks, schedule appointments, manage workflows, and provide real-time assistance to both employees and customers.",
+          "tab2Description2": "Our virtual assistants learn from interactions and continuously improve their performance, offering personalized experiences while reducing operational costs and increasing productivity.",
+          "tab3Title": "AI-Powered Customer Support",
+          "tab3Description1": "Revolutionize your customer support with AI systems that can understand, analyze, and respond to customer queries across multiple channels. Our solutions integrate seamlessly with your existing platforms to provide consistent support.",
+          "tab3Description2": "Leverage machine learning algorithms to predict customer needs, automate routine inquiries, and escalate complex issues to human agents when necessary. Our AI support systems help maintain high customer satisfaction while optimizing resource allocation."
+        },
+        "About": {
+          "header1": {
+            "header1": "Agents and Assistants",
+            "header2": "AI",
+            "header3": "AI Chatbots and Voicebots",
+            "header4": "For Your Goals and Needs",
+            "desc1": "We implement advanced AI-powered Chatbots and Voicebots that revolutionize how your company handles customer service. My solutions are tailored to your industry’s specifics, automating interactions and improving service quality, leading to increased customer satisfaction and operational efficiency."
+          },
+          "header2": {
+            "header1": "Digital Transformation",
+            "header2": "With AI Support",
+            "desc1": "Harness the full potential of artificial intelligence to transform your business. By combining advanced AI technologies with deep business expertise, I offer solutions that automate processes, optimize costs, and enhance customer satisfaction, helping your company gain a competitive edge.",
+            "button": "Discover AI Possibilities"
+          }
+        },
+        "AboutTwo": {
+          "header1": {
+            "header1": "AI",
+            "header2": "& Automation",
+            "header3": "AI Agents and Assistants with Built-In Automations",
+            "header4": "Intelligent Automations for Efficient Customer Service",
+            "desc1": "We specialize in creating AI assistants and agents with built-in integrations with the most popular CRM, CMS, and other business tools. I offer comprehensive solutions that automate processes and provide efficient customer service by integrating advanced technologies with your existing systems."
+          },
+          "header2": {
+            "header1": "Intelligent System Integration",
+            "header2": "Powered by AI",
+            "desc1": "I create advanced integration solutions that connect AI chatbots and assistants with your business systems. I ensure seamless data synchronization between CRM, CMS, ticketing systems, and e-commerce platforms, automating sales processes and customer service. My solutions support multi-channel communication, real-time analytics, and personalized customer interactions.",
+            "button": "Explore Integration Possibilities"
+          }
+        }
       }
     }
   }
