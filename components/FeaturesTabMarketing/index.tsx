@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import featuresTabData from "./featuresTabData";
 import FeaturesTabItem from "./FeaturesTabItem";
 import { useTranslation } from 'react-i18next';
 import { motion } from "framer-motion";
@@ -11,137 +10,105 @@ const MarketingFeaturesTab = () => {
   const [currentTab, setCurrentTab] = useState("tabOne");
   const { t } = useTranslation();
   const featuresTabData = getTranslatedFeaturesTabData();
-  return ( 
+
+  const handleTabClick = (tabId: string) => {
+    setCurrentTab(tabId);
+  };
+
+  const getTabHeader = (tabId: string) => {
+    switch (tabId) {
+      case "tabOne":
+        return t('heroMarketingSection.FeaturesTab.header.tabOne');
+      case "tabTwo":
+        return t('heroMarketingSection.FeaturesTab.header.tabTwo');
+      case "tabThree":
+        return t('heroMarketingSection.FeaturesTab.header.tabThree');
+      default:
+        return '';
+    }
+  };
+
+  const tabIds = ["tabOne", "tabTwo", "tabThree"];
+
+  return (
     <>
-      {/* <!-- ===== Features Tab Start ===== --> */}
-      <section className="pt-5 pb-27 lg:pb-30 relative">
+      {/* */}
+      <section className="pt-10 pb-27 lg:pb-30 relative overflow-hidden">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 relative">
-          <div className="absolute -top-16 -z-1 mx-auto h-[350px] w-[90%]">
-            <Image
-              fill
-              className="dark:hidden"
-              src="/images/shape/shape-dotted-light.svg"
-              alt="Dotted Shape"
-            />
-            <Image
-              fill
-              className="hidden dark:block"
-              src="/images/shape/shape-dotted-dark.svg"
-              alt="Dotted Shape"
-            />
+
+          {/* Efekt tła zostaje bez zmian */}
+          <div className="absolute -top-16 -z-1 mx-auto h-[350px] w-[90%] opacity-50 blur-xl">
+            <div className="absolute inset-0 bg-primary/10 dark:bg-primary/5 rounded-full" />
           </div>
 
-          {/* <!-- Tab Menues Start --> */}
-          <motion.div
-            variants={{
-              hidden: {
-                opacity: 0,
-                y: -20,
-              },
+          {/* GŁÓWNY KONTENER GLASSMORHISM */}
+          <div className="p-4 md:p-8 lg:p-10 rounded-2xl backdrop-blur-lg bg-white/20 dark:bg-black/20 border border-white/30 dark:border-black/30 shadow-2xl dark:shadow-none">
 
-              visible: {
-                opacity: 1,
-                y: 0,
-              },
-            }}
-            initial="hidden"
-            whileInView="visible"
-            transition={{ duration: 0.5, delay: 0.1 }}
-            viewport={{ once: true }}
-            className="animate_top border border-stroke dark:border-strokedark dark:bg-blacksection shadow-solid-5 dark:shadow-solid-6 bg-white rounded-[10px] flex flex-wrap md:flex-nowrap md:items-center justify-center lg:gap-7.5 xl:gap-12.5 mb-15 xl:mb-21.5"
-          >
-            <div
-              onClick={() => setCurrentTab("tabOne")}
-              className={`relative cursor-pointer w-full md:w-auto border-b last:border-0 md:border-0 border-stroke dark:border-strokedark flex items-center gap-4 py-2 xl:py-5 px-6 xl:px-13.5 ${
-                currentTab === "tabOne"
-                  ? "active before:w-full before:h-1 before:bg-primary before:absolute before:bottom-0 before:left-0 before:rounded-tl-[4px] before:rounded-tr-[4px]"
-                  : ""
-              }`}
+            {/* */}
+            <motion.div
+              variants={{
+                hidden: { opacity: 0, y: -20 },
+                visible: { opacity: 1, y: 0 },
+              }}
+              initial="hidden"
+              whileInView="visible"
+              transition={{ duration: 0.5, delay: 0.1 }}
+              viewport={{ once: true }}
+              // Zmiana: Usunięto tło kontenera i obramowanie. Został tylko cień.
+              className="animate_top rounded-full p-1.5 flex flex-wrap md:flex-nowrap items-center justify-center gap-1 mb-15 xl:mb-21.5 shadow-inner dark:shadow-inner"
             >
-              <div className="w-12.5 h-12.5 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
-                <p className="text-black dark:text-white font-medium text-metatitle3">
-                  01
-                </p>
-              </div>
-              <div className="lg:w-auto md:w-3/5">
-                <h5 className="text-black dark:text-white text-sm xl:text-regular font-medium">
-                {t('heroMarketingSection.FeaturesTab.header.tabOne')}
-                </h5>
-              </div>
-            </div>
-            <div
-              onClick={() => setCurrentTab("tabTwo")}
-              className={`relative cursor-pointer w-full md:w-auto border-b last:border-0 md:border-0 border-stroke dark:border-strokedark flex items-center gap-4 py-2 xl:py-5 px-6 xl:px-13.5 ${
-                currentTab === "tabTwo"
-                  ? "active before:w-full before:h-1 before:bg-primary before:absolute before:bottom-0 before:left-0 before:rounded-tl-[4px] before:rounded-tr-[4px]"
-                  : ""
-              }`}
-            >
-              <div className="w-12.5 h-12.5 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
-                <p className="text-black dark:text-white font-medium text-metatitle3">
-                  02
-                </p>
-              </div>
-              <div className="lg:w-auto md:w-3/5">
-                <h5 className="text-black dark:text-white text-sm xl:text-regular font-medium">
-                {t('heroMarketingSection.FeaturesTab.header.tabTwo')}
-                </h5>
-              </div>
-            </div>
-            <div
-              onClick={() => setCurrentTab("tabThree")}
-              className={`relative cursor-pointer w-full md:w-auto border-b last:border-0 md:border-0 border-stroke dark:border-strokedark flex items-center gap-4 py-2 xl:py-5 px-6 xl:px-13.5 ${
-                currentTab === "tabThree"
-                  ? "active before:w-full before:h-1 before:bg-primary before:absolute before:bottom-0 before:left-0 before:rounded-tl-[4px] before:rounded-tr-[4px]"
-                  : ""
-              }`}
-            >
-              <div className="w-12.5 h-12.5 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
-                <p className="text-black dark:text-white font-medium text-metatitle3">
-                  03
-                </p>
-              </div>
-              <div className="lg:w-auto md:w-3/5">
-                <h5 className="text-black dark:text-white text-sm xl:text-regular font-medium">
-                {t('heroMarketingSection.FeaturesTab.header.tabThree')}
-                </h5>
-              </div>
-            </div>
-          </motion.div>
-          {/* <!-- Tab Menues End --> */}
+              {tabIds.map((tabId, index) => (
+                <div
+                  key={tabId}
+                  onClick={() => handleTabClick(tabId)}
+                  className={`relative cursor-pointer w-full md:w-auto flex items-center gap-2 py-3 px-5 rounded-full transition-all duration-300 ${currentTab === tabId
+                      // Aktywna karta: utrzymanie kontrastowego tła dla widoczności
+                      ? "bg-primary text-white shadow-lg shadow-primary/40 dark:shadow-primary/20"
+                      // Nieaktywna karta: czyste, minimalistyczne, bez tła
+                      : "text-gray-700 dark:text-gray-300 hover:bg-white/50 dark:hover:bg-black/50"
+                    }`}
+                >
+                  <div className={`text-sm font-semibold ${currentTab === tabId ? 'text-white' : 'text-primary dark:text-white/70'}`}>
+                    {`0${index + 1}`}
+                  </div>
+                  <h5 className={`text-sm xl:text-regular font-medium ${currentTab === tabId ? 'text-white' : 'text-black dark:text-white'}`}>
+                    {getTabHeader(tabId)}
+                  </h5>
+                </div>
+              ))}
+            </motion.div>
+            {/* */}
 
-          {/* <!-- Tab Content Start --> */}
-          <motion.div
-            variants={{
-              hidden: {
-                opacity: 0,
-                y: -20,
-              },
+            {/* */}
+            <motion.div
+              variants={{
+                hidden: { opacity: 0, y: -20 },
+                visible: { opacity: 1, y: 0 },
+              }}
+              initial="hidden"
+              whileInView="visible"
+              transition={{ duration: 0.5, delay: 0.5 }}
+              viewport={{ once: true }}
+              className="animate_top mx-auto max-w-c-1154"
+            >
+              {featuresTabData.map((feature, key) => (
+                <div
+                  className={feature.id === currentTab ? "block" : "hidden"}
+                  key={key}
+                >
+                  {/* FeaturesTabItem jest teraz wewnątrz Glassmorphism Container */}
+                  <FeaturesTabItem featureTab={feature} key={key} />
+                </div>
+              ))}
+            </motion.div>
+            {/* */}
 
-              visible: {
-                opacity: 1,
-                y: 0,
-              },
-            }}
-            initial="hidden"
-            whileInView="visible"
-            transition={{ duration: 0.5, delay: 0.5 }}
-            viewport={{ once: true }}
-            className="animate_top mx-auto max-w-c-1154"
-          >
-            {featuresTabData.map((feature, key) => (
-              <div
-                className={feature.id === currentTab ? "block" : "hidden"}
-                key={key}
-              >
-                <FeaturesTabItem featureTab={feature}  key={key} />
-              </div>
-            ))}
-          </motion.div>
-          {/* <!-- Tab Content End --> */}
+          </div>
+          {/* KONIEC GŁÓWNEGO KONTENERA */}
+
         </div>
       </section>
-      {/* <!-- ===== Features Tab End ===== --> */}
+      {/* */}
     </>
   );
 };

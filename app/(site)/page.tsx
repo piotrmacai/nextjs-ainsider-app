@@ -23,10 +23,10 @@ import About from "@/components/About";
 import MainAbout from "@/components/About/MainAbout";
 import Motion from "@/components/Motion/MotionOrbit";
 import ServiceTimeline from "@/components/ServiceTimeline";
-import FeaturesTabResources from "@/components/FeaturesTabsResources";
+import FeaturesTabMarketing from "@/components/FeaturesTabMarketing";
 import WooProductGrid from "@/components/WooProductGrid";
 import AinsiderStore from "@/components/AinsiderStore";
-
+import VibeCodingSection from "@/components/VibeCodingSection";
 
 export const metadata: Metadata = {
   title: "Ainsider AI Company - AI | Web | Resources | Automations For Business",
@@ -49,12 +49,13 @@ export default function Home() {
     <main>
       <AiwareHero />
       <AinsiderStore />
-      {/* <FeaturesTabResources /> */}
+
       <div id="services">
         <Feature />
       </div>
+      <VibeCodingSection />
       <Motion />
-
+      <FeaturesTabMarketing />
       {/* <MainAbout/> */}
       <ServiceTimeline />
       {/* <WooProductGrid/> */}

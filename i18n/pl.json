@@ -19,16 +19,13 @@
     "savePreferences": "Zapisz ustawienia",
     "back": "Wróć"
   },
-
-
   "notionform": {
     "title": "Formularz",
     "subtitle": "Formularz",
     "description": "Formularz",
     "button": "Wyślij",
-    "link":"https://ainsider.notion.site/26eb65ddefcf80c694e9fab2ca8d98ee?pvs=105"
+    "link": "https://ainsider.notion.site/26eb65ddefcf80c694e9fab2ca8d98ee?pvs=105"
   },
-
   "ainsiderstore": {
     "badge": "Ainsider Store",
     "title": "Najlepszy katalog",
@@ -48,6 +45,30 @@
       "agents_templates": {
         "title": "Szablony agentów",
         "description": "Przyspiesz rozwój dzięki gotowym szablonom agentów."
+      }
+    }
+  },
+  "vibecodingsection": {
+    "badge": "Vibe-Coding Studio",
+    "title": "Tworzenie aplikacji",
+    "subtitle": "i stron internetowych",
+    "description": "Przekształcamy pomysły w innowacyjne, szybkie i skalowalne aplikacje webowe i mobilne. Zbuduj swój projekt z nami – od pomysłu do pełnego wdrożenia.",
+    "cta": "Rozpocznij Projekt",
+    "services": {
+      "development": {
+        "title": "Strony www i landing page",
+        "description": "W ciągu godzin, nie dni, wykorzystując najlepsze technologie.",
+        "url": "https://ainsider.co/uslugi/development"
+      },
+      "design_ux": {
+        "title": "Design & UX",
+        "description": "Projektowanie profesjonalnych i intuicyjnych interfejsów użytkownika, które konwertują.",
+        "url": "https://ainsider.co/uslugi/design-ux"
+      },
+      "ai_apps": {
+        "title": "Indywidualne aplikacje AI",
+        "description": "W pełni personalizowane aplikacjei rozwiązania dla Twoich indywidualnych celów.",
+        "url": "https://ainsider.co/uslugi/ai-apps"
       }
     }
   },
@@ -2049,19 +2070,19 @@
   "heroMarketingSection": {
     "FeaturesTab": {
       "header": {
-        "tabOne": "Design i Branding Dla Twojej Firmy",
-        "tabTwo": "Tworzenie Intuicyjnych Interfejsów UX/UI",
-        "tabThree": "Generatywne Tworzenie Treści Wizualnych"
+        "tabOne": "Audyt AI i Strategia Automatyzacji",
+        "tabTwo": "AI Agenci i Inteligentne Chatboty",
+        "tabThree": "Automatyzacja Procesów Biznesowych"
       },
-      "tab1Title": "Zaawansowane Rozwiązania Designu i Brandingu",
-      "tab1Description1": "Odkryj, jak profesjonalny design i branding mogą wznieść wizerunek Twojej firmy na nowy poziom. Moje usługi obejmują projektowanie spójnych i estetycznych materiałów wizualnych, które wyróżniają Twoją markę i budują zaufanie klientów.",
-      "tab1Description2": "Tworzę unikalne projekty graficzne, które łączą w sobie nowoczesne trendy z funkcjonalnością, dbając o to, aby każde rozwiązanie było dostosowane do Twojej marki i odbiorców. Moje projekty poprawiają rozpoznawalność firmy i pomagają budować długotrwałe relacje z klientami.",
-      "tab2Title": "Tworzenie Intuicyjnych Interfejsów UX/UI",
-      "tab2Description1": "Zaprojektuj interfejsy użytkownika, które są proste w obsłudze i dostosowane do potrzeb Twoich klientów. Specjalizuję się w tworzeniu doświadczeń użytkownika (UX) i interfejsów użytkownika (UI), które łączą estetykę z intuicyjną nawigacją.",
-      "tab2Description2": "Moje podejście do UX/UI opiera się na dogłębnych badaniach i analizie zachowań użytkowników. Projektuję interfejsy, które zwiększają zaangażowanie, minimalizują bariery w korzystaniu z systemu i podnoszą ogólną satysfakcję użytkowników.",
-      "tab3Title": "Generatywne Tworzenie Treści Wizualnych",
-      "tab3Description1": "Wykorzystaj sztuczną inteligencję do automatycznego tworzenia wideo, grafik oraz fotografii produktów, które w pełni oddadzą profesjonalizm Twojej firmy. Oferuję usługi wykorzystujące AI do tworzenia spersonalizowanych treści wizualnych dostosowanych do Twoich potrzeb.",
-      "tab3Description2": "Dzięki zaawansowanym algorytmom generatywnym tworzę treści wizualne, które obejmują wysokiej jakości zdjęcia produktów, atrakcyjne grafiki reklamowe oraz dynamiczne wideo, wszystko to w oparciu o Twoje preferencje i potrzeby. Umożliwiam pełną automatyzację i personalizację procesów kreatywnych, aby Twoje materiały wizualne były zawsze na najwyższym poziomie."
+      "tab1Title": "Audyt AI oraz Strategia Wdrażania",
+      "tab1Description1": "Przeprowadzam kompleksowy audyt wykorzystania sztucznej inteligencji i automatyzacji w Twojej firmie. Na jego podstawie przygotowuję precyzyjną strategię, która pokazuje, które rozwiązania przyniosą najszybszy i największy zwrot z inwestycji – zazwyczaj już w ciągu 6–12 miesięcy.",
+      "tab1Description2": "Otrzymujesz czytelny plan działań z konkretnymi liczbami: ile zaoszczędzisz na kosztach operacyjnych, o ile wzrosną przychody i jakie nakłady są potrzebne. Zarząd i właściciele dostają jasną odpowiedź, jak AI przełoży się na realny zysk i przewagę konkurencyjną.",
+      "tab2Title": "AI Agenci i Zaawansowane Chatboty",
+      "tab2Description1": "Tworzę autonomiczne systemy konwersacyjne, które obsługują klientów, kwalifikują leady, wspierają sprzedaż i pomagają pracownikom – działają bez przerw, 24 godziny na dobę, 7 dni w tygodniu.",
+      "tab2Description2": "W praktyce oznacza to: odpowiedzi w kilka sekund zamiast godzin, wzrost konwersji sprzedaży o 25–45%, redukcję rutynowych zapytań nawet o 80% i pełne połączenie z Twoim CRM, e-mailami oraz innymi narzędziami. Klient rozmawia tak, jakby miał do czynienia z najlepszym pracownikiem – tylko szybszym i zawsze dostępnym.",
+      "tab3Title": "Kompleksowa Automatyzacja Procesów",
+      "tab3Description1": "Automatyzuję powtarzalne zadania w sprzedaży, marketingu, obsłudze klienta, księgowości, HR i logistyce – od wprowadzania faktur i zamówień, przez raporty, po onboarding klientów i pracowników.",
+      "tab3Description2": "Efekt: oszczędność 50–80% czasu w zautomatyzowanych obszarach, niemal zerowa liczba błędów ludzkich, szybsze decyzje i możliwość skupienia zespołu na tym, co naprawdę rozwija firmę. Rozwiązania uruchamiamy szybko, są w pełni bezpieczne i rosną razem z Twoim biznesem."
     },
     "About": {
       "header1": {

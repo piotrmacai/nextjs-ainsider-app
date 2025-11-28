@@ -21,15 +21,37 @@
       }
     }
   },
-
+  "vibecodingsection": {
+    "badge": "Vibe-Coding Studio",
+    "title": "Creating Applications",
+    "subtitle": "and Websites",
+    "description": "We transform ideas into innovative, fast, and scalable web and mobile applications. Build your project with us – from concept to full implementation.",
+    "cta": "Start Project",
+    "services": {
+      "development": {
+        "title": "Web and Mobile Applications",
+        "description": "Creating fast, scalable applications for every platform (Web, iOS, Android).",
+        "url": "https://ainsider.co/uslugi/development"
+      },
+      "design_ux": {
+        "title": "Design & UX",
+        "description": "Designing professional and intuitive user interfaces that convert.",
+        "url": "https://ainsider.co/uslugi/design-ux"
+      },
+      "ai_apps": {
+        "title": "Custom AI Applications",
+        "description": "Implementing tailored, AI-powered solutions for business process optimization.",
+        "url": "https://ainsider.co/uslugi/ai-apps"
+      }
+    }
+  },
   "notionform": {
     "title": "Form",
     "subtitle": "Formularz",
     "description": "Formularz",
     "button": "Wyślij",
-    "link":"https://ainsider.notion.site/26eb65ddefcf81098302cc75e1382471?pvs=105"
+    "link": "https://ainsider.notion.site/26eb65ddefcf81098302cc75e1382471?pvs=105"
   },
-
   "welcome": "Hello! We're Ainsider!",
   "mainheading": "Your Partner in Automation and AI for Business",
   "description": "Automations | AI Agents | Web and CRM",
@@ -2050,19 +2072,19 @@
   "heroMarketingSection": {
     "FeaturesTab": {
       "header": {
-        "tabOne": "Design and Branding for Your Business",
-        "tabTwo": "Creating Intuitive UX/UI Interfaces",
-        "tabThree": "Generative Visual Content Creation"
+        "tabOne": "AI & Automation Audit and Strategy",
+        "tabTwo": "AI Agents and Intelligent Chatbots",
+        "tabThree": "Business Process Automation"
       },
-      "tab1Title": "Advanced Design and Branding Solutions",
-      "tab1Description1": "Discover how professional design and branding can elevate your business image to a new level. My services include designing cohesive and aesthetically pleasing visual materials that highlight your brand and build customer trust.",
-      "tab1Description2": "I create unique graphic designs that combine modern trends with functionality, ensuring each solution is tailored to your brand and audience. My designs improve brand recognition and help build lasting relationships with customers.",
-      "tab2Title": "Creating Intuitive UX/UI Interfaces",
-      "tab2Description1": "Design user interfaces that are simple to use and tailored to your clients' needs. I specialize in creating user experiences (UX) and user interfaces (UI) that merge aesthetics with intuitive navigation.",
-      "tab2Description2": "My approach to UX/UI is based on in-depth research and analysis of user behavior. I design interfaces that enhance engagement, minimize user friction, and increase overall satisfaction.",
-      "tab3Title": "Generative Visual Content Creation",
-      "tab3Description1": "Leverage artificial intelligence to automatically create videos, graphics, and product photography that fully reflect the professionalism of your business. I offer AI-driven services for creating personalized visual content tailored to your needs.",
-      "tab3Description2": "Using advanced generative algorithms, I produce visual content that includes high-quality product photography, attractive promotional graphics, and dynamic videos—all based on your preferences and requirements. I enable full automation and personalization of creative processes, ensuring your visual materials are always top-notch."
+      "tab1Title": "AI & Automation Audit and Implementation Strategy",
+      "tab1Description1": "I conduct a thorough audit of your current use of artificial intelligence and automation. Based on the findings, I deliver a clear, prioritized strategy that shows exactly which solutions will generate the fastest and highest ROI — typically within 6–12 months.",
+      "tab1Description2": "You receive a concrete roadmap with measurable outcomes: cost savings, revenue uplift, required investment, and timelines. Management gets a straightforward answer on how AI will directly translate into profit and competitive advantage.",
+      "tab2Title": "AI Agents and Advanced Chatbots",
+      "tab2Description1": "I build autonomous conversational systems that handle customer inquiries, qualify leads, support sales, and assist employees — available 24/7 with instant responses.",
+      "tab2Description2": "Real-world results include response times reduced from hours to seconds, 25–45% higher sales conversion rates, up to 80% reduction in routine queries, and seamless integration with your existing CRM, email, and tools. Customers interact as if they’re speaking with your best employee — only faster and always available.",
+      "tab3Title": "End-to-End Business Process Automation",
+      "tab3Description1": "I automate repetitive tasks across sales, marketing, customer service, finance, HR, and logistics — from invoice and order processing to reporting and employee/client onboarding.",
+      "tab3Description2": "The outcome: 50–80% time savings in automated areas, near-zero human error, faster decision-making, and the ability to redirect teams to high-value work. Solutions go live quickly, remain fully secure and compliant, and scale effortlessly as your business grows."
     },
     "About": {
       "header1": {
