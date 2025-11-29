@@ -27,6 +27,7 @@ import FeaturesTabMarketing from "@/components/FeaturesTabMarketing";
 import WooProductGrid from "@/components/WooProductGrid";
 import AinsiderStore from "@/components/AinsiderStore";
 import VibeCodingSection from "@/components/VibeCodingSection";
+import AiwareHeroTwo from "@/components/AiwareHeroTwo";
 
 export const metadata: Metadata = {
   title: "Ainsider AI Company - AI | Web | Resources | Automations For Business",
@@ -47,7 +48,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <AiwareHero />
+      <AiwareHeroTwo />
       <AinsiderStore />
 
       <div id="services">
