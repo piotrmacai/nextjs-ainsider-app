@@ -3,12 +3,13 @@ import React from "react";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const AiwareHero = () => {
     const { t } = useTranslation();
 
     return (
-        <section className="relative overflow-hidden pt-24 pb-16 md:pt-32 md:pb-24 xl:pt-40">
+        <section className="relative overflow-hidden pt-24 pb-16 md:pt-32 md:pb-24 xl:pt-40 sm:px-8 md:px-0">
 
             {/* --- BACKGROUND LAYERS (Adaptive) --- */}
             {/* 1. Dot Grid Pattern (Dark dots on light, Light dots on dark) */}
@@ -29,7 +30,7 @@ const AiwareHero = () => {
         bg-blue-400/10 dark:bg-blue-500/10 blur-[90px] rounded-full pointer-events-none z-0"
             />
 
-            <div className="relative z-10 mx-auto max-w-7xl px-4 md:px-8 2xl:px-0">
+            <div className="relative z-10 mx-auto max-w-7xl px-6 md:px-8 2xl:px-0">
                 <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
 
                     {/* --- LEFT TEXT CONTENT --- */}
@@ -44,7 +45,7 @@ const AiwareHero = () => {
                         <div className="mb-6 inline-flex items-center gap-2 px-3 py-1 rounded-full border border-black/5 dark:border-white/10 bg-black/5 dark:bg-white/5 backdrop-blur-md">
                             <span className="flex h-1.5 w-1.5 rounded-full bg-purple-500 animate-pulse"></span>
                             <span className="text-xs font-medium text-black/70 dark:text-white/80 tracking-wide uppercase">
-                                Vibe Coding × Technical Mastery
+                                AI × Technical Mastery
                             </span>
                         </div>
 
@@ -53,15 +54,30 @@ const AiwareHero = () => {
                             <span className="font-serif italic block">
                                 {t('mainheading') || "Full Stack"}
                             </span>
-                            <span className="block font-sans font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-900 to-gray-500 dark:from-white dark:to-white/50">
-                                & AI Intelligence
-                            </span>
                         </h1>
 
                         {/* Description */}
-                        <p className="mb-10 text-lg font-light leading-relaxed text-gray-600 dark:text-gray-400 max-w-lg">
+                        <p className="mb-4 text-lg font-light leading-relaxed text-gray-600 dark:text-gray-400 max-w-lg">
                             {t('description') || "We blend deep programming background with ultra-fast, intuitive workflows. This isn't just design—it's instant implementation."}
                         </p>
+
+                        <Link href="https://x.com/piotrmacai" target="_blank" rel="noopener noreferrer">
+                            <div className="flex items-center mb-10 gap-3">
+                                <Image
+                                    src="/images/hero/macaihead.jpg"
+                                    alt="Macai"
+                                    width={40}
+                                    height={40}
+                                    className="rounded-full"
+                                />
+                                <p>
+                                    <span className="block font-sans font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-900 to-gray-500 dark:from-white dark:to-white/50">
+                                        by Macai
+                                    </span>
+                                </p>
+                            </div>
+                        </Link>
+
 
                         {/* Buttons */}
                         <div className="flex flex-wrap gap-4">
@@ -91,12 +107,12 @@ const AiwareHero = () => {
                         <div className="relative aspect-[700/444] w-full rounded-xl overflow-hidden border border-black/10 dark:border-white/10 bg-white/40 dark:bg-black/40 backdrop-blur-sm shadow-2xl dark:shadow-purple-900/10">
 
                             {/* Fake Window Controls (MacOS style) */}
-                            <div className="absolute top-0 left-0 right-0 h-9 bg-black/5 dark:bg-white/5 border-b border-black/5 dark:border-white/5 flex items-center px-4 gap-2 z-20">
+                            <div className="absolute top-0 left-0 right-0 h-9 bg-black/5 dark:bg-black/5 border-b border-black/5 dark:border-white/5 flex items-center px-4 gap-2 z-20">
                                 <div className="w-2.5 h-2.5 rounded-full bg-[#FF5F57]"></div>
                                 <div className="w-2.5 h-2.5 rounded-full bg-[#FEBC2E]"></div>
                                 <div className="w-2.5 h-2.5 rounded-full bg-[#28C840]"></div>
                                 <div className="ml-auto text-[10px] font-mono opacity-40 text-black dark:text-white">
-                                    aiware-workflow.tsx
+                                    ainsider-workflow.tsx
                                 </div>
                             </div>
 
@@ -110,7 +126,7 @@ const AiwareHero = () => {
                                 />
                                 <Image
                                     className="hidden dark:block object-contain p-4 mix-blend-lighten"
-                                    src="/images/hero/hero-dark.svg"
+                                    src="/images/hero/hero-dark.png"
                                     alt="Hero Dark"
                                     fill
                                 />
@@ -118,7 +134,7 @@ const AiwareHero = () => {
                         </div>
 
                         {/* Decorative element behind image */}
-                        <div className="absolute -inset-4 bg-gradient-to-r from-purple-500 to-blue-500 opacity-20 blur-2xl -z-10 rounded-full dark:opacity-30"></div>
+                        <div className="absolute -inset-4 bg-black opacity-20 blur-2xl -z-10 rounded-full dark:opacity-30"></div>
                     </motion.div>
                 </div>
             </div>
