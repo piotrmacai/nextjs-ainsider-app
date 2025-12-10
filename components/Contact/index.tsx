@@ -37,7 +37,7 @@ const Contact = () => {
             <p className="text-lg text-gray-600 dark:text-gray-300 font-medium max-w-2xl">
               {t('contact.pageTitleDesc')}
             </p>
-        
+
 
           </div>
           <div className="absolute -z-1 rounded-lg left-0 top-0 w-full h-2/3 bg-gradient-to-t from-[#fff] to-[#f7faff47] dark:bg-gradient-to-t dark:from-[#24283E] dark:to-[#252A42]"></div>
@@ -83,88 +83,10 @@ const Contact = () => {
               <h3 className="text-black dark:text-white text-lg xl:text-xl font-semibold mb-15">
                 {t('contact.header1.2')}
               </h3>
-              {/* <form
-                action="https://formspree.io/f/xovqvrlg"
-                method="POST"
-              >
-                <div className="flex flex-col lg:flex-row lg:justify-between gap-7.5 lg:gap-14 mb-7.5">
-                  <input
-                    type="text" name="name"
-                    placeholder={t('contact.form.name')}
-                    required
-                    className="w-full lg:w-1/2 bg-transparent border-b border-stroke dark:border-strokedark focus-visible:outline-none focus:border-waterloo dark:focus:border-manatee focus:placeholder:text-black dark:focus:placeholder:text-white pb-3.5"
-                  />
 
-                  <input
-                    type="email" name="email"
-                    placeholder={t('contact.form.email')}
-                    required
-                    className="w-full lg:w-1/2 bg-transparent border-b border-stroke dark:border-strokedark focus-visible:outline-none focus:border-waterloo dark:focus:border-manatee focus:placeholder:text-black dark:focus:placeholder:text-white pb-3.5"
-                  />
-                </div>
-
-
-                <div className="flex mb-11.5">
-                  <textarea
-                    placeholder={t('contact.form.business')}
-                    name="business"
-                    rows={4}
-                    className="w-full bg-transparent border-b border-stroke dark:border-strokedark focus-visible:outline-none focus:border-waterloo dark:focus:border-manatee focus:placeholder:text-black dark:focus:placeholder:text-white"
-                  ></textarea>
-                </div>
-
-                <div className="flex mb-11.5">
-                  <textarea
-                    placeholder={t('contact.form.details')}
-                    name="message"
-                    rows={4}
-                    className="w-full bg-transparent border-b border-stroke dark:border-strokedark focus-visible:outline-none focus:border-waterloo dark:focus:border-manatee focus:placeholder:text-black dark:focus:placeholder:text-white"
-                  ></textarea>
-                </div>
-
-
-                <div className="flex flex-wrap xl:justify-between ">
-                  <div className="flex mb-4 md:mb-0">
-                    <input
-                       id="fid_preview_checkboxes_option_513B5186-4757-4EB3-947C-549ABBD4E867"
-                       name="checkbox"
-                       type="checkbox"
-                      value=""
-                      required
-                      className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 mt-2"
-                    />
-                    <label
-                      htmlFor="fid_preview_checkboxes_option_513B5186-4757-4EB3-947C-549ABBD4E867"
-                      className="max-w-[425px] flex cursor-pointer select-none pl-5 text-sm"
-                    >
-                    {t('contact.consent')}                
-                    </label>
-                  </div>
-
-                  <button type="submit" value="Submit" aria-label="send message" className="inline-flex items-center gap-2.5 bg-black hover:bg-blackho ease-in-out duration-300 dark:bg-btndark font-medium text-white rounded-full px-6 py-3">
-                  {t('contact.button')}
-                    <svg
-                      className="fill-white"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M10.4767 6.16664L6.00668 1.69664L7.18501 0.518311L13.6667 6.99998L7.18501 13.4816L6.00668 12.3033L10.4767 7.83331H0.333344V6.16664H10.4767Z"
-                        fill=""
-                      />
-                    </svg>
-                  </button>
-                </div>
-              </form> */}
               {i18n.language?.startsWith("pl") ? <NotionFormPL /> : <NotionFormEN />}
-            
-               <div className="w-full max-w-2xl mt-6 rounded-2xl bg-white/40 dark:bg-black/30 shadow-lg backdrop-blur-md p-4 min-h-[60vh]">
-              <BotpressSection />
-            </div>
-            
+
+
             </motion.div>
 
             <motion.div
@@ -184,12 +106,14 @@ const Contact = () => {
               transition={{ duration: 2, delay: 0.1 }}
               viewport={{ once: true }}
               className="animate_top w-full md:w-2/5 lg:w-[26%] md:p-7.5 xl:pt-15"
-            > 
+            >
               <h2 className="text-black dark:text-white text-3xl xl:text-sectiontitle2 font-semibold mb-12.5">
                 {t('contact.header2')}
               </h2>
-  
+
               <div className="mb-7 5">
+
+
                 <h4 className="font-medium text-black dark:text-white text-metatitle3 mb-4">
                   {t('contact.calendly')}
                 </h4>
@@ -220,6 +144,10 @@ const Contact = () => {
                 <p>
                   <a href="https://www.facebook.com/piotrmacai/">{t('contact.mess')}</a>
                 </p>
+              </div>
+
+              <div className="w-full max-w-2xl mt-6 rounded-2xl bg-white/40 dark:bg-black/30 shadow-lg backdrop-blur-md p-4 min-h-[60vh]">
+                <BotpressSection />
               </div>
 
             </motion.div>

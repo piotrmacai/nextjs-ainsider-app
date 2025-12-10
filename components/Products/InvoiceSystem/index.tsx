@@ -5,6 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { useTranslation } from 'react-i18next';
 
+
 // --- Types & Data ---
 type SectionId = "overview" | "features" | "integration" | "examples" | "faq";
 
@@ -14,37 +15,26 @@ interface UseCaseProps {
     subtitle?: string;
 }
 
-interface FeatureItem {
-    title: string;
-    desc: string;
-    icon: string;
-}
+const SECTIONS = [
+    { id: "overview", label: "Overview" },
+    { id: "features", label: "Key Features" },
+    { id: "examples", label: "Use Cases" },
+    { id: "integration", label: "Integration" },
+    { id: "faq", label: "FAQ" },
+];
 
-interface FaqItem {
-    q: string;
-    a: string;
-}
-
-interface UseCaseItem {
-    tag: string;
-    title: string;
-    badge: string;
-    desc: string;
-    benefits: string[];
-}
-
-const ProductProductPhoto: React.FC<UseCaseProps> = () => {
-    const { t } = useTranslation();
+const InvoiceSystem: React.FC<UseCaseProps> = ({
+    title,
+    subtitle
+}) => {
     const [activeSection, setActiveSection] = useState<SectionId>("overview");
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-    const SECTIONS = [
-        { id: "overview", label: t('productai.navigation.overview') },
-        { id: "features", label: t('productai.navigation.features') },
-        { id: "examples", label: t('productai.navigation.examples') },
-        { id: "integration", label: t('productai.navigation.integration') },
-        { id: "faq", label: t('productai.navigation.faq') },
-    ];
+    const { t } = useTranslation();
+
+    const displayTitle = title || t('invoiceai.hero.title');
+    const displaySubtitle = subtitle || t('invoiceai.hero.subtitle');
+
 
     // Smooth scroll handler
     const scrollToSection = (id: SectionId) => {
@@ -71,12 +61,12 @@ const ProductProductPhoto: React.FC<UseCaseProps> = () => {
 
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
-    }, [SECTIONS]);
+    }, []);
 
     return (
-        <div className="relative min-h-screen bg-white dark:bg-blacksection text-black dark:text-white font-sans selection:bg-purple-500/30 sm:mt-12 md:mt-24">
+        <div className="relative min-h-screen bg-white dark:bg-blacksection text-black dark:text-white font-sans selection:bg-purple-500/30 sm:mt-12 mt-24">
 
-            {/* --- BACKGROUND EFFECTS (Borrowed from AiwareHeroTwo) --- */}
+            {/* --- BACKGROUND EFFECTS --- */}
             <div className="fixed inset-0 z-0 pointer-events-none">
                 <div className="absolute inset-0 h-full w-full 
           bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] 
@@ -87,14 +77,14 @@ const ProductProductPhoto: React.FC<UseCaseProps> = () => {
                 <div className="absolute bottom-0 right-1/4 w-[400px] h-[400px] bg-blue-500/10 dark:bg-blue-900/20 blur-[100px] rounded-full mix-blend-multiply dark:mix-blend-screen opacity-50 dark:opacity-30" />
             </div>
 
-            <div className="relative z-10 container mx-auto px-4 py-8 md:py-12 lg:py-20 max-w-7xl">
+            <div className="relative z-10 container mx-auto px-4 py-8 md:py-12 lg:py-20 max-w-7xl sm:mt-8 mt-16">
                 <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
 
                     {/* --- SIDEBAR (Desktop) --- */}
                     <aside className="hidden lg:block w-64 shrink-0">
                         <div className="sticky top-24 space-y-8">
                             <div className="p-6 rounded-2xl border border-black/5 dark:border-white/10 bg-white/50 dark:bg-black/20 backdrop-blur-md">
-                                <h3 className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-4">{t('productai.sidebar.onThisPage')}</h3>
+                                <h3 className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-4">{t('invoiceai.sidebar.onThisPage')}</h3>
                                 <nav className="flex flex-col space-y-1">
                                     {SECTIONS.map((section) => (
                                         <button
@@ -105,18 +95,18 @@ const ProductProductPhoto: React.FC<UseCaseProps> = () => {
                                                 : "text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white hover:bg-black/5 dark:hover:bg-white/5"
                                                 }`}
                                         >
-                                            {section.label}
+                                            {t(`invoiceai.navigation.${section.id}`)}
                                         </button>
                                     ))}
                                 </nav>
                             </div>
 
                             {/* Sidebar CTA */}
-                            {/* <div className="p-6 rounded-2xl bg-gradient-to-br from-purple-600 to-blue-600 text-white shadow-xl">
-                                <h4 className="font-bold text-lg mb-2">{t('productai.sidebar.tryForFree.title')}</h4>
-                                <p className="text-white/80 text-sm mb-4">{t('productai.sidebar.tryForFree.desc')}</p>
-                                <Link href="/contact" className="block w-full py-2 px-4 bg-white text-purple-600 rounded-lg text-center text-sm font-bold hover:bg-gray-100 transition-colors">
-                                    {t('productai.sidebar.tryForFree.button')}
+                            {/* <div className="p-6 rounded-2xl bg-gradient-to-br from-indigo-600 to-cyan-600 text-white shadow-xl">
+                                <h4 className="font-bold text-lg mb-2">{t('invoiceai.sidebar.tryForFree.title')}</h4>
+                                <p className="text-white/80 text-sm mb-4">{t('invoiceai.sidebar.tryForFree.desc')}</p>
+                                <Link href="/contact" className="block w-full py-2 px-4 bg-white text-indigo-600 rounded-lg text-center text-sm font-bold hover:bg-gray-100 transition-colors">
+                                    {t('invoiceai.sidebar.tryForFree.button')}
                                 </Link>
                             </div> */}
                         </div>
@@ -127,7 +117,7 @@ const ProductProductPhoto: React.FC<UseCaseProps> = () => {
 
                         {/* Mobile Header (Menu Toggle) */}
                         <div className="lg:hidden flex items-center justify-between mb-8 pb-4 border-b border-gray-200 dark:border-gray-800">
-                            <span className="font-serif italic text-xl">{t('productai.mobile.app')}</span>
+                            <span className="font-serif italic text-xl">{t('invoiceai.mobile.app')}</span>
                             <button
                                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                                 className="p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800"
@@ -146,7 +136,7 @@ const ProductProductPhoto: React.FC<UseCaseProps> = () => {
                                             onClick={() => scrollToSection(section.id as SectionId)}
                                             className={`text-left px-3 py-2 rounded-lg font-medium text-sm ${activeSection === section.id ? 'bg-white dark:bg-white/10 shadow-sm' : ''}`}
                                         >
-                                            {section.label}
+                                            {t(`invoiceai.navigation.${section.id}`)}
                                         </button>
                                     ))}
                                 </nav>
@@ -160,23 +150,23 @@ const ProductProductPhoto: React.FC<UseCaseProps> = () => {
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.6 }}
                             >
-                                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-300 text-xs font-bold uppercase tracking-wider mb-6">
-                                    {t('productai.hero.badge')}
+                                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-100 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-300 text-xs font-bold uppercase tracking-wider mb-6">
+                                    {t('invoiceai.hero.badge')}
                                 </div>
                                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight">
-                                    {t('productai.hero.title')}
+                                    {displayTitle}
                                 </h1>
                                 <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 leading-relaxed mb-8 max-w-3xl">
-                                    {t('productai.hero.subtitle')}
+                                    {displaySubtitle}
                                 </p>
 
                                 {/* Hero Visual */}
                                 <div className="relative aspect-video w-full rounded-2xl overflow-hidden shadow-2xl border border-black/10 dark:border-white/10 bg-gray-100 dark:bg-gray-900 group">
-                                    <Image
-                                        src="/images/portfolio/aiproductservice.png"
-                                        alt="AI Product Service"
-                                        fill
-                                        className="object-cover"
+                                    <iframe
+                                        src="https://player.vimeo.com/video/1143852902?title=0&byline=0&portrait=0"
+                                        className="absolute inset-0 w-full h-full"
+                                        allow="autoplay; fullscreen; picture-in-picture"
+                                        allowFullScreen
                                     />
 
                                     {/* Overlay Elements (Fake UI) */}
@@ -194,13 +184,13 @@ const ProductProductPhoto: React.FC<UseCaseProps> = () => {
                         {/* FEATURES SECTION */}
                         <section id="features" className="mb-20 scroll-mt-24">
                             <h2 className="text-3xl font-bold mb-8 flex items-center gap-3">
-                                <span className="w-8 h-8 rounded-lg bg-blue-500 flex items-center justify-center text-white text-sm">01</span>
-                                {t('productai.features.title')}
+                                <span className="w-8 h-8 rounded-lg bg-indigo-500 flex items-center justify-center text-white text-sm">01</span>
+                                {t('invoiceai.features.title')}
                             </h2>
                             <div className="grid md:grid-cols-2 gap-6">
-                                {(t('productai.features.list', { returnObjects: true }) as FeatureItem[]).map((feature, i) => (
-                                    <div key={i} className="p-6 rounded-2xl bg-white dark:bg-white/5 border border-gray-100 dark:border-white/5 hover:border-purple-500/50 transition-colors shadow-lg shadow-gray-200/50 dark:shadow-none">
-                                        <div className="w-12 h-12 rounded-full bg-purple-50 dark:bg-purple-900/20 flex items-center justify-center mb-4 text-purple-600 dark:text-purple-400">
+                                {(t('invoiceai.features.list', { returnObjects: true }) as any[]).map((feature, i) => (
+                                    <div key={i} className="p-6 rounded-2xl bg-white dark:bg-white/5 border border-gray-100 dark:border-white/5 hover:border-indigo-500/50 transition-colors shadow-lg shadow-gray-200/50 dark:shadow-none">
+                                        <div className="w-12 h-12 rounded-full bg-indigo-50 dark:bg-indigo-900/20 flex items-center justify-center mb-4 text-indigo-600 dark:text-indigo-400">
                                             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={feature.icon} /></svg>
                                         </div>
                                         <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
@@ -215,76 +205,66 @@ const ProductProductPhoto: React.FC<UseCaseProps> = () => {
                         {/* IMPLEMENTATION EXAMPLES SECTION */}
                         <section id="examples" className="mb-20 scroll-mt-24">
                             <h2 className="text-3xl font-bold mb-8 flex items-center gap-3">
-                                <span className="w-8 h-8 rounded-lg bg-purple-500 flex items-center justify-center text-white text-sm">02</span>
-                                {t('productai.usecases.title')}
+                                <span className="w-8 h-8 rounded-lg bg-pink-500 flex items-center justify-center text-white text-sm">02</span>
+                                {t('invoiceai.usecases.title')}
                             </h2>
 
                             <div className="grid gap-6">
-                                {/* Example 1: Real Estate */}
-                                {(() => {
-                                    const useCase = t('productai.usecases.realestate', { returnObjects: true }) as UseCaseItem;
-                                    return (
-                                        <div className="group relative overflow-hidden rounded-2xl bg-white dark:bg-white/5 border border-gray-100 dark:border-white/5 p-8 transition-all hover:border-purple-500/30 hover:shadow-xl hover:shadow-purple-500/10">
-                                            <div className="flex flex-col md:flex-row gap-8 items-start">
-                                                <div className="w-full md:w-1/3 shrink-0">
-                                                    <div className="aspect-video rounded-xl bg-gradient-to-br from-indigo-500 to-purple-500 flex items-center justify-center text-white shadow-lg">
-                                                        <span className="font-bold text-lg">{useCase.tag}</span>
-                                                    </div>
-                                                </div>
-                                                <div className="flex-1">
-                                                    <h3 className="text-2xl font-bold mb-3 flex items-center gap-2">
-                                                        {useCase.title}
-                                                        <span className="px-2 py-1 rounded text-xs bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400">{useCase.badge}</span>
-                                                    </h3>
-                                                    <p className="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
-                                                        {useCase.desc}
-                                                    </p>
-                                                    <ul className="space-y-2 mb-6">
-                                                        {useCase.benefits.map((benefit, idx) => (
-                                                            <li key={idx} className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
-                                                                <svg className="w-4 h-4 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                                                                {benefit}
-                                                            </li>
-                                                        ))}
-                                                    </ul>
-                                                </div>
+                                {/* Example 1 */}
+                                <div className="group relative overflow-hidden rounded-2xl bg-white dark:bg-white/5 border border-gray-100 dark:border-white/5 p-8 transition-all hover:border-indigo-500/30 hover:shadow-xl hover:shadow-indigo-500/10">
+                                    <div className="flex flex-col md:flex-row gap-8 items-start">
+                                        <div className="w-full md:w-1/3 shrink-0">
+                                            <div className="aspect-video rounded-xl bg-gradient-to-br from-indigo-500 to-cyan-500 flex items-center justify-center text-white shadow-lg">
+                                                <span className="font-bold text-lg">{t('invoiceai.usecases.realestate.tag')}</span>
                                             </div>
                                         </div>
-                                    );
-                                })()}
+                                        <div className="flex-1">
+                                            <h3 className="text-2xl font-bold mb-3 flex items-center gap-2">
+                                                {t('invoiceai.usecases.realestate.title')}
+                                                <span className="px-2 py-1 rounded text-xs bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400">{t('invoiceai.usecases.realestate.badge')}</span>
+                                            </h3>
+                                            <p className="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
+                                                {t('invoiceai.usecases.realestate.desc')}
+                                            </p>
+                                            <ul className="space-y-2 mb-6">
+                                                {(t('invoiceai.usecases.realestate.benefits', { returnObjects: true }) as string[]).map((benefit, i) => (
+                                                    <li key={i} className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
+                                                        <svg className="w-4 h-4 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                                                        {benefit}
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
 
-                                {/* Example 2: Interior */}
-                                {(() => {
-                                    const useCase = t('productai.usecases.interior', { returnObjects: true }) as UseCaseItem;
-                                    return (
-                                        <div className="group relative overflow-hidden rounded-2xl bg-white dark:bg-white/5 border border-gray-100 dark:border-white/5 p-8 transition-all hover:border-blue-500/30 hover:shadow-xl hover:shadow-blue-500/10">
-                                            <div className="flex flex-col md:flex-row gap-8 items-start">
-                                                <div className="w-full md:w-1/3 shrink-0">
-                                                    <div className="aspect-video rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center text-white shadow-lg">
-                                                        <span className="font-bold text-lg">{useCase.tag}</span>
-                                                    </div>
-                                                </div>
-                                                <div className="flex-1">
-                                                    <h3 className="text-2xl font-bold mb-3 flex items-center gap-2">
-                                                        {useCase.title}
-                                                        <span className="px-2 py-1 rounded text-xs bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400">{useCase.badge}</span>
-                                                    </h3>
-                                                    <p className="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
-                                                        {useCase.desc}
-                                                    </p>
-                                                    <ul className="space-y-2 mb-6">
-                                                        {useCase.benefits.map((benefit, idx) => (
-                                                            <li key={idx} className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
-                                                                <svg className="w-4 h-4 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                                                                {benefit}
-                                                            </li>
-                                                        ))}
-                                                    </ul>
-                                                </div>
+                                {/* Example 2 */}
+                                <div className="group relative overflow-hidden rounded-2xl bg-white dark:bg-white/5 border border-gray-100 dark:border-white/5 p-8 transition-all hover:border-orange-500/30 hover:shadow-xl hover:shadow-orange-500/10">
+                                    <div className="flex flex-col md:flex-row gap-8 items-start">
+                                        <div className="w-full md:w-1/3 shrink-0">
+                                            <div className="aspect-video rounded-xl bg-gradient-to-br from-orange-500 to-amber-500 flex items-center justify-center text-white shadow-lg">
+                                                <span className="font-bold text-lg">{t('invoiceai.usecases.interior.tag')}</span>
                                             </div>
                                         </div>
-                                    );
-                                })()}
+                                        <div className="flex-1">
+                                            <h3 className="text-2xl font-bold mb-3 flex items-center gap-2">
+                                                {t('invoiceai.usecases.interior.title')}
+                                                <span className="px-2 py-1 rounded text-xs bg-orange-100 dark:bg-orange-900/30 text-orange-600 dark:text-orange-400">{t('invoiceai.usecases.interior.badge')}</span>
+                                            </h3>
+                                            <p className="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
+                                                {t('invoiceai.usecases.interior.desc')}
+                                            </p>
+                                            <ul className="space-y-2 mb-6">
+                                                {(t('invoiceai.usecases.interior.benefits', { returnObjects: true }) as string[]).map((benefit, i) => (
+                                                    <li key={i} className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
+                                                        <svg className="w-4 h-4 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                                                        {benefit}
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </section>
 
@@ -293,14 +273,14 @@ const ProductProductPhoto: React.FC<UseCaseProps> = () => {
                             <div className="bg-gray-50 dark:bg-white/5 rounded-3xl p-8 md:p-12 border border-gray-100 dark:border-white/5">
                                 <h2 className="text-3xl font-bold mb-6 flex items-center gap-3">
                                     <span className="w-8 h-8 rounded-lg bg-green-500 flex items-center justify-center text-white text-sm">03</span>
-                                    {t('productai.integration.title')}
+                                    {t('invoiceai.integration.title')}
                                 </h2>
                                 <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-2xl">
-                                    {t('productai.integration.desc')}
+                                    {t('invoiceai.integration.desc')}
                                 </p>
 
                                 <div className="flex flex-wrap gap-4 mb-8">
-                                    {(t('productai.integration.tools', { returnObjects: true }) as string[]).map(tech => (
+                                    {(t('invoiceai.integration.tools', { returnObjects: true }) as string[]).map(tech => (
                                         <div key={tech} className="px-4 py-2 rounded-full bg-white dark:bg-black/50 border border-gray-200 dark:border-gray-700 text-sm font-semibold">
                                             {tech}
                                         </div>
@@ -312,13 +292,14 @@ const ProductProductPhoto: React.FC<UseCaseProps> = () => {
                                         <div className="w-3 h-3 rounded-full bg-red-500" />
                                         <div className="w-3 h-3 rounded-full bg-yellow-500" />
                                         <div className="w-3 h-3 rounded-full bg-green-500" />
-                                        <span className="ml-2 text-xs">integration.py</span>
+                                        {/* <span className="ml-2 text-xs">render_pipeline.py</span> */}
                                     </div>
                                     <div className="space-y-2">
-                                        <p className="text-gray-500">{t('productai.integration.code.step1')}</p>
-                                        <p className="text-gray-300">{t('productai.integration.code.step2')}</p>
-                                        <p className="text-gray-300">{t('productai.integration.code.step3')}</p>
-                                        <p className="text-green-400">{t('productai.integration.code.step4')}</p>
+                                        <p className="text-gray-500">{t('invoiceai.integration.code.step1')}</p>
+                                        <p className="text-gray-300">{t('invoiceai.integration.code.step2')}</p>
+                                        <p className="text-gray-300">{t('invoiceai.integration.code.step3')}</p>
+                                        <p className="text-green-400">{t('invoiceai.integration.code.step4')}</p>
+
                                     </div>
                                 </div>
                             </div>
@@ -328,10 +309,10 @@ const ProductProductPhoto: React.FC<UseCaseProps> = () => {
                         <section id="faq" className="mb-20 scroll-mt-24">
                             <h2 className="text-3xl font-bold mb-8 flex items-center gap-3">
                                 <span className="w-8 h-8 rounded-lg bg-orange-500 flex items-center justify-center text-white text-sm">04</span>
-                                {t('productai.faq.title')}
+                                {t('invoiceai.faq.title')}
                             </h2>
                             <div className="space-y-4">
-                                {(t('productai.faq.items', { returnObjects: true }) as FaqItem[]).map((faq, i) => (
+                                {(t('invoiceai.faq.items', { returnObjects: true }) as any[]).map((faq, i) => (
                                     <details key={i} className="group p-6 rounded-2xl bg-white dark:bg-white/5 border border-gray-100 dark:border-white/5 open:ring-1 open:ring-purple-500/20">
                                         <summary className="font-bold text-lg cursor-pointer flex items-center justify-between list-none">
                                             {faq.q}
@@ -348,17 +329,26 @@ const ProductProductPhoto: React.FC<UseCaseProps> = () => {
                         </section>
 
                         {/* CTA SECTION */}
-                        <section id="cta" className="mb-20 scroll-mt-24">
-                            <div className="rounded-2xl bg-gradient-to-br from-purple-600 to-blue-600 p-8 md:p-12 text-center text-gray-600 dark:text-gray-400 shadow-2xl">
-                                <h2 className="text-3xl text-gray-600 dark:text-gray-400 md:text-4xl font-bold mb-4">
-                                    {t('productai.cta.title')}</h2>
-                                <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">
-                                    {t('productai.cta.subtitle')}
-                                </p>
-                                <Link href="/contact" className="inline-block px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition-colors">
+                        <section className="mb-20">
+                            <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-500 p-8 md:p-12 text-center text-white shadow-2xl">
+                                {/* Decorative elements */}
+                                <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
+                                    <div className="absolute -top-1/2 -left-1/2 w-full h-full bg-gradient-to-br from-white/20 to-transparent blur-3xl transform rotate-12" />
+                                    <div className="absolute -bottom-1/2 -right-1/2 w-full h-full bg-gradient-to-tl from-black/20 to-transparent blur-3xl transform -rotate-12" />
+                                </div>
 
-                                    {t('productai.cta.button')}
-                                </Link>
+                                <div className="relative z-10 flex flex-col items-center max-w-2xl mx-auto">
+                                    <h2 className="text-3xl text-gray-600 dark:text-gray-400 md:text-4xl font-bold mb-4">                                        {t('invoiceai.cta.title')}
+                                    </h2>
+                                    <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">
+                                        {t('invoiceai.cta.subtitle')}
+                                    </p>
+                                    <Link href="/contact" className="inline-block px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition-colors">
+
+                                        {t('invoiceai.cta.button')}
+                                        {/* <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg> */}
+                                    </Link>
+                                </div>
                             </div>
                         </section>
 
@@ -369,4 +359,8 @@ const ProductProductPhoto: React.FC<UseCaseProps> = () => {
     );
 };
 
-export default ProductProductPhoto;
+export default InvoiceSystem;
+
+
+
+

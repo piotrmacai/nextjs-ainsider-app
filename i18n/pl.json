@@ -150,7 +150,7 @@
       "onThisPage": "Na tej stronie",
       "tryForFree": {
         "title": "Wypróbuj za darmo",
-        "desc": "Wygeneruj 5 profesjonalnych zdjęć produktowych w pełnej rozdzielczości – zupełnie za darmo.",
+        "desc": "Wygeneruj 5 profesjonalnych zdjęć produktowych w pełnej rozdzielczości – zupełnie bezpłatnie.",
         "button": "Zacznij teraz"
       }
     },
@@ -183,7 +183,7 @@
         },
         {
           "title": "Ultrarealistyczne ujęcia i sceny",
-          "desc": "Wygeneruj setki perfekcyjnych, fotorealistycznych wariantów Twojego produktu: czyste białe tło, packshot 360°, flat lay, lifestyle w realnych wnętrzach, reklama na bilbordzie, post na Instagramie lub dowolna inna scena – wszystko w 100% oparte na wrzuconym zdjęciu i wyglądające jak prawdziwa sesja zdjęciowa.",
+          "desc": "Wygeneruj setki fotorealistycznych wariantów Twojego produktu w sekundach: czyste białe tło, packshot 360°, flat lay na marmurowym blacie, lifestyle w skandynawskiej kuchni, na plaży o zachodzie słońca, w luksusowym salonie, na drewnianym stole z kawą i książkami, w rękach modelki, na półce w minimalistycznym mieszkaniu, na bilbordzie w centrum miasta, w witrynach sklepowych, w deszczowy dzień z odbiciami w kałuży, w śniegu, w złotym świetle poranka, w industrialnym lofcie, na piknikowym kocu, w eleganckiej restauracji – wszystko wygląda jak prawdziwa, droga sesja zdjęciowa.",
           "icon": "M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
         }
       ]
@@ -221,10 +221,10 @@
         "Eksport PNG / JPG / WEBP"
       ],
       "code": {
-        "step1": "# Brief i audyt potrzeb",
-        "step2": "# Konfiguracja Google Cloud",
-        "step3": "# Implementacja i testy",
-        "step4": "# Szkolenie i optymalizacja"
+        "step1": "# Wrzuć zdjęcie",
+        "step2": "# Opisz lub narysuj zmiany",
+        "step3": "# Pobierz gotowe ujęcia",
+        "step4": "# Gotowe do publikacji"
       }
     },
     "faq": {
@@ -247,6 +247,230 @@
     "cta": {
       "title": "Gotowy na zdjęcia, które sprzedają same?",
       "subtitle": "Dołącz do tysięcy marek i sprzedawców, którzy już nigdy nie płacą za sesje produktowe.",
+      "button": "Wypróbuj za darmo"
+    }
+  },
+  "customagents": {
+    "navigation": {
+      "overview": "Przegląd",
+      "features": "Możliwości",
+      "examples": "Zastosowania",
+      "integration": "Jak to działa",
+      "faq": "FAQ"
+    },
+    "sidebar": {
+      "onThisPage": "Na tej stronie",
+      "tryForFree": {
+        "title": "Wypróbuj za darmo",
+        "desc": "Stwórz i uruchom 5 w pełni customowych agentów AI na swoich kanałach – zupełnie bezpłatnie.",
+        "button": "Zacznij teraz"
+      }
+    },
+    "mobile": {
+      "app": "Aplikacja"
+    },
+    "hero": {
+      "badge": "AI Agents + MCP",
+      "title": "Twórz własnych agentów AI w kilka minut",
+      "subtitle": "Buduj inteligentne boty bez kodowania – na Telegramie, WhatsAppie, Slacku, OpenWebUI i dziesiątkach innych platform. Podłącz dowolne narzędzia, API i bazy wiedzy, skonfiguruj MCP i uruchom swojego asystenta 24/7.",
+      "placeholder": "Panel konfiguracji agentów AI"
+    },
+    "features": {
+      "title": "Co potrafi platforma",
+      "list": [
+        {
+          "title": "Agent w 3 kliknięcia",
+          "desc": "Wybierz kanał (Telegram, WhatsApp, Slack, OpenWebUI, Discord, WebChat…), podłącz model LLM i gotowe – Twój agent działa natychmiast.",
+          "icon": "M13 10V3L4 14h7v7l9-11h-7z"
+        },
+        {
+          "title": "Dowolne narzędzia i API",
+          "desc": "Podłącz Google Sheets, Notion, Airtable, CRM, Stripe, Calendly, Gmail, Zapier, Make – agent korzysta z nich samodzielnie, gdy klient o to poprosi.",
+          "icon": "M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
+        },
+        {
+          "title": "MCP – jeden agent na wszystkich kanałach",
+          "desc": "Jeden agent działa równocześnie na Telegramie, WhatsAppie Business, Slacku, Facebooku, Instagramie, stronie www i OpenWebUI – bez powielania konfiguracji.",
+          "icon": "M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+        },
+        {
+          "title": "Pełna kontrola i własność",
+          "desc": "Hostujesz wszystko u siebie (n8n / Flowise self-hosted lub cloud), masz 100% danych i logiki – zero vendor lock-in. Eksportuj, modyfikuj i skaluj kiedy chcesz.",
+          "icon": "M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
+        }
+      ]
+    },
+    "usecases": {
+      "title": "Dla kogo jest ta platforma",
+      "realestate": {
+        "tag": "Sprzedaż i obsługa klienta",
+        "title": "Inteligentny sprzedawca 24/7",
+        "badge": "Najpopularniejsze",
+        "desc": "Agent kwalifikuje leady, umawia spotkania, odpowiada na pytania o dostępność i ceny, wysyła oferty PDF – wszystko na WhatsAppie i Telegramie.",
+        "benefits": [
+          "Nawet 10× więcej obsłużonych leadów",
+          "Spotkania umawiane automatycznie"
+        ]
+      },
+      "interior": {
+        "tag": "Agencje i freelancerzy",
+        "title": "Twoja agencja na autopilocie",
+        "badge": "Ulubione agencji",
+        "desc": "Jeden agent obsługuje briefy, wyceny, faktury, przypomnienia o płatnościach i status projektów – w Slacku, mailu i WhatsAppie jednocześnie.",
+        "benefits": [
+          "Oszczędność dziesiątek godzin miesięcznie",
+          "Klienci zachwyceni szybkością odpowiedzi"
+        ]
+      }
+    },
+    "integration": {
+      "title": "Gotowe w 10 minut – bez kodowania",
+      "desc": "Wybierasz szablon lub budujesz od zera w wizualnym edytorze n8n/Flowise. Podłączasz kanały, narzędzia i LLM – agent działa od razu.",
+      "tools": [
+        "Telegram / WhatsApp / Slack",
+        "OpenWebUI / WebChat",
+        "n8n lub Flowise (self-hosted lub cloud)",
+        "OpenAI / Claude / Grok / Llama 3"
+      ],
+      "code": {
+        "step1": "# Wybierz kanały komunikacji",
+        "step2": "# Podłącz narzędzia i bazy wiedzy",
+        "step3": "# Skonfiguruj logikę i MCP",
+        "step4": "# Uruchom agenta 24/7"
+      }
+    },
+    "faq": {
+      "title": "Najczęściej zadawane pytania",
+      "items": [
+        {
+          "q": "Gdzie działa agent?",
+          "a": "Wszędzie: Telegram, WhatsApp Business, Slack, Discord, Facebook Messenger, Instagram DM, strona www, OpenWebUI i kilkadziesiąt innych."
+        },
+        {
+          "q": "Czy dane są bezpieczne?",
+          "a": "Tak, 100%. Możesz hostować wszystko u siebie (self-hosted n8n/Flowise) – żadne dane nie trafiają do osób trzecich."
+        },
+        {
+          "q": "Czy potrzebuję umiejętności programowania?",
+          "a": "Nie. Wszystko robisz wizualnie – przeciągasz bloki, łączysz strzałkami. Programiści też pokochają, bo mają pełny dostęp do JSON i custom code."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Gotowy na własnego agenta AI, który nigdy nie śpi?",
+      "subtitle": "Dołącz do tysięcy firm i freelancerów, którzy już automatyzują sprzedaż i obsługę klienta.",
+      "button": "Wypróbuj za darmo"
+    }
+  },
+  "invoiceai": {
+    "navigation": {
+      "overview": "Przegląd",
+      "features": "Możliwości",
+      "examples": "Zastosowania",
+      "integration": "Jak to działa",
+      "faq": "FAQ"
+    },
+    "sidebar": {
+      "onThisPage": "Na tej stronie",
+      "tryForFree": {
+        "title": "Wypróbuj za darmo",
+        "desc": "Dodaj 50 faktur i przetestuj pełne śledzenie terminów oraz powiadomienia – zupełnie bezpłatnie.",
+        "button": "Zacznij teraz"
+      }
+    },
+    "mobile": {
+      "app": "Aplikacja"
+    },
+    "hero": {
+      "badge": "AI dla finansów i księgowości",
+      "title": "Nigdy więcej przeterminowanych faktur",
+      "subtitle": "Zrób zdjęcie faktury, prześlij z e-maila lub połącz z iFirmą – system automatycznie odczyta dane, doda do rejestru, śledzi termin płatności i przypomina Ci (oraz kontrahentom) zanim będzie za późno.",
+      "placeholder": "Panel zarządzania należnościami"
+    },
+    "features": {
+      "title": "Co potrafi system",
+      "list": [
+        {
+          "title": "Dodawanie faktury w 3 sekundy",
+          "desc": "Zrób zdjęcie telefonem, prześlij PDF z e-maila lub połącz z iFirmą – AI odczyta NIP, kwotę, termin płatności, kontrahenta i automatycznie doda do Twojego rejestru.",
+          "icon": "M13 10V3L4 14h7v7l9-11h-7z"
+        },
+        {
+          "title": "Inteligentne śledzenie terminów",
+          "desc": "System sam pilnuje każdej faktury: 7 dni przed terminem, 3 dni, w dniu płatności i po terminie – wysyła przypomnienia Tobie i kontrahentowi dokładnie wtedy, kiedy trzeba.",
+          "icon": "M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
+        },
+        {
+          "title": "Automatyczne powiadomienia",
+          "desc": "Ty decydujesz: SMS, e-mail, WhatsApp, Slack, Telegram – system wysyła uprzejme, ale stanowcze przypomnienia do kontrahentów („Przypominamy o fakturze nr FV/2025/123 na kwotę 4 920 zł, termin płatności upływa za 3 dni”).",
+          "icon": "M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+        },
+        {
+          "title": "Pełna historia i raporty",
+          "desc": "W jednym miejscu widzisz: kto ile zalega, które faktury są po terminie, średni czas płatności kontrahentów, prognozę cash flow i gotowe zestawienia do księgowej lub urzędu skarbowego.",
+          "icon": "M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
+        }
+      ]
+    },
+    "usecases": {
+      "title": "Dla kogo jest ten system",
+      "realestate": {
+        "tag": "Freelancerzy i jednoosobowe firmy",
+        "title": "Koniec z zapominaniem o płatnościach",
+        "badge": "Najpopularniejsze",
+        "desc": "Wysyłasz 5–20 faktur miesięcznie i ciągle gonisz klientów za pieniądze? System sam przypomina i pilnuje terminów – Ty tylko wystawiasz faktury.",
+        "benefits": [
+          "Średnio 12 dni szybsze płatności",
+          "Zero przeterminowanych należności"
+        ]
+      },
+      "interior": {
+        "tag": "Małe i średnie firmy",
+        "title": "Pełna kontrola nad należnościami",
+        "badge": "Ulubione biur rachunkowych",
+        "desc": "Setki faktur miesięcznie? System automatycznie kategoryzuje, raportuje i wysyła windykację na odpowiednim etapie – księgowa tylko zatwierdza.",
+        "benefits": [
+          "Oszczędność kilkudziesięciu godzin miesięcznie",
+          "Gotowe raporty JPK i cash flow"
+        ]
+      }
+    },
+    "integration": {
+      "title": "Prostsze niż Excel, skuteczniejsze niż windykacja",
+      "desc": "Działa w przeglądarce i na telefonie. Dodajesz fakturę zdjęciem, e-mailem lub integracją z iFirmą/wFirma – reszta dzieje się automatycznie.",
+      "tools": [
+        "Zdjęcie faktury telefonem",
+        "Przesłanie PDF z e-maila",
+        "Integracja z iFirmą / wFirma",
+        "Powiadomienia: e-mail / SMS / WhatsApp"
+      ],
+      "code": {
+        "step1": "# Zrób zdjęcie lub prześlij fakturę",
+        "step2": "# AI odczyta dane i doda do rejestru",
+        "step3": "# System pilnuje terminu",
+        "step4": "# Ty odbierasz pieniądze na czas"
+      }
+    },
+    "faq": {
+      "title": "Najczęściej zadawane pytania",
+      "items": [
+        {
+          "q": "Jak dokładne jest rozpoznawanie faktur?",
+          "a": "Powyżej 99% dla polskich faktur (NIP, kwota netto/brutto, termin, numer faktury, dane kontrahenta). Błędy możesz poprawić jednym kliknięciem."
+        },
+        {
+          "q": "Czy mogę wysyłać przypomnienia do klientów?",
+          "a": "Tak – automatycznie lub ręcznie. Szablon „uprzejme przypomnienie”, „wezwanie do zapłaty” i „ostateczne wezwanie” – wszystko konfigurowalne."
+        },
+        {
+          "q": "Gdzie przechowywane są dane?",
+          "a": "W Polsce, na serwerach zgodnych z RODO. Masz pełną kontrolę i możesz eksportować dane w dowolnym momencie."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Gotowy przestać gonić za należnościami?",
+      "subtitle": "Dołącz do dziesiątek tysięcy firm i freelancerów, którzy odzyskali kontrolę nad finansami.",
       "button": "Wypróbuj za darmo"
     }
   },

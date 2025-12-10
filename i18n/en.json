@@ -145,7 +145,7 @@
       "onThisPage": "On this page",
       "tryForFree": {
         "title": "Try for Free",
-        "desc": "Generate 5 professional, full-resolution product photos – completely free.",
+        "desc": "Generate 5 professional product photos in full resolution – completely free.",
         "button": "Get Started Now"
       }
     },
@@ -155,30 +155,30 @@
     "hero": {
       "badge": "AI for E-commerce",
       "title": "Professional Product Photos in Seconds",
-      "subtitle": "Upload any photo of your product (even taken with a phone) and let AI instantly create perfect studio, lifestyle, or catalog shots. Edit everything with text prompts or by drawing directly on the image.",
+      "subtitle": "Upload a regular product photo (even from a phone), and AI will create perfect studio, lifestyle, or catalog shots. Edit everything with words or by drawing on the screen.",
       "placeholder": "Product Photo Editing Panel"
     },
     "features": {
       "title": "What ProductAI Can Do",
       "list": [
         {
-          "title": "From Phone Snap to Studio Perfection",
-          "desc": "Upload a casual photo taken with your phone — AI automatically removes the background, adds perfect lighting, shadows, and reflections, delivering marketplace-ready images for Amazon, Shopify, Etsy, or your own store.",
+          "title": "From Ordinary Photo to Studio Perfection",
+          "desc": "Upload a photo taken with a phone – AI automatically cleans the background, adds perfect lighting, shadows, and reflections, creating a photo ready for Amazon, eBay, or your own site.",
           "icon": "M13 10V3L4 14h7v7l9-11h-7z"
         },
         {
-          "title": "Text Editing — Like Talking to a Photographer",
-          "desc": "Just type: “pure white background”, “add a model holding the bag”, “make it mint green”, “place it on a café table” — and watch it happen instantly.",
+          "title": "Text Editing – Like a Conversation",
+          "desc": "Type “change background to white”, “add a model holding a handbag”, “make a mint color version”, “put product on a wooden table in a cafe” – AI does it instantly.",
           "icon": "M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
         },
         {
-          "title": "Draw & Paint Directly on the Image",
-          "desc": "Scribble with your finger or mouse and write “grass and picnic basket here” or “replace background with sunset beach” — AI understands exactly what you drew and generates it perfectly.",
+          "title": "Draw and Paint on Photo",
+          "desc": "Select an area with your finger or mouse and write “grass and picnic basket here” or “change background to sunset beach” – AI understands and generates exactly what you drew.",
           "icon": "M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
         },
         {
-          "title": "Hundreds of Ultra-Realistic Shots & Scenes",
-          "desc": "Generate hundreds of photorealistic variations of your exact product in seconds: clean white background, 360° packshot, flat lay on marble, lifestyle in a real kitchen or luxury living room, on a billboard in the city, Instagram post, rainy street with reflections, snowy scene, golden hour light, industrial loft, picnic blanket, high-end restaurant, held by a model, in a shopping basket — every image looks like an expensive professional shoot because it’s built 100% from your original product photo.",
+          "title": "Ultra-Realistic Shots and Scenes",
+          "desc": "Generate hundreds of photorealistic variants of your product in seconds: clean white background, 360° packshot, flat lay on marble, lifestyle in a Scandinavian kitchen, on a beach at sunset, in a luxury living room, on a wooden table with coffee and books, in a model's hands, on a shelf in a minimalist apartment, on a billboard in the city center, in shop windows, in a rainy day with puddle reflections, in snow, in golden morning light, in an industrial loft, on a picnic blanket, in an elegant restaurant – everything looks like a real, expensive photo shoot.",
           "icon": "M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
         }
       ]
@@ -186,62 +186,286 @@
     "usecases": {
       "title": "Who ProductAI Is For",
       "realestate": {
-        "tag": "E-commerce & Marketplaces",
-        "title": "Online Store & Marketplace Listings",
+        "tag": "E-commerce & Marketplace",
+        "title": "Photos for Online Stores",
         "badge": "Most Popular",
-        "desc": "No more expensive photoshoots. One phone photo becomes a full set of professional images — white background, lifestyle, 360° — fully compliant with Amazon, Shopify, Etsy, and every other platform.",
+        "desc": "No more expensive photo shoots. One phone photo turns into a full set of professional shots – white background, lifestyle, 360° – all compliant with platform requirements.",
         "benefits": [
-          "Save up to 90% on product photography",
-          "Images ready in seconds instead of days"
+          "Save up to 90% on photo costs",
+          "Photos ready in seconds instead of days"
         ]
       },
       "interior": {
         "tag": "Marketing & Social Media",
-        "title": "Ads & Posts That Actually Sell",
-        "badge": "Brands Love It",
-        "desc": "Create unlimited color variants, seasonal campaigns, and lifestyle scenes instantly. Just type “Valentine’s version”, “Christmas edition”, “summer sale vibe” and it’s done.",
+        "title": "Ads and Posts That Sell",
+        "badge": "Brand Favorite",
+        "desc": "Create unlimited color variants, seasonal campaigns, and lifestyle scenes. “Valentine's version”, “Christmas”, “Summer sale” – type it and it's ready.",
         "benefits": [
           "Higher conversion on ads and posts",
-          "React to trends in minutes"
+          "Instant reaction to trends"
         ]
       }
     },
     "integration": {
-      "title": "Simpler Than Photoshop, Faster Than a Photographer",
-      "desc": "Works entirely in your browser — no installation needed. Upload a photo, describe or draw what you want changed, download the finished files.",
+      "title": "Simpler than Photoshop, Faster than a Photographer",
+      "desc": "Works in the browser, no installation required. Just upload a photo, describe or draw what you want to change, and download ready files.",
       "tools": [
-        "Photo from your phone",
-        "Draw with your finger",
-        "Any web browser",
+        "Phone Photo",
+        "Finger Drawing",
+        "Any Browser",
         "Export PNG / JPG / WEBP"
       ],
       "code": {
-        "step1": "# Brief and Needs Audit",
-        "step2": "# Google Cloud Configuration",
-        "step3": "# Implementation and Testing",
-        "step4": "# Full Onboarding and Optimization"
+        "step1": "# Upload Photo",
+        "step2": "# Describe or Draw Changes",
+        "step3": "# Download Ready Shots",
+        "step4": "# Ready to Publish"
       }
     },
     "faq": {
       "title": "Frequently Asked Questions",
       "items": [
         {
-          "q": "What kind of photos can I upload?",
-          "a": "Anything — even quick snaps taken with your phone in bad lighting or messy backgrounds. The AI handles everything."
+          "q": "What photos can I upload?",
+          "a": "Any – even taken with a phone on your lap, with imperfect lighting or background. AI can handle anything."
         },
         {
-          "q": "Can I use the images commercially?",
-          "a": "Yes, 100%. All generated and edited photos are fully yours to use anywhere — online stores, ads, social media, print."
+          "q": "Can I use the photos commercially?",
+          "a": "Yes, 100%. All generated and edited photos are yours and can be used everywhere – stores, ads, social media, print."
         },
         {
           "q": "Do I need a powerful computer?",
-          "a": "No. Everything happens in the cloud. Use your phone, tablet, or even an old laptop."
+          "a": "No. All the magic happens in the cloud. You work from a phone, tablet, or old laptop."
         }
       ]
     },
     "cta": {
       "title": "Ready for Photos That Sell Themselves?",
-      "subtitle": "Join thousands of brands and sellers who never pay for product shoots again.",
+      "subtitle": "Join thousands of brands and sellers who will never pay for product shoots again.",
+      "button": "Try for Free"
+    }
+  },
+  "customagents": {
+    "navigation": {
+      "overview": "Overview",
+      "features": "Features",
+      "examples": "Use Cases",
+      "integration": "How It Works",
+      "faq": "FAQ"
+    },
+    "sidebar": {
+      "onThisPage": "On this page",
+      "tryForFree": {
+        "title": "Try for Free",
+        "desc": "Create and launch 5 fully custom AI agents on your channels – completely free.",
+        "button": "Start Now"
+      }
+    },
+    "mobile": {
+      "app": "App"
+    },
+    "hero": {
+      "badge": "AI Agents + MCP",
+      "title": "Create Your Own AI Agents in Minutes",
+      "subtitle": "Build intelligent bots without coding – on Telegram, WhatsApp, Slack, OpenWebUI, and dozens of other platforms. Connect any tools, APIs, and knowledge bases, configure MCP, and launch your assistant 24/7.",
+      "placeholder": "AI Agent Configuration Panel"
+    },
+    "features": {
+      "title": "What the Platform Can Do",
+      "list": [
+        {
+          "title": "Agent in 3 Clicks",
+          "desc": "Choose a channel (Telegram, WhatsApp, Slack, OpenWebUI, Discord, WebChat…), connect an LLM model, and you're done – your agent works instantly.",
+          "icon": "M13 10V3L4 14h7v7l9-11h-7z"
+        },
+        {
+          "title": "Any Tools and APIs",
+          "desc": "Connect Google Sheets, Notion, Airtable, CRM, Stripe, Calendly, Gmail, Zapier, Make – the agent uses them autonomously when a client asks.",
+          "icon": "M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
+        },
+        {
+          "title": "MCP – One Agent on All Channels",
+          "desc": "One agent works simultaneously on Telegram, WhatsApp Business, Slack, Facebook, Instagram, website, and OpenWebUI – without duplicating configuration.",
+          "icon": "M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+        },
+        {
+          "title": "Full Control and Ownership",
+          "desc": "Host everything yourself (n8n / Flowise self-hosted or cloud), own 100% of data and logic – zero vendor lock-in. Export, modify, and scale whenever you want.",
+          "icon": "M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
+        }
+      ]
+    },
+    "usecases": {
+      "title": "Who is this Platform For",
+      "realestate": {
+        "tag": "Sales and Customer Service",
+        "title": "Intelligent Salesperson 24/7",
+        "badge": "Most Popular",
+        "desc": "The agent qualifies leads, schedules meetings, answers questions about availability and pricing, sends PDF offers – all on WhatsApp and Telegram.",
+        "benefits": [
+          "Up to 10x more leads handled",
+          "Meetings scheduled automatically"
+        ]
+      },
+      "interior": {
+        "tag": "Agencies and Freelancers",
+        "title": "Your Agency on Autopilot",
+        "badge": "Agency Favorite",
+        "desc": "One agent handles briefs, quotes, invoices, payment reminders, and project status – on Slack, email, and WhatsApp simultaneously.",
+        "benefits": [
+          "Save dozens of hours monthly",
+          "Clients delighted with response speed"
+        ]
+      }
+    },
+    "integration": {
+      "title": "Ready in 10 Minutes – No Coding",
+      "desc": "Choose a template or build from scratch in the visual n8n/Flowise editor. Connect channels, tools, and LLM – the agent works immediately.",
+      "tools": [
+        "Telegram / WhatsApp / Slack",
+        "OpenWebUI / WebChat",
+        "n8n or Flowise (self-hosted or cloud)",
+        "OpenAI / Claude / Grok / Llama 3"
+      ],
+      "code": {
+        "step1": "# Choose communication channels",
+        "step2": "# Connect tools and knowledge bases",
+        "step3": "# Configure logic and MCP",
+        "step4": "# Launch agent 24/7"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Where does the agent work?",
+          "a": "Everywhere: Telegram, WhatsApp Business, Slack, Discord, Facebook Messenger, Instagram DM, website, OpenWebUI, and dozens more."
+        },
+        {
+          "q": "Are data secure?",
+          "a": "Yes, 100%. You can host everything yourself (self-hosted n8n/Flowise) – no data goes to third parties."
+        },
+        {
+          "q": "Do I need programming skills?",
+          "a": "No. You do everything visually – drag blocks, connect arrows. Programmers will love it too because they have full access to JSON and custom code."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready for your own AI agent that never sleeps?",
+      "subtitle": "Join thousands of companies and freelancers who are already automating sales and customer service.",
+      "button": "Try for Free"
+    }
+  },
+  "invoiceai": {
+    "navigation": {
+      "overview": "Overview",
+      "features": "Features",
+      "examples": "Use Cases",
+      "integration": "How it works",
+      "faq": "FAQ"
+    },
+    "sidebar": {
+      "onThisPage": "On this page",
+      "tryForFree": {
+        "title": "Try for free",
+        "desc": "Add 50 invoices and test full deadline tracking and notifications – completely free.",
+        "button": "Start Now"
+      }
+    },
+    "mobile": {
+      "app": "App"
+    },
+    "hero": {
+      "badge": "AI for Finance & Accounting",
+      "title": "No more overdue invoices",
+      "subtitle": "Take a photo of the invoice, forward from email, or connect with iFirma – the system automatically reads data, adds to the registry, tracks due dates, and reminds you (and contractors) before it's too late.",
+      "placeholder": "Receivables Management Panel"
+    },
+    "features": {
+      "title": "What the system can do",
+      "list": [
+        {
+          "title": "Add invoice in 3 seconds",
+          "desc": "Take a photo with your phone, forward a PDF from email, or connect with iFirma – AI reads VAT ID, amount, due date, contractor, and automatically adds it to your registry.",
+          "icon": "M13 10V3L4 14h7v7l9-11h-7z"
+        },
+        {
+          "title": "Smart deadline tracking",
+          "desc": "The system watches over every invoice: 7 days before the deadline, 3 days, on the due date, and after the deadline – sending reminders to you and the contractor exactly when needed.",
+          "icon": "M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
+        },
+        {
+          "title": "Automatic notifications",
+          "desc": "You decide: SMS, email, WhatsApp, Slack, Telegram – the system sends polite but firm reminders to contractors (\"Reminder about invoice No. FV/2025/123 for the amount of 4,920 PLN, payment deadline expires in 3 days\").",
+          "icon": "M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+        },
+        {
+          "title": "Full history and reports",
+          "desc": "See everything in one place: who owes how much, which invoices are overdue, average payment time of contractors, cash flow forecast, and ready-made statements for the accountant or tax office.",
+          "icon": "M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
+        }
+      ]
+    },
+    "usecases": {
+      "title": "Who is this system for",
+      "realestate": {
+        "tag": "Freelancers and Sole Traders",
+        "title": "End of forgetting payments",
+        "badge": "Most Popular",
+        "desc": "Sending 5–20 invoices a month and constantly chasing clients for money? The system reminds and watches deadlines itself – you only issue invoices.",
+        "benefits": [
+          "Payments faster by 12 days on average",
+          "Zero overdue receivables"
+        ]
+      },
+      "interior": {
+        "tag": "Small and Medium Companies",
+        "title": "Full control over receivables",
+        "badge": "Accounting Offices' Favorite",
+        "desc": "Hundreds of invoices monthly? The system automatically categorizes, reports, and sends debt collection at the appropriate stage – the accountant only approves.",
+        "benefits": [
+          "Saving dozens of hours monthly",
+          "Ready JPK and cash flow reports"
+        ]
+      }
+    },
+    "integration": {
+      "title": "Simpler than Excel, more effective than debt collection",
+      "desc": "Works in the browser and on the phone. You add an invoice by photo, email, or integration with iFirma/wFirma – the rest happens automatically.",
+      "tools": [
+        "Photo of invoice by phone",
+        "Forward PDF from email",
+        "Integration with iFirma / wFirma",
+        "Notifications: email / SMS / WhatsApp"
+      ],
+      "code": {
+        "step1": "# Take a photo or send invoice",
+        "step2": "# AI reads data and adds to registry",
+        "step3": "# System watches the deadline",
+        "step4": "# You receive money on time"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "How accurate is invoice recognition?",
+          "a": "Over 99% for Polish invoices (VAT ID, net/gross amount, deadline, invoice number, contractor data). Mistakes can be corrected with one click."
+        },
+        {
+          "q": "Can I send reminders to clients?",
+          "a": "Yes – automatically or manually. Templates for \"polite reminder\", \"payment request\", and \"final demand\" – all configurable."
+        },
+        {
+          "q": "Where is data stored?",
+          "a": "In Poland, on GDPR-compliant servers. You have full control and can export data at any time."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to stop chasing receivables?",
+      "subtitle": "Join tens of thousands of companies and freelancers who regained control over their finances.",
       "button": "Try for Free"
     }
   },

@@ -296,8 +296,8 @@ const ProductArchiDesigner: React.FC<UseCaseProps> = ({
                                     </div>
                                     <div className="space-y-2">
                                         <p className="text-gray-500">{t('archidesigner.integration.code.step1')}</p>
-                                        <p className="text-gray-300">$ {t('archidesigner.integration.code.step2')}</p>
-                                        <p className="text-gray-300">$ {t('archidesigner.integration.code.step3')}</p>
+                                        <p className="text-gray-300">{t('archidesigner.integration.code.step2')}</p>
+                                        <p className="text-gray-300">{t('archidesigner.integration.code.step3')}</p>
                                         <p className="text-green-400">{t('archidesigner.integration.code.step4')}</p>
 
                                     </div>
@@ -343,7 +343,7 @@ const ProductArchiDesigner: React.FC<UseCaseProps> = ({
                                     <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">
                                         {t('archidesigner.cta.subtitle')}
                                     </p>
-                                    <Link href="/contact" className="inline-block px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition-colors">
+                                    <Link href="https://ainsider.notion.site/2c5b65ddefcf81c19b15c407f814e8c5?pvs=105" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition-colors">
 
                                         {t('archidesigner.cta.button')}
                                         {/* <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg> */}
