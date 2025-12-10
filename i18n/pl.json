@@ -37,7 +37,7 @@
     "sidebar": {
       "onThisPage": "Na tej stronie",
       "tryForFree": {
-        "title": "Wypróbuj za darmo",
+        "title": "Zacznijmy",
         "desc": "Wygeneruj 5 profesjonalnych wizualizacji w pełnej rozdzielczości – zupełnie bezpłatnie.",
         "button": "Zacznij teraz"
       }
@@ -135,7 +135,7 @@
     "cta": {
       "title": "Gotowy na wizualizacje, które sprzedają same?",
       "subtitle": "Dołącz do tysięcy projektantów i agentów, którzy już nie wyobrażają sobie pracy bez AI.",
-      "button": "Wypróbuj za darmo"
+      "button": "Zacznijmy"
     }
   },
   "productai": {
@@ -149,7 +149,7 @@
     "sidebar": {
       "onThisPage": "Na tej stronie",
       "tryForFree": {
-        "title": "Wypróbuj za darmo",
+        "title": "Zacznijmy",
         "desc": "Wygeneruj 5 profesjonalnych zdjęć produktowych w pełnej rozdzielczości – zupełnie bezpłatnie.",
         "button": "Zacznij teraz"
       }
