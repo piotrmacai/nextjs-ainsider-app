@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import ImageSlider from "./ImageSlider";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -201,6 +202,11 @@ const InvoiceSystem: React.FC<UseCaseProps> = ({
                                 ))}
                             </div>
                         </section>
+
+                        {/* <section className="mb-20">
+                            <h2 className="text-2xl font-bold mb-6 text-center text-gray-500 dark:text-gray-400">Trusted by modern teams</h2>
+                            <ImageSlider />
+                        </section> */}
 
                         {/* IMPLEMENTATION EXAMPLES SECTION */}
                         <section id="examples" className="mb-20 scroll-mt-24">

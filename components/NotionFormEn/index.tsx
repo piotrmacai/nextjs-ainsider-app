@@ -5,7 +5,7 @@ import React from 'react';
 const NotionFormEN: React.FC = () => {
   return (
     <div className="w-full rounded-2xl overflow-hidden shadow-lg border border-gray-200 dark:border-gray-800">
-      <iframe src="https://ainsider.notion.site/2c1b65ddefcf8189addeef3e2631b3c0" width="100%" height="600" frameBorder="0" allowFullScreen />
+      <iframe src="https://ainsider.notion.site/ebd//2c1b65ddefcf8189addeef3e2631b3c0" width="100%" height="600" frameBorder="0" allowFullScreen />
     </div>
     // <div className="w-full flex justify-start">
     //   <a

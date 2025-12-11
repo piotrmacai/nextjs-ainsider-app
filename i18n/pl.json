@@ -81,7 +81,7 @@
       "realestate": {
         "tag": "Nieruchomości i marketing",
         "title": "Sprzedaż mieszkań z rynku pierwotnego",
-        "badge": "Najpopularniejsze",
+        "badge": "",
         "desc": "Pokaż klientom piękne, umeblowane mieszkanie jeszcze przed rozpoczęciem prac wykończeniowych. Zdjęcie pustych ścian wystarczy – resztę zrobi AI.",
         "benefits": [
           "Oferty sprzedają się nawet 5× szybciej",
@@ -91,7 +91,7 @@
       "interior": {
         "tag": "Projektowanie wnętrz",
         "title": "Szybkie koncepcje i prezentacje dla klientów",
-        "badge": "Ulubione projektantów",
+        "badge": "",
         "desc": "Twórz dziesiątki wariantów w kilka minut. Klient mówi „chcę cieplej i więcej drewna” – Ty wpisujesz, a wizualizacja zmienia się na żywo.",
         "benefits": [
           "Mniej nieporozumień i poprawek",

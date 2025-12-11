@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { useTranslation } from 'react-i18next';
+import ImageSlider from "./ImageSlider";
 
 // --- Types & Data ---
 type SectionId = "overview" | "features" | "integration" | "examples" | "faq";
@@ -212,10 +213,13 @@ const ProductProductPhoto: React.FC<UseCaseProps> = () => {
                             </div>
                         </section>
 
+                        <section className="mb-20">
+                            <ImageSlider />
+                        </section>
+
                         {/* IMPLEMENTATION EXAMPLES SECTION */}
                         <section id="examples" className="mb-20 scroll-mt-24">
                             <h2 className="text-3xl font-bold mb-8 flex items-center gap-3">
-                                <span className="w-8 h-8 rounded-lg bg-purple-500 flex items-center justify-center text-white text-sm">02</span>
                                 {t('productai.usecases.title')}
                             </h2>
 

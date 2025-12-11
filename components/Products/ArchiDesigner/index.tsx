@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { useTranslation } from 'react-i18next';
-
+import ImageSlider from "./ImageSlider";
 
 // --- Types & Data ---
 type SectionId = "overview" | "features" | "integration" | "examples" | "faq";
@@ -202,6 +202,12 @@ const ProductArchiDesigner: React.FC<UseCaseProps> = ({
                             </div>
                         </section>
 
+
+                        <section className="mb-20">
+                            {/* <h2 className="text-2xl font-bold mb-6 text-center text-gray-500 dark:text-gray-400">Trusted by modern teams</h2> */}
+                            <ImageSlider />
+                        </section>
+
                         {/* IMPLEMENTATION EXAMPLES SECTION */}
                         <section id="examples" className="mb-20 scroll-mt-24">
                             <h2 className="text-3xl font-bold mb-8 flex items-center gap-3">
@@ -215,7 +221,7 @@ const ProductArchiDesigner: React.FC<UseCaseProps> = ({
                                     <div className="flex flex-col md:flex-row gap-8 items-start">
                                         <div className="w-full md:w-1/3 shrink-0">
                                             <div className="aspect-video rounded-xl bg-gradient-to-br from-indigo-500 to-cyan-500 flex items-center justify-center text-white shadow-lg">
-                                                <span className="font-bold text-lg">{t('archidesigner.usecases.realestate.tag')}</span>
+                                                <span className="font-bold text-2xl">{t('archidesigner.usecases.realestate.tag')}</span>
                                             </div>
                                         </div>
                                         <div className="flex-1">
@@ -243,7 +249,7 @@ const ProductArchiDesigner: React.FC<UseCaseProps> = ({
                                     <div className="flex flex-col md:flex-row gap-8 items-start">
                                         <div className="w-full md:w-1/3 shrink-0">
                                             <div className="aspect-video rounded-xl bg-gradient-to-br from-orange-500 to-amber-500 flex items-center justify-center text-white shadow-lg">
-                                                <span className="font-bold text-lg">{t('archidesigner.usecases.interior.tag')}</span>
+                                                <span className="font-bold text-2xl">{t('archidesigner.usecases.interior.tag')}</span>
                                             </div>
                                         </div>
                                         <div className="flex-1">
