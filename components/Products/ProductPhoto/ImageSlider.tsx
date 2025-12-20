@@ -7,10 +7,12 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 const IMAGES = [
-    "/images/genai/genailogo1.jpeg",
-    "/images/genai/genailogo2.jpeg",
-    "/images/genai/genailogo3.jpeg",
-    "/images/genai/genai_money.jpeg",
+    "/images/slider/fashionai1.jpg",
+    "/images/slider/fashionai2.jpg",
+    "/images/slider/fashionai3.jpg",
+    "/images/slider/fashionai4.jpg",
+    "/images/slider/fashionai7.jpg",
+    "/images/slider/fashionai6.jpg",
 ];
 
 const ImageSlider = () => {

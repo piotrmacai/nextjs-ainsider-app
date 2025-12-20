@@ -159,33 +159,94 @@ const ProductProductPhoto: React.FC<UseCaseProps> = () => {
                             <motion.div
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.6 }}
+                                transition={{ duration: 0.8, ease: "easeOut" }}
+                                className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center"
                             >
-                                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-300 text-xs font-bold uppercase tracking-wider mb-6">
-                                    {t('productai.hero.badge')}
+                                <div className="flex flex-col items-start relative z-10">
+                                    <motion.div
+                                        initial={{ opacity: 0, x: -20 }}
+                                        animate={{ opacity: 1, x: 0 }}
+                                        transition={{ delay: 0.2 }}
+                                        className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-purple-50 dark:bg-purple-900/20 text-purple-600 dark:text-purple-300 text-xs font-bold uppercase tracking-wider mb-8 border border-purple-100 dark:border-purple-500/20"
+                                    >
+                                        <span className="w-2 h-2 rounded-full bg-purple-500 animate-pulse" />
+                                        {t('productai.hero.badge')}
+                                    </motion.div>
+
+                                    <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-5xl font-bold mb-8 tracking-tight leading-[1.1]">
+                                        <span className="bg-clip-text text-gray-600 dark:text-gray-300">
+                                            {t('productai.hero.title')}
+                                        </span>
+                                    </h1>
+
+                                    <div className="h-1 w-32 bg-black dark:bg-white rounded-full mb-4" />
+
+                                    <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 leading-relaxed mb-10 max-w-lg">
+                                        {t('productai.hero.subtitle')}
+                                    </p>
+
+                                    <div className="flex gap-4">
+                                        <Link
+                                            href="#features"
+                                            onClick={(e) => { e.preventDefault(); scrollToSection('features'); }}
+                                            className="px-8 py-4 rounded-full bg-black dark:bg-white text-white dark:text-black font-bold text-sm hover:transform hover:scale-105 transition-all duration-300 shadow-xl shadow-purple-500/20"
+                                        >
+                                            Explore Features
+                                        </Link>
+                                    </div>
                                 </div>
-                                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight">
-                                    {t('productai.hero.title')}
-                                </h1>
-                                <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 leading-relaxed mb-8 max-w-3xl">
-                                    {t('productai.hero.subtitle')}
-                                </p>
 
                                 {/* Hero Visual */}
-                                <div className="relative aspect-video w-full rounded-2xl overflow-hidden shadow-2xl border border-black/10 dark:border-white/10 bg-gray-100 dark:bg-gray-900 group">
-                                    <Image
-                                        src="/images/portfolio/aiproductservice.png"
-                                        alt="AI Product Service"
-                                        fill
-                                        className="object-cover"
-                                    />
+                                <div className="relative group perspective-1000 self-end">
+                                    <div className="absolute -inset-4 bg-gradient-to-r from-purple-500 to-blue-500 rounded-[2rem] opacity-20 blur-2xl group-hover:opacity-30 transition-opacity duration-500" />
+                                    <motion.div
+                                        initial={{ opacity: 0, scale: 0.95, rotateY: 10 }}
+                                        animate={{ opacity: 1, scale: 1, rotateY: 0 }}
+                                        transition={{ delay: 0.3, duration: 0.8 }}
+                                        className="relative aspect-[4/3] w-full rounded-2xl overflow-hidden shadow-2xl border border-black/10 dark:border-white/10 bg-gray-100 dark:bg-gray-900"
+                                    >
+                                        <Image
+                                            src="/images/portfolio/aiproductservice.png"
+                                            alt="AI Product Service"
+                                            fill
+                                            className="object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out"
+                                        />
 
-                                    {/* Overlay Elements (Fake UI) */}
-                                    <div className="absolute top-4 left-4 right-4 h-8 bg-white dark:bg-black/50 rounded-lg backdrop-blur-sm flex items-center px-3 gap-2">
-                                        <div className="w-2 h-2 rounded-full bg-red-400" />
-                                        <div className="w-2 h-2 rounded-full bg-yellow-400" />
-                                        <div className="w-2 h-2 rounded-full bg-green-400" />
-                                    </div>
+                                        {/* Overlay Elements (Fake UI) */}
+                                        <motion.div
+                                            animate={{ y: [0, -10, 0] }}
+                                            transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+                                            className="absolute bottom-6 left-6 right-6 bg-white/25 dark:bg-gray-800/25 backdrop-blur-xl p-4 rounded-xl border border-white/20 shadow-xl"
+                                        >
+                                            <div className="flex items-center flex-row gap-3">
+                                                <div className="w-10 h-10 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center text-gray-900 dark:text-white">
+                                                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                                                </div>
+                                                <div>
+                                                    <p className="text-sm text-gray-600 dark:text-gray-300 leading-relaxed">
+                                                        Generation: Status Complete
+                                                    </p></div>
+
+                                            </div>
+                                        </motion.div>
+
+                                        {/* Additional Floating UI Element */}
+                                        {/* <motion.div
+                                            animate={{ y: [0, -10, 0] }}
+                                            transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+                                            className="absolute bottom-6 left-6 right-6 bg-white/25 dark:bg-gray-800/25 backdrop-blur-xl p-4 rounded-xl border border-white/20 shadow-xl"
+                                        >
+                                            <div className="flex items-center gap-3">
+                                                <div className="w-10 h-10 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center text-gray-900 dark:text-white">
+                                                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                                                </div>
+                                                <div>
+                                                    <div className="text-xs font-bold uppercase text-gray-500 dark:text-gray-400 tracking-wider">Status</div>
+                                                    <div className="text-sm font-bold text-gray-900 dark:text-white">Analysis Complete</div>
+                                                </div>
+                                            </div>
+                                        </motion.div> */}
+                                    </motion.div>
                                 </div>
                             </motion.div>
                         </section>
@@ -228,26 +289,42 @@ const ProductProductPhoto: React.FC<UseCaseProps> = () => {
                                 {(() => {
                                     const useCase = t('productai.usecases.realestate', { returnObjects: true }) as UseCaseItem;
                                     return (
-                                        <div className="group relative overflow-hidden rounded-2xl bg-white dark:bg-white/5 border border-gray-100 dark:border-white/5 p-8 transition-all hover:border-purple-500/30 hover:shadow-xl hover:shadow-purple-500/10">
-                                            <div className="flex flex-col md:flex-row gap-8 items-start">
-                                                <div className="w-full md:w-1/3 shrink-0">
-                                                    <div className="aspect-video rounded-xl bg-gradient-to-br from-indigo-500 to-purple-500 flex items-center justify-center text-white shadow-lg">
-                                                        <span className="font-bold text-lg">{useCase.tag}</span>
+                                        <div className="group relative overflow-hidden rounded-3xl bg-gray-50 dark:bg-white/5 border border-gray-100 dark:border-white/5 p-8 md:p-10 transition-all hover:bg-white dark:hover:bg-white/10 hover:shadow-2xl hover:shadow-purple-500/10">
+                                            <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
+                                                <div className="flex flex-col gap-6">
+                                                    <div className="flex items-center gap-3">
+                                                        <div className="p-3 rounded-xl bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400">
+                                                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
+                                                        </div>
+                                                        <span className="text-sm font-bold uppercase tracking-wider text-purple-600 dark:text-purple-400">{useCase.tag}</span>
+                                                    </div>
+                                                    <div>
+                                                        <div className="flex items-center gap-3 mb-3">
+                                                            <h3 className="text-3xl font-bold text-gray-900 dark:text-white">{useCase.title}</h3>
+                                                            {/* {useCase.badge && (
+                                                                <span className="px-3 py-1 rounded-full text-xs font-semibold bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300">
+                                                                    {useCase.badge}
+                                                                </span>
+                                                            )} */}
+                                                        </div>
+                                                        <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
+                                                            {useCase.desc}
+                                                        </p>
                                                     </div>
                                                 </div>
-                                                <div className="flex-1">
-                                                    <h3 className="text-2xl font-bold mb-3 flex items-center gap-2">
-                                                        {useCase.title}
-                                                        <span className="px-2 py-1 rounded text-xs bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400">{useCase.badge}</span>
-                                                    </h3>
-                                                    <p className="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
-                                                        {useCase.desc}
-                                                    </p>
-                                                    <ul className="space-y-2 mb-6">
+
+                                                <div className="bg-white dark:bg-black/20 rounded-2xl p-6 md:p-8 border border-gray-100 dark:border-white/5 shadow-sm">
+                                                    <h4 className="font-semibold text-gray-900 dark:text-white mb-6 flex items-center gap-2">
+                                                        <svg className="w-5 h-5 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                                                        Key Benefits
+                                                    </h4>
+                                                    <ul className="space-y-4">
                                                         {useCase.benefits.map((benefit, idx) => (
-                                                            <li key={idx} className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
-                                                                <svg className="w-4 h-4 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                                                                {benefit}
+                                                            <li key={idx} className="flex items-start gap-3 text-gray-600 dark:text-gray-300">
+                                                                <div className="mt-1 w-5 h-5 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center shrink-0">
+                                                                    <svg className="w-3 h-3 text-green-600 dark:text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                                                                </div>
+                                                                <span className="text-sm md:text-base">{benefit}</span>
                                                             </li>
                                                         ))}
                                                     </ul>
@@ -261,26 +338,42 @@ const ProductProductPhoto: React.FC<UseCaseProps> = () => {
                                 {(() => {
                                     const useCase = t('productai.usecases.interior', { returnObjects: true }) as UseCaseItem;
                                     return (
-                                        <div className="group relative overflow-hidden rounded-2xl bg-white dark:bg-white/5 border border-gray-100 dark:border-white/5 p-8 transition-all hover:border-blue-500/30 hover:shadow-xl hover:shadow-blue-500/10">
-                                            <div className="flex flex-col md:flex-row gap-8 items-start">
-                                                <div className="w-full md:w-1/3 shrink-0">
-                                                    <div className="aspect-video rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center text-white shadow-lg">
-                                                        <span className="font-bold text-lg">{useCase.tag}</span>
+                                        <div className="group relative overflow-hidden rounded-3xl bg-gray-50 dark:bg-white/5 border border-gray-100 dark:border-white/5 p-8 md:p-10 transition-all hover:bg-white dark:hover:bg-white/10 hover:shadow-2xl hover:shadow-blue-500/10">
+                                            <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
+                                                <div className="flex flex-col gap-6">
+                                                    <div className="flex items-center gap-3">
+                                                        <div className="p-3 rounded-xl bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400">
+                                                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>
+                                                        </div>
+                                                        <span className="text-sm font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">{useCase.tag}</span>
+                                                    </div>
+                                                    <div>
+                                                        <div className="flex items-center gap-3 mb-3">
+                                                            <h3 className="text-3xl font-bold text-gray-900 dark:text-white">{useCase.title}</h3>
+                                                            {/* {useCase.badge && (
+                                                                <span className="px-3 py-1 rounded-full text-xs font-semibold bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                                                                    {useCase.badge}
+                                                                </span>
+                                                            )} */}
+                                                        </div>
+                                                        <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
+                                                            {useCase.desc}
+                                                        </p>
                                                     </div>
                                                 </div>
-                                                <div className="flex-1">
-                                                    <h3 className="text-2xl font-bold mb-3 flex items-center gap-2">
-                                                        {useCase.title}
-                                                        <span className="px-2 py-1 rounded text-xs bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400">{useCase.badge}</span>
-                                                    </h3>
-                                                    <p className="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
-                                                        {useCase.desc}
-                                                    </p>
-                                                    <ul className="space-y-2 mb-6">
+
+                                                <div className="bg-white dark:bg-black/20 rounded-2xl p-6 md:p-8 border border-gray-100 dark:border-white/5 shadow-sm">
+                                                    <h4 className="font-semibold text-gray-900 dark:text-white mb-6 flex items-center gap-2">
+                                                        <svg className="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                                                        Key Benefits
+                                                    </h4>
+                                                    <ul className="space-y-4">
                                                         {useCase.benefits.map((benefit, idx) => (
-                                                            <li key={idx} className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
-                                                                <svg className="w-4 h-4 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                                                                {benefit}
+                                                            <li key={idx} className="flex items-start gap-3 text-gray-600 dark:text-gray-300">
+                                                                <div className="mt-1 w-5 h-5 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center shrink-0">
+                                                                    <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                                                                </div>
+                                                                <span className="text-sm md:text-base">{benefit}</span>
                                                             </li>
                                                         ))}
                                                     </ul>
@@ -311,18 +404,18 @@ const ProductProductPhoto: React.FC<UseCaseProps> = () => {
                                     ))}
                                 </div>
 
-                                <div className="relative rounded-xl overflow-hidden bg-[#1e1e1e] p-4 font-mono text-sm text-gray-300 shadow-inner">
+                                <div className="relative rounded-xl overflow-hidden bg-[#fff] dark:bg-[#1e1e1e] p-4 font-mono text-sm text-gray-600 dark:text-gray-300 shadow-inner">
                                     <div className="flex items-center gap-2 mb-4 opacity-50">
                                         <div className="w-3 h-3 rounded-full bg-red-500" />
                                         <div className="w-3 h-3 rounded-full bg-yellow-500" />
                                         <div className="w-3 h-3 rounded-full bg-green-500" />
-                                        <span className="ml-2 text-xs">integration.py</span>
+                                        <span className="ml-2 text-xs text-gray-600 dark:text-gray-300">integration.py</span>
                                     </div>
-                                    <div className="space-y-2">
-                                        <p className="text-gray-500">{t('productai.integration.code.step1')}</p>
-                                        <p className="text-gray-300">{t('productai.integration.code.step2')}</p>
-                                        <p className="text-gray-300">{t('productai.integration.code.step3')}</p>
-                                        <p className="text-green-400">{t('productai.integration.code.step4')}</p>
+                                    <div className="space-y-2 text-gray-600 dark:text-gray-300">
+                                        <p className="text-gray-600 dark:text-gray-300">{t('productai.integration.code.step1')}</p>
+                                        <p className="text-gray-600 dark:text-gray-300">{t('productai.integration.code.step2')}</p>
+                                        <p className="text-gray-600 dark:text-gray-300">{t('productai.integration.code.step3')}</p>
+                                        <p className="text-gray-600 dark:text-gray-300">{t('productai.integration.code.step4')}</p>
                                     </div>
                                 </div>
                             </div>
