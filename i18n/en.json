@@ -1279,7 +1279,13 @@
     "5Title": "Dedicated CRM Solutions",
     "5Description": "Dedicated CRM Solutions for automating, optimizing, and managing all business processes, providing a comprehensive and efficient way to manage your business and customer relationships.",
     "6Title": "SEO and Website Positioning",
-    "6Description": "Increase visibility, get more leads, get more clients by comprehensive SEO and marketing services."
+    "6Description": "Increase visibility, get more leads, get more clients by comprehensive SEO and marketing services.",
+    "7Title": "Custom App Development",
+    "7Description": "Design and build advanced web applications tailored to your company's unique needs.",
+    "8Title": "AI Applications",
+    "8Description": "Implementing intelligent AI-based solutions that automate tasks and deliver new value.",
+    "9Title": "Integrations & Automation",
+    "9Description": "Connecting websites with AI systems and automating business processes for increased efficiency and time savings."
   },
   "storePage": {
     "title": {
@@ -2040,6 +2046,7 @@
     "menu1": "Home",
     "menu2": "Portfolio",
     "menu-solutions": "Solutions",
+    "menu-products": "Products",
     "menu-resources": "Resources",
     "menu-store": "Store",
     "menu-crm": "CRM Systems",
@@ -2058,7 +2065,7 @@
     "menu12": "Web & Ecom",
     "voiceagents": "Voice AI Agents",
     "pricing": "Pricing",
-    "menuServices": "Web",
+    "menuServices": "Web & Apps",
     "menuAutomations": "Automations",
     "agents": "AI Agents",
     "personal-assistant": "Personal AI Assistant",

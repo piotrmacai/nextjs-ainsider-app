@@ -19,15 +19,7 @@ const getTranslatedMenuData = () => {
       newTab: true,
       path: "#",
       icon: "/images/icon/phone.svg",
-      submenu: [  
-        // {
-        //   id: 1,
-        //   title: "Landing page",
-        //   newTab: true,
-        //   path: "/landings",
-        //   icon: "/images/icon/phone.svg",
-        // },   
-    
+      submenu: [      
         {
           id: 1.1,
           title: t('header.agents'),
@@ -79,6 +71,64 @@ const getTranslatedMenuData = () => {
         // },
       ],
     },  
+      {
+      id: 4,
+      title: t('header.menu-products'),
+      newTab: true,
+      path: "#",
+      icon: "/images/icon/phone.svg",
+      submenu: [      
+        {
+          id: 1.1,
+          title: t('header.invoice-ai'),
+          newTab: false,
+          path: "/invoice-system",
+          icon: "/images/icon/bag.svg",
+        },
+        {
+          id: 1.2,
+          title: "Archidesigner",
+          newTab: false,
+          path: "/archidesigner",
+          icon: "/images/icon/bag.svg",
+        },    
+        {
+          id: 1.3,
+          title: "FashionAI",
+          newTab: true,
+          path: "/fashionai",
+          icon: "/images/icon/phone.svg",
+        },
+        // {
+        //   id: 1.4,
+        //   title: "Vibe Coding",
+        //   newTab: true,
+        //   path: "/vibe-coding",
+        //   icon: "/images/icon/phone.svg",
+        // },
+        // {
+        //   id: 4,
+        //   title: t('header.personal-assistant'),
+        //   newTab: false,
+        //   path: "/personal-assistant",
+        //   icon: "/images/icon/bag.svg",
+        // },
+        // {
+        //   id: 4,
+        //   title: t('header.invoice-ai'),
+        //   newTab: false,
+        //   path: "/invoice-ai",
+        //   icon: "/images/icon/bag.svg",
+        // },
+        // {
+        //   id: 3,
+        //   title: t('header.menu-crm'),
+        //   newTab: false,
+        //   path: "/crm",
+        //   icon: "/images/icon/bag.svg",
+        // },
+      ],
+    },  
     // {
     //   id: 4,
     //   title: "Skool",
@@ -86,13 +136,13 @@ const getTranslatedMenuData = () => {
     //   path: "https://www.skool.com/ainsider-6149/about?ref=d207b2af5b914ff09daac8af70f1162c",
     //   icon: "/images/icon/bag.svg",
     // }, 
-    {
-      id: 4.5,
-      title: "Portfolio",
-      newTab: false,
-      path: "/portfolio",
-      icon: "/images/icon/bag.svg",
-    }, 
+    // {
+    //   id: 4.5,
+    //   title: "Portfolio",
+    //   newTab: false,
+    //   path: "/portfolio",
+    //   icon: "/images/icon/bag.svg",
+    // }, 
       {
       id: 4.6,
       title: "Substack",

@@ -25,6 +25,7 @@ import AgentPricing from "@/components/Ai/AgentPricing";
 import CTAToAinsider from "@/components/CTAToAinsider";
 import BotpressEmbed from "@/components/BotpressEmbed";
 import BotpressSection from "@/components/BotpressSection";
+import AinsiderStore from "@/components/AinsiderStore";
 
 import { Metadata } from "next";
 
@@ -37,22 +38,22 @@ export const metadata: Metadata = {
 const ServicesPage = async () => {
   return (
     <>
-    <ServicesHero />  
-    <AutomationFeature/>
-    <AutomationAbout/>
-
+      <ServicesHero />
+      <AutomationFeature />
+      <AutomationAbout />
+      <AinsiderStore />
       {/* <div style={{minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 24}}>
       </div> */}
-    <Motion/>
-    {/* <AgentPricing/>       */}
-    <FeaturesTab />
-    {/* <AiAboutTwo/>  */}
-    {/* <AiAboutOne/>   */}
-{/* <AiFeaturesTab/>    */}
+      <Motion />
+      {/* <AgentPricing/>       */}
+      <FeaturesTab />
+      {/* <AiAboutTwo/>  */}
+      {/* <AiAboutOne/>   */}
+      {/* <AiFeaturesTab/>    */}
       {/* <CTA/> */}
-      <CTAToAinsider/>
-    <Contact/>
-     <Brands/>
+      <CTAToAinsider />
+      <Contact />
+      <Brands />
     </>
   );
 };

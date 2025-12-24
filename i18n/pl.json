@@ -1305,7 +1305,13 @@
     "5Title": "CRM & CMS",
     "5Description": "Dedykowane rozwiązania CRM do automatyzacji, optymalizacji i zarządzania wszystkimi procesami biznesowymi, zapewniające kompleksowy i efektywny sposób zarządzania firmą oraz relacjami z klientami.",
     "6Title": "SEO & Marketing",
-    "6Description": "Zwiększ widoczność, zdobywaj więcej leadów i klientów dzięki kompleksowym usługom SEO i marketingowym."
+    "6Description": "Zwiększ widoczność, zdobywaj więcej leadów i klientów dzięki kompleksowym usługom SEO i marketingowym.",
+    "7Title": "Dedykowane Aplikacje",
+    "7Description": "Projektowanie i budowa zaawansowanych aplikacji internetowych dostosowanych do unikalnych potrzeb Twojej firmy.",
+    "8Title": "Aplikacje AI",
+    "8Description": "Wdrażanie inteligentnych rozwiązań opartych na sztucznej inteligencji, które automatyzują zadania i dostarczają nowych wartości.",
+    "9Title": "Integracje i Automatyzacja",
+    "9Description": "Łączenie stron www z systemami AI oraz automatyzacja procesów biznesowych dla zwiększenia wydajności i oszczędności czasu."
   },
   "crm": {
     "header": "Wdrożenia systemów CRM i zarządzania",
@@ -2054,6 +2060,7 @@
     "menu1": "Home",
     "menu2": "Portfolio",
     "menu-solutions": "Rozwiązania",
+    "menu-products": "Produkty",
     "menu-resources": "Zasoby",
     "menu-store": "Sklep",
     "menu-crm": "Systemy CRM",
@@ -2075,7 +2082,7 @@
     "menutools": "https://tools.ainsider.pl",
     "menubeehiiv": "https://ainsider.pl",
     "pricing": "Wycena",
-    "menuServices": "Web & Ecommerce",
+    "menuServices": "Web & Apps",
     "menuAutomations": "Automatyzacje",
     "agents": "Agenci AI",
     "personal-assistant": "Personalny Asystent AI",

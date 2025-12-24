@@ -49,19 +49,19 @@ export default function Home() {
   return (
     <main>
       <AiwareHeroTwo />
-      <AinsiderStore />
       <div id="services">
         <Feature />
-      </div> 
-      <VibeCodingSection />
-      <Motion /> 
+      </div>
+      <AinsiderStore />
+      <Motion />
       <FeaturesTabMarketing />
       {/* <MainAbout/> */}
       <ServiceTimeline />
       {/* <WooProductGrid/> */}
+      <VibeCodingSection />
       <CTA />
       {/* <SenjaWidget/>   */}
-      <Brands />
+      {/* <Brands /> */}
       <Contact />
       < Socials />
     </main>

@@ -4,49 +4,67 @@ import { useTranslation } from 'react-i18next';
 const getTranslatedFeatures = () => {
   const { t } = useTranslation();
 
-  const featuresData: Feature[] = [   
+  const featuresData: Feature[] = [
     {
       id: 1,
       icon: "/images/icon/undraw_innovative.svg",
       title: t('webfeatures.1Title'),
       description: t('webfeatures.1Description'),
-    }, 
+    },
     {
       id: 2,
       icon: "/images/icon/undraw_active.svg",
       title: t('webfeatures.2Title'),
       description: t('webfeatures.2Description'),
-     },   
-     {
+    },
+    {
       id: 3,
       icon: "/images/icon/undraw_ecom.svg",
       title: t('webfeatures.3Title'),
       description: t('webfeatures.3Description'),
-    }, 
+    },
     {
       id: 4,
       icon: "/images/icon/undraw_website_builder.svg",
       title: t('webfeatures.4Title'),
       description: t('webfeatures.4Description'),
-     },     
+    },
     {
       id: 4,
       icon: "/images/icon/undraw_social.svg",
       title: t('webfeatures.5Title'),
       description: t('webfeatures.5Description'),
-    }, 
-    
-       
-     {
+    },
+
+
+    {
       id: 6,
       icon: "/images/icon/undraw_product_iteration.svg",
       title: t('webfeatures.6Title'),
       description: t('webfeatures.6Description'),
-    }, 
-  
-   
- 
-   
+    },
+    {
+      id: 7,
+      icon: "/images/icon/undraw_online-community.svg",
+      title: t('webfeatures.7Title'),
+      description: t('webfeatures.7Description'),
+    },
+    {
+      id: 8,
+      icon: "/images/icon/undraw_chat-withai.svg",
+      title: t('webfeatures.8Title'),
+      description: t('webfeatures.8Description'),
+    },
+    {
+      id: 9,
+      icon: "/images/icon/undraw_chat-bot.svg",
+      title: t('webfeatures.9Title'),
+      description: t('webfeatures.9Description'),
+    },
+
+
+
+
   ];
 
   return featuresData;
@@ -70,7 +88,7 @@ export default getTranslatedFeatures;
 //     title: "Business Websites",
 //     description:
 //     "Created for selling and promoting and always modern and tailored websites - always created to achieve your goals",
-//     },    
+//     },
 //     {
 //     id: 3,
 //     icon: "/images/icon/icon-05.svg",
@@ -84,7 +102,7 @@ export default getTranslatedFeatures;
 //     title: "Custom Internet Platforms",
 //     description:
 //     "Tailored to your e-commerce business for improving user experiences, and grow your business.",
-//     },  
+//     },
 //     {
 //     id: 5,
 //     icon: "/images/icon/icon-04.svg",

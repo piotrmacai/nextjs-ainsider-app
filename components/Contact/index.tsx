@@ -105,7 +105,7 @@ const Contact = () => {
               whileInView="visible"
               transition={{ duration: 2, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_top w-full md:w-2/5 lg:w-[26%] md:p-7.5 xl:pt-15"
+              className="animate_top w-full md:w-2/5 lg:w-[26%] md:p-4 xl:pt-15"
             >
               <h2 className="text-black dark:text-white text-3xl xl:text-sectiontitle2 font-semibold mb-12.5">
                 {t('contact.header2')}

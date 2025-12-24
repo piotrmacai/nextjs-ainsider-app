@@ -24,6 +24,7 @@ import WebAbout from "@/components/About/WebAbout";
 import SenjaWidget from "@/components/SenjaWidget";
 import Motion from "@/components/Motion/MotionWeb";
 import WebPricing from "@/components/Web/WebPricing";
+import VibeCodingSection from "@/components/VibeCodingSection";
 
 export const metadata: Metadata = {
   title: "Ainsider.co Portfolio",
@@ -34,15 +35,16 @@ export const metadata: Metadata = {
 const ServicesPage = async () => {
   return (
     <>
-    <WebHero/>
-    <WebFeature/>
-    <Motion/>
-    <WebAbout/>
-    <WebFeaturesTab/>
-    <WebPricing/>
-    <SenjaWidget/>  
-    <Contact/>
-       <Brands/>
+      <WebHero />
+      <WebFeature />
+      <Motion />
+      <VibeCodingSection />
+      <WebAbout />
+      <WebFeaturesTab />
+      {/* <WebPricing/> */}
+      <SenjaWidget />
+      <Brands />
+      <Contact />
     </>
   );
 };

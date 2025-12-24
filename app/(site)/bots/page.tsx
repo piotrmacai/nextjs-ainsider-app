@@ -4,7 +4,7 @@ import GenAiArtworks from "@/components/Portfolio/GenAiPortfolio/GenAiArtworks";
 import GenAiAbout from "@/components/Portfolio/GenAiPortfolio/GenAiAbout";
 import Brands from "@/components/Brands";
 import Contact from "@/components/Contact";
-
+import AinsiderStore from "@/components/AinsiderStore";
 import AiHero from "@/components/Ai/AiHero";
 import AiAboutOne from "@/components/Ai/AboutOne";
 import AiAboutTwo from "@/components/Ai/AboutTwo";
@@ -35,19 +35,20 @@ export const metadata: Metadata = {
 const ServicesPage = async () => {
   return (
     <>
-    <AiHero />   
-    <AiFeature/>   
-    <AiAbout/>
-    <Motion/>
-    {/* <AiAboutOne/>         */}
-    {/* <AiAboutTwo/>       */}
-    {/* <CTAToPortfolio/>  */}
-    {/* <AgentPricing/>    */}
-    <FeaturesTab />    
-    <CTA/>   
-    {/* <AiFeaturesTab/>    */}
-    <Contact/>
-    <Brands/>   
+      <AiHero />
+      <AiFeature />
+      <AiAbout />
+      <AinsiderStore />
+      <Motion />
+      {/* <AiAboutOne/>         */}
+      {/* <AiAboutTwo/>       */}
+      {/* <CTAToPortfolio/>  */}
+      {/* <AgentPricing/>    */}
+      <FeaturesTab />
+      <CTA />
+      {/* <AiFeaturesTab/>    */}
+      <Contact />
+      <Brands />
     </>
   );
 };
