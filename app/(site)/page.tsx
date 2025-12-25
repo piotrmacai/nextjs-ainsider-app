@@ -54,7 +54,7 @@ export default function Home() {
       </div>
       <AinsiderStore />
       <Motion />
-      <FeaturesTabMarketing />
+      {/* <FeaturesTabMarketing /> */}
       {/* <MainAbout/> */}
       <ServiceTimeline />
       {/* <WooProductGrid/> */}

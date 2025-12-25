@@ -26,6 +26,93 @@
     "button": "Wyślij",
     "link": "https://ainsider.notion.site/26eb65ddefcf80c694e9fab2ca8d98ee?pvs=105"
   },
+  "about-page": {
+    "title": "O Ainsider",
+    "description": {
+      "p1": "Ainsider to studio automatyzacji AI i nowoczesnego web developmentu, założone i prowadzone przez Piotra Macai. Specjalizujemy się w tworzeniu dedykowanych agentów AI, inteligentnych automatyzacji oraz skalowalnych rozwiązań webowych dopasowanych do realnych potrzeb biznesowych.",
+      "p2": "Ainsider działa na styku sztucznej inteligencji, inżynierii oprogramowania i user experience — łącząc przemyślaną architekturę, skalowalne systemy oraz praktyczne wdrożenia AI gotowe do użycia w biznesie.",
+      "p3": "W ramach Ainsider Piotr dzieli się wiedzą z zakresu AI, automatyzacji i nowoczesnego web developmentu na platformie X, w newsletterach oraz mediach społecznościowych, koncentrując się na realnych zastosowaniach i mierzalnym wpływie na wyniki biznesowe."
+    },
+    "projects": {
+      "title": "Ekosystem Ainsider",
+      "visit": "Odwiedź",
+      "items": {
+        "ainsider": {
+          "title": "Ainsider.co",
+          "description": "Studio automatyzacji AI i web developmentu dostarczające dedykowane agenty AI, workflowy oraz skalowalne rozwiązania software’owe.",
+          "url": "https://ainsider.co"
+        },
+        "store": {
+          "title": "Ainsider.store",
+          "description": "Starannie wyselekcjonowany katalog narzędzi AI, agentów, modeli i pluginów wraz z praktycznymi analizami i przykładami zastosowań.",
+          "url": "https://ainsider.store"
+        },
+        "github": {
+          "title": "GitHub",
+          "description": "Otwarte projekty: agenty AI, automatyzacje oraz gotowe do użycia aplikacje webowe.",
+          "url": "https://github.com/piotrmacai"
+        },
+        "twitter": {
+          "title": "X / Twitter",
+          "description": "Przemyślenia i eksperymenty z zakresu automatyzacji AI, systemów agentowych oraz praktycznych case studies.",
+          "url": "https://x.com/piotrmacai"
+        },
+        "newsletter": {
+          "title": "AI Newsletter",
+          "description": "Dwutygodniowy newsletter o automatyzacji AI, agentach i praktycznych zastosowaniach sztucznej inteligencji. Bez spamu, same konkrety.",
+          "url": "https://ainsiderai.substack.com"
+        },
+        "art": {
+          "title": "Eksperymenty wizualne AI",
+          "description": "Eksploracja grafiki i wideo generowanych przez AI z wykorzystaniem nowoczesnych narzędzi generatywnych.",
+          "url": "https://www.instagram.com/piotr.macai"
+        }
+      }
+    },
+    "skills": {
+      "title": "Kluczowe kompetencje",
+      "design": {
+        "title": "Design i UX",
+        "items": [
+          "Prototypowanie w Figma oraz systemy designowe",
+          "Adobe Creative Suite (Photoshop, Illustrator)",
+          "Grafika 3D (Three.js) oraz animacje (GSAP, Framer Motion)",
+          "Badania UX i testy z użytkownikami"
+        ],
+        "cta": "Zobacz projekty na"
+      },
+      "frontend": {
+        "title": "Frontend Development",
+        "items": [
+          "React.js, Next.js, Vue.js (TypeScript)",
+          "Nowoczesny CSS (Tailwind, SASS)",
+          "Narzędzia buildowe: Vite, Webpack",
+          "Optymalizacja wydajności i UX"
+        ]
+      },
+      "ai": {
+        "title": "AI i automatyzacje",
+        "items": [
+          "Modele językowe i prompt engineering",
+          "Agenci AI (LangChain, Flowise, Botpress)",
+          "Automatyzacje procesów (n8n, Make, Zapier)",
+          "AI-assisted development (Cursor, Replit)"
+        ]
+      },
+      "backend": {
+        "title": "Backend i DevOps",
+        "items": [
+          "Node.js, Express, REST / GraphQL",
+          "Bazy danych: PostgreSQL, MongoDB",
+          "Praca zespołowa: Git, GitHub, Docker",
+          "SEO i analityka (Google Analytics, Search Console)"
+        ]
+      },
+      "connect": {
+        "label": "Połącz się ze mną:"
+      }
+    }
+  },
   "archidesigner": {
     "navigation": {
       "overview": "Przegląd",
@@ -2079,7 +2166,8 @@
     "menu14": "Biblioteka Narzędzi AI",
     "menuapps": "Nasze Aplikacje AI",
     "menu15": "Web & Automatyzacje",
-    "menutools": "https://tools.ainsider.pl",
+    "menutools": "https://ainsider.store",
+    "menublog": "https://newsletter.ainsider.co",
     "menubeehiiv": "https://ainsider.pl",
     "pricing": "Wycena",
     "menuServices": "Web & Apps",

@@ -21,6 +21,93 @@
       }
     }
   },
+  "about-page": {
+    "title": "O Ainsider",
+    "description": {
+      "p1": "Ainsider to studio AI automation i web developmentu założone i prowadzone przez Piotra Macai. Specjalizuje się w tworzeniu dedykowanych agentów AI, inteligentnych automatyzacji oraz nowoczesnych rozwiązań webowych dopasowanych do realnych potrzeb biznesowych.",
+      "p2": "Ainsider działa na styku sztucznej inteligencji, inżynierii oprogramowania i user experience — łącząc czystą architekturę, skalowalne systemy oraz praktyczne wdrożenia AI.",
+      "p3": "W ramach Ainsider Piotr dzieli się wiedzą z zakresu AI, automatyzacji i nowoczesnego web developmentu na platformie X, w newsletterach oraz mediach społecznościowych, koncentrując się na realnych zastosowaniach i mierzalnym wpływie na biznes."
+    },
+    "projects": {
+      "title": "Ekosystem Ainsider",
+      "visit": "Odwiedź",
+      "items": {
+        "ainsider": {
+          "title": "Ainsider.co",
+          "description": "Studio AI automation i web developmentu dostarczające dedykowane agentów AI, workflowy oraz skalowalne rozwiązania software’owe.",
+          "url": "https://ainsider.co"
+        },
+        "store": {
+          "title": "Ainsider.store",
+          "description": "Starannie dobrany katalog narzędzi AI, agentów, modeli i pluginów wraz z praktycznymi analizami i przykładami użycia.",
+          "url": "https://ainsider.store"
+        },
+        "github": {
+          "title": "GitHub",
+          "description": "Open-source’owe agenty AI, workflowy automatyzacji oraz produkcyjne aplikacje webowe.",
+          "url": "https://github.com/piotrmacai"
+        },
+        "twitter": {
+          "title": "X / Twitter",
+          "description": "Przemyślenia na temat automatyzacji AI, systemów agentowych, case studies i eksperymentów.",
+          "url": "https://x.com/piotrmacai"
+        },
+        "newsletter": {
+          "title": "AI Newsletter",
+          "description": "Dwutygodniowy newsletter o automatyzacji AI, agentach i praktycznych zastosowaniach sztucznej inteligencji. Bez spamu.",
+          "url": "https://ainsiderai.substack.com"
+        },
+        "art": {
+          "title": "Eksperymenty wizualne AI",
+          "description": "Eksploracja wizualizacji i wideo generowanych przez AI z wykorzystaniem nowoczesnych narzędzi generatywnych.",
+          "url": "https://www.instagram.com/piotr.macai"
+        }
+      }
+    },
+    "skills": {
+      "title": "Kluczowe kompetencje",
+      "design": {
+        "title": "Design i UX",
+        "items": [
+          "Prototypowanie w Figma i systemy designowe",
+          "Adobe Creative Suite (Photoshop, Illustrator)",
+          "3D (Three.js), animacje (GSAP, Framer Motion)",
+          "Badania UX i testy z użytkownikami"
+        ],
+        "cta": "Zobacz projekty na"
+      },
+      "frontend": {
+        "title": "Frontend Development",
+        "items": [
+          "React.js, Next.js, Vue.js (TypeScript)",
+          "Nowoczesny CSS (Tailwind, SASS)",
+          "Narzędzia buildowe: Vite, Webpack",
+          "Optymalizacja wydajności"
+        ]
+      },
+      "ai": {
+        "title": "AI i automatyzacje",
+        "items": [
+          "Modele językowe i prompt engineering",
+          "Agenci AI (LangChain, Flowise, Botpress)",
+          "Automatyzacje workflow (n8n, Make, Zapier)",
+          "AI-assisted development (Cursor, Replit)"
+        ]
+      },
+      "backend": {
+        "title": "Backend i DevOps",
+        "items": [
+          "Node.js, Express, REST / GraphQL",
+          "Bazy danych: PostgreSQL, MongoDB",
+          "Git, GitHub, Docker",
+          "SEO i analityka (GA, Search Console)"
+        ]
+      },
+      "connect": {
+        "label": "Połącz się ze mną:"
+      }
+    }
+  },
   "archidesigner": {
     "navigation": {
       "overview": "Overview",
@@ -2049,6 +2136,7 @@
     "menu-products": "Products",
     "menu-resources": "Resources",
     "menu-store": "Store",
+    "menublog": "https://ainsiderai.substack.com",
     "menu-crm": "CRM Systems",
     "menu3": "AI & Automation",
     "menu4": "Contact",
