@@ -139,99 +139,99 @@
   "portfolioData": {
     "project_1": {
       "title": "Machtrans.pl",
-      "metadata": "Top SEO and ultra-fast Website in React.js for Transport Company"
+      "metadata": "Strona z top SEO i ultraszybka w React.js dla firmy transportowej"
     },
     "project_2": {
       "title": "Pgr-elektroteam.pl",
-      "metadata": "Website for smart home company"
+      "metadata": "Strona internetowa dla firmy smart home"
     },
     "project_3": {
       "title": "Volton-install.pl",
-      "metadata": "Business website for electrical services and smart home"
+      "metadata": "Strona biznesowa dla usług elektrycznych i inteligentnego domu"
     },
     "project_4": {
       "title": "K-licious.pl",
-      "metadata": "Website and Ecom for Creative Company"
+      "metadata": "Strona i sklep internetowy dla firmy kreatywnej"
     },
     "project_5": {
       "title": "Skinproject.pl",
-      "metadata": "Website for Aesthetic Medicine Office"
+      "metadata": "Strona internetowa dla gabinetu medycyny estetycznej"
     },
     "project_6": {
       "title": "Slovlystudio.pl",
-      "metadata": "Online store for handmade clothing brand"
+      "metadata": "Sklep internetowy dla marki odzieży ręcznie robionej"
     },
     "project_7": {
       "title": "Bakaliowelove.pl",
-      "metadata": "Woocommerce Store with healthy food"
+      "metadata": "Sklep WooCommerce ze zdrową żywnością"
     },
     "project_8": {
       "title": "paintball-osada.pl",
-      "metadata": "Business website for Entertainment Park and Paintball"
+      "metadata": "Strona biznesowa dla parku rozrywki i paintballa"
     },
     "project_9": {
       "title": "smpolaniec.com.pl",
-      "metadata": "Website for housing cooperative"
+      "metadata": "Strona internetowa dla spółdzielni mieszkaniowej"
     },
     "project_10": {
       "title": "Cora-goralczyk.pl",
-      "metadata": "Website for automotive mechanic workshop"
+      "metadata": "Strona internetowa dla warsztatu mechaniki samochodowej"
     },
     "project_11": {
       "title": "bodymedica.pl",
-      "metadata": "Business website for Physiotherapy Office"
+      "metadata": "Strona biznesowa dla gabinetu fizjoterapii"
     },
     "project_12": {
       "title": "Lanelyya.de",
-      "metadata": "Shop in multiple languages on Shopify for German market"
+      "metadata": "Sklep wielojęzyczny na Shopify dla rynku niemieckiego"
     },
     "project_13": {
       "title": "Gemini AI Chatbot App",
-      "metadata": "with Gemini models and n8n workflows"
+      "metadata": "z modelami Gemini i przepływami n8n"
     },
     "project_14": {
       "title": "AI Chatbot App with Vercel AI SDK",
-      "metadata": "Perfect as starter for own AI Apps. Built in Next.js with Vercel AI Gateway."
+      "metadata": "Idealny jako baza dla własnych aplikacji AI. Zbudowany w Next.js z Vercel AI Gateway."
     },
     "project_15": {
       "title": "AI Assistant for Macai.studio",
-      "metadata": "Ai Assistant for Macai.studio"
+      "metadata": "Asystent AI dla Macai.studio"
     },
     "project_16": {
       "title": "AI Assistant for Ecommerce",
-      "metadata": "Ai Assistant for Akcesoriadouprawy.pl"
+      "metadata": "Asystent AI dla Akcesoriadouprawy.pl"
     },
     "project_17": {
       "title": "Huggingface Assistants",
-      "metadata": "Custom various AI Assistants"
+      "metadata": "Różnorodne niestandardowe asystenci AI"
     },
     "project_18": {
       "title": "LibreChat",
-      "metadata": "Custom LLM User Interface"
+      "metadata": "Niestandardowy interfejs użytkownika LLM"
     },
     "project_19": {
       "title": "AI Agent for Lead Generation",
-      "metadata": "Advanced personalized AI Agent for Ecommerce with Products Recommendation build in Voiceflow"
+      "metadata": "Zaawansowany spersonalizowany agent AI dla e-commerce z rekomendacją produktów zbudowany w Voiceflow"
     },
     "project_20": {
       "title": "Voice Agent App",
-      "metadata": "Using Elevenlabs Voice Agent, built with Vercel AI Gateway. Perfect as starter for own Voice Agents or Apps"
+      "metadata": "Wykorzystujący Elevenlabs Voice Agent, zbudowany z Vercel AI Gateway. Idealny jako baza dla własnych agentów głosowych lub aplikacji"
     },
     "project_21": {
       "title": "Customer Support AI Assistant",
-      "metadata": "Voice & Text AI Assistant for customer support and onboardings for Driving School customers"
+      "metadata": "Głosowy i tekstowy asystent AI dla wsparcia klienta i onboardingu klientów szkoły jazdy"
     },
     "project_22": {
       "title": "Voice AI Assistants",
-      "metadata": "Voice AI Assistant build with ElevenLabs Voice Engine"
+      "metadata": "Głosowy asystent AI zbudowany z ElevenLabs Voice Engine"
     },
     "project_23": {
       "title": "Gemini AI Chatbot App",
-      "metadata": "with Gemini models and n8n workflows"
+      "metadata": "z modelami Gemini i przepływami n8n"
     },
     "project_24": {
       "title": "AI Chatbot App with Vercel AI SDK",
-      "metadata": "Perfect as starter for own AI Apps. Built in Next.js with Vercel AI Gateway."
+      "metadata": "Idealny jako baza dla własnych aplikacji AI. Zbudowany w Next.js z Vercel AI Gateway."
     }
   },
   "notionform": {

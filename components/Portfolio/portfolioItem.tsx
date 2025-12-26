@@ -6,9 +6,11 @@ import Image from "next/image";
 import { Portfolio } from "@/types/portfolio";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
 
 const PortfolioItem = ({ portfolio }: { portfolio: Portfolio }) => {
-  const { mainImage, title, metadata, urlLink, tags } = portfolio;
+  const { t } = useTranslation();
+  const { mainImage, title, metadata = "", urlLink, tags } = portfolio;
 
   return (
     <motion.div
@@ -34,7 +36,7 @@ const PortfolioItem = ({ portfolio }: { portfolio: Portfolio }) => {
           <Link href={urlLink} className="block relative aspect-[16/9] w-full" target="_blank" rel="noopener noreferrer">
             <Image
               src={mainImage}
-              alt={title}
+              alt={t(title)}
               fill
               className="rounded-lg object-cover transition-transform duration-300 hover:scale-105"
               style={{ objectPosition: 'center' }}
@@ -48,12 +50,12 @@ const PortfolioItem = ({ portfolio }: { portfolio: Portfolio }) => {
         <div className="w-full lg:w-1/2 lg:pl-4">
           <h3 className="font-semibold text-2xl lg:text-3xl text-black dark:text-white mb-4 hover:text-primary dark:hover:text-primary transition-colors duration-300">
             <Link href={urlLink} target="_blank" rel="noopener noreferrer" className="hover:underline">
-              {title}
+              {t(title)}
             </Link>
           </h3>
 
           <p className="text-gray-700 dark:text-gray-300 mb-6 text-lg">
-            {metadata}
+            {t(metadata)}
           </p>
 
           {/* Tags display */}
@@ -72,7 +74,7 @@ const PortfolioItem = ({ portfolio }: { portfolio: Portfolio }) => {
             href={urlLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center text-primary dark:text-blue-400 md:mt-14 mt-2 font-medium text-lg hover:underline group"
+            className="inline-flex items-center text-white dark:text-white md:mt-14 mt-2 font-medium text-lg hover:underline group"
           >
             View Project
             <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300">→</span>
