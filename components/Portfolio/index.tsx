@@ -1,7 +1,5 @@
 'use client'
 
-'use client'
-
 import React, { useState, useEffect } from "react";
 import PortfolioItem from "./portfolioItem";
 import PortfolioData from "./portfolioData";

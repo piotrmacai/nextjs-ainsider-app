@@ -44,48 +44,48 @@ const Pricing = () => {
                  {" "} PLN 999
               </h3> */}
               <h4 className="text-black dark:text-white font-medium text-para2 mb-2.5">
-              {t('pricing.marketing.header')}
+                {t('pricing.marketing.header')}
               </h4>
               <p>  {t('pricing.marketing.desc')}</p>
 
-<div className="border-t border-stroke dark:border-strokedark mt-9 pt-9 pb-12.5">
-  <ul>
-    <li className="text-black dark:text-manatee mb-4 last:mb-0">
-    {t('pricing.marketing.item1')}
-    </li>
-    <li className="text-black dark:text-manatee mb-4 last:mb-0">
-    {t('pricing.marketing.item2')}
-    </li>
-    <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
-    {t('pricing.marketing.item3')}
-    </li>
-    <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
-    {t('pricing.marketing.item4')}
-    </li>
-  </ul>
-</div>
+              <div className="border-t border-stroke dark:border-strokedark mt-9 pt-9 pb-12.5">
+                <ul>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    {t('pricing.marketing.item1')}
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    {t('pricing.marketing.item2')}
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                    {t('pricing.marketing.item3')}
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                    {t('pricing.marketing.item4')}
+                  </li>
+                </ul>
+              </div>
 
 
               <a
-                  href="/contact"
-                >
-              <button
-                aria-label="purchase this plan"
-                className="inline-flex items-center gap-2.5 text-primary dark:text-white dark:hover:text-primary font-medium transition-all duration-300"
+                href="/contact"
               >
-                <span className="hover:pr-2 duration-500">{t('pricing.marketing.more')}</span>
-                <svg
-                  width="14"
-                  height="14"
-                  viewBox="0 0 14 14"
-                  xmlns="http://www.w3.org/2000/svg"
+                <button
+                  aria-label="purchase this plan"
+                  className="inline-flex items-center gap-2.5 text-primary dark:text-white dark:hover:text-primary font-medium transition-all duration-300"
                 >
-                  <path
-                    d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z"
-                    fill="currentColor"
-                  />
-                </svg>
-              </button>
+                  <span className="hover:pr-2 duration-500">{t('pricing.marketing.more')}</span>
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
               </a>
             </div>
 
@@ -101,48 +101,48 @@ const Pricing = () => {
                 </span> 
                 {" "} PLN 999
               </h3> */}
-          <h4 className="text-black dark:text-white font-medium text-para2 mb-2.5">
-          {t('pricing.web.header')}
-</h4>
-<p>{t('pricing.web.desc')}</p>
+              <h4 className="text-black dark:text-white font-medium text-para2 mb-2.5">
+                {t('pricing.web.header')}
+              </h4>
+              <p>{t('pricing.web.desc')}</p>
 
-<div className="border-t border-stroke dark:border-strokedark mt-9 pt-9 pb-12.5">
-  <ul>
-    <li className="text-black dark:text-manatee mb-4 last:mb-0">
-    {t('pricing.web.item1')}
-    </li>
-    <li className="text-black dark:text-manatee mb-4 last:mb-0">
-    {t('pricing.web.item2')}
-    </li>
-    <li className="text-black dark:text-manatee mb-4 last:mb-0">
-    {t('pricing.web.item3')}
-    </li>
-    <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
-    {t('pricing.web.item4')}
-    </li>
-  </ul>
-</div>
+              <div className="border-t border-stroke dark:border-strokedark mt-9 pt-9 pb-12.5">
+                <ul>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    {t('pricing.web.item1')}
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    {t('pricing.web.item2')}
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    {t('pricing.web.item3')}
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
+                    {t('pricing.web.item4')}
+                  </li>
+                </ul>
+              </div>
 
               <a
-                  href="/contact"
-                >
-              <button
-                aria-label="purchase this plan"
-                className="inline-flex items-center gap-2.5 text-primary dark:text-white dark:hover:text-primary font-medium transition-all duration-300"
+                href="/contact"
               >
-                <span className="hover:pr-2 duration-500">{t('pricing.web.more')}</span>
-                <svg
-                  width="14"
-                  height="14"
-                  viewBox="0 0 14 14"
-                  xmlns="http://www.w3.org/2000/svg"
+                <button
+                  aria-label="purchase this plan"
+                  className="inline-flex items-center gap-2.5 text-primary dark:text-white dark:hover:text-primary font-medium transition-all duration-300"
                 >
-                  <path
-                    d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z"
-                    fill="currentColor"
-                  />
-                </svg>
-              </button>
+                  <span className="hover:pr-2 duration-500">{t('pricing.web.more')}</span>
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
               </a>
             </div>
 
@@ -154,46 +154,46 @@ const Pricing = () => {
                 </span>
                 {" "} PLN 999
               </h3> */}
-           <h4 className="text-black dark:text-white font-medium text-para2 mb-2.5">
-           {t('pricing.ai.header')}
-</h4>
-<p>{t('pricing.ai.desc')}</p>
+              <h4 className="text-black dark:text-white font-medium text-para2 mb-2.5">
+                {t('pricing.ai.header')}
+              </h4>
+              <p>{t('pricing.ai.desc')}</p>
 
-<div className="border-t border-stroke dark:border-strokedark mt-9 pt-9 pb-12.5">
-  <ul>
-    <li className="text-black dark:text-manatee mb-4 last:mb-0">
-    {t('pricing.ai.item1')}
-    </li>
-    <li className="text-black dark:text-manatee mb-4 last:mb-0">
-    {t('pricing.ai.item2')}
-    </li>
-    <li className="text-black dark:text-manatee mb-4 last:mb-0">
-    {t('pricing.ai.item3')}
-    </li>
-    <li className="text-black dark:text-manatee mb-4 last:mb-0">
-    {t('pricing.ai.item4')}
-    </li>
-  </ul>
-</div>
+              <div className="border-t border-stroke dark:border-strokedark mt-9 pt-9 pb-12.5">
+                <ul>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    {t('pricing.ai.item1')}
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    {t('pricing.ai.item2')}
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    {t('pricing.ai.item3')}
+                  </li>
+                  <li className="text-black dark:text-manatee mb-4 last:mb-0">
+                    {t('pricing.ai.item4')}
+                  </li>
+                </ul>
+              </div>
 
               <a href="/contact">
-              <button
-                aria-label="purchase this plan"
-                className="inline-flex items-center gap-2.5 text-primary dark:text-white dark:hover:text-primary font-medium transition-all duration-300"
-              >
-                <span className="hover:pr-2 duration-500"> {t('pricing.ai.more')}</span>
-                <svg
-                  width="14"
-                  height="14"
-                  viewBox="0 0 14 14"
-                  xmlns="http://www.w3.org/2000/svg"
+                <button
+                  aria-label="purchase this plan"
+                  className="inline-flex items-center gap-2.5 text-primary dark:text-white dark:hover:text-primary font-medium transition-all duration-300"
                 >
-                  <path
-                    d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z"
-                    fill="currentColor"
-                  />
-                </svg>
-              </button>
+                  <span className="hover:pr-2 duration-500"> {t('pricing.ai.more')}</span>
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
               </a>
             </div>
           </div>

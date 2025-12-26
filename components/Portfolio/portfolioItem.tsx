@@ -1,3 +1,5 @@
+
+
 "use client";
 
 import Image from "next/image";
@@ -30,10 +32,10 @@ const PortfolioItem = ({ portfolio }: { portfolio: Portfolio }) => {
         {/* Image - Left side - 50% width on large screens */}
         <div className="w-full lg:w-1/2 relative">
           <Link href={urlLink} className="block relative aspect-[16/9] w-full" target="_blank" rel="noopener noreferrer">
-            <Image 
-              src={mainImage} 
-              alt={title} 
-              fill 
+            <Image
+              src={mainImage}
+              alt={title}
+              fill
               className="rounded-lg object-cover transition-transform duration-300 hover:scale-105"
               style={{ objectPosition: 'center' }}
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -49,11 +51,11 @@ const PortfolioItem = ({ portfolio }: { portfolio: Portfolio }) => {
               {title}
             </Link>
           </h3>
-          
+
           <p className="text-gray-700 dark:text-gray-300 mb-6 text-lg">
             {metadata}
           </p>
-          
+
           {/* Tags display */}
           {/* <div className="flex flex-wrap gap-2 mb-6">
             {tags.map((tag, index) => (
@@ -66,10 +68,10 @@ const PortfolioItem = ({ portfolio }: { portfolio: Portfolio }) => {
             ))}
           </div>
            */}
-          <Link 
-            href={urlLink} 
-            target="_blank" 
-            rel="noopener noreferrer" 
+          <Link
+            href={urlLink}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center text-primary dark:text-blue-400 md:mt-14 mt-2 font-medium text-lg hover:underline group"
           >
             View Project
@@ -122,19 +124,19 @@ export default PortfolioItem;
 //               {title}
 //             </Link>
 //           </h4>
-          {/* <p className="text-sm">
+{/* <p className="text-sm">
             {metadata}
           </p> */}
 
-          {/* Display tags */}
-          {/* <div className="mt-2">
+{/* Display tags */ }
+{/* <div className="mt-2">
             {tags.map((tag, index) => (
               <span key={index} className="inline-block bg-gray-200 rounded-full px-3 py-2 text-sm font-semibold text-gray-700 mr-1 mb-1">
                 {tag}
               </span>
             ))}
           </div> */}
-        {/* </div>
+{/* </div>
       </motion.div>
     </>
   );

@@ -21,6 +21,221 @@
       }
     }
   },
+  "agentsPortfolioPage": {
+    "detailsTitle": "Project Details",
+    "techStack": "Tech Stack",
+    "models": "Models",
+    "apis": "APIs",
+    "category": "Category",
+    "categoryAgents": "Dedicated AI Agents & Chatbots",
+    "mainTitle": "Dedicated AI Agents & Chatbots",
+    "problemTitle": "Problem",
+    "problemText": "Specific business logic requires much more than generic chat tools.",
+    "solutionTitle": "Solution",
+    "solutionText": "Dedicated AI agents with internal knowledge, custom workflows, and API integrations.",
+    "effectTitle": "Effect",
+    "effectText": "Precise internal support, automatic decision-making, and streamlining complex processes.",
+    "descriptionP1": "AI agents are the next stage of automation evolution. Unlike simple chatbots, they can perform actions, make decisions based on complex data, and integrate with existing business tools.",
+    "descriptionP2": "The Gemini Chatbot App template shows how combining advanced Google Gemini language models with the n8n workflow automation platform allows for the creation of intelligent agents handling customer support, data analysis, and reporting.",
+    "otherProjectsTitle": "Other AI Agent Projects"
+  },
+  "aiappsPortfolioPage": {
+    "detailsTitle": "Project Details",
+    "linkLabel": "Link",
+    "typeLabel": "Type",
+    "categoryLabel": "Category",
+    "techStackLabel": "Tech Stack",
+    "typeValue": "Creative AI Application",
+    "categoryValue": "AI Applications & Automations",
+    "mainTitle": "Creative AI Applications",
+    "problemTitle": "Problem",
+    "problemText": "Specific business logic needs require more than generic tools.",
+    "solutionTitle": "Solution",
+    "solutionText": "Dedicated creative AI applications with internal knowledge and business logic.",
+    "effectTitle": "Effect",
+    "effectText": "Precise internal support and automatic decision-making.",
+    "descriptionP1": "Creative AI applications go beyond simple text generation. They combine the reasoning power of large language models with specific business logic and creative tools.",
+    "descriptionP2": "The Gemini Chatbot App provides a solid foundation for building such applications, using n8n workflows to handle complex logic and integrations, allowing AI to operate in the context of real business needs.",
+    "otherProjectsTitle": "Other Creative AI Applications"
+  },
+  "webappsPortfolioPage": {
+    "detailsTitle": "Project Details",
+    "techStack": "Tech Stack",
+    "platforms": "Platforms",
+    "integrations": "Integrations",
+    "category": "Category",
+    "mainTitle": "Web Apps & Custom Interfaces",
+    "problemTitle": "Problem",
+    "problemText": "Standard CMS platforms limit flexibility for complex, custom interfaces.",
+    "solutionTitle": "Solution",
+    "solutionText": "Modern React / Next.js applications, such as Open WebUI.",
+    "effectTitle": "Effect",
+    "effectText": "Efficient, scalable, and fully customized digital products.",
+    "descriptionP1": "When ready-made solutions are no longer enough, we create dedicated web applications tailored exactly to business needs. Using modern frameworks like React and Next.js, we build fast, scalable, and interactive user interfaces.",
+    "descriptionP2": "Integrations with Open WebUI show how to create consistent, custom frontend layers for complex backend systems, providing users with an intuitive environment to work with advanced AI models and automations.",
+    "otherProjectsTitle": "Other Application Projects"
+  },
+  "ecommercePortfolioPage": {
+    "detailsTitle": "Project Details",
+    "techStack": "Tech Stack",
+    "platforms": "Platforms",
+    "integrations": "Integrations",
+    "category": "Category",
+    "mainTitle": "E-commerce & AI Automations",
+    "problemTitle": "Problem",
+    "problemText": "Managing complex online stores and stock levels.",
+    "solutionTitle": "Solution",
+    "solutionText": "Shopify and WooCommerce stores integrated with AI automations.",
+    "effectTitle": "Effect",
+    "effectText": "Automated inventory management, product descriptions, and multi-language support.",
+    "descriptionP1": "Modern e-commerce is more than just a sales website. It requires intelligent systems that automate operational processes. For the After Rave project, we implemented an advanced Shopify solution enhanced with AI workflows handling inventory, product descriptions, and customer inquiries.",
+    "descriptionP2": "Our approach focuses on creating high-conversion stores that largely operate autonomously. By integrating tools like Make.com and dedicated AI agents, we combine classic e-commerce with the future of autonomous commerce.",
+    "otherProjectsTitle": "Other E-commerce Projects",
+    "noProjects": "No other e-commerce projects."
+  },
+  "webPortfolioPage": {
+    "detailsTitle": "Project Details",
+    "techStack": "Tech Stack",
+    "cmsBuilders": "CMS & Builders",
+    "features": "Features",
+    "category": "Category",
+    "mainTitle": "Intelligent Websites with CMS",
+    "problemTitle": "Problem",
+    "problemText": "Slow and unoptimized websites.",
+    "solutionTitle": "Solution",
+    "solutionText": "Ultra-fast SEO-ready website with AI integration.",
+    "effectTitle": "Effect",
+    "effectText": "Higher conversion and better Google rankings.",
+    "otherProjectsTitle": "Other Website Projects"
+  },
+  "chatbotsPage": {
+    "detailsTitle": "Project Details",
+    "techStack": "Tech Stack",
+    "models": "Models",
+    "apis": "APIs",
+    "category": "Category",
+    "mainTitle": "AI Customer Support Agents",
+    "problemTitle": "Problem",
+    "problemText": "Customer support overload.",
+    "solutionTitle": "Solution",
+    "solutionText": "24/7 AI chatbot with integrations.",
+    "effectTitle": "Effect",
+    "effectText": "Reduces response time and automates support.",
+    "otherProjectsTitle": "Other Chatbots & Assistants"
+  },
+  "voicebotsPage": {
+    "detailsTitle": "Project Details",
+    "techStack": "Tech Stack",
+    "models": "Models",
+    "apis": "APIs",
+    "category": "Category",
+    "mainTitle": "AI Voice Agents",
+    "problemTitle": "Problem",
+    "problemText": "Missed calls and inquiries.",
+    "solutionTitle": "Solution",
+    "solutionText": "Voice AI answering calls exactly like a human.",
+    "effectTitle": "Effect",
+    "effectText": "100% call answered rate and lead capture.",
+    "otherProjectsTitle": "Other Voice & Agent Projects"
+  },
+  "portfolioData": {
+    "project_1": {
+      "title": "Machtrans.pl",
+      "metadata": "Top SEO and ultra-fast website in React.js for a transport company"
+    },
+    "project_2": {
+      "title": "Pgr-elektroteam.pl",
+      "metadata": "Website for a smart home company"
+    },
+    "project_3": {
+      "title": "Volton-install.pl",
+      "metadata": "Business website for electrical services and smart home solutions"
+    },
+    "project_4": {
+      "title": "K-licious.pl",
+      "metadata": "Website and e-commerce for a creative company"
+    },
+    "project_5": {
+      "title": "Skinproject.pl",
+      "metadata": "Website for an aesthetic medicine clinic"
+    },
+    "project_6": {
+      "title": "Slovlystudio.pl",
+      "metadata": "Online store for a handmade clothing brand"
+    },
+    "project_7": {
+      "title": "Bakaliowelove.pl",
+      "metadata": "WooCommerce store with healthy food"
+    },
+    "project_8": {
+      "title": "paintball-osada.pl",
+      "metadata": "Business website for an entertainment park and paintball"
+    },
+    "project_9": {
+      "title": "smpolaniec.com.pl",
+      "metadata": "Website for a housing cooperative"
+    },
+    "project_10": {
+      "title": "Cora-goralczyk.pl",
+      "metadata": "Website for an automotive mechanic workshop"
+    },
+    "project_11": {
+      "title": "bodymedica.pl",
+      "metadata": "Business website for a physiotherapy clinic"
+    },
+    "project_12": {
+      "title": "Lanelyya.de",
+      "metadata": "Multilingual Shopify store for the German market"
+    },
+    "project_13": {
+      "title": "Gemini AI Chatbot App",
+      "metadata": "Built with Gemini models and n8n workflows"
+    },
+    "project_14": {
+      "title": "AI Chatbot App with Vercel AI SDK",
+      "metadata": "Perfect as a starter for your own AI apps. Built in Next.js with Vercel AI Gateway."
+    },
+    "project_15": {
+      "title": "AI Assistant for Macai.studio",
+      "metadata": "AI assistant for Macai.studio"
+    },
+    "project_16": {
+      "title": "AI Assistant for Ecommerce",
+      "metadata": "AI assistant for Akcesoriadouprawy.pl"
+    },
+    "project_17": {
+      "title": "Hugging Face Assistants",
+      "metadata": "Custom-built AI assistants"
+    },
+    "project_18": {
+      "title": "LibreChat",
+      "metadata": "Custom LLM user interface"
+    },
+    "project_19": {
+      "title": "AI Agent for Lead Generation",
+      "metadata": "Advanced, personalized AI agent for e-commerce with product recommendations built in Voiceflow"
+    },
+    "project_20": {
+      "title": "Voice Agent App",
+      "metadata": "Using ElevenLabs Voice Agent, built with Vercel AI Gateway. Perfect as a starter for your own voice agents or apps."
+    },
+    "project_21": {
+      "title": "Customer Support AI Assistant",
+      "metadata": "Voice and text AI assistant for customer support and onboarding for driving school customers"
+    },
+    "project_22": {
+      "title": "Voice AI Assistants",
+      "metadata": "Voice AI assistant built with the ElevenLabs voice engine"
+    },
+    "project_23": {
+      "title": "Gemini AI Chatbot App",
+      "metadata": "Built with Gemini models and n8n workflows"
+    },
+    "project_24": {
+      "title": "AI Chatbot App with Vercel AI SDK",
+      "metadata": "Perfect as a starter for your own AI apps. Built in Next.js with Vercel AI Gateway."
+    }
+  },
   "about-page": {
     "title": "O Ainsider",
     "description": {

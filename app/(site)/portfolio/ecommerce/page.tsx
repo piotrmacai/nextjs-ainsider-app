@@ -1,16 +1,14 @@
 "use client";
 import Image from "next/image";
 import SharePost from "@/components/Blog/SharePost";
-import RelatedPost from "@/components/Blog/RelatedPost";
-// import { useTranslation } from 'react-i18next';
 import WebsitesData from "@/components/Portfolio/websitesData";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const SingleBlogPage = () => {
-  // const { t } = useTranslation();
+  const { t } = useTranslation();
 
-  // Filter for related ecommerce projects
   const relatedProjects = WebsitesData.filter((site) =>
     site.tags.includes("ecommerce")
   );
@@ -18,31 +16,40 @@ const SingleBlogPage = () => {
   return (
     <>
       <title>{`E-commerce & AI Stores - Details`}</title>
+
       <section className="pt-35 lg:pt-45 xl:pt-50 pb-20 lg:pb-25 xl:pb-30">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex flex-col-reverse lg:flex-row gap-7.5 xl:gap-12.5">
             <div className="md:w-1/2 lg:w-[32%]">
               <div className="animate_top rounded-md shadow-solid-13 bg-white dark:bg-blacksection border border-stroke dark:border-strokedark p-9 mb-10">
-                <h4 className="font-semibold text-2xl text-black dark:text-white mt-2 mb-7.5">
-                  Project Details
+                <h4 className="font-semibold text-2xl mt-2 mb-7.5">
+                  {t("ecommercePortfolioPage.detailsTitle")}
                 </h4>
 
                 <ul>
-                  <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Tech Stack:</p>
-                    <p className="text-white transition-all duration-300 hover:text-primary">Next.js, Python, Automation, Headless CMS</p>
+                  <li className="mb-3">
+                    <p>{t("ecommercePortfolioPage.techStack")}:</p>
+                    <p className="text-white">
+                      Next.js, Python, Automation, Headless CMS
+                    </p>
                   </li>
-                  <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Platforms:</p>
-                    <p className="text-white transition-all duration-300 hover:text-primary">Shopify, WooCommerce, Medicare, Magento</p>
+                  <li className="mb-3">
+                    <p>{t("ecommercePortfolioPage.platforms")}:</p>
+                    <p className="text-white">
+                      Shopify, WooCommerce, Magento
+                    </p>
                   </li>
-                  <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Integrations:</p>
-                    <p className="text-white transition-all duration-300 hover:text-primary">Stripe, PayPal, CRM, ERP, Custom APIs</p>
+                  <li className="mb-3">
+                    <p>{t("ecommercePortfolioPage.integrations")}:</p>
+                    <p className="text-white">
+                      Stripe, PayPal, CRM, ERP, Custom APIs
+                    </p>
                   </li>
-                  <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Category:</p>
-                    <p className="text-white transition-all duration-300 hover:text-primary">E-commerce Development & Automation</p>
+                  <li>
+                    <p>{t("ecommercePortfolioPage.category")}:</p>
+                    <p className="text-white">
+                      E-commerce Development & Automation
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -50,13 +57,14 @@ const SingleBlogPage = () => {
 
             <div className="lg:w-2/3">
               <div className="animate_top rounded-md shadow-solid-13 bg-white dark:bg-blacksection border border-stroke dark:border-strokedark p-7.5 md:p-10">
-                <h2 className="font-semibold text-3xl 2xl:text-sectiontitle2 text-black dark:text-white mb-5">
-                  E-commerce & AI Automation
+                <h2 className="font-semibold text-3xl 2xl:text-sectiontitle2 mb-5">
+                  {t("ecommercePortfolioPage.mainTitle")}
                 </h2>
-                <div className="mb-10 w-full overflow-hidden ">
+
+                <div className="mb-10 w-full overflow-hidden">
                   <div className="relative aspect-[97/60] w-full sm:aspect-[97/65]">
                     <Image
-                      src={"/images/portfolio/afterrave.jpg"}
+                      src="/images/portfolio/afterrave.jpg"
                       alt="E-commerce & AI Automation"
                       fill
                       className="object-cover object-center rounded-md"
@@ -65,28 +73,41 @@ const SingleBlogPage = () => {
                 </div>
 
                 <div className="blog-details">
-                  <div className="flex flex-col gap-6 p-6 bg-gray-50 dark:bg-gray-800 rounded-lg border border-gray-100 dark:border-gray-700">
+                  <div className="flex flex-col gap-6 p-6 bg-gray-50 dark:bg-gray-800 rounded-lg border">
                     <div>
-                      <h4 className="font-bold text-lg text-black dark:text-white mb-2">Problem:</h4>
-                      <p className="text-gray-600 dark:text-gray-300">Managing complex stores and inventory.</p>
+                      <h4 className="font-bold text-lg mb-2">
+                        {t("ecommercePortfolioPage.problemTitle")}:
+                      </h4>
+                      <p>
+                        {t("ecommercePortfolioPage.problemText")}
+                      </p>
                     </div>
+
                     <div>
-                      <h4 className="font-bold text-lg text-black dark:text-white mb-2">Solution:</h4>
-                      <p className="text-gray-600 dark:text-gray-300">Shopify/Woo stores integrated with AI Automations.</p>
+                      <h4 className="font-bold text-lg mb-2">
+                        {t("ecommercePortfolioPage.solutionTitle")}:
+                      </h4>
+                      <p>
+                        {t("ecommercePortfolioPage.solutionText")}
+                      </p>
                     </div>
+
                     <div>
-                      <h4 className="font-bold text-lg text-black dark:text-white mb-2">Effect:</h4>
-                      <p className="text-gray-600 dark:text-gray-300">Automated inventory, descriptions & multi-language support.</p>
+                      <h4 className="font-bold text-lg mb-2">
+                        {t("ecommercePortfolioPage.effectTitle")}:
+                      </h4>
+                      <p>
+                        {t("ecommercePortfolioPage.effectText")}
+                      </p>
                     </div>
                   </div>
 
-                  <div className="mt-8 text-base text-gray-600 dark:text-gray-300 leading-relaxed">
+                  <div className="mt-8 text-base leading-relaxed">
                     <p className="mb-6">
-                      Modern e-commerce requires more than just a storefront. It needs intelligent systems that automate the heavy lifting.
-                      For <strong>After Rave</strong>, we implemented a robust Shopify solution enhanced with AI-driven workflows to handle inventory management, product descriptions, and customer support inquiries automatically.
+                      {t("ecommercePortfolioPage.descriptionP1")}
                     </p>
                     <p>
-                      Our approach focuses on creating high-conversion stores that run themselves, allowing business owners to focus on growth rather than operations. By integrating tools like Make.com and custom AI agents, we bridge the gap between traditional e-commerce and the future of autonomous retail.
+                      {t("ecommercePortfolioPage.descriptionP2")}
                     </p>
                   </div>
                 </div>
@@ -95,47 +116,52 @@ const SingleBlogPage = () => {
               </div>
             </div>
           </div>
+
           <div className="mt-20">
-            <h2 className="text-2xl font-bold text-black dark:text-white mb-10">
-              Other E-commerce Projects
+            <h2 className="text-2xl font-bold mb-10">
+              {t("ecommercePortfolioPage.otherProjectsTitle")}
             </h2>
+
             <div className="flex flex-col gap-8">
               {relatedProjects.length > 0 ? (
                 relatedProjects.map((site, key) => (
                   <motion.div
                     key={key}
-                    variants={{
-                      hidden: { opacity: 0, y: -20 },
-                      visible: { opacity: 1, y: 0 },
-                    }}
-                    initial="hidden"
-                    whileInView="visible"
+                    initial={{ opacity: 0, y: -20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: key * 0.1 }}
                     viewport={{ once: true }}
-                    className="group relative flex flex-col md:flex-row gap-6 lg:gap-8 bg-white dark:bg-blacksection rounded-2xl p-4 md:p-6 shadow-solid-8 hover:shadow-solid-13 transition-all duration-300 border border-gray-100 dark:border-strokedark hover:border-primary/20"
+                    className="group relative flex flex-col md:flex-row gap-6 bg-white dark:bg-blacksection rounded-2xl p-6 shadow-solid-8"
                   >
-                    <Link href={site.urlLink} target="_blank" className="block relative w-full md:w-5/12 lg:w-1/3 aspect-[16/10] overflow-hidden rounded-xl bg-gray-100 dark:bg-gray-800">
+                    <Link
+                      href={site.urlLink}
+                      target="_blank"
+                      className="block relative w-full md:w-1/3 aspect-[16/10]"
+                    >
                       <Image
                         src={site.mainImage}
                         alt={site.title}
                         fill
-                        className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        className="object-cover rounded-xl"
                       />
                     </Link>
 
-                    <div className="flex flex-col flex-1 justify-center">
-                      <h3 className="font-bold text-xl md:text-2xl text-black dark:text-white mb-3 group-hover:text-primary transition-colors duration-300">
+                    <div className="flex-1">
+                      <h3 className="font-bold text-xl mb-3">
                         <Link href={site.urlLink} target="_blank">
                           {site.title}
                         </Link>
                       </h3>
-                      <p className="text-gray-600 dark:text-gray-400 mb-5 leading-relaxed text-sm md:text-base">
+                      <p className="text-sm mb-5">
                         {site.metadata}
                       </p>
 
-                      <div className="flex flex-wrap gap-2 mt-auto">
+                      <div className="flex flex-wrap gap-2">
                         {site.tags?.map((tag, i) => (
-                          <span key={i} className="inline-block px-3 py-1 text-xs font-semibold tracking-wide uppercase rounded-full bg-primary/5 dark:bg-white/5 text-primary dark:text-white/80 border border-primary/10 dark:border-white/10">
+                          <span
+                            key={i}
+                            className="px-3 py-1 text-xs rounded-full bg-primary/5 text-primary"
+                          >
                             {tag}
                           </span>
                         ))}
@@ -144,7 +170,9 @@ const SingleBlogPage = () => {
                   </motion.div>
                 ))
               ) : (
-                <p className="text-gray-500">No other e-commerce projects found.</p>
+                <p className="text-gray-500">
+                  {t("ecommercePortfolioPage.noProjects")}
+                </p>
               )}
             </div>
           </div>
