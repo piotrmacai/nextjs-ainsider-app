@@ -24,20 +24,20 @@ const SingleBlogPage = () => {
 
                 <ul>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Link:</p>
-                    <a className="text-white transition-all duration-300 hover:text-primary" href="https://oskmachowski.pl/" target="_blank" rel="noopener noreferrer">https://oskmachowski.pl/</a>
-                  </li>
-                  <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Company:</p>
-                    <p className="text-white transition-all duration-300 hover:text-primary">OSK Machowski</p>
-                  </li>
-                  <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Industry:</p>
-                    <p className="text-white transition-all duration-300 hover:text-primary">E-learning & Education</p>
-                  </li>
-                  <li className="last:mb-0 mb-3 transition-all duration-300">
                     <p>Tech Stack:</p>
-                    <p className="text-white transition-all duration-300 hover:text-primary">Next.js, React, Tailwind, AI Assistant</p>
+                    <p className="text-white transition-all duration-300 hover:text-primary">Next.js, React, Node.js, Vercel</p>
+                  </li>
+                  <li className="last:mb-0 mb-3 transition-all duration-300">
+                    <p>Features:</p>
+                    <p className="text-white transition-all duration-300 hover:text-primary">PWA, SSR, SPA, High Performance</p>
+                  </li>
+                  <li className="last:mb-0 mb-3 transition-all duration-300">
+                    <p>Integrations:</p>
+                    <p className="text-white transition-all duration-300 hover:text-primary">Supabase, Firebase, REST/GraphQL</p>
+                  </li>
+                  <li className="last:mb-0 mb-3 transition-all duration-300">
+                    <p>Category:</p>
+                    <p className="text-white transition-all duration-300 hover:text-primary">Custom Web Applications</p>
                   </li>
                 </ul>
               </div>

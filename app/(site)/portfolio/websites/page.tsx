@@ -24,20 +24,20 @@ const SingleBlogPage = () => {
 
                 <ul>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Link:</p>
-                    <a className="text-white transition-all duration-300 hover:text-primary" href="https://oskmachowski.pl/" target="_blank" rel="noopener noreferrer">https://oskmachowski.pl/</a>
-                  </li>
-                  <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Company:</p>
-                    <p className="text-white transition-all duration-300 hover:text-primary">OSK Machowski</p>
-                  </li>
-                  <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Industry:</p>
-                    <p className="text-white transition-all duration-300 hover:text-primary">E-learning & Education</p>
-                  </li>
-                  <li className="last:mb-0 mb-3 transition-all duration-300">
                     <p>Tech Stack:</p>
-                    <p className="text-white transition-all duration-300 hover:text-primary">Next.js, React, Tailwind, AI Assistant</p>
+                    <p className="text-white transition-all duration-300 hover:text-primary">Next.js, React, Tailwind CSS, TypeScript</p>
+                  </li>
+                  <li className="last:mb-0 mb-3 transition-all duration-300">
+                    <p>CMS & Builders:</p>
+                    <p className="text-white transition-all duration-300 hover:text-primary">WordPress, Webflow, Shopify, Sanity, Strapi</p>
+                  </li>
+                  <li className="last:mb-0 mb-3 transition-all duration-300">
+                    <p>Features:</p>
+                    <p className="text-white transition-all duration-300 hover:text-primary">SEO Optimized, Fast Performance, AI Integration</p>
+                  </li>
+                  <li className="last:mb-0 mb-3 transition-all duration-300">
+                    <p>Category:</p>
+                    <p className="text-white transition-all duration-300 hover:text-primary">Custom Websites & Landing Pages</p>
                   </li>
                 </ul>
               </div>
@@ -84,7 +84,7 @@ const SingleBlogPage = () => {
             <h2 className="text-2xl font-bold text-black dark:text-white mb-10">
               Other Website Projects
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="flex flex-col gap-8">
               {WebsitesData.map((site, key) => (
                 <motion.div
                   key={key}
@@ -96,24 +96,35 @@ const SingleBlogPage = () => {
                   whileInView="visible"
                   transition={{ duration: 0.5, delay: key * 0.1 }}
                   viewport={{ once: true }}
-                  className="animate_top rounded-lg bg-white dark:bg-blacksection p-4 shadow-solid-8 hover:shadow-solid-13 transition-all duration-300"
+                  className="group relative flex flex-col md:flex-row gap-6 lg:gap-8 bg-white dark:bg-blacksection rounded-2xl p-4 md:p-6 shadow-solid-8 hover:shadow-solid-13 transition-all duration-300 border border-gray-100 dark:border-strokedark hover:border-primary/20"
                 >
-                  <Link href={site.urlLink} target="_blank" className="block relative aspect-[16/9] mb-4">
+                  <Link href={site.urlLink} target="_blank" className="block relative w-full md:w-5/12 lg:w-1/3 aspect-[16/10] overflow-hidden rounded-xl bg-gray-100 dark:bg-gray-800">
                     <Image
                       src={site.mainImage}
                       alt={site.title}
                       fill
-                      className="object-cover rounded-md"
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                   </Link>
-                  <h3 className="font-semibold text-lg text-black dark:text-white mb-2 hover:text-primary transition-colors">
-                    <Link href={site.urlLink} target="_blank">
-                      {site.title}
-                    </Link>
-                  </h3>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">
-                    {site.metadata}
-                  </p>
+
+                  <div className="flex flex-col flex-1 justify-center">
+                    <h3 className="font-bold text-xl md:text-2xl text-black dark:text-white mb-3 group-hover:text-primary transition-colors duration-300">
+                      <Link href={site.urlLink} target="_blank">
+                        {site.title}
+                      </Link>
+                    </h3>
+                    <p className="text-gray-600 dark:text-gray-400 mb-5 leading-relaxed text-sm md:text-base">
+                      {site.metadata}
+                    </p>
+
+                    <div className="flex flex-wrap gap-2 mt-auto">
+                      {site.tags?.map((tag, i) => (
+                        <span key={i} className="inline-block px-3 py-1 text-xs font-semibold tracking-wide uppercase rounded-full bg-primary/5 dark:bg-white/5 text-primary dark:text-white/80 border border-primary/10 dark:border-white/10">
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
                 </motion.div>
               ))}
             </div>
