@@ -140,100 +140,40 @@
   },
   "portfolioData": {
     "project_1": {
-      "title": "Machtrans.pl",
-      "metadata": "Top SEO and ultra-fast website in React.js for a transport company"
+      "title": "AI Chatbots for Business",
+      "metadata": "Intelligent AI chatbots available 24/7, integrated with your business, automating customer service and technical support."
     },
     "project_2": {
-      "title": "Pgr-elektroteam.pl",
-      "metadata": "Website for a smart home company"
+      "title": "AI Agents",
+      "metadata": "Advanced AI agents for voice, text handling and automation of complex business processes."
     },
     "project_3": {
-      "title": "Volton-install.pl",
-      "metadata": "Business website for electrical services and smart home solutions"
+      "title": "n8n Automations",
+      "metadata": "Advanced n8n workflows and automations connecting your tools, applications and processes into one intelligent system."
     },
     "project_4": {
-      "title": "K-licious.pl",
-      "metadata": "Website and e-commerce for a creative company"
+      "title": "Business Automations",
+      "metadata": "Comprehensive automation solutions streamlining business operations, eliminating routine tasks and increasing productivity."
     },
     "project_5": {
-      "title": "Skinproject.pl",
-      "metadata": "Website for an aesthetic medicine clinic"
+      "title": "Creative AI Applications",
+      "metadata": "Dedicated AI applications for creating content, graphics and creative solutions using the latest generative models."
     },
     "project_6": {
-      "title": "Slovlystudio.pl",
-      "metadata": "Online store for a handmade clothing brand"
+      "title": "Business Websites",
+      "metadata": "Ultra-fast, SEO-optimized websites with AI integration and modern design for maximum conversion."
     },
     "project_7": {
-      "title": "Bakaliowelove.pl",
-      "metadata": "WooCommerce store with healthy food"
+      "title": "E-commerce",
+      "metadata": "Advanced Shopify and WooCommerce online stores with AI integration for sales automation and product management."
     },
     "project_8": {
-      "title": "paintball-osada.pl",
-      "metadata": "Business website for an entertainment park and paintball"
+      "title": "React & Next.js Applications",
+      "metadata": "Modern, efficient web applications and user interfaces built in React and Next.js with full scalability."
     },
     "project_9": {
-      "title": "smpolaniec.com.pl",
-      "metadata": "Website for a housing cooperative"
-    },
-    "project_10": {
-      "title": "Cora-goralczyk.pl",
-      "metadata": "Website for an automotive mechanic workshop"
-    },
-    "project_11": {
-      "title": "bodymedica.pl",
-      "metadata": "Business website for a physiotherapy clinic"
-    },
-    "project_12": {
-      "title": "Lanelyya.de",
-      "metadata": "Multilingual Shopify store for the German market"
-    },
-    "project_13": {
-      "title": "Gemini AI Chatbot App",
-      "metadata": "Built with Gemini models and n8n workflows"
-    },
-    "project_14": {
-      "title": "AI Chatbot App with Vercel AI SDK",
-      "metadata": "Perfect as a starter for your own AI apps. Built in Next.js with Vercel AI Gateway."
-    },
-    "project_15": {
-      "title": "AI Assistant for Macai.studio",
-      "metadata": "AI assistant for Macai.studio"
-    },
-    "project_16": {
-      "title": "AI Assistant for Ecommerce",
-      "metadata": "AI assistant for Akcesoriadouprawy.pl"
-    },
-    "project_17": {
-      "title": "Hugging Face Assistants",
-      "metadata": "Custom-built AI assistants"
-    },
-    "project_18": {
-      "title": "LibreChat",
-      "metadata": "Custom LLM user interface"
-    },
-    "project_19": {
-      "title": "AI Agent for Lead Generation",
-      "metadata": "Advanced, personalized AI agent for e-commerce with product recommendations built in Voiceflow"
-    },
-    "project_20": {
-      "title": "Voice Agent App",
-      "metadata": "Using ElevenLabs Voice Agent, built with Vercel AI Gateway. Perfect as a starter for your own voice agents or apps."
-    },
-    "project_21": {
-      "title": "Customer Support AI Assistant",
-      "metadata": "Voice and text AI assistant for customer support and onboarding for driving school customers"
-    },
-    "project_22": {
-      "title": "Voice AI Assistants",
-      "metadata": "Voice AI assistant built with the ElevenLabs voice engine"
-    },
-    "project_23": {
-      "title": "Gemini AI Chatbot App",
-      "metadata": "Built with Gemini models and n8n workflows"
-    },
-    "project_24": {
-      "title": "AI Chatbot App with Vercel AI SDK",
-      "metadata": "Perfect as a starter for your own AI apps. Built in Next.js with Vercel AI Gateway."
+      "title": "Custom AI Agents and Applications",
+      "metadata": "Custom AI agents and applications for generating graphics, editing images and automating creative processes."
     }
   },
   "about-page": {

@@ -76,7 +76,7 @@ const PortfolioItem = ({ portfolio }: { portfolio: Portfolio }) => {
             rel="noopener noreferrer"
             className="inline-flex items-center text-white dark:text-white md:mt-14 mt-2 font-medium text-lg hover:underline group"
           >
-            View Project
+            Projects
             <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300">→</span>
           </Link>
         </div>
