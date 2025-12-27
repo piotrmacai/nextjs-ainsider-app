@@ -80,13 +80,13 @@ const getTranslatedMenuData = () => {
     //   path: "https://www.skool.com/ainsider-6149/about?ref=d207b2af5b914ff09daac8af70f1162c",
     //   icon: "/images/icon/bag.svg",
     // }, 
-    // {
-    //   id: 4.5,
-    //   title: "Portfolio",
-    //   newTab: false,
-    //   path: "/portfolio",
-    //   icon: "/images/icon/bag.svg",
-    // }, 
+    {
+      id: 4.5,
+      title: "Portfolio",
+      newTab: false,
+      path: "/portfolio",
+      icon: "/images/icon/bag.svg",
+    }, 
       {
       id: 4.6,
       title: "Blog",

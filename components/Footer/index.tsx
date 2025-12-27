@@ -207,7 +207,7 @@ const Footer = () => {
                         href="/productai"
                         className="inline-block hover:text-primary mb-3"
                       >
-                        ProductPhotoAI
+                        Fashion Stylist AI
                       </a>
                     </li>
                     <li>
