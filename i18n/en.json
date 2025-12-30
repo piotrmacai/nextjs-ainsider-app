@@ -108,6 +108,21 @@
     "effectText": "Higher conversion and better Google rankings.",
     "otherProjectsTitle": "Other Website Projects"
   },
+  "automationsPage": {
+    "detailsTitle": "Project Details",
+    "techStack": "Tech Stack",
+    "models": "Models",
+    "apis": "APIs",
+    "category": "Category",
+    "mainTitle": "Intelligent Business Automations",
+    "problemTitle": "Problem",
+    "problemText": "Time-consuming, repetitive business tasks reducing productivity.",
+    "solutionTitle": "Solution",
+    "solutionText": "Advanced automations with AI integration and workflows.",
+    "effectTitle": "Effect",
+    "effectText": "Increases efficiency, reduces operational costs and eliminates errors.",
+    "otherProjectsTitle": "Other Automations"
+  },
   "chatbotsPage": {
     "detailsTitle": "Project Details",
     "techStack": "Tech Stack",
@@ -140,24 +155,24 @@
   },
   "portfolioData": {
     "project_1": {
-      "title": "AI Chatbots for Business",
+      "title": "AI Chatbots and Agents for Business",
       "metadata": "Intelligent AI chatbots available 24/7, integrated with your business, automating customer service and technical support."
     },
     "project_2": {
-      "title": "AI Agents",
-      "metadata": "Advanced AI agents for voice, text handling and automation of complex business processes."
+      "title": "Voice AI Agents",
+      "metadata": "Advanced AI agents for voice and text handling, and automation of complex business processes."
     },
     "project_3": {
-      "title": "n8n Automations",
-      "metadata": "Advanced n8n workflows and automations connecting your tools, applications and processes into one intelligent system."
+      "title": "Business Automation",
+      "metadata": "Advanced workflows and n8n automations connecting your tools, applications, and processes into one intelligent system."
     },
     "project_4": {
-      "title": "Business Automations",
-      "metadata": "Comprehensive automation solutions streamlining business operations, eliminating routine tasks and increasing productivity."
+      "title": "CRMs and Email Marketing",
+      "metadata": "Comprehensive solutions streamlining business operations, eliminating routine tasks, and increasing productivity."
     },
     "project_5": {
-      "title": "Creative AI Applications",
-      "metadata": "Dedicated AI applications for creating content, graphics and creative solutions using the latest generative models."
+      "title": "AI Applications",
+      "metadata": "Dedicated AI applications for content creation, graphics, and creative solutions using the latest generative models."
     },
     "project_6": {
       "title": "Business Websites",
@@ -169,11 +184,11 @@
     },
     "project_8": {
       "title": "React & Next.js Applications",
-      "metadata": "Modern, efficient web applications and user interfaces built in React and Next.js with full scalability."
+      "metadata": "Modern, high-performance web applications and user interfaces built with React and Next.js with full scalability."
     },
     "project_9": {
       "title": "Custom AI Agents and Applications",
-      "metadata": "Custom AI agents and applications for generating graphics, editing images and automating creative processes."
+      "metadata": "Custom AI agents and applications for graphics generation, image editing, and creative process automation."
     }
   },
   "about-page": {
@@ -2270,6 +2285,8 @@
     "button4": "Generative AI",
     "button5": "Github",
     "button6": "Ecommerce",
+    "button7": "AI Agents",
+    "button8": "Voice AI",
     "buttonall": "All",
     "buttonBehance": "Behance",
     "buttonArtstation": "Artstation",

@@ -1,3 +1,88 @@
+
+
+import { Portfolio } from "@/types/portfolio";
+import i18next, { t } from "i18next";
+
+const BlogData: Portfolio[] = [
+  {
+    _id: 1,
+    mainImage: "/images/portfolio/ainsiderbot.png",
+    title: "portfolioData.project_1.title",
+    metadata: "portfolioData.project_1.metadata",
+    urlLink: "/portfolio/aiagents",
+    tags: ["ai", "ai agents"],
+  },
+  {
+    _id: 2,
+    mainImage: "/images/portfolio/macaivoicebot.png",
+    title: "portfolioData.project_2.title",
+    metadata: "portfolioData.project_2.metadata",
+    urlLink: "/portfolio/aiagents",
+    tags: ["ai", "ai agents"],
+  },
+  {
+    _id: 3,
+    mainImage: "/images/portfolio/n8n-workflows.jpg",
+    title: "portfolioData.project_3.title",
+    metadata: "portfolioData.project_3.metadata",
+    urlLink: "/portfolio/automations",
+    tags: ["ai", "automations"],
+  },
+  {
+    _id: 4,
+    mainImage: "/images/portfolio/geminin8n.png",
+    title: "portfolioData.project_5.title",
+    metadata: "portfolioData.project_5.metadata",
+    urlLink: "/portfolio/aiapps",
+    tags: ["ai", "apps"],
+  },
+  {
+    _id: 5,
+    mainImage: "/images/portfolio/osk.png",
+    title: "portfolioData.project_6.title",
+    metadata: "portfolioData.project_6.metadata",
+    urlLink: "/portfolio/web",
+    tags: ["web"],
+  },
+  {
+    _id: 6,
+    mainImage: "/images/portfolio/afterrave.jpg",
+    title: "portfolioData.project_7.title",
+    metadata: "portfolioData.project_7.metadata",
+    urlLink: "/portfolio/ecommerce",
+    tags: ["ecommerce"],
+  },
+  {
+    _id: 7,
+    mainImage: "/images/portfolio/openweb-full.png",
+    title: "portfolioData.project_8.title",
+    metadata: "portfolioData.project_8.metadata",
+    urlLink: "/portfolio/apps",
+    tags: ["web", "apps"],
+  },
+  {
+    _id: 8,
+    mainImage: "/images/portfolio/notioncrm.jpg",
+    title: "portfolioData.project_4.title",
+    metadata: "portfolioData.project_4.metadata",
+    urlLink: "/portfolio/automations",
+    tags: ["automations"],
+  },
+  // {
+  //   _id: 9,
+  //   mainImage: "/images/portfolio/AiProductDesigner.png",
+  //   title: "portfolioData.project_9.title",
+  //   metadata: "portfolioData.project_9.metadata",
+  //   urlLink: "/portfolio/agents",
+  //   tags: ["ai", "ai agents", "apps"],
+  // },
+];
+
+export default BlogData;
+
+
+
+
 // import { Portfolio } from "@/types/portfolio";
 
 // const BlogData: Portfolio[] = [
@@ -85,86 +170,4 @@
 // ];
 
 // export default BlogData;
-
-
-
-import { Portfolio } from "@/types/portfolio";
-import i18next, { t } from "i18next";
-
-const BlogData: Portfolio[] = [
-  {
-    _id: 1,
-    mainImage: "/images/portfolio/ainsiderbot.png",
-    title: "portfolioData.project_1.title",
-    metadata: "portfolioData.project_1.metadata",
-    urlLink: "/portfolio/agents",
-    tags: ["ai agents"],
-  },
-  {
-    _id: 2,
-    mainImage: "/images/portfolio/macaivoicebot.png",
-    title: "portfolioData.project_2.title",
-    metadata: "portfolioData.project_2.metadata",
-    urlLink: "/portfolio/aiagents",
-    tags: ["ai agents"],
-  },
-  {
-    _id: 3,
-    mainImage: "/images/portfolio/n8n-workflows.jpg",
-    title: "portfolioData.project_3.title",
-    metadata: "portfolioData.project_3.metadata",
-    urlLink: "/portfolio/ai",
-    tags: ["automations"],
-  },
-  {
-    _id: 4,
-    mainImage: "/images/portfolio/n8n-workflows.jpg",
-    title: "portfolioData.project_4.title",
-    metadata: "portfolioData.project_4.metadata",
-    urlLink: "/portfolio/automations",
-    tags: ["automations"],
-  },
-  {
-    _id: 5,
-    mainImage: "/images/portfolio/geminin8n.png",
-    title: "portfolioData.project_5.title",
-    metadata: "portfolioData.project_5.metadata",
-    urlLink: "/portfolio/aiapps",
-    tags: ["creative"],
-  },
-  {
-    _id: 6,
-    mainImage: "/images/portfolio/osk.png",
-    title: "portfolioData.project_6.title",
-    metadata: "portfolioData.project_6.metadata",
-    urlLink: "/portfolio/websites",
-    tags: ["web"],
-  },
-  {
-    _id: 7,
-    mainImage: "/images/portfolio/afterrave.jpg",
-    title: "portfolioData.project_7.title",
-    metadata: "portfolioData.project_7.metadata",
-    urlLink: "/portfolio/ecommerce",
-    tags: ["ecommerce"],
-  },
-  {
-    _id: 8,
-    mainImage: "/images/portfolio/openweb-full.png",
-    title: "portfolioData.project_8.title",
-    metadata: "portfolioData.project_8.metadata",
-    urlLink: "/portfolio/apps",
-    tags: ["web", "apps"],
-  },
-  {
-    _id: 9,
-    mainImage: "/images/portfolio/AiProductDesigner.png",
-    title: "portfolioData.project_9.title",
-    metadata: "portfolioData.project_9.metadata",
-    urlLink: "/portfolio/aiagents",
-    tags: ["ai agents", "apps"],
-  },
-];
-
-export default BlogData;
 

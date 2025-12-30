@@ -33,7 +33,7 @@ const PortfolioItem = ({ portfolio }: { portfolio: Portfolio }) => {
       <div className="flex flex-col lg:flex-row gap-8 items-start">
         {/* Image - Left side - 50% width on large screens */}
         <div className="w-full lg:w-1/2 relative">
-          <Link href={urlLink} className="block relative aspect-[16/9] w-full" target="_blank" rel="noopener noreferrer">
+          <Link href={urlLink} className="block relative aspect-[16/9] w-full">
             <Image
               src={mainImage}
               alt={t(title)}
@@ -49,7 +49,7 @@ const PortfolioItem = ({ portfolio }: { portfolio: Portfolio }) => {
         {/* Content - Right side - 50% width on large screens */}
         <div className="w-full lg:w-1/2 lg:pl-4">
           <h3 className="font-semibold text-2xl lg:text-3xl text-black dark:text-white mb-4 hover:text-primary dark:hover:text-primary transition-colors duration-300">
-            <Link href={urlLink} target="_blank" rel="noopener noreferrer" className="hover:underline">
+            <Link href={urlLink} className="hover:underline">
               {t(title)}
             </Link>
           </h3>
@@ -72,8 +72,6 @@ const PortfolioItem = ({ portfolio }: { portfolio: Portfolio }) => {
            */}
           <Link
             href={urlLink}
-            target="_blank"
-            rel="noopener noreferrer"
             className="inline-flex items-center text-white dark:text-white md:mt-14 mt-2 font-medium text-lg hover:underline group"
           >
             Projects

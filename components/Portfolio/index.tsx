@@ -179,7 +179,7 @@ const Portfolio = () => {
             <div className="sticky top-32">
               <h3 className="text-xl font-bold mb-6 text-black dark:text-white">Filters</h3>
               <div className="flex flex-col space-y-4">
-                    <button
+                  <button
                   className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
                     selectedTag === "web" ? "bg-blue-500 bg-gray-300" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-600 dark:hover:bg-gray-600"
                   }`}
@@ -203,14 +203,14 @@ const Portfolio = () => {
                 >
                   {t('portfolio.button3')}
                 </button>
-                {/* <button
+                <button
                   className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
                     selectedTag === "ecommerce" ? "bg-blue-500 bg-gray-300" : "bg-gray-600 dark:bg-gray-600 dark:text-white hover:bg-gray-600 dark:hover:bg-gray-600"
                   }`}
-                  onClick={() => handleTagSelection("ecommerce")}
+                  onClick={() => handleTagSelection("agents")}
                 >
-                  {t('portfolio.button6')}
-                </button> */}
+                  {t('portfolio.button7')}
+                </button>
               </div>
             </div>
           </div>

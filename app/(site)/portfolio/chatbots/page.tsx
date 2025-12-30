@@ -1,13 +1,18 @@
 "use client";
 import Image from "next/image";
 import SharePost from "@/components/Blog/SharePost";
-import ChatbotsData from "@/components/Portfolio/chatbotsData";
+import WebsitesData from "@/components/Portfolio/websitesData";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 const SingleBlogPage = () => {
   const { t } = useTranslation();
+
+  // Filter for items tagged with 'agents'
+  const agentsPortfolioItems = WebsitesData.filter(item =>
+    item.tags?.includes('agents')
+  );
 
   return (
     <>
@@ -102,7 +107,7 @@ const SingleBlogPage = () => {
             </h2>
 
             <div className="flex flex-col gap-8">
-              {ChatbotsData.map((project, key) => (
+              {agentsPortfolioItems.map((project, key) => (
                 <motion.div
                   key={key}
                   initial={{ opacity: 0, y: -20 }}

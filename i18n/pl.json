@@ -106,6 +106,21 @@
     "effectText": "Wyższa konwersja i lepsze pozycje w Google.",
     "otherProjectsTitle": "Inne projekty stron WWW"
   },
+  "automationsPage": {
+    "detailsTitle": "Szczegóły projektu",
+    "techStack": "Stos technologiczny",
+    "models": "Modele",
+    "apis": "API",
+    "category": "Kategoria",
+    "mainTitle": "Inteligentne Automatyzacje Biznesowe",
+    "problemTitle": "Problem",
+    "problemText": "Czasochłonne, powtarzalne zadania biznesowe obniżające produktywność.",
+    "solutionTitle": "Rozwiązanie",
+    "solutionText": "Zaawansowane automatyzacje z integracją AI i workflowami.",
+    "effectTitle": "Efekt",
+    "effectText": "Zwiększa efektywność, redukuje koszty operacyjne i eliminuje błędy.",
+    "otherProjectsTitle": "Inne Automatyzacje"
+  },
   "chatbotsPage": {
     "detailsTitle": "Szczegóły projektu",
     "techStack": "Stos technologiczny",
@@ -138,23 +153,23 @@
   },
   "portfolioData": {
     "project_1": {
-      "title": "Chatboty AI dla Biznesu",
+      "title": "Chatboty i Agenci AI dla Biznesu",
       "metadata": "Inteligentne chatboty AI dostępne 24/7, zintegrowane z Twoim biznesem, automatyzujące obsługę klienta i wsparcie techniczne."
     },
     "project_2": {
-      "title": "Agenci AI",
+      "title": "Głosowi Agenci AI",
       "metadata": "Zaawansowani agenci AI do obsługi głosowej, tekstowej i automatyzacji złożonych procesów biznesowych."
     },
     "project_3": {
-      "title": "Automatyzacje n8n",
+      "title": "Automatyzacje dla biznesu",
       "metadata": "Zaawansowane workflow i automatyzacje n8n łączące Twoje narzędzia, aplikacje i procesy w jeden inteligentny system."
     },
     "project_4": {
-      "title": "Automatyzacje dla biznesu",
-      "metadata": "Kompleksowe rozwiązania automatyzacyjne usprawniające operacje biznesowe, eliminujące rutynowe zadania i zwiększające produktywność."
+      "title": "CRMs i email marketing",
+      "metadata": "Kompleksowe rozwiązania usprawniające operacje biznesowe, eliminujące rutynowe zadania i zwiększające produktywność."
     },
     "project_5": {
-      "title": "Kreatywne aplikacje AI",
+      "title": "Aplikacje AI",
       "metadata": "Dedykowane aplikacje AI do tworzenia treści, grafiki i kreatywnych rozwiązań z wykorzystaniem najnowszych modeli generatywnych."
     },
     "project_6": {
@@ -2283,6 +2298,8 @@
     "button3": "AI",
     "button4": "Generatywna AI",
     "button6": "Ecommerce",
+    "button7": "Agenci AI",
+    "button8": "Voice AI",
     "button5": "Github",
     "buttonall": "Pokaż wszystko",
     "buttonBehance": "Behance",
