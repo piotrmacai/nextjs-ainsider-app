@@ -4,6 +4,14 @@ import { useTranslation } from 'react-i18next';
 const WebsitesData: Portfolio[] = [
     {
         _id: 1,
+        mainImage: "/images/portfolio/ainsiderstorenew.png",
+        title: "Ainsider.store - AI Tools and Prompts Directory",
+        metadata: "A comprehensive directory for discovering the best AI tools and high-quality prompts to optimize your workflows.",
+        urlLink: "https://ainsider.store",
+        tags: ["web", "apps", "ai", "featured"],
+    },
+    {
+        _id: 2,
         mainImage: "/images/portfolio/machtrans-full.png",
         title: "MachTrans.pl - Transport Company",
         metadata: "Responsive corporate website with full CMS integration and optimized performance.",
@@ -11,7 +19,15 @@ const WebsitesData: Portfolio[] = [
         tags: ["web"],
     },
     {
-        _id: 2,
+        _id: 3,
+        mainImage: "/images/portfolio/promptgallery.png",
+        title: "Promptr Gallery - AI Art Prompts Directory",
+        metadata: "An interactive gallery of AI art prompts with a unique feature to customize and refine them for your own creative projects.",
+        urlLink: "https://gallery.ainsider.co",
+        tags: ["web", "apps", "ai", "featured"],
+    },
+    {
+        _id: 4,
         mainImage: "/images/portfolio/pgr-full.png",
         title: "PGR-Elektroteam.pl - Electrical Services",
         metadata: "Professional business website with project portfolio and integrated contact forms.",
@@ -19,7 +35,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["web"],
     },
     {
-        _id: 3,
+        _id: 5,
         mainImage: "/images/portfolio/volton.jpg",
         title: "Volton-install.pl - Energy Corporation",
         metadata: "Corporate platform with CMS integration and comprehensive information modules.",
@@ -27,7 +43,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["web"],
     },
     {
-        _id: 4,
+        _id: 6,
         mainImage: "/images/portfolio/klicious-full.png",
         title: "Klicious - E-commerce Platform",
         metadata: "Online store with payment gateway integration and SEO-optimized product catalog.",
@@ -35,7 +51,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["web", "ecommerce"],
     },
     {
-        _id: 5,
+        _id: 7,
         mainImage: "/images/portfolio/skin.jpg",
         title: "SkinProjectClinic.pl - Beauty Clinic",
         metadata: "Service-oriented website with photo gallery and social media integration.",
@@ -43,7 +59,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["web"],
     },
     {
-        _id: 6,
+        _id: 8,
         mainImage: "/images/portfolio/slovlydeskop.jpg",
         title: "Slovly - E-commerce Store",
         metadata: "Online marketplace with advanced product search, filtering, and SEO optimization.",
@@ -51,7 +67,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["web", "ecommerce"],
     },
     {
-        _id: 7,
+        _id: 9,
         mainImage: "/images/portfolio/bakaliovelove.jpg",
         title: "BakalioweLove - Food E-commerce",
         metadata: "Specialty food store with online payments and responsive product pages.",
@@ -59,7 +75,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["web", "ecommerce"],
     },
     {
-        _id: 8,
+        _id: 10,
         mainImage: "/images/portfolio/paintball.jpg",
         title: "Paintball Osada - Recreation Park",
         metadata: "Entertainment venue website with package information, pricing, and location map.",
@@ -75,7 +91,7 @@ const WebsitesData: Portfolio[] = [
     //     tags: ["web"],
     // },
     {
-        _id: 9,
+        _id: 11,
         mainImage: "/images/portfolio/cora.jpg",
         title: "Cora Góralczyk - Handcraft E-commerce",
         metadata: "Artisan products store with payment integration and SEO-ready order management.",
@@ -83,7 +99,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["web", "ecommerce"],
     },
     {
-        _id: 10,
+        _id: 12,
         mainImage: "/images/portfolio/bodymedica.jpg",
         title: "BodyMedica - Medical Clinic Online",
         metadata: "Healthcare platform with appointment booking, service descriptions, and health blog.",
@@ -91,7 +107,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["web"],
     },
     {
-        _id: 11,
+        _id: 13,
         mainImage: "/images/portfolio/lanelyya.jpg",
         title: "Lanelyya - Fashion E-commerce",
         metadata: "Clothing store with product catalog, shopping cart, and recommendation system.",
@@ -99,7 +115,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["web", "ecommerce"],
     },
     {
-        _id: 12,
+        _id: 14,
         mainImage: "/images/portfolio/n8nfrontendapp.png",
         title: "n8n Fullstack Chatbot Frontend",
         metadata: "Versatile chat interface designed for multiple n8n workflow integrations.",
@@ -107,7 +123,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["automations", "ai", "vibe coding"],
     },
     {
-        _id: 13,
+        _id: 15,
         mainImage: "/images/portfolio/geminin8n.png",
         title: "Gemini Chatbot App - AI Agent",
         metadata: "AI-powered chatbot with n8n integration for automated responses and lead generation.",
@@ -115,7 +131,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["automations", "ai", "agents", "apps"],
     },
     {
-        _id: 14,
+        _id: 16,
         mainImage: "/images/portfolio/vercelchat.png",
         title: "AinsiderChat.vercel.app - AI Chat Platform",
         metadata: "Web-based AI conversation app with multiple LLM integrations and multi-user support.",
@@ -123,7 +139,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["ai", "apps"],
     },
     {
-        _id: 15,
+        _id: 17,
         mainImage: "/images/portfolio/leadgenapp.png",
         title: "AI Lead Generator Application",
         metadata: "Intelligent lead generation platform for automated customer acquisition and conversion.",
@@ -131,7 +147,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["web", "ai", "apps"],
     },
     {
-        _id: 16,
+        _id: 18,
         mainImage: "/images/portfolio/macaiStudio.jpg",
         title: "Macai AI Chatbot - Portfolio Assistant",
         metadata: "Dedicated customer service AI agent with automated response generation and web integration.",
@@ -155,7 +171,7 @@ const WebsitesData: Portfolio[] = [
     //     tags: ["ai"],
     // },
     {
-        _id: 17,
+        _id: 19,
         mainImage: "/images/portfolio/librechat.png",
         title: "OpenWebUI Docker - AI Chat Application",
         metadata: "Full-stack AI chat app in Docker with easy installation and custom workflow integration.",
@@ -163,7 +179,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["ai", "apps", "agents"],
     },
     {
-        _id: 17.5,
+        _id: 20,
         mainImage: "/images/portfolio/marketingreport.png",
         title: "360 Marketing Reports AI System",
         metadata: "complete solution do generate marketing reports with conversational AI Agent",
@@ -171,7 +187,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["ai", "web", "agents", "n8n"],
     },
     {
-        _id: 18.5,
+        _id: 21,
         mainImage: "/images/portfolio/websiteseoaudit.png",
         title: "Complete SEO & AEO Audit App",
         metadata: "complete solution for creating SEO & AEO audit reports for websites",
@@ -179,7 +195,7 @@ const WebsitesData: Portfolio[] = [
         urlLink: "https://github.com/piotrmacai/n8n/tree/main/seo-audit-v1",
     },
     {
-        _id: 18,
+        _id: 22,
         mainImage: "/images/portfolio/voiceflow.png",
         title: "Ainsider.cloud - Voice AI Platform",
         metadata: "Voicebot development platform with Twilio and n8n integration for AI voice assistants.",
@@ -187,7 +203,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["ai", "agents"],
     },
     {
-        _id: 19,
+        _id: 23,
         mainImage: "/images/portfolio/voicebot2.jpg",
         title: "VoiceBot AI - Lead Generation Voice Agent",
         metadata: "Advanced voicebot with natural speech and CRM integration for automated phone support.",
@@ -195,7 +211,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["ai", "agents"],
     },
     {
-        _id: 20,
+        _id: 24,
         mainImage: "/images/portfolio/vercelchat.png",
         title: "Eleven Labs Agents Starter - Multi-Agent App",
         metadata: "Starter application for building AI agents using Eleven Labs and LLM for customer service.",
@@ -203,7 +219,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["ai", "agents"],
     },
     {
-        _id: 21,
+        _id: 25,
         mainImage: "/images/portfolio/voicebot.jpg",
         title: "VoiceBot Driving School - AI Voice Assistant",
         metadata: "Automated voice agent for driving school operations with intelligent call handling.",
@@ -211,15 +227,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["ai", "agents"],
     },
     {
-        _id: 22,
-        mainImage: "/images/portfolio/ainsiderstore.png",
-        title: "Ainsider.store - Modern Video Portfolio",
-        metadata: "High-performance Next.js website showcasing video content with seamless transitions.",
-        urlLink: "https://ainsider.store",
-        tags: ["web", "visuals", "vibe coding", "featured"],
-    },
-    {
-        _id: 23,
+        _id: 26,
         mainImage: "/images/portfolio/ainsiderbot.png",
         title: "Ainsider.co - Web and Automation Studio",
         metadata: "Comprehensive web development and automation services platform.",
@@ -227,7 +235,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["ai", "web", "featured"],
     },
     {
-        _id: 24,
+        _id: 27,
         mainImage: "/images/portfolio/n8n-workflows.webp",
         title: "n8n Fullstack Chatbot System",
         metadata: "Custom chatbot interface integrating with n8n workflows for complex business automations.",
@@ -235,7 +243,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["web", "ai", "featured", "automations"],
     },
     {
-        _id: 25,
+        _id: 28,
         mainImage: "/images/portfolio/AiProductDesigner.png",
         title: "Gemini Product Photo Studio",
         metadata: "AI-powered application for generating and editing product photos with advanced masking technology.",
@@ -243,7 +251,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["web", "ai", "visuals", "vibe coding", "automations"],
     },
     {
-        _id: 26,
+        _id: 29,
         mainImage: "/images/portfolio/git.jpg",
         title: "GitHub Portfolio - PiotrMacai",
         metadata: "Open-source projects including apps, websites, agents, and automation solutions.",
@@ -251,7 +259,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["web", "ai", "featured"],
     },
     {
-        _id: 27,
+        _id: 30,
         mainImage: "/images/portfolio/design.jpg",
         title: "Behance Portfolio - Macai Studio",
         metadata: "Professional design work, visual content, and creative projects showcase.",
@@ -259,7 +267,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["web", "visuals", "featured"],
     },
     {
-        _id: 28,
+        _id: 31,
         mainImage: "/images/portfolio/videoautomation.jpg",
         title: "AI Video Generation & Publishing Automation",
         metadata: "Complete automation system for creating and distributing marketing videos to social media.",
@@ -267,7 +275,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["ai", "visuals", "automations"],
     },
     {
-        _id: 29,
+        _id: 32,
         mainImage: "/images/portfolio/creativeai.png",
         title: "AI Virtual Try-On Application",
         metadata: "Real-time image generation app with iterative editing using Nano Banana model.",
@@ -275,7 +283,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["web", "ai", "visuals", "vibe coding", "featured"],
     },
     {
-        _id: 30,
+        _id: 33,
         mainImage: "/images/portfolio/elevenvercel.png",
         title: "Voice Agent Starter Kit",
         metadata: "Development toolkit using Vercel AI SDK and ElevenLabs for interactive voice AI applications.",
@@ -283,15 +291,15 @@ const WebsitesData: Portfolio[] = [
         tags: ["web", "ai", "vibe coding", "voice ai"],
     },
     {
-        _id: 31,
+        _id: 34,
         mainImage: "/images/portfolio/voicebotmacai.png",
         title: "Ainsider.store - Enterprise AI Voice Agent",
         metadata: "Custom-trained AI voice agent with proprietary business data for seamless website integration.",
-        urlLink: "https://ainsider.store/voicebot",
+        urlLink: "https://ainsider.store",
         tags: ["voice ai", "ai"],
     },
     {
-        _id: 32,
+        _id: 35,
         mainImage: "/images/portfolio/oskmachowski.jpg",
         title: "Oskmachowski.pl - Driving School Platform",
         metadata: "High-performance business website with SEO optimization and custom AI assistant integration.",
@@ -299,7 +307,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["web", "ai", "featured"],
     },
     {
-        _id: 33,
+        _id: 36,
         mainImage: "/images/portfolio/ainsiderlink.jpg",
         title: "Ainsider.link - Custom Linktree with AI",
         metadata: "Next.js-powered Linktree alternative featuring integrated AI chatbot functionality.",
@@ -307,7 +315,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["web", "ai"],
     },
     {
-        _id: 34,
+        _id: 37,
         mainImage: "/images/portfolio/landingcrm.jpg",
         title: "Business CRM Landing Page",
         metadata: "Ultra-fast React.js landing page designed for modern SaaS platforms.",
@@ -315,7 +323,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["web", "vibe coding"],
     },
     {
-        _id: 35,
+        _id: 38,
         mainImage: "/images/portfolio/n8n-wordpress.png",
         title: "WordPress Blog Automation System",
         metadata: "Complete n8n automation for WordPress blog management from content generation to publishing.",
@@ -323,7 +331,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["ai", "web", "automations"],
     },
     {
-        _id: 36,
+        _id: 39,
         mainImage: "/images/portfolio/rekrutspark.jpg",
         title: "RekrutSpark.com - HR Agency Platform",
         metadata: "Professional recruitment platform with custom CRM for efficient applicant management.",
@@ -331,7 +339,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["web"],
     },
     {
-        _id: 37,
+        _id: 40,
         mainImage: "/images/portfolio/crmnotion.png",
         title: "Ainsider.co/crm - Business CRM & Automation",
         metadata: "Personalized CRM system with integrated AI assistant and automated client workflows.",
@@ -339,7 +347,7 @@ const WebsitesData: Portfolio[] = [
         tags: ["web", "ai", "personal"],
     },
     {
-        _id: 38,
+        _id: 41,
         mainImage: "/images/portfolio/afterrave.jpg",
         title: "After-rave.eu - Supplement E-commerce",
         metadata: "Multilingual Shopify e-commerce platform for specialized supplement products.",

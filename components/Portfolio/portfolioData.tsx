@@ -6,6 +6,14 @@ import i18next, { t } from "i18next";
 const BlogData: Portfolio[] = [
   {
     _id: 1,
+    mainImage: "/images/portfolio/ainsiderstorenew.png",
+    title: "portfolioData.project_8.title",
+    metadata: "portfolioData.project_8.metadata",
+    urlLink: "/portfolio/apps",
+    tags: ["web", "apps"],
+  },
+  {
+    _id: 2,
     mainImage: "/images/portfolio/ainsiderbot.png",
     title: "portfolioData.project_1.title",
     metadata: "portfolioData.project_1.metadata",
@@ -13,7 +21,7 @@ const BlogData: Portfolio[] = [
     tags: ["ai", "ai agents"],
   },
   {
-    _id: 2,
+    _id: 3,
     mainImage: "/images/portfolio/macaivoicebot.png",
     title: "portfolioData.project_2.title",
     metadata: "portfolioData.project_2.metadata",
@@ -21,7 +29,7 @@ const BlogData: Portfolio[] = [
     tags: ["ai", "ai agents"],
   },
   {
-    _id: 3,
+    _id: 4,
     mainImage: "/images/portfolio/n8n-workflows.jpg",
     title: "portfolioData.project_3.title",
     metadata: "portfolioData.project_3.metadata",
@@ -29,7 +37,7 @@ const BlogData: Portfolio[] = [
     tags: ["ai", "automations"],
   },
   {
-    _id: 4,
+    _id: 5,
     mainImage: "/images/portfolio/geminin8n.png",
     title: "portfolioData.project_5.title",
     metadata: "portfolioData.project_5.metadata",
@@ -37,7 +45,7 @@ const BlogData: Portfolio[] = [
     tags: ["ai", "apps"],
   },
   {
-    _id: 5,
+    _id: 6,
     mainImage: "/images/portfolio/osk.png",
     title: "portfolioData.project_6.title",
     metadata: "portfolioData.project_6.metadata",
@@ -45,20 +53,12 @@ const BlogData: Portfolio[] = [
     tags: ["web"],
   },
   {
-    _id: 6,
+    _id: 7,
     mainImage: "/images/portfolio/afterrave.jpg",
     title: "portfolioData.project_7.title",
     metadata: "portfolioData.project_7.metadata",
     urlLink: "/portfolio/ecommerce",
     tags: ["ecommerce"],
-  },
-  {
-    _id: 7,
-    mainImage: "/images/portfolio/openweb-full.png",
-    title: "portfolioData.project_8.title",
-    metadata: "portfolioData.project_8.metadata",
-    urlLink: "/portfolio/apps",
-    tags: ["web", "apps"],
   },
   {
     _id: 8,
