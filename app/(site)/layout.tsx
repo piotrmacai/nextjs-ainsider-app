@@ -57,7 +57,7 @@ export default function RootLayout({
               <Footer />
             </ThemeProvider>
             <Cookiebanner />
-            <Voiceflow />
+            {/* <Voiceflow /> */}
             {/* <ElevenLabsWidget /> */}
             <Botpress />
             <GoogleAnalytics gaId="G-XXXXXXXXXX" />

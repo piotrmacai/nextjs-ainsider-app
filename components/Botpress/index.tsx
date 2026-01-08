@@ -1,35 +1,34 @@
-import React, { useEffect } from 'react';
-import { useCookieConsent } from "@/app/context/CookieConsentContext";
+"use client";
 
-const Chatbot: React.FC = () => {
-  const { consent } = useCookieConsent();
+import React, { useState, useEffect } from 'react';
+import Script from 'next/script';
+
+const Botpress: React.FC = () => {
+  const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    if (!consent.marketing) return;
+    // Check if Botpress is already loaded (for client-side navigation)
+    if ((window as any).botpressWebChat) {
+      setIsLoaded(true);
+    }
+  }, []);
 
-    const script1 = document.createElement('script');
-    script1.src = 'https://cdn.botpress.cloud/webchat/v3.2/inject.js';
-    script1.async = true;
-    document.body.appendChild(script1);
-
-    const script2 = document.createElement('script');
-    script2.src = 'https://files.bpcontent.cloud/2024/11/29/17/20241129171709-DTSTJMS8.js';
-    script2.defer = true;
-    document.body.appendChild(script2);
-
-    return () => {
-      if (document.body.contains(script1)) {
-        document.body.removeChild(script1);
-      }
-      if (document.body.contains(script2)) {
-        document.body.removeChild(script2);
-      }
-    };
-  }, [consent.marketing]);
-
-  if (!consent.marketing) return null;
-
-  return <div id="webchat" />;
+  return (
+    <>
+      <Script
+        src="https://cdn.botpress.cloud/webchat/v3.5/inject.js"
+        strategy="afterInteractive"
+        onLoad={() => setIsLoaded(true)}
+      />
+      {isLoaded && (
+        <Script
+          src="https://files.bpcontent.cloud/2024/11/29/17/20241129171709-DTSTJMS8.js"
+          strategy="afterInteractive"
+        />
+      )}
+    </>
+  );
 };
 
-export default Chatbot;
+export default Botpress;
+

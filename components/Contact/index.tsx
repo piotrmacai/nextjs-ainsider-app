@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { useTranslation } from 'react-i18next';
 import NotionFormPL from "../NotionForm";
 import NotionFormEN from "../NotionFormEn";
-import BotpressSection from "@/components/BotpressSection";
 import LindyEmbed from "@/components/LindyAi";
 import "@/i18n/i18n";
 
@@ -146,9 +145,7 @@ const Contact = () => {
                 </p>
               </div>
 
-              <div className="w-full max-w-2xl mt-6 rounded-2xl bg-white/40 dark:bg-black/30 shadow-lg backdrop-blur-md p-4 min-h-[60vh]">
-                <BotpressSection />
-              </div>
+
 
             </motion.div>
           </div>
