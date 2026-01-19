@@ -1,66 +1,40 @@
 "use client";
-import { useEffect, useRef } from "react";
 
-interface BotpressFullWidthProps {
-  height?: string;
-  className?: string;
-}
+import { useEffect } from "react";
 
-const Botpress = ({
-  height = "600px",
-  className = ""
-}: BotpressFullWidthProps) => {
-  const containerRef = useRef<HTMLDivElement>(null);
+const BOTPRESS_INJECT_ID = "botpress-webchat-inject";
+const BOTPRESS_CONFIG_ID = "botpress-webchat-config";
 
+const BotpressChat = () => {
   useEffect(() => {
-    const injectScriptId = "botpress-inject-script";
-    const configScriptId = "botpress-config-script";
-
-    // Check if scripts are already added
-    if (!document.getElementById(injectScriptId)) {
-      // Add the inject script
+    // inject.js
+    if (!document.getElementById(BOTPRESS_INJECT_ID)) {
       const injectScript = document.createElement("script");
-      injectScript.id = injectScriptId;
+      injectScript.id = BOTPRESS_INJECT_ID;
       injectScript.src = "https://cdn.botpress.cloud/webchat/v3.5/inject.js";
       injectScript.async = true;
       document.body.appendChild(injectScript);
+    }
 
-      // Add the config script with defer
+    // config / bot script
+    if (!document.getElementById(BOTPRESS_CONFIG_ID)) {
       const configScript = document.createElement("script");
-      configScript.id = configScriptId;
-      configScript.src = "https://files.bpcontent.cloud/2024/11/29/17/20241129171709-DTSTJMS8.js";
+      configScript.id = BOTPRESS_CONFIG_ID;
+      configScript.src =
+        "https://files.bpcontent.cloud/2024/11/29/17/20241129171709-DTSTJMS8.js";
       configScript.defer = true;
       document.body.appendChild(configScript);
     }
-
-    // Cleanup function
-    return () => {
-      const inject = document.getElementById(injectScriptId);
-      const config = document.getElementById(configScriptId);
-
-      if (inject) inject.remove();
-      if (config) config.remove();
-    };
   }, []);
 
-  return (
-    <div
-      ref={containerRef}
-      className={`botpress-container ${className}`}
-      style={{
-        width: "100%",
-        height: height,
-        position: "relative"
-      }}
-    >
-      <div id="bp-webchat" style={{ width: "100%", height: "100%" }} />
-    </div>
-  );
+  /**
+   * Botpress v3 renderuje się globalnie (window.botpressWebChat)
+   * Ten div jest tylko „kotwicą” layoutową, jeśli chcesz kontrolować szerokość/sekcję
+   */
+  return <div id="bp-webchat" />;
 };
 
-export default Botpress;
-
-
+export default BotpressChat;
 
 // "use client";
 

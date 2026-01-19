@@ -36,7 +36,7 @@ const Contact = () => {
             <p className="text-lg text-gray-600 dark:text-gray-300 font-medium max-w-2xl">
               {t('contact.pageTitleDesc')}
             </p>
-            <Botpress />
+
 
           </div>
           <div className="absolute -z-1 rounded-lg left-0 top-0 w-full h-2/3 bg-gradient-to-t from-[#fff] to-[#f7faff47] dark:bg-gradient-to-t dark:from-[#24283E] dark:to-[#252A42]"></div>
@@ -143,6 +143,11 @@ const Contact = () => {
                 <p>
                   <a href="https://www.facebook.com/piotrmacai/">{t('contact.mess')}</a>
                 </p>
+              </div>
+
+
+              <div id="bp-webchat">
+                <Botpress />
               </div>
 
 
