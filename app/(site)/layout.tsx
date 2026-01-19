@@ -15,6 +15,7 @@ import Cookiebanner from "@/components/Cookiebanner";
 import Botpress from "@/components/Botpress";
 import { CookieConsentProvider } from "@/app/context/CookieConsentContext";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import ElevenLabs from "@/components/Elevenlabs";
 
 // const inter = Inter({
 //   subsets: ['latin'],
@@ -55,7 +56,8 @@ export default function RootLayout({
               <Footer />
             </ThemeProvider>
             <Cookiebanner />
-            <Botpress />
+            <ElevenLabs />
+            {/* <Botpress /> */}
             <GoogleAnalytics gaId="G-XXXXXXXXXX" />
           </CookieConsentProvider>
         </body>

@@ -36,18 +36,18 @@ export const metadata: Metadata = {
 const ServicesPage = async () => {
   return (
     <>
-    <AiVoiceHero />      
-    <AiVoiceFeature/>  
-    <AiVoiceAbout/>
-    <Motion/>  
-    <AgentPricing/>   
-    {/* <CTAToPortfolio/>  */}
-    <FeaturesTab />    
-    <CTA/>   
-    {/* <AiFeaturesTab/>    */}
-    <Contact/>
-    <Brands/>   
-    {/* <ElevenLabsWidget /> */}
+      <AiVoiceHero />
+      <AiVoiceFeature />
+      <AiVoiceAbout />
+      <Motion />
+      <AgentPricing />
+      {/* <CTAToPortfolio/>  */}
+      <FeaturesTab />
+      <CTA />
+      {/* <AiFeaturesTab/>    */}
+      <Contact />
+      <Brands />
+      {/* <ElevenLabsWidget /> */}
     </>
   );
 };
