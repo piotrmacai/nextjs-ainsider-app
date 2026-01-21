@@ -31,7 +31,7 @@ const WebsitesData: Portfolio[] = [
         mainImage: "/images/portfolio/pgr-full.png",
         title: "PGR-Elektroteam.pl - Electrical Services",
         metadata: "Professional business website with project portfolio and integrated contact forms.",
-        urlLink: "/portfolio/elektroteam",
+        urlLink: "https://pgr-elektroteam.pl/",
         tags: ["web"],
     },
     {
@@ -39,7 +39,7 @@ const WebsitesData: Portfolio[] = [
         mainImage: "/images/portfolio/volton.jpg",
         title: "Volton-install.pl - Energy Corporation",
         metadata: "Corporate platform with CMS integration and comprehensive information modules.",
-        urlLink: "/portfolio/volton",
+        urlLink: "https://voltoninstall.pl/",
         tags: ["web"],
     },
     {
@@ -47,7 +47,7 @@ const WebsitesData: Portfolio[] = [
         mainImage: "/images/portfolio/klicious-full.png",
         title: "Klicious - E-commerce Platform",
         metadata: "Online store with payment gateway integration and SEO-optimized product catalog.",
-        urlLink: "/portfolio/klicious",
+        urlLink: "https://k-licious.pl/",
         tags: ["web", "ecommerce"],
     },
     {
@@ -55,7 +55,7 @@ const WebsitesData: Portfolio[] = [
         mainImage: "/images/portfolio/skin.jpg",
         title: "SkinProjectClinic.pl - Beauty Clinic",
         metadata: "Service-oriented website with photo gallery and social media integration.",
-        urlLink: "/portfolio/skinproject",
+        urlLink: "https://www.skinprojectclinic.pl/",
         tags: ["web"],
     },
     {
@@ -63,7 +63,7 @@ const WebsitesData: Portfolio[] = [
         mainImage: "/images/portfolio/slovlydeskop.jpg",
         title: "Slovly - E-commerce Store",
         metadata: "Online marketplace with advanced product search, filtering, and SEO optimization.",
-        urlLink: "/portfolio/slovly",
+        urlLink: "https://slovlystudio.com/",
         tags: ["web", "ecommerce"],
     },
     {
@@ -71,7 +71,7 @@ const WebsitesData: Portfolio[] = [
         mainImage: "/images/portfolio/bakaliovelove.jpg",
         title: "BakalioweLove - Food E-commerce",
         metadata: "Specialty food store with online payments and responsive product pages.",
-        urlLink: "/portfolio/bakaliowelove",
+        urlLink: "https://bakaliowelove.pl/",
         tags: ["web", "ecommerce"],
     },
     {
@@ -79,7 +79,7 @@ const WebsitesData: Portfolio[] = [
         mainImage: "/images/portfolio/paintball.jpg",
         title: "Paintball Osada - Recreation Park",
         metadata: "Entertainment venue website with package information, pricing, and location map.",
-        urlLink: "/portfolio/paintball-osada",
+        urlLink: "https://paintball-osada.pl/",
         tags: ["web"],
     },
     // {
@@ -95,7 +95,7 @@ const WebsitesData: Portfolio[] = [
         mainImage: "/images/portfolio/cora.jpg",
         title: "Cora Góralczyk - Handcraft E-commerce",
         metadata: "Artisan products store with payment integration and SEO-ready order management.",
-        urlLink: "/portfolio/cora-goralczyk",
+        urlLink: "https://cora-goralczyk.pl/",
         tags: ["web", "ecommerce"],
     },
     {
@@ -103,7 +103,7 @@ const WebsitesData: Portfolio[] = [
         mainImage: "/images/portfolio/bodymedica.jpg",
         title: "BodyMedica - Medical Clinic Online",
         metadata: "Healthcare platform with appointment booking, service descriptions, and health blog.",
-        urlLink: "/portfolio/bodymedica",
+        urlLink: "https://bodymedica.pl/",
         tags: ["web"],
     },
     {
@@ -111,7 +111,7 @@ const WebsitesData: Portfolio[] = [
         mainImage: "/images/portfolio/lanelyya.jpg",
         title: "Lanelyya - Fashion E-commerce",
         metadata: "Clothing store with product catalog, shopping cart, and recommendation system.",
-        urlLink: "/portfolio/lanelyya",
+        urlLink: "https://lanellya.de",
         tags: ["web", "ecommerce"],
     },
     {
@@ -184,20 +184,20 @@ const WebsitesData: Portfolio[] = [
         title: "360 Marketing Reports AI System",
         metadata: "complete solution do generate marketing reports with conversational AI Agent",
         urlLink: "https://github.com/piotrmacai/n8n/tree/main/marketing-reports-system",
-        tags: ["ai", "web", "agents", "n8n"],
+        tags: ["ai", "agents", "n8n"],
     },
     {
         _id: 21,
         mainImage: "/images/portfolio/websiteseoaudit.png",
         title: "Complete SEO & AEO Audit App",
         metadata: "complete solution for creating SEO & AEO audit reports for websites",
-        tags: ["ai", "web", "agents", "n8n"],
+        tags: ["ai", "agents", "n8n"],
         urlLink: "https://github.com/piotrmacai/n8n/tree/main/seo-audit-v1",
     },
     {
         _id: 22,
         mainImage: "/images/portfolio/voiceflow.png",
-        title: "Ainsider.cloud - Voice AI Platform",
+        title: "Ainsider.cloud - Voice AI Agent",
         metadata: "Voicebot development platform with Twilio and n8n integration for AI voice assistants.",
         urlLink: "https://ainsider.cloud",
         tags: ["ai", "agents"],
@@ -288,7 +288,7 @@ const WebsitesData: Portfolio[] = [
         title: "Voice Agent Starter Kit",
         metadata: "Development toolkit using Vercel AI SDK and ElevenLabs for interactive voice AI applications.",
         urlLink: "https://github.com/piotrmacai/voice-agent-starter",
-        tags: ["web", "ai", "vibe coding", "voice ai"],
+        tags: ["ai", "vibe coding", "voice ai"],
     },
     {
         _id: 34,
