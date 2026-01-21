@@ -178,38 +178,110 @@ const Portfolio = () => {
           <div className="w-full md:w-1/5 mb-8 md:mb-0 md:pr-6">
             <div className="sticky top-32">
               <h3 className="text-xl font-bold mb-6 text-black dark:text-white">Filters</h3>
-              <div className="flex flex-col space-y-4">
+              <div className="flex flex-col space-y-4 max-h-[calc(100vh-12rem)] overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-gray-400 dark:scrollbar-thumb-gray-600 scrollbar-track-transparent">
                   <button
                   className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
-                    selectedTag === "web" ? "bg-blue-500 bg-gray-300" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-600 dark:hover:bg-gray-600"
+                    selectedTag === "all" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
                   }`}
                   onClick={() => handleTagSelection("all")}
                 > 
-                  {t('portfolio.buttonall')}
+                  All
                 </button>
                 <button
                   className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
-                    selectedTag === "web" ? "bg-blue-500 bg-gray-300" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-600 dark:hover:bg-gray-600"
+                    selectedTag === "web" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
                   }`}
                   onClick={() => handleTagSelection("web")}
                 >
-                  {t('portfolio.button1')}
+                  Web
                 </button>
                 <button
                   className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
-                    selectedTag === "ai" ? "bg-blue-500 bg-gray-300" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-600 dark:hover:bg-gray-600"
+                    selectedTag === "apps" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
+                  }`}
+                  onClick={() => handleTagSelection("apps")}
+                >
+                  Apps
+                </button>
+                <button
+                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
+                    selectedTag === "ai" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
                   }`}
                   onClick={() => handleTagSelection("ai")}
                 >
-                  {t('portfolio.button3')}
+                  AI
                 </button>
                 <button
                   className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
-                    selectedTag === "ecommerce" ? "bg-blue-500 bg-gray-300" : "bg-gray-600 dark:bg-gray-600 dark:text-white hover:bg-gray-600 dark:hover:bg-gray-600"
+                    selectedTag === "featured" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
+                  }`}
+                  onClick={() => handleTagSelection("featured")}
+                >
+                  Featured
+                </button>
+                <button
+                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
+                    selectedTag === "ecommerce" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
+                  }`}
+                  onClick={() => handleTagSelection("ecommerce")}
+                >
+                  E-commerce
+                </button>
+                <button
+                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
+                    selectedTag === "automations" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
+                  }`}
+                  onClick={() => handleTagSelection("automations")}
+                >
+                  Automations
+                </button>
+                <button
+                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
+                    selectedTag === "agents" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
                   }`}
                   onClick={() => handleTagSelection("agents")}
                 >
-                  {t('portfolio.button7')}
+                  Agents
+                </button>
+                <button
+                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
+                    selectedTag === "n8n" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
+                  }`}
+                  onClick={() => handleTagSelection("n8n")}
+                >
+                  n8n
+                </button>
+                <button
+                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
+                    selectedTag === "visuals" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
+                  }`}
+                  onClick={() => handleTagSelection("visuals")}
+                >
+                  Visuals
+                </button>
+                <button
+                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
+                    selectedTag === "vibe coding" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
+                  }`}
+                  onClick={() => handleTagSelection("vibe coding")}
+                >
+                  Vibe Coding
+                </button>
+                <button
+                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
+                    selectedTag === "voice ai" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
+                  }`}
+                  onClick={() => handleTagSelection("voice ai")}
+                >
+                  Voice AI
+                </button>
+                <button
+                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
+                    selectedTag === "personal" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
+                  }`}
+                  onClick={() => handleTagSelection("personal")}
+                >
+                  Personal
                 </button>
               </div>
             </div>
