@@ -25,7 +25,7 @@ const BlogData: Portfolio[] = [
     mainImage: "/images/portfolio/promptgallery.png",
     title: "Promptr Gallery - AI Art Prompts Directory",
     metadata: "An interactive gallery of AI art prompts with a unique feature to customize and refine them for your own creative projects.",
-    urlLink: "https://gallery.ainsider.co",
+    urlLink: "https://gallery.ainsider.cloud",
     tags: ["web", "apps", "ai", "featured"],
   },
   {
@@ -178,7 +178,7 @@ const BlogData: Portfolio[] = [
     title: "OpenWebUI Docker - AI Chat Application",
     metadata: "Full-stack AI chat app in Docker with easy installation and custom workflow integration.",
     urlLink: "https://github.com/piotrmacai/librechat-docker",
-    tags: ["ai", "apps", "agents"],
+    tags: ["ai", "web", "apps", "agents"],
   },
   {
     _id: 20,
