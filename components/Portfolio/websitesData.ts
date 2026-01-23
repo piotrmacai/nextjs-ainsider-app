@@ -309,9 +309,9 @@ const WebsitesData: Portfolio[] = [
     {
         _id: 36,
         mainImage: "/images/portfolio/ainsiderlink.jpg",
-        title: "Ainsider.link - Custom Linktree with AI",
+        title: "Macai Link - Custom Linktree with AI",
         metadata: "Next.js-powered Linktree alternative featuring integrated AI chatbot functionality.",
-        urlLink: "https://ainsider.link",
+        urlLink: "https://link.macai.dev",
         tags: ["web", "ai"],
     },
     {
