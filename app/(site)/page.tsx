@@ -9,7 +9,6 @@ import CTA from "@/components/CTA";
 import FAQ from "@/components/FAQ";
 import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
-// import Voiceflow from "@/components/Voiceflow";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 import PortfolioCta from "@/components/PortfolioCta";

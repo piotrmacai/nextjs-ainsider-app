@@ -15,15 +15,7 @@ import Cookiebanner from "@/components/Cookiebanner";
 import Botpress from "@/components/Botpress";
 import { CookieConsentProvider } from "@/app/context/CookieConsentContext";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
-import ElevenLabs from "@/components/Elevenlabs";
 
-// const inter = Inter({
-//   subsets: ['latin'],
-//   display: 'swap',
-//   fallback: ['system-ui', 'Arial', 'sans-serif'],
-//   weight: ['400', '500', '700'],
-// });
-// Load Inter font locally
 const inter = localFont({
   src: [
     {
@@ -56,8 +48,7 @@ export default function RootLayout({
               <Footer />
             </ThemeProvider>
             <Cookiebanner />
-            <ElevenLabs />
-            {/* <Botpress /> */}
+            <Botpress />
             <GoogleAnalytics gaId="G-XXXXXXXXXX" />
           </CookieConsentProvider>
         </body>
