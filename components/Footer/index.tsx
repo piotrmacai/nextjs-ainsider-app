@@ -36,14 +36,14 @@ const Footer = () => {
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/LogoDarkX.png"
+                    src="/images/logo/MacaiStudioLogo.png"
                     alt="Logo"
                     className="dark:hidden"
                   />
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/LogoWhiteX.png"
+                    src="/images/logo/MacaiStudioLogo.png"
                     alt="Logo"
                     className="hidden dark:block"
                   />
@@ -60,7 +60,7 @@ const Footer = () => {
                   href="#"
                   className="text-black dark:text-white font-medium  text-sectiontitle mb-1.5"
                 >
-                  piotr@ainsider.co
+                  piotr@macai.dev
                 </a>
               </motion.div>
 

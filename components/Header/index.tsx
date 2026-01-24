@@ -37,24 +37,23 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed left-0 top-0 w-full z-20 py-7 ${
-        stickyMenu
-          ? "bg-white dark:bg-black shadow !py-4 transition duration-100"
-          : ""
-      }`}
+      className={`fixed left-0 top-0 w-full z-20 py-7 ${stickyMenu
+        ? "bg-white dark:bg-black shadow !py-4 transition duration-100"
+        : ""
+        }`}
     >
       <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 lg:flex items-center justify-between relative">
         <div className="w-full lg:w-2/5 flex items-center justify-between">
           <a href="/">
             <Image
-              src="/images/logo/LogoAinsiderWhite.png"
+              src="/images/logo/MacaiStudioLogo.png"
               alt="logo"
               width={120}
               height={120}
               className="w-full hidden dark:block"
             />
             <Image
-              src="/images/logo/LogoAinsiderDark.png"
+              src="/images/logo/MacaiStudioLogo.png"
               alt="logo"
               width={120}
               height={120}
@@ -71,31 +70,26 @@ const Header = () => {
             <span className="block relative cursor-pointer w-5.5 h-5.5">
               <span className="block absolute w-full h-full">
                 <span
-                  className={`block relative top-0 left-0 bg-black dark:bg-white rounded-sm w-0 h-0.5 my-1 ease-in-out duration-200 delay-[0] ${
-                    !navigationOpen ? "!w-full delay-300" : ""
-                  }`}
+                  className={`block relative top-0 left-0 bg-black dark:bg-white rounded-sm w-0 h-0.5 my-1 ease-in-out duration-200 delay-[0] ${!navigationOpen ? "!w-full delay-300" : ""
+                    }`}
                 ></span>
                 <span
-                  className={`block relative top-0 left-0 bg-black dark:bg-white rounded-sm w-0 h-0.5 my-1 ease-in-out duration-200 delay-150 ${
-                    !navigationOpen ? "!w-full delay-400" : ""
-                  }`}
+                  className={`block relative top-0 left-0 bg-black dark:bg-white rounded-sm w-0 h-0.5 my-1 ease-in-out duration-200 delay-150 ${!navigationOpen ? "!w-full delay-400" : ""
+                    }`}
                 ></span>
                 <span
-                  className={`block relative top-0 left-0 bg-black dark:bg-white rounded-sm w-0 h-0.5 my-1 ease-in-out duration-200 delay-200 ${
-                    !navigationOpen ? "!w-full delay-500" : ""
-                  }`}
+                  className={`block relative top-0 left-0 bg-black dark:bg-white rounded-sm w-0 h-0.5 my-1 ease-in-out duration-200 delay-200 ${!navigationOpen ? "!w-full delay-500" : ""
+                    }`}
                 ></span>
               </span>
               <span className="block absolute w-full h-full rotate-45">
                 <span
-                  className={`block bg-black dark:bg-white rounded-sm ease-in-out duration-200 delay-300 absolute left-2.5 top-0 w-0.5 h-0 ${
-                    navigationOpen ? "h-full delay-[0]" : ""
-                  }`}
+                  className={`block bg-black dark:bg-white rounded-sm ease-in-out duration-200 delay-300 absolute left-2.5 top-0 w-0.5 h-0 ${navigationOpen ? "h-full delay-[0]" : ""
+                    }`}
                 ></span>
                 <span
-                  className={`block bg-black dark:bg-white rounded-sm ease-in-out duration-200 delay-400 absolute left-0 top-[.03rem] w-full h-0 ${
-                    navigationOpen ? "h-0.5 dealy-200" : ""
-                  }`}
+                  className={`block bg-black dark:bg-white rounded-sm ease-in-out duration-200 delay-400 absolute left-0 top-[.03rem] w-full h-0 ${navigationOpen ? "h-0.5 dealy-200" : ""
+                    }`}
                 ></span>
               </span>
             </span>
@@ -105,10 +99,9 @@ const Header = () => {
 
         {/* Nav Menu Start   */}
         <div
-          className={`w-full lg:w-full h-0 lg:h-auto invisible lg:visible lg:flex items-center justify-between ${
-            navigationOpen &&
+          className={`w-full lg:w-full h-0 lg:h-auto invisible lg:visible lg:flex items-center justify-between ${navigationOpen &&
             "!visible bg-white dark:bg-blacksection shadow-solid-5 h-auto max-h-[400px] overflow-y-scroll rounded-md mt-4 p-7.5"
-          }`}
+            }`}
         >
           <nav>
             <ul className="flex lg:items-center flex-col lg:flex-row gap-5 lg:gap-10 mr-2">
@@ -166,12 +159,12 @@ const Header = () => {
           </nav>
 
           <div className="flex items-center gap-6 mt-7 lg:mt-0">
-          
-           
+
+
 
             <ul className="flex items-center gap-5">
-     
-     {/* <li>
+
+              {/* <li>
      <a href="https://x.com/piotrmacai" target="_blank">
          <svg
            className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"
@@ -212,20 +205,20 @@ const Header = () => {
            </svg>
          </a>
        </li> */}
-       <li>
-         <a href="https://www.github.com/piotrmacai/" target="_blank">
-           
-         <Image src="/images/brand/github.png" alt="git" width={24} height={24} className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"/>
-         </a>
-       </li>
-       {/* <li>
+              <li>
+                <a href="https://www.github.com/piotrmacai/" target="_blank">
+
+                  <Image src="/images/brand/github.png" alt="git" width={24} height={24} className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300" />
+                </a>
+              </li>
+              {/* <li>
          <a href="https://huggingface.co/Piotr-Macai" target="_blank">
            
          <Image src="/images/brand/hf-logo-pirate.svg" alt="git" width={24} height={24} className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"/>
          </a>
        </li> */}
 
-       {/* <li>
+              {/* <li>
          <a href="https://www.behance.net/macaistudio" target="_blank">
            <svg
              className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"
@@ -240,7 +233,7 @@ const Header = () => {
          </a>
        </li> */}
 
-       {/* <li>
+              {/* <li>
          <a href="https://www.artstation.com/piotrmacai" target="_blank">
            <svg
              className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"
@@ -255,7 +248,7 @@ const Header = () => {
          </a>
        </li> */}
 
-     </ul>
+            </ul>
 
 
             {/* <Link
@@ -264,7 +257,7 @@ const Header = () => {
               onClick={handleMenuItemClick}
             >
               {t('header.pricing')}🔥
-            </Link> */}   
+            </Link> */}
             <LanguageSwitcher />
             <ThemeToggler />
           </div>
