@@ -6,9 +6,9 @@ import Brands from "@/components/Brands";
 import CTA from "@/components/CTA";
 import Contact from "@/components/Contact";
 import Feature from "@/components/Features";
-import AboutWeb from "@/components/AboutWeb";
-import AboutAi from "@/components/AboutAi";
-import AboutMarketing from "@/components/AboutMarketing";
+import AboutWeb from "@/components/About/AboutWeb";
+import AboutAi from "@/components/About/AboutAi";
+import AboutMarketing from "@/components/About/AboutMarketing";
 import FeaturesTab from "@/components/FeaturesTab";
 import WebFeaturesTab from "@/components/FeaturesTabWeb";
 import AiFeaturesTab from "@/components/FeaturesTabAi";
@@ -27,21 +27,21 @@ export const metadata: Metadata = {
 const ServicesPage = async () => {
   return (
     <>
-    <WebHero/>
-    <Feature/>
-    < FeaturesTab />
-    <div id="headerWeb">
-      {/* <HeaderWeb/> */}
-      <AboutWeb/>
-      <WebFeaturesTab/>
+      <WebHero />
+      <Feature />
+      < FeaturesTab />
+      <div id="headerWeb">
+        {/* <HeaderWeb/> */}
+        <AboutWeb />
+        <WebFeaturesTab />
       </div>
       <div id="headerMarketing">
-      <AboutMarketing/>
-      <MarketingFeaturesTab/>
-      </div> 
-      <CTA/> 
-     <Brands/>
-    <Contact/>
+        <AboutMarketing />
+        <MarketingFeaturesTab />
+      </div>
+      <CTA />
+      <Brands />
+      <Contact />
     </>
   );
 };

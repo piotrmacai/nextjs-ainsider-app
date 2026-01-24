@@ -6,6 +6,7 @@ import { Metadata } from "next";
 import StoreHero from "@/components/Store/StoreHero";
 import SenjaWidget from "@/components/SenjaWidget";
 import WooProductGrid from "@/components/WooProductGrid";
+import Products from "@/components/Store/Products";
 
 export const metadata: Metadata = {
   title: "Ainsider.co Portfolio",
@@ -16,11 +17,12 @@ export const metadata: Metadata = {
 const ServicesPage = async () => {
   return (
     <>
-    <StoreHero/>
-    <WooProductGrid/>
-    {/* <SenjaWidget/>   */}
-    <Contact/>
-       <Brands/>
+      <StoreHero />
+      <Products />
+      {/* <WooProductGrid/> */}
+      {/* <SenjaWidget/>   */}
+      <Contact />
+      <Brands />
     </>
   );
 };

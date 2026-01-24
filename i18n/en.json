@@ -108,6 +108,43 @@
     "effectText": "Higher conversion and better Google rankings.",
     "otherProjectsTitle": "Other Website Projects"
   },
+  "store": {
+    "header": "Store",
+    "desc1": "AI Guides & Courses",
+    "desc2": "Practical guides, courses, and resources to help you master AI, automations, and modern tools."
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "AI Guides and Resources",
+    "viewProduct": "View Product",
+    "items": {
+      "aiDirectory": {
+        "title": "AI Agents and Tools Directory",
+        "description": "Complete directory of the best AI tools, agents, and automations. Discover, compare, and choose the perfect solutions for your business.",
+        "link": "https://ainsider.gumroad.com/l/ai-directory"
+      },
+      "chatgptGuide": {
+        "title": "ChatGPT and LLMs - Complete Guide",
+        "description": "Comprehensive guide to ChatGPT and large language models. Learn how to leverage AI in your daily work and business.",
+        "link": "https://ainsider.gumroad.com/l/gibyi"
+      },
+      "automationsGuide": {
+        "title": "Automations for Beginners Guide",
+        "description": "Practical guide to business automations. Learn how to save time and increase efficiency through automation.",
+        "link": "https://ainsider.gumroad.com/l/zwgup"
+      },
+      "aiAssistant": {
+        "title": "Create Your Own AI Assistant",
+        "description": "Step by step, learn to create dedicated AI assistants tailored to your business needs.",
+        "link": "https://ainsider.gumroad.com/l/xsheta"
+      },
+      "midjourneyGuide": {
+        "title": "Midjourney and AI Images - Complete Guide",
+        "description": "Master the art of AI image creation. Complete guide to Midjourney and other image generation tools.",
+        "link": "https://ainsider.gumroad.com/l/pfikv"
+      }
+    }
+  },
   "automationsPage": {
     "detailsTitle": "Project Details",
     "techStack": "Tech Stack",
@@ -208,6 +245,10 @@
           "url": "https://ainsider.co"
         },
         "store": {
+          "header": "Automation Systems based on AI Agents",
+          "desc1": "Created precisely for specific goals and needs, integrated with your data.",
+          "desc2": "Ready to use and integrate with your platforms.",
+          "more": "See more",
           "title": "Ainsider.store",
           "description": "Starannie dobrany katalog narzędzi AI, agentów, modeli i pluginów wraz z praktycznymi analizami i przykładami użycia.",
           "url": "https://ainsider.store"
@@ -1226,12 +1267,6 @@
     "header2": "Created Precisely for Your Needs",
     "desc1": "Online Stores | E-learning | Integrations",
     "contact": "Detailed Quote"
-  },
-  "store": {
-    "header": "Automation Systems based on AI Agents",
-    "desc1": "Created precisely for specific goals and needs, integrated with your data.",
-    "desc2": "Ready to use and integrate with your platforms.",
-    "more": "See more"
   },
   "webpricing": {
     "title": "Our Services",

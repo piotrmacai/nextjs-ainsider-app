@@ -87,6 +87,13 @@ const getTranslatedMenuData = () => {
       path: "/portfolio",
       icon: "/images/icon/bag.svg",
     }, 
+         {
+      id: 4.7,
+      title: "Shop",
+      newTab: false,
+      path: "/shop",
+      icon: "/images/icon/bag.svg",
+    }, 
       {
       id: 4.6,
       title: "Blog",
@@ -94,13 +101,7 @@ const getTranslatedMenuData = () => {
       path: t('header.menublog'),
       icon: "/images/icon/bag.svg",
     }, 
-       {
-      id: 4.7,
-      title: "About",
-      newTab: false,
-      path: "/about",
-      icon: "/images/icon/bag.svg",
-    }, 
+  
     // {
     //   id: 3,
     //   title: t('header.menu-resources'),

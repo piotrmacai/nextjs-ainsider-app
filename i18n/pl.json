@@ -106,6 +106,44 @@
     "effectText": "Wyższa konwersja i lepsze pozycje w Google.",
     "otherProjectsTitle": "Inne projekty stron WWW"
   },
+  "store": {
+    "header": "Sklep",
+    "desc1": "Przewodniki i Kursy AI",
+    "desc2": "Praktyczne przewodniki, kursy i zasoby, które pomogą Ci opanować AI, automatyzacje i nowoczesne narzędzia.",
+    "more": "See more"
+  },
+  "products": {
+    "title": "Nasze Produkty",
+    "subtitle": "Przewodniki i zasoby AI",
+    "viewProduct": "Zobacz produkt",
+    "items": {
+      "aiDirectory": {
+        "title": "Katalog Narzędzi i Agentów AI",
+        "description": "Kompletny katalog najlepszych narzędzi AI, agentów i automatyzacji. Odkryj, porównaj i wybierz idealne rozwiązania dla swojego biznesu.",
+        "link": "https://ainsider.gumroad.com/l/ai-directory"
+      },
+      "chatgptGuide": {
+        "title": "ChatGPT i LLM - Kompletny Przewodnik",
+        "description": "Kompleksowy przewodnik po ChatGPT i dużych modelach językowych. Naucz się wykorzystywać AI w codziennej pracy i biznesie.",
+        "link": "https://ainsider.gumroad.com/l/ejagoc"
+      },
+      "automationsGuide": {
+        "title": "Automatyzacje dla Początkujących",
+        "description": "Praktyczny przewodnik po automatyzacjach biznesowych. Dowiedz się, jak zaoszczędzić czas i zwiększyć efektywność dzięki automatyzacji.",
+        "link": "https://ainsider.gumroad.com/l/zwgup"
+      },
+      "aiAssistant": {
+        "title": "Stwórz Własnego Asystenta AI",
+        "description": "Krok po kroku naucz się tworzyć dedykowanych asystentów AI dostosowanych do Twoich potrzeb biznesowych.",
+        "link": "https://ainsider.gumroad.com/l/xsheta"
+      },
+      "midjourneyGuide": {
+        "title": "Midjourney i AI Images - Kompletny Przewodnik",
+        "description": "Opanuj sztukę tworzenia obrazów AI. Kompletny przewodnik po Midjourney i innych narzędziach do generowania grafik.",
+        "link": "https://ainsider.gumroad.com/l/pfikv"
+      }
+    }
+  },
   "automationsPage": {
     "detailsTitle": "Szczegóły projektu",
     "techStack": "Stos technologiczny",
