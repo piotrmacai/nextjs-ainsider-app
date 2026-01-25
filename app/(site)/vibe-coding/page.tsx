@@ -6,10 +6,10 @@ import Brands from "@/components/Brands";
 import CTA from "@/components/CTA";
 import Contact from "@/components/Contact";
 import Feature from "@/components/Features";
-import AboutWeb from "@/components/AboutWeb";
-import AboutCRM from "@/components/AboutCRM";
-import AboutAi from "@/components/AboutAi";
-import AboutMarketing from "@/components/AboutMarketing";
+import AboutWeb from "@/components/About/AboutWeb";
+import AboutCRM from "@/components/About/AboutCRM";
+import AboutAi from "@/components/About/AboutAi";
+import AboutMarketing from "@/components/About/AboutMarketing";
 import FeaturesTab from "@/components/FeaturesTab";
 import VibeCodingFeaturesTab from "@/components/FeaturesTabVibeCoding";
 import HeaderAi from "@/components/HeaderAi";
@@ -31,15 +31,15 @@ export const metadata: Metadata = {
 const ServicesPage = async () => {
   return (
     <>
-    <VibeCodingHero/>
-    <WebFeature/>
-    <Motion/>
-    <VibeCodingAbout/>
-    <VibeCodingFeaturesTab/>
-    <VibeCodingPricing/>
-    <SenjaWidget/>  
-    <Contact/>
-       <Brands/>
+      <VibeCodingHero />
+      <WebFeature />
+      <Motion />
+      <VibeCodingAbout />
+      <VibeCodingFeaturesTab />
+      <VibeCodingPricing />
+      <SenjaWidget />
+      <Contact />
+      <Brands />
     </>
   );
 };
