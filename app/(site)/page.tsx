@@ -6,24 +6,11 @@ import Feature from "@/components/Features";
 import FeaturesTab from "@/components/FeaturesTab";
 
 import CTA from "@/components/CTA";
-import FAQ from "@/components/FAQ";
-import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
-import Blog from "@/components/Blog";
-import Testimonial from "@/components/Testimonial";
-import PortfolioCta from "@/components/PortfolioCta";
-import Slider from "@/components/Slider"
-import HomePortfolio from "@/components/Portfolio/HomePortfolio";
 import Socials from "@/components/Socials";
-import SenjaWidget from "@/components/SenjaWidget";
-import CTAToNewsletter from "@/components/CTAToNewsletter";
-import CTAToAinsider from "@/components/CTAToAinsider";
-import About from "@/components/About";
-import MainAbout from "@/components/About/MainAbout";
+
 import Motion from "@/components/Motion/MotionOrbit";
 import ServiceTimeline from "@/components/ServiceTimeline";
-import FeaturesTabMarketing from "@/components/FeaturesTabMarketing";
-import WooProductGrid from "@/components/WooProductGrid";
 import AinsiderStore from "@/components/AinsiderStore";
 import VibeCodingSection from "@/components/VibeCodingSection";
 import AiwareHeroTwo from "@/components/AiwareHeroTwo";

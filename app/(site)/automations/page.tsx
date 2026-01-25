@@ -21,10 +21,8 @@ import AutomationFeaturesTab from "@/components/Automation/AutomationFeaturesTab
 import AutomationAbout from "@/components/About/AutomationAbout";
 // import Motion from "@/components/Motion/MotionAgents";
 import Motion from "@/components/Motion/MotionOrbit";
-import AgentPricing from "@/components/Ai/AgentPricing";
 import CTAToAinsider from "@/components/CTAToAinsider";
-import BotpressEmbed from "@/components/BotpressEmbed";
-import BotpressSection from "@/components/BotpressSection";
+import Botpress from "@/components/Botpress";
 import AinsiderStore from "@/components/AinsiderStore";
 
 import { Metadata } from "next";
@@ -45,7 +43,6 @@ const ServicesPage = async () => {
       {/* <div style={{minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 24}}>
       </div> */}
       <Motion />
-      {/* <AgentPricing/>       */}
       <FeaturesTab />
       {/* <AiAboutTwo/>  */}
       {/* <AiAboutOne/>   */}
