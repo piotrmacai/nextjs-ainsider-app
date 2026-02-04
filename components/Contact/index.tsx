@@ -125,7 +125,7 @@ const Contact = () => {
                   {t('contact.email')}
                 </h4>
                 <p>
-                  <a href="mailto:piotr@ainsider.co">piotr@ainsider.co</a>
+                  <a href="mailto:piotr@macai.dev">piotr@macai.dev</a>
                 </p>
               </div>
               <div className="mb-7 5">
@@ -143,11 +143,6 @@ const Contact = () => {
                 <p>
                   <a href="https://www.facebook.com/piotrmacai/">{t('contact.mess')}</a>
                 </p>
-              </div>
-
-
-              <div id="bp-webchat">
-                <Botpress />
               </div>
 
 

@@ -179,6 +179,14 @@ const Portfolio = () => {
             <div className="sticky top-32">
               <h3 className="text-xl font-bold mb-6 text-black dark:text-white">Filters</h3>
               <div className="flex flex-col space-y-4 max-h-[calc(100vh-12rem)] overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-gray-400 dark:scrollbar-thumb-gray-600 scrollbar-track-transparent">
+                              <button
+                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
+                    selectedTag === "featured" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
+                  }`}
+                  onClick={() => handleTagSelection("featured")}
+                >
+                  Featured
+                </button>
                   <button
                   className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
                     selectedTag === "all" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
@@ -210,14 +218,6 @@ const Portfolio = () => {
                   onClick={() => handleTagSelection("ai")}
                 >
                   AI
-                </button>
-                <button
-                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
-                    selectedTag === "featured" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
-                  }`}
-                  onClick={() => handleTagSelection("featured")}
-                >
-                  Featured
                 </button>
                 <button
                   className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
@@ -259,30 +259,30 @@ const Portfolio = () => {
                 >
                   Visuals
                 </button>
-                <button
+                {/* <button
                   className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
                     selectedTag === "vibe coding" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
                   }`}
                   onClick={() => handleTagSelection("vibe coding")}
                 >
                   Vibe Coding
-                </button>
-                <button
+                </button> */}
+                {/* <button
                   className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
                     selectedTag === "voice ai" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
                   }`}
                   onClick={() => handleTagSelection("voice ai")}
                 >
                   Voice AI
-                </button>
-                <button
+                </button> */}
+                {/* <button
                   className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
                     selectedTag === "personal" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
                   }`}
                   onClick={() => handleTagSelection("personal")}
                 >
                   Personal
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
