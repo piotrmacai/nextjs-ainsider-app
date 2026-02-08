@@ -11,6 +11,8 @@ const BlogData: Portfolio[] = [
     metadata: "A comprehensive directory for discovering the best AI tools and high-quality prompts to optimize your workflows.",
     urlLink: "https://ainsider.store",
     tags: ["web", "apps", "ai", "featured"],
+    systemTags: ["lead generation", "branding", "content discovery"],
+    platformsTag: ["Next.js", "React", "JavaScript"],
   },
   {
     _id: 2,
@@ -19,6 +21,8 @@ const BlogData: Portfolio[] = [
     metadata: "Responsive corporate website with full CMS integration and optimized performance.",
     urlLink: "https://machtrans.pl/",
     tags: ["web"],
+    systemTags: ["lead generation", "branding", "customer inquiries"],
+    platformsTag: ["Next.js", "React", "JavaScript"],
   },
   {
     _id: 3,
@@ -27,6 +31,8 @@ const BlogData: Portfolio[] = [
     metadata: "An interactive gallery of AI art prompts with a unique feature to customize and refine them for your own creative projects.",
     urlLink: "https://gallery.ainsider.cloud",
     tags: ["web", "apps", "ai", "featured"],
+    systemTags: ["branding", "community engagement", "content discovery"],
+    platformsTag: ["Next.js", "React", "JavaScript"],
   },
   {
     _id: 4,
@@ -35,6 +41,8 @@ const BlogData: Portfolio[] = [
     metadata: "Professional business website with project portfolio and integrated contact forms.",
     urlLink: "https://pgr-elektroteam.pl/",
     tags: ["web"],
+    systemTags: ["lead generation", "branding", "customer inquiries"],
+    platformsTag: ["Next.js", "React", "JavaScript"],
   },
   {
     _id: 5,
@@ -43,6 +51,8 @@ const BlogData: Portfolio[] = [
     metadata: "Corporate platform with CMS integration and comprehensive information modules.",
     urlLink: "https://voltoninstall.pl/",
     tags: ["web"],
+    systemTags: ["lead generation", "branding", "customer inquiries"],
+    platformsTag: ["Next.js", "React", "JavaScript"],
   },
   {
     _id: 6,
@@ -51,6 +61,8 @@ const BlogData: Portfolio[] = [
     metadata: "Online store with payment gateway integration and SEO-optimized product catalog.",
     urlLink: "https://k-licious.pl/",
     tags: ["web", "ecommerce"],
+    systemTags: ["ecommerce", "conversion optimization", "customer retention"],
+    platformsTag: ["Next.js", "React", "JavaScript"],
   },
   {
     _id: 7,
@@ -59,6 +71,8 @@ const BlogData: Portfolio[] = [
     metadata: "Service-oriented website with photo gallery and social media integration.",
     urlLink: "https://www.skinprojectclinic.pl/",
     tags: ["web"],
+    systemTags: ["lead generation", "appointment booking", "branding"],
+    platformsTag: ["Next.js", "React", "JavaScript"],
   },
   {
     _id: 8,
@@ -67,6 +81,8 @@ const BlogData: Portfolio[] = [
     metadata: "Online marketplace with advanced product search, filtering, and SEO optimization.",
     urlLink: "https://slovlystudio.com/",
     tags: ["web", "ecommerce"],
+    systemTags: ["ecommerce", "conversion optimization", "customer retention"],
+    platformsTag: ["Next.js", "React", "JavaScript"],
   },
   {
     _id: 9,
@@ -75,6 +91,8 @@ const BlogData: Portfolio[] = [
     metadata: "Specialty food store with online payments and responsive product pages.",
     urlLink: "https://bakaliowelove.pl/",
     tags: ["web", "ecommerce"],
+    systemTags: ["ecommerce", "conversion optimization", "customer retention"],
+    platformsTag: ["Next.js", "React", "JavaScript"],
   },
   {
     _id: 10,
@@ -83,6 +101,8 @@ const BlogData: Portfolio[] = [
     metadata: "Entertainment venue website with package information, pricing, and location map.",
     urlLink: "https://paintball-osada.pl/",
     tags: ["web"],
+    systemTags: ["lead generation", "booking", "local marketing"],
+    platformsTag: ["Next.js", "React", "JavaScript"],
   },
   // {
   //     _id: 9,
@@ -99,6 +119,8 @@ const BlogData: Portfolio[] = [
     metadata: "Artisan products store with payment integration and SEO-ready order management.",
     urlLink: "https://cora-goralczyk.pl/",
     tags: ["web", "ecommerce"],
+    systemTags: ["ecommerce", "conversion optimization", "customer retention"],
+    platformsTag: ["Next.js", "React", "JavaScript"],
   },
   {
     _id: 12,
@@ -107,6 +129,8 @@ const BlogData: Portfolio[] = [
     metadata: "Healthcare platform with appointment booking, service descriptions, and health blog.",
     urlLink: "https://bodymedica.pl/",
     tags: ["web"],
+    systemTags: ["appointment booking", "lead generation", "customer service"],
+    platformsTag: ["Next.js", "React", "JavaScript"],
   },
   {
     _id: 13,
@@ -115,6 +139,8 @@ const BlogData: Portfolio[] = [
     metadata: "Clothing store with product catalog, shopping cart, and recommendation system.",
     urlLink: "https://lanellya.de",
     tags: ["web", "ecommerce"],
+    systemTags: ["ecommerce", "conversion optimization", "customer retention"],
+    platformsTag: ["Next.js", "React", "JavaScript"],
   },
   {
     _id: 14,
@@ -123,6 +149,8 @@ const BlogData: Portfolio[] = [
     metadata: "Versatile chat interface designed for multiple n8n workflow integrations.",
     urlLink: "https://github.com/piotrmacai/",
     tags: ["automations", "ai", "vibe coding"],
+    systemTags: ["customer service", "automation of processes", "lead generation"],
+    platformsTag: ["React", "JavaScript", "n8n"],
   },
   {
     _id: 15,
@@ -131,6 +159,8 @@ const BlogData: Portfolio[] = [
     metadata: "AI-powered chatbot with n8n integration for automated responses and lead generation.",
     urlLink: "https://github.com/piotrmacai/Gemini-Chatbot-App",
     tags: ["automations", "ai", "agents", "apps"],
+    systemTags: ["customer service", "lead generation", "automation of processes"],
+    platformsTag: ["React", "JavaScript", "n8n"],
   },
   {
     _id: 16,
@@ -139,6 +169,8 @@ const BlogData: Portfolio[] = [
     metadata: "Web-based AI conversation app with multiple LLM integrations and multi-user support.",
     urlLink: "https://ainsiderchat.vercel.app/",
     tags: ["ai", "apps"],
+    systemTags: ["customer service", "lead generation", "automation of processes"],
+    platformsTag: ["Next.js", "React", "JavaScript"],
   },
   {
     _id: 17,
@@ -147,6 +179,8 @@ const BlogData: Portfolio[] = [
     metadata: "Intelligent lead generation platform for automated customer acquisition and conversion.",
     urlLink: "https://github.com/piotrmacai/",
     tags: ["web", "ai", "apps"],
+    systemTags: ["lead generation", "automation of processes", "conversion optimization"],
+    platformsTag: ["React", "JavaScript"],
   },
   {
     _id: 18,
@@ -155,6 +189,8 @@ const BlogData: Portfolio[] = [
     metadata: "Dedicated customer service AI agent with automated response generation and web integration.",
     urlLink: "/portfolio/macai-chatbot",
     tags: ["ai"],
+    systemTags: ["customer service", "lead generation", "automation of processes"],
+    platformsTag: ["Next.js", "React", "JavaScript"],
   },
   // {
   //     _id: 17,
@@ -179,6 +215,8 @@ const BlogData: Portfolio[] = [
     metadata: "Full-stack AI chat app in Docker with easy installation and custom workflow integration.",
     urlLink: "https://github.com/piotrmacai/librechat-docker",
     tags: ["ai", "web", "apps", "agents"],
+    systemTags: ["customer service", "automation of processes", "internal support"],
+    platformsTag: ["Docker", "JavaScript"],
   },
   {
     _id: 20,
@@ -187,6 +225,8 @@ const BlogData: Portfolio[] = [
     metadata: "complete solution do generate marketing reports with conversational AI Agent",
     urlLink: "https://github.com/piotrmacai/n8n/tree/main/marketing-reports-system",
     tags: ["ai", "agents", "n8n"],
+    systemTags: ["marketing analytics", "automation of processes", "reporting"],
+    platformsTag: ["n8n", "JavaScript"],
   },
   {
     _id: 21,
@@ -195,6 +235,8 @@ const BlogData: Portfolio[] = [
     metadata: "complete solution for creating SEO & AEO audit reports for websites",
     tags: ["ai", "agents", "n8n"],
     urlLink: "https://github.com/piotrmacai/n8n/tree/main/seo-audit-v1",
+    systemTags: ["seo optimization", "automation of processes", "reporting"],
+    platformsTag: ["n8n", "JavaScript"],
   },
   {
     _id: 22,
@@ -203,6 +245,8 @@ const BlogData: Portfolio[] = [
     metadata: "Voicebot development platform with Twilio and n8n integration for AI voice assistants.",
     urlLink: "https://ainsider.cloud",
     tags: ["ai", "agents"],
+    systemTags: ["customer service", "lead generation", "automation of processes"],
+    platformsTag: ["n8n", "Python"],
   },
   {
     _id: 23,
@@ -211,6 +255,8 @@ const BlogData: Portfolio[] = [
     metadata: "Advanced voicebot with natural speech and CRM integration for automated phone support.",
     urlLink: "/voicebot",
     tags: ["ai", "agents"],
+    systemTags: ["lead generation", "customer service", "automation of processes"],
+    platformsTag: ["Python", "n8n"],
   },
   {
     _id: 24,
@@ -219,6 +265,8 @@ const BlogData: Portfolio[] = [
     metadata: "Starter application for building AI agents using Eleven Labs and LLM for customer service.",
     urlLink: "https://v0.app/chat/eleven-labs-agents-starter-xuyVdQFxPAE?ref=L4O3TN",
     tags: ["ai", "agents"],
+    systemTags: ["customer service", "automation of processes", "lead generation"],
+    platformsTag: ["Next.js", "React", "JavaScript"],
   },
   {
     _id: 25,
@@ -227,6 +275,8 @@ const BlogData: Portfolio[] = [
     metadata: "Automated voice agent for driving school operations with intelligent call handling.",
     urlLink: "/portfolio/voicebot-drivingschool",
     tags: ["ai", "agents"],
+    systemTags: ["customer service", "lead generation", "automation of processes"],
+    platformsTag: ["Python", "n8n"],
   },
   {
     _id: 26,
@@ -235,6 +285,8 @@ const BlogData: Portfolio[] = [
     metadata: "Comprehensive web development and automation services platform.",
     urlLink: "https://ainsider.co",
     tags: ["ai", "web", "featured"],
+    systemTags: ["lead generation", "branding", "automation of processes"],
+    platformsTag: ["Next.js", "React", "JavaScript"],
   },
   {
     _id: 27,
@@ -243,6 +295,8 @@ const BlogData: Portfolio[] = [
     metadata: "Custom chatbot interface integrating with n8n workflows for complex business automations.",
     urlLink: "https://github.com/piotrmacai/n8n/",
     tags: ["web", "ai", "featured", "automations"],
+    systemTags: ["automation of processes", "customer service", "lead generation"],
+    platformsTag: ["n8n", "React", "JavaScript"],
   },
   {
     _id: 28,
@@ -251,6 +305,8 @@ const BlogData: Portfolio[] = [
     metadata: "AI-powered application for generating and editing product photos with advanced masking technology.",
     urlLink: "https://github.com/piotrmacai/Gemini-ProductPhotoStudio",
     tags: ["web", "ai", "visuals", "vibe coding", "automations"],
+    systemTags: ["branding", "content production", "conversion optimization"],
+    platformsTag: ["React", "JavaScript", "Python"],
   },
   {
     _id: 29,
@@ -259,6 +315,8 @@ const BlogData: Portfolio[] = [
     metadata: "Open-source projects including apps, websites, agents, and automation solutions.",
     urlLink: "https://github.com/piotrmacai",
     tags: ["web", "ai", "featured"],
+    systemTags: ["branding", "community engagement", "lead generation"],
+    platformsTag: ["JavaScript", "Python"],
   },
   {
     _id: 30,
@@ -267,6 +325,8 @@ const BlogData: Portfolio[] = [
     metadata: "Professional design work, visual content, and creative projects showcase.",
     urlLink: "https://www.behance.net/macaistudio",
     tags: ["web", "visuals", "featured"],
+    systemTags: ["branding", "community engagement", "content production"],
+    platformsTag: ["Behance"],
   },
   {
     _id: 31,
@@ -275,6 +335,8 @@ const BlogData: Portfolio[] = [
     metadata: "Complete automation system for creating and distributing marketing videos to social media.",
     urlLink: "https://github.com/piotrmacai/n8n/tree/main/ai-video-automation",
     tags: ["ai", "visuals", "automations"],
+    systemTags: ["marketing automation", "content production", "automation of processes"],
+    platformsTag: ["n8n", "Python"],
   },
   {
     _id: 32,
@@ -283,6 +345,8 @@ const BlogData: Portfolio[] = [
     metadata: "Real-time image generation app with iterative editing using Nano Banana model.",
     urlLink: "https://github.com/piotrmacai/ai-virtual-tryon",
     tags: ["web", "ai", "visuals", "vibe coding", "featured"],
+    systemTags: ["conversion optimization", "branding", "content production"],
+    platformsTag: ["React", "JavaScript", "Python"],
   },
   {
     _id: 33,
@@ -291,6 +355,8 @@ const BlogData: Portfolio[] = [
     metadata: "Development toolkit using Vercel AI SDK and ElevenLabs for interactive voice AI applications.",
     urlLink: "https://github.com/piotrmacai/voice-agent-starter",
     tags: ["ai", "vibe coding", "voice ai"],
+    systemTags: ["customer service", "lead generation", "automation of processes"],
+    platformsTag: ["Next.js", "React", "JavaScript"],
   },
   {
     _id: 34,
@@ -299,6 +365,8 @@ const BlogData: Portfolio[] = [
     metadata: "Custom-trained AI voice agent with proprietary business data for seamless website integration.",
     urlLink: "https://ainsider.store",
     tags: ["voice ai", "ai"],
+    systemTags: ["customer service", "lead generation", "automation of processes"],
+    platformsTag: ["Python", "n8n"],
   },
   {
     _id: 35,
@@ -307,6 +375,8 @@ const BlogData: Portfolio[] = [
     metadata: "High-performance business website with SEO optimization and custom AI assistant integration.",
     urlLink: "https://oskmachowski.pl",
     tags: ["web", "ai", "featured"],
+    systemTags: ["lead generation", "seo optimization", "customer service"],
+    platformsTag: ["Next.js", "React", "JavaScript"],
   },
   {
     _id: 36,
@@ -315,6 +385,8 @@ const BlogData: Portfolio[] = [
     metadata: "Next.js-powered Linktree alternative featuring integrated AI chatbot functionality.",
     urlLink: "https://link.macai.dev",
     tags: ["web", "ai"],
+    systemTags: ["lead generation", "branding", "customer service"],
+    platformsTag: ["Next.js", "React", "JavaScript"],
   },
   {
     _id: 37,
@@ -323,6 +395,8 @@ const BlogData: Portfolio[] = [
     metadata: "Ultra-fast React.js landing page designed for modern SaaS platforms.",
     urlLink: "https://ai.studio/apps/drive/1gj3DyNXi5-9fgxTmBWZ_OH9cvNEqRVBR",
     tags: ["web", "vibe coding"],
+    systemTags: ["lead generation", "conversion optimization", "branding"],
+    platformsTag: ["React", "JavaScript"],
   },
   {
     _id: 38,
@@ -331,6 +405,8 @@ const BlogData: Portfolio[] = [
     metadata: "Complete n8n automation for WordPress blog management from content generation to publishing.",
     urlLink: "https://github.com/piotrmacai/n8n/tree/main/wordpress-full-blog-automation",
     tags: ["ai", "web", "automations"],
+    systemTags: ["automation of processes", "content production", "marketing automation"],
+    platformsTag: ["n8n", "Python", "WordPress"],
   },
   {
     _id: 39,
@@ -339,6 +415,8 @@ const BlogData: Portfolio[] = [
     metadata: "Professional recruitment platform with custom CRM for efficient applicant management.",
     urlLink: "https://rekrutspark.com",
     tags: ["web"],
+    systemTags: ["lead generation", "customer service", "automation of processes"],
+    platformsTag: ["Next.js", "React", "JavaScript"],
   },
   {
     _id: 40,
@@ -347,6 +425,8 @@ const BlogData: Portfolio[] = [
     metadata: "Personalized CRM system with integrated AI assistant and automated client workflows.",
     urlLink: "https://ainsider.co/crm",
     tags: ["web", "ai", "personal"],
+    systemTags: ["customer service", "automation of processes", "lead generation"],
+    platformsTag: ["Next.js", "React", "JavaScript"],
   },
   {
     _id: 41,
@@ -355,6 +435,8 @@ const BlogData: Portfolio[] = [
     metadata: "Multilingual Shopify e-commerce platform for specialized supplement products.",
     urlLink: "https://after-rave.eu",
     tags: ["web", "ecommerce"],
+    systemTags: ["ecommerce", "conversion optimization", "customer retention"],
+    platformsTag: ["Shopify"],
   },
   // {
   //   _id: 1,

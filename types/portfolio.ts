@@ -17,6 +17,8 @@ export type Author = {
     mainImage?: any;
     author?: Author;
     tags: string[];
+     systemTags: string[];
+    platformsTag: string[];
     publishedAt?: string;
   };
    

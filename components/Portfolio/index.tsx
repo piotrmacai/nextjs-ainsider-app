@@ -9,24 +9,57 @@ import { motion } from "framer-motion";
 import { useTranslation } from 'react-i18next';
 
 const Portfolio = () => {
-  const [selectedTag, setSelectedTag] = useState("all");
+  const [selectedMainTag, setSelectedMainTag] = useState("all");
+  const [selectedSystemTag, setSelectedSystemTag] = useState("all");
+  const [selectedPlatformTag, setSelectedPlatformTag] = useState("all");
   const [filteredPortfolio, setFilteredPortfolio] = useState(PortfolioData);
   const { t } = useTranslation();
  
   useEffect(() => {
-    if (selectedTag === "all") {
-      setFilteredPortfolio(PortfolioData);
-    } else {
-      const filteredItems = PortfolioData.filter((item) =>
-        item.tags.includes(selectedTag)
-      );
-      setFilteredPortfolio(filteredItems);
-    }
-  }, [selectedTag]);
+    let filteredItems = PortfolioData;
 
-  const handleTagSelection = (tag) => {
-    setSelectedTag(tag);
+    if (selectedMainTag !== "all") {
+      filteredItems = filteredItems.filter((item) =>
+        item.tags.includes(selectedMainTag)
+      );
+    }
+
+    if (selectedSystemTag !== "all") {
+      filteredItems = filteredItems.filter((item) =>
+        item.systemTags?.includes(selectedSystemTag)
+      );
+    }
+
+    if (selectedPlatformTag !== "all") {
+      filteredItems = filteredItems.filter((item) =>
+        item.platformsTag?.includes(selectedPlatformTag)
+      );
+    }
+
+    setFilteredPortfolio(filteredItems);
+  }, [selectedMainTag, selectedSystemTag, selectedPlatformTag]);
+
+  const handleMainTagSelection = (tag) => {
+    setSelectedMainTag(tag);
   };
+
+  const handleSystemTagSelection = (tag) => {
+    setSelectedSystemTag(tag);
+  };
+
+  const handlePlatformTagSelection = (tag) => {
+    setSelectedPlatformTag(tag);
+  };
+
+  const mainTags = ["featured", "all", "web", "apps", "ai", "ecommerce", "automations", "agents", "n8n", "visuals"];
+
+  const systemTags = Array.from(
+    new Set(PortfolioData.flatMap((item) => item.systemTags || []))
+  ).sort();
+
+  const platformTags = Array.from(
+    new Set(PortfolioData.flatMap((item) => item.platformsTag || []))
+  ).sort();
 
   return (
     <>
@@ -41,10 +74,7 @@ const Portfolio = () => {
               <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1 ml-2.5">
               </span>
             </h1>
-            <h4 className="text-black dark:text-white text-lg font-medium mt-4 mb-5.5">
-              {t('description')}
-            </h4>
-
+            
             <motion.div
               variants={{ hidden: {opacity: 0, y: -20, },
                 visible: { opacity: 1,y: 0,},
@@ -55,7 +85,7 @@ const Portfolio = () => {
               viewport={{ once: true }}
               className="animate_top"
             >
-              <ul className="flex items-center gap-5">
+              <ul className="flex items-center gap-5 py-4">
                 <li>
                   <a href="https://x.com/piotrmacai" target="_blank">
                     <svg
@@ -127,6 +157,9 @@ const Portfolio = () => {
                 </li>
               </ul>
             </motion.div>
+            {/* <h4 className="text-black dark:text-white text-lg font-medium mt-4 mb-5.5">
+              {t('description')}
+            </h4> */}
           </div>
 
           <div className="md:w-1/2 sm:w-full md:block p-4 md:p-3">
@@ -171,6 +204,25 @@ const Portfolio = () => {
         </div>
       </section>
 
+      {/* Horizontal Main Tags Bar */}
+      <section className="pb-6 px-4 lg:px-10">
+        <div className="mx-auto max-w-c-1390">
+          <div className="flex items-center gap-3 overflow-x-auto pb-2 scrollbar-thin scrollbar-thumb-gray-400 dark:scrollbar-thumb-gray-600 scrollbar-track-transparent">
+            {mainTags.map((tag) => (
+              <button
+                key={tag}
+                className={`whitespace-nowrap py-2.5 px-5 rounded-full text-sm font-semibold transition-all duration-300 ${
+                  selectedMainTag === tag ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
+                }`}
+                onClick={() => handleMainTagSelection(tag)}
+              >
+                {tag === "all" ? "All" : tag === "n8n" ? "n8n" : tag.charAt(0).toUpperCase() + tag.slice(1)}
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Modified Portfolio Section with Sidebar Filter and List View */}
       <section className="pb-10 lg:py-4 xl:py-10 px-4 lg:px-10">
         <div className="flex flex-col md:flex-row mx-auto max-w-c-1390">
@@ -178,111 +230,60 @@ const Portfolio = () => {
           <div className="w-full md:w-1/5 mb-8 md:mb-0 md:pr-6">
             <div className="sticky top-32">
               <h3 className="text-xl font-bold mb-6 text-black dark:text-white">Filters</h3>
-              <div className="flex flex-col space-y-4 max-h-[calc(100vh-12rem)] overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-gray-400 dark:scrollbar-thumb-gray-600 scrollbar-track-transparent">
-                              <button
-                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
-                    selectedTag === "featured" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
-                  }`}
-                  onClick={() => handleTagSelection("featured")}
-                >
-                  Featured
-                </button>
-                  <button
-                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
-                    selectedTag === "all" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
-                  }`}
-                  onClick={() => handleTagSelection("all")}
-                > 
-                  All
-                </button>
-                <button
-                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
-                    selectedTag === "web" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
-                  }`}
-                  onClick={() => handleTagSelection("web")}
-                >
-                  Web
-                </button>
-                <button
-                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
-                    selectedTag === "apps" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
-                  }`}
-                  onClick={() => handleTagSelection("apps")}
-                >
-                  Apps
-                </button>
-                <button
-                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
-                    selectedTag === "ai" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
-                  }`}
-                  onClick={() => handleTagSelection("ai")}
-                >
-                  AI
-                </button>
-                <button
-                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
-                    selectedTag === "ecommerce" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
-                  }`}
-                  onClick={() => handleTagSelection("ecommerce")}
-                >
-                  E-commerce
-                </button>
-                <button
-                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
-                    selectedTag === "automations" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
-                  }`}
-                  onClick={() => handleTagSelection("automations")}
-                >
-                  Automations
-                </button>
-                <button
-                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
-                    selectedTag === "agents" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
-                  }`}
-                  onClick={() => handleTagSelection("agents")}
-                >
-                  Agents
-                </button>
-                <button
-                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
-                    selectedTag === "n8n" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
-                  }`}
-                  onClick={() => handleTagSelection("n8n")}
-                >
-                  n8n
-                </button>
-                <button
-                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
-                    selectedTag === "visuals" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
-                  }`}
-                  onClick={() => handleTagSelection("visuals")}
-                >
-                  Visuals
-                </button>
-                {/* <button
-                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
-                    selectedTag === "vibe coding" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
-                  }`}
-                  onClick={() => handleTagSelection("vibe coding")}
-                >
-                  Vibe Coding
-                </button> */}
-                {/* <button
-                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
-                    selectedTag === "voice ai" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
-                  }`}
-                  onClick={() => handleTagSelection("voice ai")}
-                >
-                  Voice AI
-                </button> */}
-                {/* <button
-                  className={`py-3 px-4 rounded-lg text-left transition-all duration-300 ${
-                    selectedTag === "personal" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
-                  }`}
-                  onClick={() => handleTagSelection("personal")}
-                >
-                  Personal
-                </button> */}
+              <div className="flex flex-col space-y-6 max-h-[calc(100vh-12rem)] overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-gray-400 dark:scrollbar-thumb-gray-600 scrollbar-track-transparent">
+                <div>
+                  <h4 className="text-sm font-semibold uppercase tracking-wide text-gray-700 dark:text-gray-300 mb-3">
+                    System Tags
+                  </h4>
+                  <div className="flex flex-col space-y-3">
+                    <button
+                      className={`py-2.5 px-4 rounded-lg text-left transition-all duration-300 ${
+                        selectedSystemTag === "all" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
+                      }`}
+                      onClick={() => handleSystemTagSelection("all")}
+                    >
+                      All
+                    </button>
+                    {systemTags.map((tag) => (
+                      <button
+                        key={tag}
+                        className={`py-2.5 px-4 rounded-lg text-left transition-all duration-300 ${
+                          selectedSystemTag === tag ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
+                        }`}
+                        onClick={() => handleSystemTagSelection(tag)}
+                      >
+                        {tag}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
+                  <h4 className="text-sm font-semibold uppercase tracking-wide text-gray-700 dark:text-gray-300 mb-3">
+                    Platforms
+                  </h4>
+                  <div className="flex flex-col space-y-3">
+                    <button
+                      className={`py-2.5 px-4 rounded-lg text-left transition-all duration-300 ${
+                        selectedPlatformTag === "all" ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
+                      }`}
+                      onClick={() => handlePlatformTagSelection("all")}
+                    >
+                      All
+                    </button>
+                    {platformTags.map((tag) => (
+                      <button
+                        key={tag}
+                        className={`py-2.5 px-4 rounded-lg text-left transition-all duration-300 ${
+                          selectedPlatformTag === tag ? "bg-blue-500 text-white" : "bg-gray-600 dark:bg-gray-700 dark:text-white hover:bg-gray-500 dark:hover:bg-gray-600"
+                        }`}
+                        onClick={() => handlePlatformTagSelection(tag)}
+                      >
+                        {tag}
+                      </button>
+                    ))}
+                  </div>
+                </div>
               </div>
             </div>
           </div>
